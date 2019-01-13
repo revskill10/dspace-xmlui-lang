@@ -1,2513 +1,2195 @@
-<?xml version="1.0"?>
-<!--
 
-    The contents of this file are subject to the license and copyright
-    detailed in the LICENSE and NOTICE files at the root of the source
-    tree and available online at
+	DSpace Startseite
+	Suche
+	Los
+	Zur Startseite
+	Speichern
+	Abbrechen
+	Zurück
+	Aktualisieren
+	Löschen
+	Weiter
+	Ohne Titel
+	Ausführen
+    In die Warteschleife
+	Seite nicht gefunden
+	Seite nicht gefunden
+	Die Seite, die Sie angefordert haben, konnte nicht gefunden werden.
+    Nur Administratoren dieser Seite dürfen sich als anderer Nutzer anmelden.
+    Nur authentifizierte Administratoren dürfen sich als anderer Nutzer anmelden.
+    Sie können nicht die Identität eines anderen Administrators annehmen.	
+	Das digitale Repositorium erfasst, speichert, erhält, erschließt und verbreitet digitale Forschungsergebnisse.
+	RSS Feeds
+	Feed Bild
+	Ohne Titel
+	An Alle
+	
+	
+	Suchergebnisse für den Bereich: {0}
+	Suchergebnisse für die Sammlung {0}
+	Suchergebnisse
+	ergab {1} Treffer.
+	Bereiche und Sammlungen zu Ihrer Suchanfrage
+	Dokumente zu Ihrer Suchanfrage
+	Die Suche führte zu keinem Treffer.
+	Gesamter Bestand
 
-    http://www.dspace.org/license/
+    Titel
+    Erscheinungsdatum
+    Zugangsdatum
+	Relevanz
+	Liste Dokumente nach
+	sortiert nach
+	aufsteigend
+	absteigend
+	Treffer/Seite
 
--->
-<catalogue xml:lang="de" xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
-	
-	<!--
-		The format used by all keys is as follows
-		
-		xmlui.<Aspect>.<Java Class>.<name>
-		
-		There are a few exceptions to this nameing format,
-		1) Some general keys are in the xmlui.general namespace 
-		   because they are used very frequently.
-		2) Some general keys which are specific to a particular aspect 
-		   may be found at xmlui.<Aspect> without specifiying a 
-		   particular java class. 
-		--> 
-	
-	<!-- General keys -->
-	<10000 10001="1">DSpace Startseite</10000>
-	<10000 10001="1">Suche</10000>
-	<10000 10001="1">Los</10000>
-	<10000 10001="1">Zur Startseite</10000>
-	<10000 10001="1">Speichern</10000>
-	<10000 10001="1">Abbrechen</10000>
-	<10000 10001="1">Zurück</10000>
-	<10000 10001="1">Aktualisieren</10000>
-	<10000 10001="1">Löschen</10000>
-	<10000 10001="1">Weiter</10000>
-	<10000 10001="1">Ohne Titel</10000>
-	<10000 10001="1">Ausführen</10000>
-    <10000 10001="1">In die Warteschleife</10000>
-	
-	
-	<!-- 
-		Page not found keys 
-		
-		This is a special component that is not part of any aspect but is added
-		by manakin to all aspect chains.
-		-->
-	<10000 10001="1">Seite nicht gefunden</10000>
-	<10000 10001="1">Seite nicht gefunden</10000>
-	<10000 10001="1">Die Seite, die Sie angefordert haben, konnte nicht gefunden werden.</10000>
+	Erweiterte Suche
+	Erweiterte Suche
+	Erweiterte Suche
+	Suchbereich
+	Schränken Sie Ihre Suche auf einen Bereich oder eine Sammlung ein.
+	Verknüpfung
+	Suchmodus
+	Suche nach
+	Autor
+	Titel
+	Schlagwort
+	Zusammenfassung
+	Betreuer
+	Serie
+	Sponsor
+	Kennung
+	Sprache (ISO)
+	Stichwort
 
-	<!--
-	   The "utils" non-aspect
-       -->
-    <10000 10001="1">Nur Administratoren dieser Seite dürfen sich als anderer Nutzer anmelden.</10000>
-    <10000 10001="1">Nur authentifizierte Administratoren dürfen sich als anderer Nutzer anmelden.</10000>
-    <10000 10001="1">Sie können nicht die Identität eines anderen Administrators annehmen.</10000>	
+   Beteiligte Person
+   Urheber
+   Abstract
+   Beziehung
+   Mime-Typ
+   Sonstige beteiligte Person
+   Betreuer
+   Abteilung	
 	
-	<!--
-		This section is for feed syndications (RSS, atom, etc)  
-	-->
-	<10000 10001="1">Das digitale Repositorium erfasst, speichert, erhält, erschließt und verbreitet digitale Forschungsergebnisse.</10000>
-	<10000 10001="1">RSS Feeds</10000>
-	<10000 10001="1">Feed Bild</10000>
-	<10000 10001="1">Ohne Titel</10000>
-	
-	<!--
-		Default notice header 
-	 	-->
-	<10000 10001="1">An Alle</10000>
+	Gesamter Text
+	UND
+	ODER
+	NICHT
 	
 	
-	
-	<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-  
-		             ArtifactBrowser Aspect
-	
-		!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-	
-	
-	
-	
-	
-	
-	
-	<!-- org.dspace.app.xmlui.artifactbrowser.AbstractSearch.java -->
-	<10000 10001="1">Suchergebnisse für den Bereich: {0}</10000>
-	<10000 10001="1">Suchergebnisse für die Sammlung {0}</10000>
-	<10000 10001="1">Suchergebnisse</10000>
-	<10000 10001="1" ergab {1} Treffer.</10000>
-	<10000 10001="1">Bereiche und Sammlungen zu Ihrer Suchanfrage</10000>
-	<10000 10001="1">Dokumente zu Ihrer Suchanfrage</10000>
-	<10000 10001="1">Die Suche führte zu keinem Treffer.</10000>
-	<10000 10001="1">Gesamter Bestand</10000>
+	Oder geben Sie die ersten Buchstaben ein:
+	Auflistung von Dokumenten, die mit diesen Buchstaben anfangen
+	Gehe zu einem Punkt im Index:	
+	(Wähle Monat)	
+	(Wähle Jahr)	
+	Oder geben Sie ein Jahr ein: 
+	Auflistung von Dokumenten eines bestimmten Jahres.
+	Für diese Browse-Ansicht gibt es keine Ergebnisse.
+	Sortiert nach: 
+	 Sortierung: 
+	 Ergebnisse: <!-- /Page -->
+	 Autoren/Dokument: 
 
-    <10000 10001="1">Titel</10000>
-    <10000 10001="1">Erscheinungsdatum</10000>
-    <10000 10001="1">Zugangsdatum</10000>
-	<10000 10001="1">Relevanz</10000>
-	<10000 10001="1">Liste Dokumente nach</10000>
-	<10000 10001="1">sortiert nach</10000>
-	<10000 10001="1">aufsteigend</10000>
-	<10000 10001="1">absteigend</10000>
-	<10000 10001="1">Treffer/Seite</10000>
+	Alles
 
-    <!-- org.dspace.app.xmlui.artifactbrowser.AdvancedSearch.java -->
-	<10000 10001="1">Erweiterte Suche</10000>
-	<10000 10001="1">Erweiterte Suche</10000>
-	<10000 10001="1">Erweiterte Suche</10000>
-	<10000 10001="1">Suchbereich</10000>
-	<10000 10001="1">Schränken Sie Ihre Suche auf einen Bereich oder eine Sammlung ein.</10000>
-	<10000 10001="1">Verknüpfung</10000>
-	<10000 10001="1">Suchmodus</10000>
-	<10000 10001="1">Suche nach</10000>
-	<10000 10001="1">Autor</10000>
-	<10000 10001="1">Titel</10000>
-	<10000 10001="1">Schlagwort</10000>
-	<10000 10001="1">Zusammenfassung</10000>
-	<10000 10001="1">Betreuer</10000>
-	<10000 10001="1">Serie</10000>
-	<10000 10001="1">Sponsor</10000>
-	<10000 10001="1">Kennung</10000>
-	<10000 10001="1">Sprache (ISO)</10000>
-	<10000 10001="1">Stichwort</10000>
+	Titel
+	Erscheinungsdatum
+	Zugangsdatum
 
-   <!--  some common other possibilities for Advanced Search Fields -->
-   <10000 10001="1">Beteiligte Person</10000>
-   <10000 10001="1">Urheber</10000>
-   <10000 10001="1">Abstract</10000>
-   <10000 10001="1">Beziehung</10000>
-   <10000 10001="1">Mime-Typ</10000>
-   <10000 10001="1">Sonstige beteiligte Person</10000>
-   <10000 10001="1">Betreuer</10000>
-   <10000 10001="1">Abteilung</10000>	
+	aufsteigend
+	absteigend
+
+	Autorenname
+	Schlagwort
+
+	Auflistung  {0} nach Autor {1}
+	Auflistung  {0} nach Autor
+
+	Auflistung {0} Nach Schlagwort {1}
+	Auflistung {0} Nach Schlagwort
 	
-	<10000 10001="1">Gesamter Text</10000>
-	<10000 10001="1">UND</10000>
-	<10000 10001="1">ODER</10000>
-	<10000 10001="1">NICHT</10000>
+	Auflistung {0} nach Titel {1}
+	Auflistung {0} nach Titel
 	
-	
-	<!-- org.dspace.app.xmlui.artifactbrowser.ConfigureableBrowse.java -->
-	<10000 10001="1">Oder geben Sie die ersten Buchstaben ein:</10000>
-	<10000 10001="1">Auflistung von Dokumenten, die mit diesen Buchstaben anfangen</10000>
-	<10000 10001="1">Gehe zu einem Punkt im Index:</10000>	
-	<10000 10001="1">(Wähle Monat)</10000>	
-	<10000 10001="1">(Wähle Jahr)</10000>	
-	<10000 10001="1">Oder geben Sie ein Jahr ein: </10000>
-	<10000 10001="1">Auflistung von Dokumenten eines bestimmten Jahres.</10000>
-	<10000 10001="1">Für diese Browse-Ansicht gibt es keine Ergebnisse.</10000>
-	<10000 10001="1">Sortiert nach: </10000>
-	<10000 10001="1"> Sortierung: </10000>
-	<10000 10001="1"> Ergebnisse: </10000><!-- /Page -->
-	<10000 10001="1"> Autoren/Dokument: </10000>
+	Auflistung {0} nach Erscheinungsdatum {1}
+	Auflistung {0} nach Erscheinungsdatum
 
-	<10000 10001="1">Alles</10000>
-
-	<10000 10001="1">Titel</10000>
-	<10000 10001="1">Erscheinungsdatum</10000>
-	<10000 10001="1">Zugangsdatum</10000>
-
-	<10000 10001="1">aufsteigend</10000>
-	<10000 10001="1">absteigend</10000>
-
-	<10000 10001="1">Autorenname</10000>
-	<10000 10001="1">Schlagwort</10000>
-
-	<10000 10001="1">Auflistung  {0} nach Autor {1}</10000>
-	<10000 10001="1">Auflistung  {0} nach Autor</10000>
-
-	<10000 10001="1">Auflistung {0} Nach Schlagwort {1}</10000>
-	<10000 10001="1">Auflistung {0} Nach Schlagwort</10000>
-	
-	<10000 10001="1">Auflistung {0} nach Titel {1}</10000>
-	<10000 10001="1">Auflistung {0} nach Titel</10000>
-	
-	<10000 10001="1">Auflistung {0} nach Erscheinungsdatum {1}</10000>
-	<10000 10001="1">Auflistung {0} nach Erscheinungsdatum</10000>
-
-	<10000 10001="1">Auflistung {0} nach Zugangsdatum {1}</10000>
-	<10000 10001="1">Auflistung {0} nach Zugangsdatum</10000>
+	Auflistung {0} nach Zugangsdatum {1}
+	Auflistung {0} nach Zugangsdatum
 
 	
-	<!-- org.dspace.app.xmlui.artifactbrowser.CollectionViewer.java -->
-	<10000 10001="1">Suchbereich</10000>
-	<10000 10001="1">Gesamter Bestand</10000>
-	<10000 10001="1">Volltextsuche:</10000>
-	<10000 10001="1">Auflistung nach</10000>
-	<10000 10001="1">Titeln</10000>
-	<10000 10001="1">Autoren</10000>
-	<10000 10001="1">Datum</10000>
-	<10000 10001="1">Erweiterte Suche</10000>
-	<10000 10001="1">Neueste Zugänge</10000>
+	Suchbereich
+	Gesamter Bestand
+	Volltextsuche:
+	Auflistung nach
+	Titeln
+	Autoren
+	Datum
+	Erweiterte Suche
+	Neueste Zugänge
 	
-	<!-- org.dspace.app.xmlui.artifactbrowser.CommunityBrowser.java -->
-	<10000 10001="1">Bereichsliste</10000>
-	<10000 10001="1">Bereichsliste</10000>
-	<10000 10001="1">Bereiche in DSpace</10000>
-	<10000 10001="1">Wählen Sie einen Bereich, um die enthaltenen Sammlungen zu durchstöbern.</10000>
+	Bereichsliste
+	Bereichsliste
+	Bereiche in DSpace
+	Wählen Sie einen Bereich, um die enthaltenen Sammlungen zu durchstöbern.
 
-	<!-- org.dspace.app.xmlui.artifactbrowser.CommunityViewer.java -->
-	<10000 10001="1">Suchbereich</10000>
-	<10000 10001="1">Gesamter Bestand</10000>
-	<10000 10001="1">Volltextsuche:</10000>
-	<10000 10001="1">Auflistung nach</10000>
-	<10000 10001="1">Titeln</10000>
-	<10000 10001="1">Autoren</10000>
-	<10000 10001="1">Datum</10000>
-	<10000 10001="1">Erweiterte Suche</10000>
-	<10000 10001="1">Teilbereiche in diesem Bereich</10000>
-	<10000 10001="1">Sammlungen in diesem Bereich</10000>
-	<10000 10001="1">Neueste Zugänge</10000>
+	Suchbereich
+	Gesamter Bestand
+	Volltextsuche:
+	Auflistung nach
+	Titeln
+	Autoren
+	Datum
+	Erweiterte Suche
+	Teilbereiche in diesem Bereich
+	Sammlungen in diesem Bereich
+	Neueste Zugänge
 	
 	
-	<!-- org.dspace.app.xmlui.artifactbrowser.Contact.java -->
-	<10000 10001="1">Kontakt</10000>
-	<10000 10001="1">Kontakt</10000>
-	<10000 10001="1">Kontakt</10000>
-	<10000 10001="1">{0} Administratoren können kontaktiert werden via:</10000>
-	<10000 10001="1">Onlineformular</10000>
-	<10000 10001="1">Feedback</10000>
-	<10000 10001="1">E-Mail</10000>
+	Kontakt
+	Kontakt
+	Kontakt
+	{0} Administratoren können kontaktiert werden via:
+	Onlineformular
+	Feedback
+	E-Mail
 	
-	<!-- org.dspace.app.xmlui.artifactbrowser.FeedbackForm.java -->
-	<10000 10001="1">Ihre Anregungen/Meinung</10000>
-	<10000 10001="1">Ihre Anregungen/Meinung</10000>
-	<10000 10001="1">Ihre Anregungen/Meinung</10000>
-	<10000 10001="1">Danke für Ihre Anregungen/Meinung zu DSpace. Ihre Kommentare sind jederzeit willkommen!</10000>
-	<10000 10001="1">Ihre E-Mail-Adresse</10000>
-	<10000 10001="1">Diese Adresse wird benutzt, damit wir ggf. mit Ihnen Rücksprache halten können.</10000>
-	<10000 10001="1">Kommentar</10000>
-	<10000 10001="1">Feedback abschicken</10000>
+	Ihre Anregungen/Meinung
+	Ihre Anregungen/Meinung
+	Ihre Anregungen/Meinung
+	Danke für Ihre Anregungen/Meinung zu DSpace. Ihre Kommentare sind jederzeit willkommen!
+	Ihre E-Mail-Adresse
+	Diese Adresse wird benutzt, damit wir ggf. mit Ihnen Rücksprache halten können.
+	Kommentar
+	Feedback abschicken
 	
-	<!-- org.dspace.app.xmlui.artifactbrowser.FeedbackSent.java -->
-	<10000 10001="1">Ihre Anregungen/Meinung</10000>
-	<10000 10001="1">Ihre Anregungen/Meinung</10000>
-	<10000 10001="1">Feedback gesendet</10000>
-	<10000 10001="1">Danke für Ihre(n) Anregungen/Kommentar.</10000>
+	Ihre Anregungen/Meinung
+	Ihre Anregungen/Meinung
+	Feedback gesendet
+	Danke für Ihre(n) Anregungen/Kommentar.
 	
-	<!-- org.dspace.app.xmlui.artifactbrowser.FrontPageSearch.java -->
-	<10000 10001="1">DSpace Suche</10000>
-	<10000 10001="1">Zum Suchen geben Sie den Suchbegriff in das Feld unten ein.</10000>
+	DSpace Suche
+	Zum Suchen geben Sie den Suchbegriff in das Feld unten ein.
 	
-	<!-- org.dspace.app.xmlui.artifactbrowser.ItemViewer.java -->
-	<10000 10001="1">Dokumentanzeige</10000>
-	<10000 10001="1">Das Dokument erscheint in:</10000>
-	<10000 10001="1">Zur Kurzanzeige</10000>
-	<10000 10001="1">Zur Langanzeige</10000>
-	<10000 10001="1">Diese Dokument wurde zurückgezogen und steht nicht mehr zur Verfügung.</10000>
+	Dokumentanzeige
+	Das Dokument erscheint in:
+	Zur Kurzanzeige
+	Zur Langanzeige
+	Diese Dokument wurde zurückgezogen und steht nicht mehr zur Verfügung.
 	
 	<!-- org.dspace.app.xmlui.artifactbrowser.Navigation.java -->
-	<10000 10001="1">Stöbern</10000>
-	<10000 10001="1">Gesamter Bestand</10000>
-	<10000 10001="1">Bereiche &amp; Sammlungen</10000>
-	<10000 10001="1">Titeln</10000>
-	<10000 10001="1">Autoren</10000>
-	<10000 10001="1">Schlagworten</10000>
-	<10000 10001="1">Erscheinungsdatum</10000>
-	<10000 10001="1">Zugangsdatum</10000>
-	<10000 10001="1">Diese Sammlung</10000>
-	<10000 10001="1">Diesen Bereich</10000>
+	Stöbern
+	Gesamter Bestand
+	Bereiche &amp; Sammlungen
+	Titeln
+	Autoren
+	Schlagworten
+	Erscheinungsdatum
+	Zugangsdatum
+	Diese Sammlung
+	Diesen Bereich
 	
-	<!-- org.dspace.app.xmlui.artifactbrowser.SimpleSearch.java -->
-	<10000 10001="1">Suche</10000>
-	<10000 10001="1">Suche</10000>
-	<10000 10001="1">Suche</10000>
-	<10000 10001="1">Suchbereich</10000>
-	<10000 10001="1">Volltextsuche</10000>
+	Suche
+	Suche
+	Suche
+	Suchbereich
+	Volltextsuche
 	
-	<!-- org.dspace.app.xmlui.artifactbrowser.RestrictedItem.java -->
-	<10000 10001="1">Dieses Dokument ist nur eingeschränkt zugänglich.</10000>
-	<10000 10001="1">Zugangsbeschränkung</10000>
-	<10000 10001="1">Diese Ressource ist nur eingeschränkt zugänglich.</10000>
-	<10000 10001="1">Dieser Bereich ist nur eingeschränkt zugänglich.</10000>
-	<10000 10001="1">Diese Sammlung ist nur eingeschränkt zugänglich.</10000>
-	<10000 10001="1">Dieses Dokument ist nur eingeschränkt zugänglich.</10000>
-	<10000 10001="1">Diese Datei ist nur eingeschränkt zugänglich.</10000>
-	<10000 10001="1">Sie verfügen nicht über das Recht, auf diese eingeschränkt zugängliche Ressource zuzugreifen.</10000>
-	<10000 10001="1">Sie verfügen nicht über das Recht, auf diesen eingeschränkt zugänglichen Bereich  <b>{0}</b> zuzugreifen.</10000>
-	<10000 10001="1">Sie verfügen nicht über das Recht, auf diese eingeschränkt zugängliche Sammlung  <b>{0}</b> zuzugreifen.</10000>
-	<10000 10001="1">Sie verfügen nicht über das Recht, auf dieses eingeschränkt zugängliche Dokument <b>{0}</b> zuzugreifen.</10000>
-	<10000 10001="1">Sie verfügen nicht über das Recht, auf diese eingeschränkt zugängliche Datei  <b>{0}</b> zuzugreifen.</10000>
-	<10000 10001="1">Sammlung</10000>
-	<10000 10001="1">Bereich</10000>
-	<10000 10001="1">Datei</10000>
-	<10000 10001="1">Dokument</10000>
-	<10000 10001="1">Ressource</10000>
-	<10000 10001="1">unbekannt</10000>
-	<10000 10001="1">Weiter zur Anmeldung</10000>    
-	<10000 10001="1">Diese Dokument wurde zurückgezogen</10000>
-	<10000 10001="1">Das ausgewählte Dokument wurde zurückgezogen und steht nicht länger zur Verfügung.</10000>
-	<10000 10001="1">Das ausgewählte Dokument ist nur für bestimmte Benutzergruppen zugänglich. Bitte melden Sie sich an, wenn Sie zu einer entsprechenden Gruppe gehören.</10000>
-	<10000 10001="1">Ihr Benutzerkonto verfügt nicht über die Rechte, auf dieses Dokument zuzugreifen. Bei Fragen wenden Sie sich bitte an den Administrator..</10000>
+	Dieses Dokument ist nur eingeschränkt zugänglich.
+	Zugangsbeschränkung
+	Diese Ressource ist nur eingeschränkt zugänglich.
+	Dieser Bereich ist nur eingeschränkt zugänglich.
+	Diese Sammlung ist nur eingeschränkt zugänglich.
+	Dieses Dokument ist nur eingeschränkt zugänglich.
+	Diese Datei ist nur eingeschränkt zugänglich.
+	Sie verfügen nicht über das Recht, auf diese eingeschränkt zugängliche Ressource zuzugreifen.
+	Sie verfügen nicht über das Recht, auf diesen eingeschränkt zugänglichen Bereich  <b>{0}</b> zuzugreifen.
+	Sie verfügen nicht über das Recht, auf diese eingeschränkt zugängliche Sammlung  <b>{0}</b> zuzugreifen.
+	Sie verfügen nicht über das Recht, auf dieses eingeschränkt zugängliche Dokument <b>{0}</b> zuzugreifen.
+	Sie verfügen nicht über das Recht, auf diese eingeschränkt zugängliche Datei  <b>{0}</b> zuzugreifen.
+	Sammlung
+	Bereich
+	Datei
+	Dokument
+	Ressource
+	unbekannt
+	Weiter zur Anmeldung    
+	Diese Dokument wurde zurückgezogen
+	Das ausgewählte Dokument wurde zurückgezogen und steht nicht länger zur Verfügung.
+	Das ausgewählte Dokument ist nur für bestimmte Benutzergruppen zugänglich. Bitte melden Sie sich an, wenn Sie zu einer entsprechenden Gruppe gehören.
+	Ihr Benutzerkonto verfügt nicht über die Rechte, auf dieses Dokument zuzugreifen. Bei Fragen wenden Sie sich bitte an den Administrator..
             
 	
 
 	
 	
-	<!-- org.dspace.app.xmlui.artifactbrowser.RestrictedItem.java -->
-	<10000 10001="1">Diese Ressource ist nur eingeschränkt zugänglich.</10000>
-	<10000 10001="1">Zugangsbeschränkung</10000>
-	<10000 10001="1">Sammlung</10000>
-	<10000 10001="1">Bereich</10000>
-	<10000 10001="1">Datei</10000>
-	<10000 10001="1">Dokument</10000>
-	<10000 10001="1">Ressource</10000>
-	<10000 10001="1">unbekannt</10000>
+	Diese Ressource ist nur eingeschränkt zugänglich.
+	Zugangsbeschränkung
+	Sammlung
+	Bereich
+	Datei
+	Dokument
+	Ressource
+	unbekannt
 	
-	<!-- Authentication 10000s used at the top of the login page:  -->
-	<10000 10001="1">Dieses Dokument ist nur eingeschränkt zugänglich.</10000>	
-	<10000 10001="1">Das Dokument, auf welches Sie zugreifen wollten, ist nur eingeschränkt zugänglich. Bitte melden Sie sich mit der entsprechenden Zugriffsberechtigung an.</10000>
+	Dieses Dokument ist nur eingeschränkt zugänglich.	
+	Das Dokument, auf welches Sie zugreifen wollten, ist nur eingeschränkt zugänglich. Bitte melden Sie sich mit der entsprechenden Zugriffsberechtigung an.
 
-    <10000 10001="1">Monatsstatistiken</10000>
-    <10000 10001="1">Statistische Zusammenfassung</10000>
+    Monatsstatistiken
+    Statistische Zusammenfassung
 
-    <10000 10001="1">Keine Statistiken verfügbar</10000>
-    <10000 10001="1">Zur Zeit stehen keine Statistiken zur Verfügung.  Versuchen Sie es später noch einmal.</10000>
+    Keine Statistiken verfügbar
+    Zur Zeit stehen keine Statistiken zur Verfügung.  Versuchen Sie es später noch einmal.
 
 
-	<!-- Authentication 10000s used for bitstream authentication -->	
-	<10000 10001="1">Diese Datei ist nur eingeschränkt zugänglich</10000>	
-	<10000 10001="1">Die Datei, auf die Sie zugreifen wollten, ist nur eingeschränkt zugänglich. Bitte melden Sie sich mit der entsprechenden Zugriffsberechtigung an.</10000>
+	Diese Datei ist nur eingeschränkt zugänglich	
+	Die Datei, auf die Sie zugreifen wollten, ist nur eingeschränkt zugänglich. Bitte melden Sie sich mit der entsprechenden Zugriffsberechtigung an.
 	
-	<!-- Export Archive download 10000s -->
-	<10000 10001="1">Dieser Export ist für Sie nicht zugänglich.</10000>
-	<10000 10001="1">Der Export, auf den Sie zugreifen wollten, hat eine Zugriffsbeschränkung und Sie verfügen nicht über die entsprechenden Rechte. Bitte melden Sie sich als Benutzer mit entsprechenden Rechten an, um auf diesen Export zuzugreifen.</10000>
+	Dieser Export ist für Sie nicht zugänglich.
+	Der Export, auf den Sie zugreifen wollten, hat eine Zugriffsbeschränkung und Sie verfügen nicht über die entsprechenden Rechte. Bitte melden Sie sich als Benutzer mit entsprechenden Rechten an, um auf diesen Export zuzugreifen.
 	
 
-	<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-		
-		                EPerson Aspect
-		
-		!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+	Registrierung Neuer Benutzer
+	Passwort vergessen
 	
+	Registrierung nicht verfügbar
+	Registrierung nicht verfügbar
+	Administrator</a>, wenn Sie Fragen dazu haben.
 	
+	Benutzerdaten aktualisieren
+	Benutzerdaten anlegen
+	Benutzerdaten aktualisieren
+	Benutzerdaten aktualisieren
+	Benutzerdaten anlegen
+	E-Mail-Adresse
+	Vorname
+	Nachname
+	Telefon
+	Sprache
+	Abonnements
+	Sie können Sammlungen abonnieren, um laufend per E-Mail über Neuerscheinungen informiert zu werden. Sie können beliebig viele Sammlungen abonnieren. Eine Alternative zur Benachrichtigung per E-Mail sind die RSS feeds.
+	E-Mail-Abonnement
+	(Wählen Sie eine Sammlung)
+	Sie können zudem ein neues Passwort setzen, indem Sie es in das Feld unten eingeben und dann noch mal bestätigen, indem Sie es in das zweite Feld eingeben. Passwörter sollten mindestens 6 Zeichen lang sein.
+	Bitte geben Sie ein Passwort in das Feld unten ein und bestätigen Sie es durch eine zweite identische Eingabe. Das Passwort sollte mindestens 6 Zeichen lang sein.
+	Passwort
+	Erneute Eingabe zur Bestätigung
+	Registrierung abgeschlossen
+	Benutzerdaten aktualisieren
+	Dies ist ein Pflichtfeld
+	Wählen Sie ein Passwort, welches mindestens 6 Zeichen lang ist.
+	Bitte geben Sie Ihr Passwort noch einmal ein, um es zu bestätigen.
+	Benutzergruppen, denen Sie angehören
+	Identifikation
+	Sicherheit
 	
-	
-	
-	
-	
-	<!-- General keys used by the EPerson aspect -->
-	<10000 10001="1">Registrierung Neuer Benutzer</10000>
-	<10000 10001="1">Passwort vergessen</10000>
-	
-	<!-- org.dspace.app.xmlui.eperson.CannotRegister.java -->
-	<10000 10001="1">Registrierung nicht verfügbar</10000>
-	<10000 10001="1">Registrierung nicht verfügbar</10000>
-	<10000 10001="1">Administrator</a>, wenn Sie Fragen dazu haben.</10000>
-	
-	<!-- org.dspace.app.xmlui.eperson.EditProfile.java -->
-	<10000 10001="1">Benutzerdaten aktualisieren</10000>
-	<10000 10001="1">Benutzerdaten anlegen</10000>
-	<10000 10001="1">Benutzerdaten aktualisieren</10000>
-	<10000 10001="1">Benutzerdaten aktualisieren</10000>
-	<10000 10001="1">Benutzerdaten anlegen</10000>
-	<10000 10001="1">E-Mail-Adresse</10000>
-	<10000 10001="1">Vorname</10000>
-	<10000 10001="1">Nachname</10000>
-	<10000 10001="1">Telefon</10000>
-	<10000 10001="1">Sprache</10000>
-	<10000 10001="1">Abonnements</10000>
-	<10000 10001="1">Sie können Sammlungen abonnieren, um laufend per E-Mail über Neuerscheinungen informiert zu werden. Sie können beliebig viele Sammlungen abonnieren. Eine Alternative zur Benachrichtigung per E-Mail sind die RSS feeds.</10000>
-	<10000 10001="1">E-Mail-Abonnement</10000>
-	<10000 10001="1">(Wählen Sie eine Sammlung)</10000>
-	<10000 10001="1">Sie können zudem ein neues Passwort setzen, indem Sie es in das Feld unten eingeben und dann noch mal bestätigen, indem Sie es in das zweite Feld eingeben. Passwörter sollten mindestens 6 Zeichen lang sein.</10000>
-	<10000 10001="1">Bitte geben Sie ein Passwort in das Feld unten ein und bestätigen Sie es durch eine zweite identische Eingabe. Das Passwort sollte mindestens 6 Zeichen lang sein.</10000>
-	<10000 10001="1">Passwort</10000>
-	<10000 10001="1">Erneute Eingabe zur Bestätigung</10000>
-	<10000 10001="1">Registrierung abgeschlossen</10000>
-	<10000 10001="1">Benutzerdaten aktualisieren</10000>
-	<10000 10001="1">Dies ist ein Pflichtfeld</10000>
-	<10000 10001="1">Wählen Sie ein Passwort, welches mindestens 6 Zeichen lang ist.</10000>
-	<10000 10001="1">Bitte geben Sie Ihr Passwort noch einmal ein, um es zu bestätigen.</10000>
-	<10000 10001="1">Benutzergruppen, denen Sie angehören</10000>
-	<10000 10001="1">Identifikation</10000>
-	<10000 10001="1">Sicherheit</10000>
-	
-	<!-- org.dspace.app.xmlui.eperson.EPersonUtils.java -->
-	<10000 10001="1">E-Mail-Adresse verifizieren</10000>
-	<10000 10001="1">Benutzerdaten anlegen</10000>
-	<10000 10001="1">Fertig</10000>
-	<10000 10001="1">E-Mail-Adresse verifizieren</10000>
-	<10000 10001="1">Passwort neu setzen</10000>
-	<10000 10001="1">Fertig</10000>
+	E-Mail-Adresse verifizieren
+	Benutzerdaten anlegen
+	Fertig
+	E-Mail-Adresse verifizieren
+	Passwort neu setzen
+	Fertig
 
-	<!-- org.dspace.app.xmlui.eperson.ForgotPasswordFinished.java -->
-	<10000 10001="1">Passwort neu gesetzt</10000>
-	<10000 10001="1">Passwort neu gesetzt</10000>
-	<10000 10001="1">Ihr Passwort wurde neu gesetzt.</10000>
+	Passwort neu gesetzt
+	Passwort neu gesetzt
+	Ihr Passwort wurde neu gesetzt.
 	
-	<!-- org.dspace.app.xmlui.eperson.InvalidToken.java -->
-	<10000 10001="1">Ungültige Kennung</10000>
-	<10000 10001="1">Ungültige Kennung</10000>
-	<10000 10001="1">Ungültige Kennung</10000>
-	<10000 10001="1">Die URL, welche Sie angegeben haben ist ungültig. Gegebenfalls gab es einen Zeilenumbruch durch ihr E-Mail-Programm, wie hier z. B.:</10000>
-	<10000 10001="1">Wenn dem der Fall ist, so kopieren Sie die gesamte URL und fügen Sie sie direkt in ihren Browser ein anstatt nur auf den Link in der E-Mail zu klicken. Die Adressleiste Ihres Browsers sollte dann etwas in dieser Art enthalten:</10000>
+	Ungültige Kennung
+	Ungültige Kennung
+	Ungültige Kennung
+	Die URL, welche Sie angegeben haben ist ungültig. Gegebenfalls gab es einen Zeilenumbruch durch ihr E-Mail-Programm, wie hier z. B.:
+	Wenn dem der Fall ist, so kopieren Sie die gesamte URL und fügen Sie sie direkt in ihren Browser ein anstatt nur auf den Link in der E-Mail zu klicken. Die Adressleiste Ihres Browsers sollte dann etwas in dieser Art enthalten:
 	
-	<!-- org.dspace.app.xmlui.eperson.Navigation.java -->
-	<10000 10001="1">Mein Benutzerkonto</10000>
-	<10000 10001="1">Benutzerdaten</10000>
-	<10000 10001="1">Ausloggen</10000>
-	<10000 10001="1">Einloggen</10000>
-	<10000 10001="1">Registrieren</10000>
+	Mein Benutzerkonto
+	Benutzerdaten
+	Ausloggen
+	Einloggen
+	Registrieren
 
-	<!-- org.dspace.app.xmlui.eperson.PasswordLogin.java -->
-	<10000 10001="1">Einloggen</10000>
-	<10000 10001="1">Einloggen</10000>
-	<10000 10001="1">In DSpace Einloggen</10000>
-	<10000 10001="1">E-Mail-Addresse</10000>
-	<10000 10001="1">Die angegebene E-Mail-Adresse und/oder das Passwort sind ungültig.</10000>
-	<10000 10001="1">Passwort</10000>
-	<10000 10001="1"> Haben Sie Ihr Passwort vergessen?</10000>
-	<10000 10001="1">Einloggen</10000>
-	<10000 10001="1">Einen neuen Benutzer registrieren</10000>
-	<10000 10001="1">Legen Sie einen Benutzeracccount an, um Dienste wie den Neuerscheinungsinformationsdienst nutzen zu können.</10000>
-	<10000 10001="1">Klicken Sie hier, um einen neuen Benutzeraccount anzulegen.</10000>
+	Einloggen
+	Einloggen
+	In DSpace Einloggen
+	E-Mail-Addresse
+	Die angegebene E-Mail-Adresse und/oder das Passwort sind ungültig.
+	Passwort
+	 Haben Sie Ihr Passwort vergessen?
+	Einloggen
+	Einen neuen Benutzer registrieren
+	Legen Sie einen Benutzeracccount an, um Dienste wie den Neuerscheinungsinformationsdienst nutzen zu können.
+	Klicken Sie hier, um einen neuen Benutzeraccount anzulegen.
 	
-	<!-- org.dspace.app.xmlui.eperson.LDAPLogin.java -->
-	<10000 10001="1">Einloggen</10000>
-	<10000 10001="1">Einloggen</10000>
-	<10000 10001="1">In DSpace einloggen</10000>
-	<10000 10001="1">Benutzername</10000>
-	<10000 10001="1">Der Benutzername und/oder Passwort sind ungültig.</10000>
-	<10000 10001="1">Passwort</10000>
-	<10000 10001="1">Einloggen</10000>
+	Einloggen
+	Einloggen
+	In DSpace einloggen
+	Benutzername
+	Der Benutzername und/oder Passwort sind ungültig.
+	Passwort
+	Einloggen
 	
-	<!-- org.dspace.app.xmlui.eperson.LoginChooser.java -->
-	<10000 10001="1">Einlogart wählen</10000>
-	<10000 10001="1">Einlogart wählen</10000>
-	<10000 10001="1">Einlogart wählen</10000>
-	<10000 10001="1">Einloggen via:</10000>
-	<10000 10001="1">Shibboleth Authentifizierung</10000>
-	<10000 10001="1">LDAP Authentifizierung</10000>
-	<10000 10001="1">Passwort</10000>
-	<10000 10001="1">Web Zertifikat</10000>
+	Einlogart wählen
+	Einlogart wählen
+	Einlogart wählen
+	Einloggen via:
+	Shibboleth Authentifizierung
+	LDAP Authentifizierung
+	Passwort
+	Web Zertifikat
 
-	<!-- org.dspace.app.xmlui.eperson.FailedAuthentication -->
-	<10000 10001="1">Die Zugangsdaten sind ungültig.</10000>
-	<10000 10001="1">Authentifizierung nicht möglich, da ungültige Daten erhalten.</10000>
-	<10000 10001="1">Ein Benutzer mit diesen Zugangsdaten wurde nicht gefunden.</10000>
-	<10000 10001="1">Authentifizierung fehlgeschlagen</10000>
-    <10000 10001="1">Authentifizierung fehlgeschlagen</10000>
-    <10000 10001="1">Authentifizierung fehlgeschlagen</10000>
+	Die Zugangsdaten sind ungültig.
+	Authentifizierung nicht möglich, da ungültige Daten erhalten.
+	Ein Benutzer mit diesen Zugangsdaten wurde nicht gefunden.
+	Authentifizierung fehlgeschlagen
+    Authentifizierung fehlgeschlagen
+    Authentifizierung fehlgeschlagen
 	
-	<!-- Login xml files -->
-	<10000 10001="1">Keine Authentifizierungsmethode gefunden</10000>
-	<10000 10001="1">Keine Authentifizierungsmethode gefunden. Bitte wenden Sie sich an den Administrator.</10000>
-	<10000 10001="1">Shibboleth Login fehlgeschlagen</10000>
-	<10000 10001="1">Die Authentifizierung vie Shibboleth steht momentan nicht zur Verfügung. Bitte wenden Sie sich an den Administrator.</10000>
+	Keine Authentifizierungsmethode gefunden
+	Keine Authentifizierungsmethode gefunden. Bitte wenden Sie sich an den Administrator.
+	Shibboleth Login fehlgeschlagen
+	Die Authentifizierung vie Shibboleth steht momentan nicht zur Verfügung. Bitte wenden Sie sich an den Administrator.
 	
-	<!-- org.dspace.app.xmlui.eperson.ProfileUpdated.java -->
-	<10000 10001="1">Benutzerdaten aktualisiert</10000>
-	<10000 10001="1">Benutzerdaten aktualisieren</10000>
-	<10000 10001="1">Benutzerdaten aktualisiert</10000>
-	<10000 10001="1">Ihre Benutzerdaten wurden aktualisiert.</10000>
+	Benutzerdaten aktualisiert
+	Benutzerdaten aktualisieren
+	Benutzerdaten aktualisiert
+	Ihre Benutzerdaten wurden aktualisiert.
 	
-	<!-- org.dspace.app.xmlui.eperson.RegistrationFinished.java -->
-	<10000 10001="1">Registrierung abgeschlossen</10000>
-	<10000 10001="1">Registrierung abgeschlossen</10000>
-	<10000 10001="1">Sie sind nun ein registrierter Benutzer.  Jetzt können Sie z. B. den Alerting-Dienst für Neuerscheinungen nutzen.</10000>
+	Registrierung abgeschlossen
+	Registrierung abgeschlossen
+	Sie sind nun ein registrierter Benutzer.  Jetzt können Sie z. B. den Alerting-Dienst für Neuerscheinungen nutzen.
 	
-	<!-- org.dspace.app.xmlui.eperson.ResetPassword.java -->
-	<10000 10001="1">Passwort neu setzen</10000>
-	<10000 10001="1">Passwort neu setzen</10000>
-	<10000 10001="1">Bitte geben Sie ein neues Passwort in das Feld unten ein und bestätigen Sie es durch eine zusätzliche Eingabe in die zweite Box. Ihr Passwort muss mindestens 6 Zeichen lang sein.</10000>
-	<10000 10001="1">E-Mail-Adresse</10000>
-	<10000 10001="1">Neues Passwort</10000>
-	<10000 10001="1">Erneute Eingabe zur Bestätigung</10000>
-	<10000 10001="1">Passwort neu setzen</10000>
-	<10000 10001="1">Ihr Passwort muss mindestens 6 Zeichen lang sein.</10000>
-	<10000 10001="1">Bitte geben Sie Ihr Passwort noch einmal zur Bestätigung ein.</10000>
+	Passwort neu setzen
+	Passwort neu setzen
+	Bitte geben Sie ein neues Passwort in das Feld unten ein und bestätigen Sie es durch eine zusätzliche Eingabe in die zweite Box. Ihr Passwort muss mindestens 6 Zeichen lang sein.
+	E-Mail-Adresse
+	Neues Passwort
+	Erneute Eingabe zur Bestätigung
+	Passwort neu setzen
+	Ihr Passwort muss mindestens 6 Zeichen lang sein.
+	Bitte geben Sie Ihr Passwort noch einmal zur Bestätigung ein.
 	
-	<!-- org.dspace.app.xmlui.eperson.StartForgotPassword.java -->
-	<10000 10001="1">Passwort vergessen</10000>
-	<10000 10001="1">Passwort vergessen</10000>
-	<10000 10001="1">Geben Sie die E-Mail-Adresse ein, mit der Sie sich registriert haben. An diese E-Mail-Adresse wird eine Nachricht mit weiteren Instruktionen geschickt.</10000>
-	<10000 10001="1">E-Mail-Adresse</10000>
-	<10000 10001="1">Geben Sie die E-Mail-Adresse ein, mit der Sie sich registriert haben.</10000>
-	<10000 10001="1">E-Mail-Adresse nicht gefunden</10000>
-	<10000 10001="1">Daten abschicken</10000>
+	Passwort vergessen
+	Passwort vergessen
+	Geben Sie die E-Mail-Adresse ein, mit der Sie sich registriert haben. An diese E-Mail-Adresse wird eine Nachricht mit weiteren Instruktionen geschickt.
+	E-Mail-Adresse
+	Geben Sie die E-Mail-Adresse ein, mit der Sie sich registriert haben.
+	E-Mail-Adresse nicht gefunden
+	Daten abschicken
 	
-	<!-- org.dspace.app.xmlui.eperson.StartRegistration.java -->
-	<10000 10001="1">Registrierung Neuer Benutzer</10000>
-	<10000 10001="1">Die E-Mail-Adresse wird bereits von einem Benutzer verwendet.</10000>
-	<10000 10001="1">Die E-Mail-Adresse wird bereits von einem Benutzer verwendet. Wenn Sie Ihr Passwort vergessen haben, Klicken Sie bitte auf Passwort vergessen.</10000>
-	<10000 10001="1">Passwort neu setzen für: </10000>
-	<10000 10001="1">Passwort neu setzen</10000>
-	<10000 10001="1">Registrierung Neuer Benutzer</10000>
-	<10000 10001="1">Legen Sie einen Benutzeraccount an, um Dienste wie das Abonnement von Neuerscheinungen nutzen zu können.</10000>
-	<10000 10001="1">E-Mail-Adresse</10000>
-	<10000 10001="1">Diese E-Mail-Adresse wird überprüft und als Ihre Benutzername verwandt.</10000>
-	<10000 10001="1">Es war nicht möglich, an diese Adresse eine E-Mail zu schicken.</10000>
-	<10000 10001="1">Registrieren</10000>
+	Registrierung Neuer Benutzer
+	Die E-Mail-Adresse wird bereits von einem Benutzer verwendet.
+	Die E-Mail-Adresse wird bereits von einem Benutzer verwendet. Wenn Sie Ihr Passwort vergessen haben, Klicken Sie bitte auf Passwort vergessen.
+	Passwort neu setzen für: 
+	Passwort neu setzen
+	Registrierung Neuer Benutzer
+	Legen Sie einen Benutzeraccount an, um Dienste wie das Abonnement von Neuerscheinungen nutzen zu können.
+	E-Mail-Adresse
+	Diese E-Mail-Adresse wird überprüft und als Ihre Benutzername verwandt.
+	Es war nicht möglich, an diese Adresse eine E-Mail zu schicken.
+	Registrieren
 	
-	<!-- org.dspace.app.xmlui.eperson.VerifyEmail.java -->
-	<10000 10001="1">E-Mail zur Verifizierung gesendet.</10000>
-	<10000 10001="1">E-Mail zur Verifizierung gesendet.</10000>
-	<10000 10001="1">Eine E-Mail wurde an Sie gesendet. Diese enthält eine spezielle URL, unter der Sie Ihre Registrierung abschließen können.</10000>
+	E-Mail zur Verifizierung gesendet.
+	E-Mail zur Verifizierung gesendet.
+	Eine E-Mail wurde an Sie gesendet. Diese enthält eine spezielle URL, unter der Sie Ihre Registrierung abschließen können.
 
 
-
-
-
-
-	<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-		
-		               Submission Aspect
-		
-		!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->	
+	Ressourcen einreichen
+	Ressourcen einreichen
+	Mein DSpace
+	Gehe zu Mein DSpace
+	Dokument veröffentlichen
+	Dokument veröffentlichen
+	Dokument veröffentlichen	
+	&lt; Zurück
+	Speicher / Abbrechen
+	Weiter &gt;
+	Veröffentlichung abschließen
+	Dokument veröffentlichen
+	Dokument veröffentlichen
+	Dokument veröffentlichen
+	Zur Langanzeige
+	Zur Kurzanzeige
 	
+	Ein Dokument in dieser Sammlung veröffentlichen
 	
-
-
-
-
-
-	<!-- general submission aspect 10000s -->
-	<10000 10001="1">Ressourcen einreichen</10000>
-	<10000 10001="1">Ressourcen einreichen</10000>
-	<10000 10001="1">Mein DSpace</10000>
-	<10000 10001="1">Gehe zu Mein DSpace</10000>
-	<10000 10001="1">Dokument veröffentlichen</10000>
-	<10000 10001="1">Dokument veröffentlichen</10000>
-	<10000 10001="1">Dokument veröffentlichen</10000>	
-	<10000 10001="1">&lt; Zurück</10000>
-	<10000 10001="1">Speicher / Abbrechen</10000>
-	<10000 10001="1">Weiter &gt;</10000>
-	<10000 10001="1">Veröffentlichung abschließen</10000>
-	<10000 10001="1">Dokument veröffentlichen</10000>
-	<10000 10001="1">Dokument veröffentlichen</10000>
-	<10000 10001="1">Dokument veröffentlichen</10000>
-	<10000 10001="1">Zur Langanzeige</10000>
-	<10000 10001="1">Zur Kurzanzeige</10000>
-	
-	<!-- org.dspace.app.xmlui.submission.CollectiovViewer -->
-	<10000 10001="1">Ein Dokument in dieser Sammlung veröffentlichen</10000>
-	
-	<!-- org.dspace.app.xmlui.submission.Navigation -->
-	<10000 10001="1">Veröffentlichungen</10000>
+	Veröffentlichungen
 
 	
-	<!-- org.dspace.app.xmlui.Submission.submissions -->
-	<10000 10001="1">Veröffentlichungen &amp; Geschäftsgänge</10000>
-	<10000 10001="1">Veröffentlichungen</10000>
-	<10000 10001="1">Veröffentlichungen  &amp; übernommen Aufgaben</10000>
-	<10000 10001="1"><i>ohne Titel</i></10000>
-	<10000 10001="1">E-Mail: </10000>
-	<!-- Same transformer, workflow section -->
-	<10000 10001="1">Aufgaben aus Geschäftsgängen</10000>
-	<10000 10001="1">Dies sind Dokumente, die sich noch im Geschäftsgang befinden. Es gibt zwei Bearbeitungskategorien, eine für Aufgaben, die Sie persönlich übernommen haben, eine andere für Aufgaben, die noch keine Bearbeiter übernommen hat.</10000>
-	<10000 10001="1">Ihre eigenen Aufgaben</10000>
-	<10000 10001="1"></10000>
-	<10000 10001="1">Aufgabe</10000>
-	<10000 10001="1">Dokument</10000>
-	<10000 10001="1">Sammlung</10000>
-	<10000 10001="1">Veröffentlicht von</10000>
-	<10000 10001="1">Zurück in den Aufgabenpool</10000>
-	<10000 10001="1">Ihnen sind keine Dokumente/Aufgaben zugeordnet</10000>
-	<10000 10001="1">Aufgaben im Bearbeitungspool</10000>
-	<10000 10001="1">Übernehmen Sie die ausgewählten Dokumente zur Bearbeitung</10000>
-	<10000 10001="1">Keine Dokumente im gemeinsamen Aufgabenpool vorhanden</10000>
-	<!-- Same transformer, submissions section -->
-	<10000 10001="1">Veröffentlichen</10000>
-	<10000 10001="1">Sie können </10000>
-	<10000 10001="1">eine neue Veröffentlichung starten</10000>
-	<10000 10001="1">Der Veröffentlichungsprozess beinhaltet die Beschreibung des Dokuments und das Hochladen der zugehörigen Dateien. Jeder Bereich oder Sammlung kann seine eigenen Veröffentlichungsbestimmungen haben.</10000>
-	<10000 10001="1">Unvollendete Veröffentlichungen</10000>
-	<10000 10001="1">Dies sind Ihre unvollendeten Veröffentlichungen. Sie können statt dessen auch </10000>
-	<10000 10001="1">eine neue Veröffentlichung beginnen</10000>
-	<10000 10001="1">.</10000>
-	<10000 10001="1"></10000>
-	<10000 10001="1">Titel</10000>
-	<10000 10001="1">Sammlung</10000>
-	<10000 10001="1">Veröffentlicht von</10000>
-	<10000 10001="1">Autoren:</10000>
-	<10000 10001="1">Es gibt keine unvollendeten Veröffentlichungen</10000>
-	<10000 10001="1">Supervision:</10000>
-	<10000 10001="1">Entfernen der ausgewählten Supervisionen</10000>
-	<!-- Same transformer, inprogress section -->
-	<10000 10001="1">Ihre Veröffentlichungen im Geschäftsgang</10000>
-	<10000 10001="1">Dies sind von Ihnen abgeschlossene Veröffentlichungen, die sich noch im Geschäftsgang befinden.</10000>
-	<10000 10001="1">Titel</10000>
-	<10000 10001="1">Sammlung</10000>
-	<10000 10001="1">Status</10000>
-	<!-- Same transformer, workflow status -->
-	<10000 10001="1">Eingereicht</10000>
-	<10000 10001="1">Warten auf Übernahme durch einen Begutachter</10000>
-	<10000 10001="1">Die Veröffentlichung wird begutachtet</10000>
-	<10000 10001="1">Warten auf Übernahme durch einen Bearbeiter</10000>
-	<10000 10001="1">Die Veröffentlichung wird bearbeitet</10000>
-	<10000 10001="1">Warten auf Übernahme durch den abschließenden Bearbeiter</10000>
-	<10000 10001="1">Die Veröffentlichung wird abschließend bearbeitet</10000>
-	<10000 10001="1">Die Veröffentlichung wurde archiviert</10000>
-	<10000 10001="1">Status unbekannt</10000>
-
-    <!-- Same transformer, completed submissions section -->
-    <10000 10001="1">Angenommene Veröffentlichungen</10000>
-    <10000 10001="1">Dies sind die Ihre in DSpace angenommenen Veröffentlichungen.</10000>
-    <10000 10001="1">Zugangsdatum</10000>
-    <10000 10001="1">Titel</10000>
-    <10000 10001="1">SAmmlung</10000>
-    <10000 10001="1">Es werden 50 Ihrer Veröffentlichungen angezeigt. </10000>
-    <10000 10001="1">Anzeige aller Veröffentlichungen.</10000>
-
-	<!-- submission progress bar 10000s -->
-	<10000 10001="1">Einleitende Fragen</10000>
-	<10000 10001="1">Beschreiben</10000>
-    <10000 10001="1">Zugriffsrechte</10000>	
-	<10000 10001="1">Hochladen</10000>
-	<10000 10001="1">Überprüfen</10000>
-	<10000 10001="1">Creative Commons Lizenz</10000>
-	<10000 10001="1">CC Lizenz</10000>
-	<10000 10001="1">DSpace Lizenz</10000>
-	<10000 10001="1">Fertig</10000>
+	Veröffentlichungen &amp; Geschäftsgänge
+	Veröffentlichungen
+	Veröffentlichungen  &amp; übernommen Aufgaben
+	<i>ohne Titel</i>
+	E-Mail: 
+	Aufgaben aus Geschäftsgängen
+	Dies sind Dokumente, die sich noch im Geschäftsgang befinden. Es gibt zwei Bearbeitungskategorien, eine für Aufgaben, die Sie persönlich übernommen haben, eine andere für Aufgaben, die noch keine Bearbeiter übernommen hat.
+	Ihre eigenen Aufgaben
 	
-	<!-- org.dspace.app.xmlui.Submission.submit.ResumeStep -->
-	<10000 10001="1">Wiederaufnehmen</10000>
+	Aufgabe
+	Dokument
+	Sammlung
+	Veröffentlicht von
+	Zurück in den Aufgabenpool
+	Ihnen sind keine Dokumente/Aufgaben zugeordnet
+	Aufgaben im Bearbeitungspool
+	Übernehmen Sie die ausgewählten Dokumente zur Bearbeitung
+	Keine Dokumente im gemeinsamen Aufgabenpool vorhanden
+	Veröffentlichen
+	Sie können 
+	eine neue Veröffentlichung starten
+	Der Veröffentlichungsprozess beinhaltet die Beschreibung des Dokuments und das Hochladen der zugehörigen Dateien. Jeder Bereich oder Sammlung kann seine eigenen Veröffentlichungsbestimmungen haben.
+	Unvollendete Veröffentlichungen
+	Dies sind Ihre unvollendeten Veröffentlichungen. Sie können statt dessen auch 
+	eine neue Veröffentlichung beginnen
+	Titel
+	Sammlung
+	Veröffentlicht von
+	Autoren:
+	Es gibt keine unvollendeten Veröffentlichungen
+	Supervision:
+	Entfernen der ausgewählten Supervisionen
+	Ihre Veröffentlichungen im Geschäftsgang
+	Dies sind von Ihnen abgeschlossene Veröffentlichungen, die sich noch im Geschäftsgang befinden.
+	Titel
+	Sammlung
+	Status
+	Eingereicht
+	Warten auf Übernahme durch einen Begutachter
+	Die Veröffentlichung wird begutachtet
+	Warten auf Übernahme durch einen Bearbeiter
+	Die Veröffentlichung wird bearbeitet
+	Warten auf Übernahme durch den abschließenden Bearbeiter
+	Die Veröffentlichung wird abschließend bearbeitet
+	Die Veröffentlichung wurde archiviert
+	Status unbekannt
 
-	<!-- org.dspace.app.xmlui.Submission.submit.SelectCollection -->
-	<10000 10001="1">Sammlung auswählen</10000>
-	<10000 10001="1">Sammlung</10000>
-	<10000 10001="1">Wählen Sie die Sammlung, in der Sie veröffentlichen möchten.</10000>
-	<10000 10001="1">Sammlung auswählen</10000>
+    Angenommene Veröffentlichungen
+    Dies sind die Ihre in DSpace angenommenen Veröffentlichungen.
+    Zugangsdatum
+    Titel
+    SAmmlung
+    Es werden 50 Ihrer Veröffentlichungen angezeigt. 
+    Anzeige aller Veröffentlichungen.
 
-	<!-- org.dspace.app.xmlui.Submission.submit.SaveOrRemoveStep -->
-	<10000 10001="1">Veröffentlichung speichern oder abbrechen?</10000>
-	<10000 10001="1", um die Veröffentlichung fortzusetzen.</10000>
-	<10000 10001="1">Veröffentlichung fortsetzen</10000>
-	<10000 10001="1">Speichern, um später daran weiterzuarbeiten</10000>
-	<10000 10001="1">Löschen</10000>
+	Einleitende Fragen
+	Beschreiben
+    Zugriffsrechte	
+	Hochladen
+	Überprüfen
+	Creative Commons Lizenz
+	CC Lizenz
+	DSpace Lizenz
+	Fertig
+	
+	Wiederaufnehmen
+
+	Sammlung auswählen
+	Sammlung
+	Wählen Sie die Sammlung, in der Sie veröffentlichen möchten.
+	Sammlung auswählen
+
+	Veröffentlichung speichern oder abbrechen?
+	, um die Veröffentlichung fortzusetzen.
+	Veröffentlichung fortsetzen
+	Speichern, um später daran weiterzuarbeiten
+	Löschen
 
 	
-	<!-- org.dpspace.app.xmlui.Submission.submit.InitialQuestionsStep -->
-	<10000 10001="1">Einleitende Fragen</10000>
-	<10000 10001="1">Hinweis: </10000>
-	<10000 10001="1"> und </10000>
-	<10000 10001="1">, </10000>
-	<10000 10001="1"> (</10000>
-	<10000 10001="1">)</10000>
-	<10000 10001="1">Weitere Titel</10000>
-	<10000 10001="1">Das Dokument hat mehrere Titel <i>z. B.: eine Übersetzung</i></10000>
-	<10000 10001="1">Wenn das obere Kästchen nicht angehakt ist, werden folgende Titel entfernt: </10000>
-	<10000 10001="1">Bereits veröffentlicht</10000>
-	<10000 10001="1">Das Dokument wurde bereits veröffentlicht oder öffentlich zugänglich gemacht.</10000>
-	<10000 10001="1">Wenn das obere Kästchen nicht angehakt ist, werden folgende Felder entfernt:</10000>
-	<10000 10001="1">Erscheinungsdatum</10000>
-	<10000 10001="1">Zitation</10000>
-	<10000 10001="1">Herausgeber</10000>
+	Einleitende Fragen
+	Hinweis: 
+	 und 
+	Weitere Titel
+	Das Dokument hat mehrere Titel <i>z. B.: eine Übersetzung</i>
+	Wenn das obere Kästchen nicht angehakt ist, werden folgende Titel entfernt: 
+	Bereits veröffentlicht
+	Das Dokument wurde bereits veröffentlicht oder öffentlich zugänglich gemacht.
+	Wenn das obere Kästchen nicht angehakt ist, werden folgende Felder entfernt:
+	Erscheinungsdatum
+	Zitation
+	Herausgeber
 	
-	<!-- org.dspace.app.xmlui.Submission.submit.DescribeStep -->
-	<10000 10001="1">Dokument beschreiben</10000>
-	<10000 10001="1">Fehler: Unbekannter Feldtyp</10000>
-	<10000 10001="1">Dieses Feld ist obligatorisch</10000>
-	<10000 10001="1">Nachname, <i>z. B. Mustermann</i></10000>
-	<10000 10001="1">Vorname(n) + Titel, <i>Max Dr.</i></10000>
-	<10000 10001="1">Jahr</10000>
-	<10000 10001="1">Monat</10000>
-	<10000 10001="1">Tag</10000>
-	<10000 10001="1">Serie</10000>
-	<10000 10001="1">Zählung</10000>
-	<10000 10001="1">Schlagwort Kategorien</10000>
-	<10000 10001="1">Schlagwort Kategorien</10000>
-	<10000 10001="1">Nach Schlagworten filtern</10000>
-	<10000 10001="1">Filtern</10000>
-	<10000 10001="1">Bitte warten Sie, der Thesaurus wird geladen.</10000>
-	<10000 10001="1">Beim Laden des Thesaurus ist ein Fehler aufgetreten. Bitte versuchen Sie es später nochmal.</10000>
+	Dokument beschreiben
+	Fehler: Unbekannter Feldtyp
+	Dieses Feld ist obligatorisch
+	Nachname, <i>z. B. Mustermann</i>
+	Vorname(n) + Titel, <i>Max Dr.</i>
+	Jahr
+	Monat
+	Tag
+	Serie
+	Zählung
+	Schlagwort Kategorien
+	Schlagwort Kategorien
+	Nach Schlagworten filtern
+	Filtern
+	Bitte warten Sie, der Thesaurus wird geladen.
+	Beim Laden des Thesaurus ist ein Fehler aufgetreten. Bitte versuchen Sie es später nochmal.
 
 
-    <!-- org.dspace.app.xmlui.Submission.submit.AccessStep -->
-    <10000 10001="1">Zugriffsberechtigungen</10000>
-    <10000 10001="1">Für eine Gruppe von ausgewählten Benutzern sichtbar. Für anonymen Zugang ist keine Auswahl notwendig.</10000>
-    <10000 10001="1">Das Dokument wird sichtbar, sobald es ins Archiv aufgenommen wird.</10000>
-    <10000 10001="1">Zugriff bis zu einem bestimmten Datum unter Embargo.</10000>
-    <10000 10001="1">Sichtbar/Unter Embargo</10000>
-    <10000 10001="1">Name</10000>
-    <10000 10001="1">Beschreibung</10000>
-    <10000 10001="1">Begründung</10000>
-    <10000 10001="1">Zugriffsberechtigung bestätigen &amp; eine weitere hinzufügen</10000>
-    <10000 10001="1">Gruppen</10000>
-    <10000 10001="1">Ungültiges Datumsformat</10000>
-    <10000 10001="1">Wenn Embargo ausgwählt wurde, dann ist ein Datum erforderlich.</10000>
-    <10000 10001="1">Es gibt bereits eine identische Zugriffsberechtigung für diese Gruppe und diese Aktion.</10000>
-    <10000 10001="1">Liste der Zugriffsberechtigungen</10000>
-    <10000 10001="1">Dokument im privaten Modus</10000>
-    <10000 10001="1">Wenn ausgewählt, ist das Dokument nicht suchbar.</10000>
-    <10000 10001="1">Name</10000>
-    <10000 10001="1">Aktion</10000>
-    <10000 10001="1">Gruppe</10000>
-    <10000 10001="1">Datum für den Beginn</10000>
-    <10000 10001="1">Datum für das Beenden</10000>
-    <10000 10001="1">Bearbeiten</10000>
-    <10000 10001="1">Entfernen</10000>
-    <10000 10001="1">Zulässige Formate: jjjj, jjjj-mm, jjjj-mm-tt</10000>
+    Zugriffsberechtigungen
+    Für eine Gruppe von ausgewählten Benutzern sichtbar. Für anonymen Zugang ist keine Auswahl notwendig.
+    Das Dokument wird sichtbar, sobald es ins Archiv aufgenommen wird.
+    Zugriff bis zu einem bestimmten Datum unter Embargo.
+    Sichtbar/Unter Embargo
+    Name
+    Beschreibung
+    Begründung
+    Zugriffsberechtigung bestätigen &amp; eine weitere hinzufügen
+    Gruppen
+    Ungültiges Datumsformat
+    Wenn Embargo ausgwählt wurde, dann ist ein Datum erforderlich.
+    Es gibt bereits eine identische Zugriffsberechtigung für diese Gruppe und diese Aktion.
+    Liste der Zugriffsberechtigungen
+    Dokument im privaten Modus
+    Wenn ausgewählt, ist das Dokument nicht suchbar.
+    Name
+    Aktion
+    Gruppe
+    Datum für den Beginn
+    Datum für das Beenden
+    Bearbeiten
+    Entfernen
+    Zulässige Formate: jjjj, jjjj-mm, jjjj-mm-tt
 
-    <!-- org.dspace.app.xmlui.Submission.submit.EditPolicyStep -->
-    <10000 10001="1">Zugriffsrechte bearbeiten</10000>    	
+    Zugriffsrechte bearbeiten    	
 
-	<!-- org.dspace.app.xmlui.Submission.submit.UploadStep -->
-	<10000 10001="1">Datei(en) hochladen</10000>
-	<10000 10001="1">Datei</10000>
-	<10000 10001="1" klicken, öffnet sich ein neues Fenster, in welchem Sie die Datei auf Ihrem Rechner suchen und auswählen können.</10000>
-	<10000 10001="1">Ein Problem ist während des Hochladens Ihrer Datei aufgetreten. Dies kann verschiedene Gründe haben: der Dateiname war fehlerhaft, aufgrund eines Netzwerkproblems wurde die Datei nicht korrekt übertragen oder Sie haben versucht, eine Dateiformat hochzuladen, welches auf dem Repositorium nicht zugelassen ist. Bitte überprüfen Sie Ihre Eingaben und versuchen es noch einmal.</10000>
-	<10000 10001="1">Die Datei wurde nich hochgeladen, da sie scheinbar einen Virus enthält. Bitte wenden Sie sich an den System-Administrator.</10000>
-    <10000 10001="1">Beim Virusscan der Datei ist ein technisches Problem aufgetreten. Bitte wenden Sie sich an den System-Administrator.</10000>
-	<10000 10001="1">Das Dokument muss mindestens eine Datei enthalten.</10000>
-	<10000 10001="1">Beschreibung</10000>
-	<10000 10001="1".</10000>
-	<10000 10001="1">Datei hochladen und/oder noch eine hinzufügen</10000>
-	<10000 10001="1">Hochgeladene Dateien</10000>
-	<10000 10001="1">Primäre Datei</10000>
-	<10000 10001="1"></10000>
-	<10000 10001="1">Datei</10000>
-	<10000 10001="1">Größe</10000>
-	<10000 10001="1">Beschreibung</10000>
-	<10000 10001="1">Format</10000>
-	<10000 10001="1"></10000>
-	<10000 10001="1">Unbekannt</10000>
-	<10000 10001="1">unbekanntes Format</10000>
-	<10000 10001="1">(Unterstützt)</10000>
-	<10000 10001="1">(Bekannt)</10000>
-	<10000 10001="1">(Nicht unterstützt)</10000>
-	<10000 10001="1">Bearbeiten</10000>
-	<10000 10001="1">Prüfsumme:</10000>
-	<10000 10001="1">Ausgewählte Datei(en) entfernen</10000>
+	Datei(en) hochladen
+	Datei
+	klicken, öffnet sich ein neues Fenster, in welchem Sie die Datei auf Ihrem Rechner suchen und auswählen können.
+	Ein Problem ist während des Hochladens Ihrer Datei aufgetreten. Dies kann verschiedene Gründe haben: der Dateiname war fehlerhaft, aufgrund eines Netzwerkproblems wurde die Datei nicht korrekt übertragen oder Sie haben versucht, eine Dateiformat hochzuladen, welches auf dem Repositorium nicht zugelassen ist. Bitte überprüfen Sie Ihre Eingaben und versuchen es noch einmal.
+	Die Datei wurde nich hochgeladen, da sie scheinbar einen Virus enthält. Bitte wenden Sie sich an den System-Administrator.
+    Beim Virusscan der Datei ist ein technisches Problem aufgetreten. Bitte wenden Sie sich an den System-Administrator.
+	Das Dokument muss mindestens eine Datei enthalten.
+	Beschreibung
+	Datei hochladen und/oder noch eine hinzufügen
+	Hochgeladene Dateien
+	Primäre Datei
+	
+	Datei
+	Größe
+	Beschreibung
+	Format
+	
+	Unbekannt
+	unbekanntes Format
+	(Unterstützt)
+	(Bekannt)
+	(Nicht unterstützt)
+	Bearbeiten
+	Prüfsumme:
+	Ausgewählte Datei(en) entfernen
 
-    <10000 10001="1">Datei(en) hochladen</10000>
-    <10000 10001="1">Datei</10000>
-    <10000 10001="1" klicken, öffnet sich ein neues Fenster, in dem Sie die Datei aussuchen können.</10000>
-    <10000 10001="1">Das Dokument muss mindestens eine Datei enthalten.</10000>
-    <10000 10001="1">Während des Hochladens Ihrer Datei ist ein Fehler aufgetreten. Entweder war der Dateiname nicht korrekt oder es gab ein Netzwerkproblem, so dass die Datei nicht korrekt übertragen wurde, oder Sie haben versucht ein unzulässiges Dateiformat hochzuladen.Bitte versuchen Sie es noch einmal.</10000>
-    <10000 10001="1">Die Datei wurde nicht hochgeladen, da sie einen Virus zu enthalten scheint. Bitte wenden Sie sich an den Systemadministrator.</10000>
-    <10000 10001="1">Bei dem Versuch die Datei auf Viren zu überprüfen ist ein Fehler aufgetreten. Bitte wenden Sie sich an den Systemadministrator.</10000>
-    <10000 10001="1">Beschreibung der Datei</10000>
-    <10000 10001="1">Bei Bedarf können Sie ein kurze Beschreibung der Datei eingeben.</10000>
-    <10000 10001="1">Datei Hochladen &amp; und eine weitere hinzufügen</10000>
-    <10000 10001="1">Hochgeladene Dateien</10000>
-    <10000 10001="1">Primärdatei</10000>
-    <10000 10001="1">  </10000>
-    <10000 10001="1">Datei</10000>
-    <10000 10001="1">Größe</10000>
-    <10000 10001="1">Beschreibung</10000>
-    <10000 10001="1">Format</10000>
-    <10000 10001="1"></10000>
-    <10000 10001="1">Unbekannt</10000>
-    <10000 10001="1">Unbekanntes Format</10000>
-    <10000 10001="1">(Unterstützt)</10000>
-    <10000 10001="1">(Bekannt)</10000>
-    <10000 10001="1">(Nicht unterstützt)</10000>
-    <10000 10001="1">Bearbeiten</10000>
-    <10000 10001="1">Prüfsumme:</10000>
-    <10000 10001="1">Ausgewählte Datei(en) löschen</10000>
-    <10000 10001="1">Zugriffsrechte</10000>
-    	
-	<!-- org.dspace.app.xmlui.Submission.submit.EditFileStep -->
-	<10000 10001="1">Datei bearbeiten</10000>
-	<10000 10001="1">Datei</10000>
-	<10000 10001="1">Dateibeschreibung</10000>
-	<10000 10001="1".</10000>
-	<10000 10001="1" <strong>Wenn das Format nicht in der Liste enthalten ist</strong>, geben Sie bitte eine kurze Beschreibung in das Feld unten ein.</10000>
-	<10000 10001="1">Erkanntes Format</10000>
-	<10000 10001="1">Gewähltes Format</10000>
-	<10000 10001="1">Format nicht in Auswahlliste</10000>
-	<10000 10001="1" </strong> und geben Sie eine kurze Beschreibung des Formats in das Feld unten ein.</10000>
-	<10000 10001="1">Sonstiges Format</10000>
-	<10000 10001="1".</10000>
-
-    <!-- org.dspace.app.xmlui.Submission.submit.EditBitstreamPolicies -->
-    <10000 10001="1">Zugriffsrechte für Datei bearbeiten</10000>
+    Datei(en) hochladen
+    Datei
+    klicken, öffnet sich ein neues Fenster, in dem Sie die Datei aussuchen können.
+    Das Dokument muss mindestens eine Datei enthalten.
+    Während des Hochladens Ihrer Datei ist ein Fehler aufgetreten. Entweder war der Dateiname nicht korrekt oder es gab ein Netzwerkproblem, so dass die Datei nicht korrekt übertragen wurde, oder Sie haben versucht ein unzulässiges Dateiformat hochzuladen.Bitte versuchen Sie es noch einmal.
+    Die Datei wurde nicht hochgeladen, da sie einen Virus zu enthalten scheint. Bitte wenden Sie sich an den Systemadministrator.
+    Bei dem Versuch die Datei auf Viren zu überprüfen ist ein Fehler aufgetreten. Bitte wenden Sie sich an den Systemadministrator.
+    Beschreibung der Datei
+    Bei Bedarf können Sie ein kurze Beschreibung der Datei eingeben.
+    Datei Hochladen &amp; und eine weitere hinzufügen
+    Hochgeladene Dateien
+    Primärdatei
+      
+    Datei
+    Größe
+    Beschreibung
+    Format
     
-	<!-- org.dspace.app.xmlui.Submission.submit.ReviewStep -->
-	<10000 10001="1">Veröffentlichung überprüfen</10000>
-	<10000 10001="1">Ja</10000>
-	<10000 10001="1">Nein</10000>
-	<10000 10001="1">Eingaben korrigieren</10000>
-	<10000 10001="1">Datei entfernen und/oder hinzufügen</10000>
-	<10000 10001="1">Eingangsfragen</10000>
-	<10000 10001="1">Beschreibung Seite {0}</10000>
-	<10000 10001="1">Hochgeladene Dateien</10000>
-	<10000 10001="1">Mehrfachtitel</10000>
-	<10000 10001="1">Bereits erschienen</10000>
-	<10000 10001="1">-</10000>
-	<10000 10001="1">unbekannt</10000>
-	<10000 10001="1">bekannt</10000>
-	<10000 10001="1">unterstützt</10000>
+    Unbekannt
+    Unbekanntes Format
+    (Unterstützt)
+    (Bekannt)
+    (Nicht unterstützt)
+    Bearbeiten
+    Prüfsumme:
+    Ausgewählte Datei(en) löschen
+    Zugriffsrechte
+    	
+	Datei bearbeiten
+	Datei
+	Dateibeschreibung
+	<strong>Wenn das Format nicht in der Liste enthalten ist</strong>, geben Sie bitte eine kurze Beschreibung in das Feld unten ein.
+	Erkanntes Format
+	Gewähltes Format
+	Format nicht in Auswahlliste
+	</strong> und geben Sie eine kurze Beschreibung des Formats in das Feld unten ein.
+	Sonstiges Format
+
+    Zugriffsrechte für Datei bearbeiten
+    
+	Veröffentlichung überprüfen
+	Ja
+	Nein
+	Eingaben korrigieren
+	Datei entfernen und/oder hinzufügen
+	Eingangsfragen
+	Beschreibung Seite {0}
+	Hochgeladene Dateien
+	Mehrfachtitel
+	Bereits erschienen
+	-
+	unbekannt
+	bekannt
+	unterstützt
 	
-	<!-- org.dspace.app.xmlui.Submission.submit.CCLicenseStep -->
-	<10000 10001="1">Ein Fehler ist aufgetreten ... {0}</10000>	
-	<10000 10001="1">Creative Commons Lizenz</10000>
-	<10000 10001="1">Creative Commons</a> Lizenz zu Ihrem Dokument hinzufügen: <strong>Creative Commons Lizenzen legen fest, wie ihr Werk genutzt werden kann.</strong> Wenn Sie eine Creative Commons Lizenz hinzufügen möchten, klicken sie auf die untere Schaltfläche. Sie werden dann zur Creative Commons Seite weitergeleite, wo Sie aus verschiedenen Lizenzmodellen auswählen können.  Nachdem Sie eine Lizenz ausgewählt haben, kehren Sie zu dieser Seite zurück.</10000>
-	<10000 10001="1">Wählen Sie eine Lizenz</10000>
-	<10000 10001="1">Weiter zur Creative Commons Seite, um eine Lizenz auszuwählen.</10000>
-	<10000 10001="1">Lizenz</10000>
-	<10000 10001="1">keine Creative Commons Lizenz wurde ausgewählt</10000>
-	<10000 10001="1" klicken, um Ihre Ändeurngen zu speichern.</10000>
-	<10000 10001="1">Auswahl oder Änderung der Lizenz</10000>
+	Ein Fehler ist aufgetreten ... {0}	
+	Creative Commons Lizenz
+	Creative Commons</a> Lizenz zu Ihrem Dokument hinzufügen: <strong>Creative Commons Lizenzen legen fest, wie ihr Werk genutzt werden kann.</strong> Wenn Sie eine Creative Commons Lizenz hinzufügen möchten, klicken sie auf die untere Schaltfläche. Sie werden dann zur Creative Commons Seite weitergeleite, wo Sie aus verschiedenen Lizenzmodellen auswählen können.  Nachdem Sie eine Lizenz ausgewählt haben, kehren Sie zu dieser Seite zurück.
+	Wählen Sie eine Lizenz
+	Weiter zur Creative Commons Seite, um eine Lizenz auszuwählen.
+	Lizenz
+	keine Creative Commons Lizenz wurde ausgewählt
+	klicken, um Ihre Ändeurngen zu speichern.
+	Auswahl oder Änderung der Lizenz
 
-	<!-- org.dspace.app.xmlui.Submission.submit.LicenseStep -->
-	<10000 10001="1">DSpace Lizenz</10000>
-	<10000 10001="1"><strong>Dies ist der letzte Schritt:</strong> Damit Ihr Dokument im Institutionellen Repositorium entsprechend verarbeitet und weiterverbreitet werden kann, müssen Sie folgenden Bedingungen zustimmen.</10000>
-	<10000 10001="1">Akzeptieren Sie die Standardlizenzbestimmung des Repositoriums indem Sie 'Ich akzeptiere die Lizenzbestimmungen' anhaken und klicken Sie dann auf 'Veröffentlichung abschließen'.</10000>
-	<10000 10001="1">Wenn Sie Fragen zu den Lizenzbestimmungen haben, wenden Sie sich an den Administrator.</10000>
-	<10000 10001="1">Lizenzbestimmung</10000>
-	<10000 10001="1">Ich akzeptiere die Lizenzbestimmungen</10000>
-	<10000 10001="1">Sie müssen die Lizenzbestimmung akzeptieren, um Ihre Veröffentlichung abzuschließen. Wenn Sie dies zum jetzigen Zeitpunkt nicht tun können, haben Sie die Möglichkeit Ihre Veröffentlichung zwischenzuspeichern, um sie später zu vollenden oder zu löschen, indem Sie auf 'Speicher/Abbrechen' klicken.</10000>
+	DSpace Lizenz
+	<strong>Dies ist der letzte Schritt:</strong> Damit Ihr Dokument im Institutionellen Repositorium entsprechend verarbeitet und weiterverbreitet werden kann, müssen Sie folgenden Bedingungen zustimmen.
+	Akzeptieren Sie die Standardlizenzbestimmung des Repositoriums indem Sie 'Ich akzeptiere die Lizenzbestimmungen' anhaken und klicken Sie dann auf 'Veröffentlichung abschließen'.
+	Wenn Sie Fragen zu den Lizenzbestimmungen haben, wenden Sie sich an den Administrator.
+	Lizenzbestimmung
+	Ich akzeptiere die Lizenzbestimmungen
+	Sie müssen die Lizenzbestimmung akzeptieren, um Ihre Veröffentlichung abzuschließen. Wenn Sie dies zum jetzigen Zeitpunkt nicht tun können, haben Sie die Möglichkeit Ihre Veröffentlichung zwischenzuspeichern, um sie später zu vollenden oder zu löschen, indem Sie auf 'Speicher/Abbrechen' klicken.
 
-	<!-- org.dspace.app.xmlui.Submission.submit.RemovedStep -->
-	<10000 10001="1">Veröffentlichung gelöscht</10000>
-	<10000 10001="1">Ihre Veröffentlichung wurde abgebrochen und das unfertige Dokument vom System gelöscht.</10000>
-	<10000 10001="1">Zur Veröffentlichungsseite</10000>	
+	Veröffentlichung gelöscht
+	Ihre Veröffentlichung wurde abgebrochen und das unfertige Dokument vom System gelöscht.
+	Zur Veröffentlichungsseite	
 
-	<!-- org.dspace.app.xmlui.Submission.submit.CompletedStep -->
-	<10000 10001="1">Veröffentlichung abgeschlossen</10000>	
-	<10000 10001="1">Ihre Veröffentlichung durchläuft nun den für diese Sammlung festgelegten Geschäftsgang. Sie werden per E-Mail benachrichtigt, sobald dieser abgeschlossen umd Ihr Dokument in der Sammlung archiviert wurde oder erhalten ggf. eine E-Mail mit Rückfragen des Bearbeiters. Den Bearbeitungsstand Ihrer Veröffentlichung können Sie über Ihre Veröffentlichungsseite einsehen.</10000>	
-	<10000 10001="1">Zur Veröffentlichungsseite</10000>	
-	<10000 10001="1">Ein weiteres Dokument veröffentlichen</10000>		
+	Veröffentlichung abgeschlossen	
+	Ihre Veröffentlichung durchläuft nun den für diese Sammlung festgelegten Geschäftsgang. Sie werden per E-Mail benachrichtigt, sobald dieser abgeschlossen umd Ihr Dokument in der Sammlung archiviert wurde oder erhalten ggf. eine E-Mail mit Rückfragen des Bearbeiters. Den Bearbeitungsstand Ihrer Veröffentlichung können Sie über Ihre Veröffentlichungsseite einsehen.	
+	Zur Veröffentlichungsseite	
+	Ein weiteres Dokument veröffentlichen		
 
 	<!-- org.dspace.app.xmlui.Submission.workflow.PerformTaskStep -->
-	<10000 10001="1">Aktionen, die Sie in diesem Bearbeitungsschritt durchführen können:</10000>
-	<10000 10001="1">Diese Aufgabe, sich selbst zuordnen.</10000>
-	<10000 10001="1">Aufgabe übernehmen</10000>
-	<10000 10001="1">Aufgabe im Aufgabenpool lassen.</10000>
-	<10000 10001="1">Im Pool lassen</10000>
-	<10000 10001="1".</10000>
-	<10000 10001="1">Ressource akzeptieren</10000>
-	<10000 10001="1">Nach der Bearbeitung der Ressource, wählen Sie diese Option, um sie ins Archiv zu überführen.</10000>
-	<10000 10001="1">Ins Archiv überführen</10000>
-	<10000 10001="1".  Sie können dann dem Veröffentlichenden die Gründe  und ob Änderung und ein erneutes Einreichen möglich sind mitteilen.</10000>
-	<10000 10001="1">Ressource ablehnen</10000>
-	<10000 10001="1">Wählen Sie diese Option, wenn Sie die Metadaten der Ressource bearbeiten möchten.</10000>
-	<10000 10001="1">Metadaten bearbeiten</10000>
-	<10000 10001="1">Die Aufgabe zurück in den Pool geben, damit ein anderer Bearbeiter sie übernehmen kann.</10000>
-	<10000 10001="1">Zurück in den Bearbeitungspool</10000>
+	Aktionen, die Sie in diesem Bearbeitungsschritt durchführen können:
+	Diese Aufgabe, sich selbst zuordnen.
+	Aufgabe übernehmen
+	Aufgabe im Aufgabenpool lassen.
+	Im Pool lassen
+	Ressource akzeptieren
+	Nach der Bearbeitung der Ressource, wählen Sie diese Option, um sie ins Archiv zu überführen.
+	Ins Archiv überführen
+	Sie können dann dem Veröffentlichenden die Gründe  und ob Änderung und ein erneutes Einreichen möglich sind mitteilen.
+	Ressource ablehnen
+	Wählen Sie diese Option, wenn Sie die Metadaten der Ressource bearbeiten möchten.
+	Metadaten bearbeiten
+	Die Aufgabe zurück in den Pool geben, damit ein anderer Bearbeiter sie übernehmen kann.
+	Zurück in den Bearbeitungspool
 
-	<!-- org.dspace.app.xmlui.Submission.workflow.RejectTaskStep -->
-	<10000 10001="1">Bitte geben Sie die Gründe an, warum die Ressource abgelehnt wurde und ob der Veröffentlichende nach entsprechenden Änderungen die Möglichkeit hat, die Ressource erneut zu veröffentlichen.</10000>
-	<10000 10001="1">Ablehnungsgrund</10000>
-	<10000 10001="1">Sie müssen den Ablehnungsgrund angeben</10000>
-	<10000 10001="1">Ressource ablehnen</10000>
+	Bitte geben Sie die Gründe an, warum die Ressource abgelehnt wurde und ob der Veröffentlichende nach entsprechenden Änderungen die Möglichkeit hat, die Ressource erneut zu veröffentlichen.
+	Ablehnungsgrund
+	Sie müssen den Ablehnungsgrund angeben
+	Ressource ablehnen
 
+	Die Aufgabe wurde erfolgreich ausgeführt.
+    Die Aufgabe wurde unerwartet abgebrochen oder die Ausführung ist fehlgeschlagen. Für weitere Informationen wenden Sie sich an den Administrator und überprüfen Sie die Log-Dateien.
+    Die Aufgabe wurde erfolgreich in die Warteschlange eingereiht.
+    Die Aufgabe konnte nicht in die Warteschlange eingefügt werden. Es ist ein Fehler aufgetreten.Für weitere Informationen wenden Sie sich an den Administrator und überprüfen Sie die Log-Dateien.
+    Der Benutzeraccount wurde angelegt.
+	Der Benutzeraccount wurde aktualisiert.
+	Dem Benutzer wurde eine E-Mail mit entsprechender Kennung gesandt, unter der er sein Passwort neu vergeben kann.
+	Der/Die Benutzer wurden gelöscht.
+	Folgende(r) Benutzer konnten aufgrund von bestimmten Abhängigkeiten nicht gelöscht werden. Ausführliche Informationen finden Sie auf der Benutzerinformationsseite.
+	Die Gruppe wurde aktualisiert.
+	Die ausgewählten Gruppen wurden gelöscht..
+	Ein neuen Metadatenschema wurde angelegt.
+	Das Schema wurde gelöscht.
+	Das Metadatenfeld wurde angelegt.
+	Das Metadatenfeld wurde aktualisiert.
+	Feld(er) verschoben.
+	Feld(er) gelöscht
+	Format angelegt.
+	Format(e) gelöscht
+	Metadaten aktualisiert
+	Neues Metadatum hinzugefügt.
+	Das Dokument wurde zurückgezogen.
+	Das Dokument wurde wieder zugänglich gemacht.
+	Das Dokument wurde verschoben.
+	Die Zielsammlung wurde nicht gefunden.
+	Die neue Datei wurde hochgeladen.
+	Beim Hochladen der Datei ist ein Fehler aufgetreten.
+	Die Dateiinformation wurde aktualisiert.
+	Ausgewählte Datei(en) gelöscht.
+	Dokument(e) gespiegelt.
+	Die Dokumentspiegelung wurde rückgängig gemacht.
 	
-	
-	<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	Benutzerverwaltung
 		
-		             Administrative Aspect
-		
-		!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+	Kontext
+	Dokument bearbeiten
+	Sammlung bearbeiten
+	Dokumente spiegeln
+	Bereich Bearbeiten
+	Sammlung anlegen
+	Teilbereich anlegen
+	Bereich anlegen
+	Dokument Exportieren
+    Sammlung Exportieren
+    Bereich Exportieren
+    Metadaten Exportieren
 	
-	<!-- action-generated 10000s. These are referenced from the sitemap rather than a transformer --> 	
+	Administration
+	Zugriffsrechte
+	Benutzer
+	Gruppen
+	Rechte
+	Referenzlisten
+	Metadaten
+	Formate
+	Dokumente
+    Verworfene Dokumente
+    Nicht sichtbare Dokumente    
+	Systemdaten
+	Statistiken
+	Metadaten Importieren
+	Datenpflege - Aufgabens
 	
-	<10000 10001="1">Die Aufgabe wurde erfolgreich ausgeführt.</10000>
-    <10000 10001="1">Die Aufgabe wurde unerwartet abgebrochen oder die Ausführung ist fehlgeschlagen. Für weitere Informationen wenden Sie sich an den Administrator und überprüfen Sie die Log-Dateien.</10000>
-    <10000 10001="1">Die Aufgabe wurde erfolgreich in die Warteschlange eingereiht.</10000>
-    <10000 10001="1">Die Aufgabe konnte nicht in die Warteschlange eingefügt werden. Es ist ein Fehler aufgetreten.Für weitere Informationen wenden Sie sich an den Administrator und überprüfen Sie die Log-Dateien.</10000>
-    <10000 10001="1">Der Benutzeraccount wurde angelegt.</10000>
-	<10000 10001="1">Der Benutzeraccount wurde aktualisiert.</10000>
-	<10000 10001="1">Dem Benutzer wurde eine E-Mail mit entsprechender Kennung gesandt, unter der er sein Passwort neu vergeben kann.</10000>
-	<10000 10001="1">Der/Die Benutzer wurden gelöscht.</10000>
-	<10000 10001="1">Folgende(r) Benutzer konnten aufgrund von bestimmten Abhängigkeiten nicht gelöscht werden. Ausführliche Informationen finden Sie auf der Benutzerinformationsseite.</10000>
-	<10000 10001="1">Die Gruppe wurde aktualisiert.</10000>
-	<10000 10001="1">Die ausgewählten Gruppen wurden gelöscht..</10000>
-	<10000 10001="1">Ein neuen Metadatenschema wurde angelegt.</10000>
-	<10000 10001="1">Das Schema wurde gelöscht.</10000>
-	<10000 10001="1">Das Metadatenfeld wurde angelegt.</10000>
-	<10000 10001="1">Das Metadatenfeld wurde aktualisiert.</10000>
-	<10000 10001="1">Feld(er) verschoben.</10000>
-	<10000 10001="1">Feld(er) gelöscht</10000>
-	<10000 10001="1">Format angelegt.</10000>
-	<10000 10001="1">Format(e) gelöscht</10000>
-	<10000 10001="1">Metadaten aktualisiert</10000>
-	<10000 10001="1">Neues Metadatum hinzugefügt.</10000>
-	<10000 10001="1">Das Dokument wurde zurückgezogen.</10000>
-	<10000 10001="1">Das Dokument wurde wieder zugänglich gemacht.</10000>
-	<10000 10001="1">Das Dokument wurde verschoben.</10000>
-	<10000 10001="1">Die Zielsammlung wurde nicht gefunden.</10000>
-	<10000 10001="1">Die neue Datei wurde hochgeladen.</10000>
-	<10000 10001="1">Beim Hochladen der Datei ist ein Fehler aufgetreten.</10000>
-	<10000 10001="1">Die Dateiinformation wurde aktualisiert.</10000>
-	<10000 10001="1">Ausgewählte Datei(en) gelöscht.</10000>
-	<10000 10001="1">Dokument(e) gespiegelt.</10000>
-	<10000 10001="1">Die Dokumentspiegelung wurde rückgängig gemacht.</10000>
-	
-	<!-- general items for all of the eperson classes -->
-	<10000 10001="1">Benutzerverwaltung</10000>
-		
-	<!-- org.dspace.app.xmlui.administrative.Navigation -->
-	<!-- contextual menu items -->
-	<10000 10001="1">Kontext</10000>
-	<10000 10001="1">Dokument bearbeiten</10000>
-	<10000 10001="1">Sammlung bearbeiten</10000>
-	<10000 10001="1">Dokumente spiegeln</10000>
-	<10000 10001="1">Bereich Bearbeiten</10000>
-	<10000 10001="1">Sammlung anlegen</10000>
-	<10000 10001="1">Teilbereich anlegen</10000>
-	<10000 10001="1">Bereich anlegen</10000>
-	<10000 10001="1">Dokument Exportieren</10000>
-    <10000 10001="1">Sammlung Exportieren</10000>
-    <10000 10001="1">Bereich Exportieren</10000>
-    <10000 10001="1">Metadaten Exportieren</10000>
-	
-	<!-- Site administrator options -->
-	<10000 10001="1">Administration</10000>
-	<10000 10001="1">Zugriffsrechte</10000>
-	<10000 10001="1">Benutzer</10000>
-	<10000 10001="1">Gruppen</10000>
-	<10000 10001="1">Rechte</10000>
-	<10000 10001="1">Referenzlisten</10000>
-	<10000 10001="1">Metadaten</10000>
-	<10000 10001="1">Formate</10000>
-	<10000 10001="1">Dokumente</10000>
-    <10000 10001="1">Verworfene Dokumente</10000>
-    <10000 10001="1">Nicht sichtbare Dokumente</10000>    
-	<10000 10001="1">Systemdaten</10000>
-	<10000 10001="1">Statistiken</10000>
-	<10000 10001="1">Metadaten Importieren</10000>
-	<10000 10001="1">Datenpflege - Aufgabens</10000>
-	
-    <!-- my account items -->
-	<10000 10001="1">Meine Exporte</10000>
+	Meine Exporte
 	
 	
-	<!-- export item -->
-	<10000 10001="1">Exportierte Archive</10000>
-	<10000 10001="1">Die ID des Dokumentes ist ungültig.</10000>
-	<10000 10001="1">Die ID der Sammlung ist ungültig.</10000>
-	<10000 10001="1">Die ID des Bereichs ist ungültig.</10000>
-	<10000 10001="1">Das angeforderte Dokument wurde nicht gefunden.</10000>
-	<10000 10001="1">Die angeforderte Sammlung wurde nicht gefunden.</10000>
-	<10000 10001="1">Der angeforderte Bereich wurde nicht gefunden.</10000>
-		<10000 10001="1" verwenden, um zu einer Auflistung aller Ihrer Exporte zu gelangen.</10000>
-	<10000 10001="1" verwenden, um zu einer Auflistung aller Ihrer Exporte zu gelangen.</10000>
-	<10000 10001="1" verwenden, um zu einer Auflistung aller Ihrer Exporte zu gelangen.</10000>
-	<10000 10001="1">Archive, die zum Herunterladen bereitstehen:</10000>
+	Exportierte Archive
+	Die ID des Dokumentes ist ungültig.
+	Die ID der Sammlung ist ungültig.
+	Die ID des Bereichs ist ungültig.
+	Das angeforderte Dokument wurde nicht gefunden.
+	Die angeforderte Sammlung wurde nicht gefunden.
+	Der angeforderte Bereich wurde nicht gefunden.
+		 verwenden, um zu einer Auflistung aller Ihrer Exporte zu gelangen.
+	 verwenden, um zu einer Auflistung aller Ihrer Exporte zu gelangen.
+	 verwenden, um zu einer Auflistung aller Ihrer Exporte zu gelangen.
+	Archive, die zum Herunterladen bereitstehen:
 	
 		
-	<!-- org.dspace.app.xmlui.administrative.eperson.ManageEPeopleMain -->
-	<10000 10001="1">Benutzeraccounts verwalten</10000>
-	<10000 10001="1">Benutzerverwaltung</10000>
-	<10000 10001="1">Aktionen</10000>
-	<10000 10001="1">Benutzer anlegen</10000>
-	<10000 10001="1">Klicken Sie hier, um einen neuen Benutzeraccount anzulegen.</10000>
-	<10000 10001="1">Benutzerliste</10000>
-	<10000 10001="1">Klicken Sie hier, um alle Benutzer anzuzeigen.</10000>
-	<10000 10001="1">Benutzersuche</10000>
-	<10000 10001="1">Benutzer werden nach Wortfragmenten aus Name und E-Mail-Adresse gesucht.</10000>
-	<10000 10001="1">Unten ist eine Liste aller Benutzer, auf die Ihre Suchanfrage zutraf. Wählen Sie den Benutzer aus, den Sie löschen möchten und klicken Sie auf Löschen, um den Benutzer zu löschen oder auf die E-Mail-Adresse oder den Namen, um den Benutzer zu bearbeiten.</10000>
-	<10000 10001="1">Suchergebnisse</10000>
-	<10000 10001="1"></10000>
-	<10000 10001="1">ID</10000>
-	<10000 10001="1">Name</10000>
-	<10000 10001="1">E-Mail-Adresse</10000>
-	<10000 10001="1">Benutzeraccount löschen</10000>
-	<10000 10001="1">Ihre Suche führte zu keinem Treffer.</10000>
+	Benutzeraccounts verwalten
+	Benutzerverwaltung
+	Aktionen
+	Benutzer anlegen
+	Klicken Sie hier, um einen neuen Benutzeraccount anzulegen.
+	Benutzerliste
+	Klicken Sie hier, um alle Benutzer anzuzeigen.
+	Benutzersuche
+	Benutzer werden nach Wortfragmenten aus Name und E-Mail-Adresse gesucht.
+	Unten ist eine Liste aller Benutzer, auf die Ihre Suchanfrage zutraf. Wählen Sie den Benutzer aus, den Sie löschen möchten und klicken Sie auf Löschen, um den Benutzer zu löschen oder auf die E-Mail-Adresse oder den Namen, um den Benutzer zu bearbeiten.
+	Suchergebnisse
+	
+	ID
+	Name
+	E-Mail-Adresse
+	Benutzeraccount löschen
+	Ihre Suche führte zu keinem Treffer.
 		
 		
-	<!-- org.dspace.app.xmlui.administrative.eperson.AddEPersonForm -->
-	<10000 10001="1">Benutzer hinzufügen</10000>
-	<10000 10001="1">Benutzer hinzufügen</10000>
-	<10000 10001="1">Benutzeraccount anlegen</10000>
-	<10000 10001="1">Diese E-Mail-Adresse ist bereits einem Benutzeraccount zugeordnet. Die E-Mail-Adresse muss eindeutig sein. Sie kann nur für genau einen Benutzeraccount verwendet werden.</10000>
-	<10000 10001="1">Angaben zum neuen Benutzeraccount:</10000>
-	<10000 10001="1">Die E-Mail-Adresse muss eindeutig sein.</10000>
-	<10000 10001="1">Die E-Mail-Adresse muss angegeben werden.</10000>
-	<10000 10001="1">Der Vorname muss angegeben werden.</10000>
-	<10000 10001="1">Der Nachname muss angegeben werden.</10000>
-	<10000 10001="1">Zertifikat erforderlich</10000>
-	<10000 10001="1">Benutzer kann sich einloggen</10000>
-	<10000 10001="1">Benutzeraccount anlegen</10000>
+	Benutzer hinzufügen
+	Benutzer hinzufügen
+	Benutzeraccount anlegen
+	Diese E-Mail-Adresse ist bereits einem Benutzeraccount zugeordnet. Die E-Mail-Adresse muss eindeutig sein. Sie kann nur für genau einen Benutzeraccount verwendet werden.
+	Angaben zum neuen Benutzeraccount:
+	Die E-Mail-Adresse muss eindeutig sein.
+	Die E-Mail-Adresse muss angegeben werden.
+	Der Vorname muss angegeben werden.
+	Der Nachname muss angegeben werden.
+	Zertifikat erforderlich
+	Benutzer kann sich einloggen
+	Benutzeraccount anlegen
 	
-	<!-- org.dspace.app.xmlui.administrative.eperson.EditEPersonForm -->
-	<10000 10001="1">Benutzeraccount bearbeiten</10000>
-	<10000 10001="1">Benutzeraccount bearbeiten</10000>
-	<10000 10001="1">Benutzeraccount bearbeiten</10000>
-	<10000 10001="1">Diese E-Mail-Adresse ist bereits einem Benutzeraccount zugeordnet. Die E-Mail-Adresse muss eindeutig sein. Sie kann nur für genau einen Benutzeraccount verwendet werden.</10000>
-	<10000 10001="1">Angaben zu: {0}</10000>
-	<10000 10001="1">Die E-Mail-Adresse muss eindeutig sein. Sie kann nur für genau einen Benutzeraccount verwendet werden.</10000>
-	<10000 10001="1">Die E-Mail-Adresse muss angegeben werden.</10000>
-	<10000 10001="1">Der Vorname muss angegeben werden.</10000>
-	<10000 10001="1">Der Nachname muss angegeben werden.</10000>
-	<10000 10001="1">Zertifikat erforderlich</10000>
-	<10000 10001="1">Benutzer kann sich einloggen</10000>
-	<10000 10001="1">Passwort neu setzen</10000>
-	<10000 10001="1">Sie können diesen Benutzer auch dauerhaft löschen oder veranlassen, dass er ein neues Passwort setzen muss. Beim Neusetzen des Passworts wird dem Benutzer eine E-Mail mit den entsprechenden Informationen zugeschickt.</10000>
-	<10000 10001="1">Benutzeraccount löschen</10000>
-	<10000 10001="1">Anmelden als anderer Benutzer</10000>
-	<10000 10001="1">Gruppen, denen der Benutzer zugeordnet ist:</10000>
-	<10000 10001="1">(indirekt über die Gruppe: {0})</10000>
-	<10000 10001="1">Keine</10000>
+	Benutzeraccount bearbeiten
+	Benutzeraccount bearbeiten
+	Benutzeraccount bearbeiten
+	Diese E-Mail-Adresse ist bereits einem Benutzeraccount zugeordnet. Die E-Mail-Adresse muss eindeutig sein. Sie kann nur für genau einen Benutzeraccount verwendet werden.
+	Angaben zu: {0}
+	Die E-Mail-Adresse muss eindeutig sein. Sie kann nur für genau einen Benutzeraccount verwendet werden.
+	Die E-Mail-Adresse muss angegeben werden.
+	Der Vorname muss angegeben werden.
+	Der Nachname muss angegeben werden.
+	Zertifikat erforderlich
+	Benutzer kann sich einloggen
+	Passwort neu setzen
+	Sie können diesen Benutzer auch dauerhaft löschen oder veranlassen, dass er ein neues Passwort setzen muss. Beim Neusetzen des Passworts wird dem Benutzer eine E-Mail mit den entsprechenden Informationen zugeschickt.
+	Benutzeraccount löschen
+	Anmelden als anderer Benutzer
+	Gruppen, denen der Benutzer zugeordnet ist:
+	(indirekt über die Gruppe: {0})
+	Keine
 	
-	<10000 10001="1">Der Benutzeraccount konnte aufgrund folgender Abhängigkeiten nicht gelöscht werden:</10000>
-	<10000 10001="1">und</10000>
-	<10000 10001="1">unter dem Benutzeraccount wurden ein oder mehrere Dokumente veröffentlicht</10000>
-	<10000 10001="1">der Benutzer hat eine noch im Geschäftsgang befindliche Veröffentlichung</10000>
-	<10000 10001="1">der Benutzer muss noch Aufgaben im Rahmen des Geschäftsganges erledigen</10000>
-	<10000 10001="1">zu dem Benutzer gibt es eine sonstige Abhängigkeit im System</10000>
+	Der Benutzeraccount konnte aufgrund folgender Abhängigkeiten nicht gelöscht werden:
+	und
+	unter dem Benutzeraccount wurden ein oder mehrere Dokumente veröffentlicht
+	der Benutzer hat eine noch im Geschäftsgang befindliche Veröffentlichung
+	der Benutzer muss noch Aufgaben im Rahmen des Geschäftsganges erledigen
+	zu dem Benutzer gibt es eine sonstige Abhängigkeit im System
 		
-	<!-- org.dspace.app.xmlui.administrative.eperson.DeleteEPeopleConfirm -->
-	<10000 10001="1">Benutzeraccount löschen bestätigen</10000>
-	<10000 10001="1">Löschung bestätigen</10000>
-	<10000 10001="1">Löschung bestätigen</10000>
-	<10000 10001="1">Der folgende Benutzeraccount wird gelöscht: </10000>
-	<10000 10001="1">Löschung durchführen</10000>
-	<10000 10001="1">ID</10000>
-	<10000 10001="1">Name</10000>
-	<10000 10001="1">E-Mail-Adresse</10000>
+	Benutzeraccount löschen bestätigen
+	Löschung bestätigen
+	Löschung bestätigen
+	Der folgende Benutzeraccount wird gelöscht: 
+	Löschung durchführen
+	ID
+	Name
+	E-Mail-Adresse
 
-	<!-- general items for all of the group classes -->
-	<10000 10001="1">Benutzergruppen verwalten</10000>
+	Benutzergruppen verwalten
 
-	<!-- org.dspace.app.xmlui.administrative.group.ManageGroupsMain -->
-	<10000 10001="1">Benutzergruppen verwalten</10000>
-	<10000 10001="1">Benutzergruppenverwaltung</10000>
-	<10000 10001="1">Aktionen</10000>
-	<10000 10001="1">Eine neue Gruppe anlegen</10000>
-	<10000 10001="1">Klicken Sie hier, um eine neue Gruppe anzulegen.</10000>
-	<10000 10001="1">Auflistung der Gruppen</10000>
-	<10000 10001="1">Klicken Sie hier, um sich die Gruppen auflisten zu lassen.</10000>
-	<10000 10001="1">Gruppensuche</10000>
-	<10000 10001="1">Sie können nach jedem Teil des Gruppennamens suchen.</10000>
-	<10000 10001="1">Suchergebnisse</10000>
-	<10000 10001="1"></10000>
-	<10000 10001="1">ID</10000>
-	<10000 10001="1">Name</10000>
-	<10000 10001="1">Mitglieder</10000>
-	<10000 10001="1">Sammlung</10000>
-	<10000 10001="1">Anzeige</10000>
-	<10000 10001="1">Gruppen löschen</10000>
-	<10000 10001="1">Ihre Suche ergab keine Treffer</10000>
-
-	<!-- org.dspace.app.xmlui.administrative.group.EditGroupForm -->
-	<10000 10001="1">Benutzergruppeneditor</10000>
-	<10000 10001="1">Benutzergruppe bearbeiten</10000>
-	<10000 10001="1">Benutzergruppe bearbeiten: {0} (ID: {1})</10000>
-	<10000 10001="1">Benutzergruppeneditor: neue Gruppe</10000>
-	<10000 10001="1">Suche löschen</10000>
-	<10000 10001="1">Mitglied</10000>
-	<10000 10001="1">Zyklus</10000>
-	<10000 10001="1">anhängig</10000>
-	<10000 10001="1" klicken.</10000>
-	<10000 10001="1">Hinzufügen</10000>
-	<10000 10001="1">Entfernen</10000>
-	<10000 10001="1">Diese Gruppe ist mit folgender Sammlung assoziiert: </10000>
-	<10000 10001="1">Diese Gruppe ist mit folgendem Bereich assoziiert: </10000>
-	<10000 10001="1">Gruppennamen ändern: </10000>
-	<10000 10001="1">Diese Gruppe gehört zu einer bestimmten Sammlung und der Name kann nicht geändert werden.</10000>
-	<10000 10001="1">Suche nach Mitgliedern zum Hinzufügen: </10000>
-	<10000 10001="1">Benutzer</10000>
-	<10000 10001="1">Gruppen</10000>
-	<10000 10001="1">Ihre Suche ergab keinen Treffer</10000>
-	<10000 10001="1">ID</10000>
-	<10000 10001="1">Name</10000>
-	<10000 10001="1">E-Mail</10000>
-	<10000 10001="1"></10000>
-	<10000 10001="1">ID</10000>
-	<10000 10001="1">Name</10000>
-	<10000 10001="1">Mitglieder</10000>
-	<10000 10001="1">Sammlung</10000>
-	<10000 10001="1"></10000>
-	<10000 10001="1">anzeigen</10000>
-	<10000 10001="1">Mitglieder</10000>
-	<10000 10001="1">ID</10000>
-	<10000 10001="1">Name</10000>
-	<10000 10001="1">E-Mail</10000>
-	<10000 10001="1"></10000>
-	<10000 10001="1">Gruppe: {0}</10000>	
-	<10000 10001="1">Diese Gruppe hat keine Mitglieder.</10000>
-	<10000 10001="1">[anhängig]</10000>
-	<10000 10001="1">Mitglieder entfernen</10000>
-	<10000 10001="1">Mitglieder entfernen</10000>
+	Benutzergruppen verwalten
+	Benutzergruppenverwaltung
+	Aktionen
+	Eine neue Gruppe anlegen
+	Klicken Sie hier, um eine neue Gruppe anzulegen.
+	Auflistung der Gruppen
+	Klicken Sie hier, um sich die Gruppen auflisten zu lassen.
+	Gruppensuche
+	Sie können nach jedem Teil des Gruppennamens suchen.
+	Suchergebnisse
 	
-	<!-- org.dspace.app.xmlui.administrative.group.DeleteGroupsConfirm -->
-	<10000 10001="1">Löschung der Gruppe bestätigen</10000>
-	<10000 10001="1">Löschung bestätigen</10000>
-	<10000 10001="1">Löschung bestätigen</10000>
-	<10000 10001="1">Die folgende Gruppe wird gelöscht:</10000>
-	<10000 10001="1">ID</10000>
-	<10000 10001="1">Name</10000>
-	<10000 10001="1">Benutzer</10000>
-	<10000 10001="1">Gruppen</10000>
+	ID
+	Name
+	Mitglieder
+	Sammlung
+	Anzeige
+	Gruppen löschen
+	Ihre Suche ergab keine Treffer
+
+	Benutzergruppeneditor
+	Benutzergruppe bearbeiten
+	Benutzergruppe bearbeiten: {0} (ID: {1})
+	Benutzergruppeneditor: neue Gruppe
+	Suche löschen
+	Mitglied
+	Zyklus
+	anhängig
+	 klicken.
+	Hinzufügen
+	Entfernen
+	Diese Gruppe ist mit folgender Sammlung assoziiert: 
+	Diese Gruppe ist mit folgendem Bereich assoziiert: 
+	Gruppennamen ändern: 
+	Diese Gruppe gehört zu einer bestimmten Sammlung und der Name kann nicht geändert werden.
+	Suche nach Mitgliedern zum Hinzufügen: 
+	Benutzer
+	Gruppen
+	Ihre Suche ergab keinen Treffer
+	ID
+	Name
+	E-Mail
 	
-	<!-- general items for all of the registries classes -->
-	<10000 10001="1">Referenzliste der Format</10000>
-	<10000 10001="1">Referenzliste der Metadatenschema und -felder</10000>	
+	ID
+	Name
+	Mitglieder
+	Sammlung
 	
-	<!-- org.dspace.app.xmlui.administrative.registries.DeleteBitstreamFormatsConfirm.java -->
-	<10000 10001="1">Dateiformat</10000>
-	<10000 10001="1">Dateiformate Löschen</10000>
-	<10000 10001="1">Löschung bestätigen</10000>
-	<10000 10001="1" haben.</10000>
-	<10000 10001="1">ID</10000>
-	<10000 10001="1">MIME Type</10000>
-	<10000 10001="1">Name</10000>
+	anzeigen
+	Mitglieder
+	ID
+	Name
+	E-Mail
+	
+	Gruppe: {0}	
+	Diese Gruppe hat keine Mitglieder.
+	[anhängig]
+	Mitglieder entfernen
+	Mitglieder entfernen
+	
+	Löschung der Gruppe bestätigen
+	Löschung bestätigen
+	Löschung bestätigen
+	Die folgende Gruppe wird gelöscht:
+	ID
+	Name
+	Benutzer
+	Gruppen
+	
+	Referenzliste der Format
+	Referenzliste der Metadatenschema und -felder	
+	
+	Dateiformat
+	Dateiformate Löschen
+	Löschung bestätigen
+	 haben.
+	ID
+	MIME Type
+	Name
 
-	<!-- org.dspace.app.xmlui.administrative.registries.DeleteMetadataFieldsConfirm.java -->
-	<10000 10001="1">Felder löschen</10000>
-	<10000 10001="1">Felder löschen/</10000>
-	<10000 10001="1">Löschung bestätigen</10000>
-	<10000 10001="1">Sind Sie <b>absolut</b> sicher, dass dieses Feld gelöscht werden soll? Stellen Sie vorher sicher, dass dieses Metadatenfeld von keinem Dokument verwendet wird.</10000>
-	<10000 10001="1">Diese Aktion verursacht einen Fehler, wenn ein Item Metadaten dieses Feldtyps enthält.</10000>
-	<10000 10001="1">ACHTUNG: </10000>
-	<10000 10001="1">ID</10000>
-	<10000 10001="1">Name</10000>
-	<10000 10001="1">Gültigkeitsbereich</10000>
+	Felder löschen
+	Felder löschen/
+	Löschung bestätigen
+	Sind Sie <b>absolut</b> sicher, dass dieses Feld gelöscht werden soll? Stellen Sie vorher sicher, dass dieses Metadatenfeld von keinem Dokument verwendet wird.
+	Diese Aktion verursacht einen Fehler, wenn ein Item Metadaten dieses Feldtyps enthält.
+	ACHTUNG: 
+	ID
+	Name
+	Gültigkeitsbereich
 
-	<!-- org.dspace.app.xmlui.administrative.registries.DeleteMetadataSchemaConfirm.java-->
-	<10000 10001="1">Schema löschen</10000>
-	<10000 10001="1">Schema löschen</10000>
-	<10000 10001="1">Löschung bestätigen</10000>
-	<10000 10001="1">Sind Sie <b>absolut</b> sicher, dass dieses Schema gelöscht werden soll? Wenn Dokumente Metadatenfelder dieses Schemas enthalten, kann es nicht gelöscht werden.</10000>
-	<10000 10001="1">WARNING: </10000>
-	<10000 10001="1">Der Löschung verursacht einen Fehler, wenn Dokumente Metadatenfelder dieses Schemas enthalten.</10000>
-	<10000 10001="1">ID</10000>
-	<10000 10001="1">Namensraum</10000>
-	<10000 10001="1">Name</10000>
+	Schema löschen
+	Schema löschen
+	Löschung bestätigen
+	Sind Sie <b>absolut</b> sicher, dass dieses Schema gelöscht werden soll? Wenn Dokumente Metadatenfelder dieses Schemas enthalten, kann es nicht gelöscht werden.
+	WARNING: 
+	Der Löschung verursacht einen Fehler, wenn Dokumente Metadatenfelder dieses Schemas enthalten.
+	ID
+	Namensraum
+	Name
 
-	<!-- org.dspace.app.xmlui.administrative.registries.EditBitstreamFormat.java -->
-	<10000 10001="1">Dateiformat</10000>
-	<10000 10001="1">Dateiformat</10000>
-	<10000 10001="1">Neues Dateiformat</10000>
-	<10000 10001="1">Dateiformat: {0}</10000>
-	<10000 10001="1">Bitte beschreiben Sie das oben genannte Dateiformat. Formatnamen müssen eindeutig sein, MIME Typen nicht. Sie können einzelne Registereinträge für verschieden Versionen von Formaten machen.</10000>
-	<10000 10001="1">Name</10000>
-	<10000 10001="1">Ein eindeutiger Name für das Format, z. B.: Microsoft Word XP or Microsoft Word 2000</10000>
-	<10000 10001="1">Das Feld Name ist obligatorisch.</10000>
-	<10000 10001="1">MIME Typ</10000>
-	<10000 10001="1">Der MIME Typ des Formates muss nicht eindeutig sein.</10000>
-	<10000 10001="1">Beschreibung</10000>
-	<10000 10001="1">Unterstützungsgrad</10000>
-	<10000 10001="1">Der Unterstützungsgrad, den Ihre Einrichtung für das Format gewährleistet.</10000>
-	<10000 10001="1">Unbekannt</10000>
-	<10000 10001="1">Bekannt</10000>
-	<10000 10001="1">Unterstützt</10000>
-	<10000 10001="1">Intern</10000>
-	<10000 10001="1">Formate, die als intern gekennzeichnet sind, sind für den Benutzer nicht sichtbar und werden nur zu administrativen Zwecken gebraucht.</10000>
-	<10000 10001="1">Dateierweiterungen</10000>
-	<10000 10001="1">Dateierweiterungen werden verwendet, um Dateiformate zu identifizieren. Sie können verschieden Erweiterungen pro Format eingeben.</10000>
+	Dateiformat
+	Dateiformat
+	Neues Dateiformat
+	Dateiformat: {0}
+	Bitte beschreiben Sie das oben genannte Dateiformat. Formatnamen müssen eindeutig sein, MIME Typen nicht. Sie können einzelne Registereinträge für verschieden Versionen von Formaten machen.
+	Name
+	Ein eindeutiger Name für das Format, z. B.: Microsoft Word XP or Microsoft Word 2000
+	Das Feld Name ist obligatorisch.
+	MIME Typ
+	Der MIME Typ des Formates muss nicht eindeutig sein.
+	Beschreibung
+	Unterstützungsgrad
+	Der Unterstützungsgrad, den Ihre Einrichtung für das Format gewährleistet.
+	Unbekannt
+	Bekannt
+	Unterstützt
+	Intern
+	Formate, die als intern gekennzeichnet sind, sind für den Benutzer nicht sichtbar und werden nur zu administrativen Zwecken gebraucht.
+	Dateierweiterungen
+	Dateierweiterungen werden verwendet, um Dateiformate zu identifizieren. Sie können verschieden Erweiterungen pro Format eingeben.
 
-	<!-- org.dspace.app.xmlui.administrative.registries.EditMetadataSchema.java -->
-	<10000 10001="1">Metadatenschema</10000>
-	<10000 10001="1">Metadatenschema</10000>
-	<10000 10001="1"</10000>
-	<10000 10001="1". Sie können Felder hinzufügen, löschen oder aktualisieren. Felder können zudem in ein anderes Schema verschoben werden. </10000>
-	<10000 10001="1">Felder des Metadatenschemas</10000>
-	<10000 10001="1"></10000>
-	<10000 10001="1">ID</10000>
-	<10000 10001="1">Feld</10000>
-	<10000 10001="1">Gültigkeitsbereich</10000>
-	<10000 10001="1">Keine Metadatenfelder vorhanden</10000>
-	<10000 10001="1">Felder löschen</10000>
-	<10000 10001="1">Felder in ein anderes Schema verschieben</10000>
-	<10000 10001="1">Neues Feld hinzufügen</10000>
-	<10000 10001="1">Feldname</10000>
-	<10000 10001="1">Gültigkeitsbereich</10000>
-	<10000 10001="1">Anmerkungen zu diesem Feld</10000>
-	<10000 10001="1">Ein neues Feld hinzufügen</10000>
-	<10000 10001="1">Aktualisieren von Feld: {0}</10000>
-	<10000 10001="1">Feld aktualisieren</10000>
-	<10000 10001="1">Fehler</10000>
-	<10000 10001="1">Dieses Feld gibt es schon, alle Element-Qualifier-Kombinationen müssen eindeutig sein.</10000>
-	<10000 10001="1">Sie müssen das Element angeben.</10000>
-	<10000 10001="1">Der Elementbezeichner enthält ein ungültiges Zeichen. Er darf keine Punkte, Unterstriche oder Leerzeichen enthalten.</10000>
-	<10000 10001="1">Der Elementbezeichner ist zu lang, die maximale Länge beträgt 32 Zeichen.</10000>
-	<10000 10001="1">Der Qualifierbezeichner ist zu lang, die maximale Länge beträgt 32 Zeichen.</10000>
-	<10000 10001="1">Der Bezeichner des Qualifier enthält ein ungültige Zeichen. Nicht zulässig sind Punkte, Unterstriche und Leerzeichen.</10000>
+	Metadatenschema
+	Metadatenschema
+	
+	. Sie können Felder hinzufügen, löschen oder aktualisieren. Felder können zudem in ein anderes Schema verschoben werden. 
+	Felder des Metadatenschemas
+	
+	ID
+	Feld
+	Gültigkeitsbereich
+	Keine Metadatenfelder vorhanden
+	Felder löschen
+	Felder in ein anderes Schema verschieben
+	Neues Feld hinzufügen
+	Feldname
+	Gültigkeitsbereich
+	Anmerkungen zu diesem Feld
+	Ein neues Feld hinzufügen
+	Aktualisieren von Feld: {0}
+	Feld aktualisieren
+	Fehler
+	Dieses Feld gibt es schon, alle Element-Qualifier-Kombinationen müssen eindeutig sein.
+	Sie müssen das Element angeben.
+	Der Elementbezeichner enthält ein ungültiges Zeichen. Er darf keine Punkte, Unterstriche oder Leerzeichen enthalten.
+	Der Elementbezeichner ist zu lang, die maximale Länge beträgt 32 Zeichen.
+	Der Qualifierbezeichner ist zu lang, die maximale Länge beträgt 32 Zeichen.
+	Der Bezeichner des Qualifier enthält ein ungültige Zeichen. Nicht zulässig sind Punkte, Unterstriche und Leerzeichen.
 
-	<!-- org.dspace.app.xmlui.administrative.registries.FormatRegistryMain.java -->
-	<10000 10001="1">Dateiformate Referenzliste</10000>
-	<10000 10001="1">Dateiformate Referenzliste</10000>
-	<10000 10001="1"internal' gekennzeichnet sind, bleiben dem Benutzer verborgen und werden für administrative Zwecke verwendet.</10000>
-	<10000 10001="1">Dateiformat hinzufügen</10000>
-	<10000 10001="1"></10000>
-	<10000 10001="1">ID</10000>
-	<10000 10001="1">Name</10000>
-	<10000 10001="1">MIME Typ</10000>
-	<10000 10001="1">Unterstützungsgrad</10000>
-	<10000 10001="1">(<i>intern</i>)</10000>
-	<10000 10001="1">Unbekannt</10000>
-	<10000 10001="1">Bekannt</10000>
-	<10000 10001="1">Unterstützungsgrad</10000>
-	<10000 10001="1">Formate löschen</10000>
+	Dateiformate Referenzliste
+	Dateiformate Referenzliste
+	internal' gekennzeichnet sind, bleiben dem Benutzer verborgen und werden für administrative Zwecke verwendet.
+	Dateiformat hinzufügen
+	
+	ID
+	Name
+	MIME Typ
+	Unterstützungsgrad
+	(<i>intern</i>)
+	Unbekannt
+	Bekannt
+	Unterstützungsgrad
+	Formate löschen
 
-	<!-- org.dspace.app.xmlui.administrative.registries.MetadatRegistryMain.java -->
-	<10000 10001="1">Metadaten Referenzliste</10000>
-	<10000 10001="1">Metadaten Referenzliste</10000>
-	<10000 10001="1">Die Metadatenreferenzliste enthält alle Metadatenfelder dieses Repositoriums. Die Metadatenfelder können auf mehrere Schema aufgeteilt werden. DSpace benötigt als Basis qualifiziertes Dublin Core. Sie können das Dublin Core Schema erweitern oder neue Schemata anlegen.</10000>
-	<10000 10001="1"></10000>
-	<10000 10001="1">ID</10000>
-	<10000 10001="1">Namensraum</10000>
-	<10000 10001="1">Name</10000>
-	<10000 10001="1">Schema Löschen</10000>
-	<10000 10001="1">Neues Schema hinzufügen</10000>
-	<10000 10001="1">Namensraum</10000>
-	<10000 10001="1">Namensräume für ein neues Schema sollten bestehende URI's sein.</10000>
-	<10000 10001="1">Dieses Feld ist obligatorisch.</10000>
-	<10000 10001="1">Name</10000>
-	<10000 10001="1">Kurzbezeichnung des Schemas. Diese wird als Präfix für das Schema verwendet. Der Name darf maximal 32 Zeichen lang sein und KEINE Punkte, Unterstriche oder Leerzeichen enthalten.</10000>
-	<10000 10001="1">Dieses Feld ist obligatorisch. Es muss weniger asl 32 Zeichen lang sein und darf KEINE Punkte, Unterstriche oder Leerzeichen enthalten.</10000>
-	<10000 10001="1">Ein neues Schema hinzufügen</10000>
+	Metadaten Referenzliste
+	Metadaten Referenzliste
+	Die Metadatenreferenzliste enthält alle Metadatenfelder dieses Repositoriums. Die Metadatenfelder können auf mehrere Schema aufgeteilt werden. DSpace benötigt als Basis qualifiziertes Dublin Core. Sie können das Dublin Core Schema erweitern oder neue Schemata anlegen.
+	
+	ID
+	Namensraum
+	Name
+	Schema Löschen
+	Neues Schema hinzufügen
+	Namensraum
+	Namensräume für ein neues Schema sollten bestehende URI's sein.
+	Dieses Feld ist obligatorisch.
+	Name
+	Kurzbezeichnung des Schemas. Diese wird als Präfix für das Schema verwendet. Der Name darf maximal 32 Zeichen lang sein und KEINE Punkte, Unterstriche oder Leerzeichen enthalten.
+	Dieses Feld ist obligatorisch. Es muss weniger asl 32 Zeichen lang sein und darf KEINE Punkte, Unterstriche oder Leerzeichen enthalten.
+	Ein neues Schema hinzufügen
 
-	<!-- org.dspace.app.xmlui.administrative.registries.MoveMetadataField.java -->
-	<10000 10001="1">Felder verschieben</10000>
-	<10000 10001="1">Felder verschieben</10000>
-	<10000 10001="1">Metadatenfelder verschieben</10000>
-	<10000 10001="1">Wählen Sie ein Zielschema aus, in das die Felder verschoben werden sollen. Wenn das Zielschema bereits ein Feld mit gleichem Namen enthält, wird das Feld nicht verschoben.</10000>
-	<10000 10001="1">ID</10000>
-	<10000 10001="1">Name</10000>
-	<10000 10001="1">Gültigkeitsbereich</10000>
-	<10000 10001="1">Verschiebe in das Schema: </10000>
-	<10000 10001="1">Felder verschieben</10000>
+	Felder verschieben
+	Felder verschieben
+	Metadatenfelder verschieben
+	Wählen Sie ein Zielschema aus, in das die Felder verschoben werden sollen. Wenn das Zielschema bereits ein Feld mit gleichem Namen enthält, wird das Feld nicht verschoben.
+	ID
+	Name
+	Gültigkeitsbereich
+	Verschiebe in das Schema: 
+	Felder verschieben
 		
 	
 	
-	<!-- general authorization keywords -->
-	<10000 10001="1">Rechte</10000>
-	<10000 10001="1">Auflistung der Rechte</10000>
+	Rechte
+	Auflistung der Rechte
 	
-	<!-- org.dspace.app.xmlui.administrative.authorization.AuthorizationMain -->
-	<10000 10001="1">Rechte verwalten</10000>
-	<10000 10001="1">Rechte verwalten</10000>
-	<10000 10001="1">Dokumentbezogene Rechte</10000>
-	<10000 10001="1">Die ID, die Sie eingegeben werden, entspricht keiner bekannten ID.</10000>
-	<10000 10001="1">Ein Dokument auswählen</10000>
-	<10000 10001="1">Dokumente können über das Handle oder die ID herausgesucht werden.</10000>
-	<10000 10001="1">Finde</10000>
-	<10000 10001="1">Erweiterte Rechtevergabe</10000>
-	<10000 10001="1">Klicken Sie hier, um zur erweiterten Rechtevergabe zu gelangen.</10000>
-	<10000 10001="1">Rechte von Bereichen und Sammlungen</10000>
-	<10000 10001="1">Klicken Sie auf einen Bereich oder eine Sammlung, um die zugehörigen Rechte zu bearbeiten.</10000>
+	Rechte verwalten
+	Rechte verwalten
+	Dokumentbezogene Rechte
+	Die ID, die Sie eingegeben werden, entspricht keiner bekannten ID.
+	Ein Dokument auswählen
+	Dokumente können über das Handle oder die ID herausgesucht werden.
+	Finde
+	Erweiterte Rechtevergabe
+	Klicken Sie hier, um zur erweiterten Rechtevergabe zu gelangen.
+	Rechte von Bereichen und Sammlungen
+	Klicken Sie auf einen Bereich oder eine Sammlung, um die zugehörigen Rechte zu bearbeiten.
 	
 	
 	
-	<!-- org.dspace.app.xmlui.administrative.authorization.EditContainerPolicies -->
-	<10000 10001="1">Rechte bearbeiten</10000>
-	<10000 10001="1">Bestehende Rechte</10000>
-	<10000 10001="1" ({1},ID: {2})</10000>
-	<10000 10001="1" ({1},ID: {2})</10000>
-	<10000 10001="1">Klicken Sie hier, um eine neue Autorisierung anzulegen. </10000>
-	<10000 10001="1">Hinzufügen</10000>
-	<10000 10001="1">ID</10000>
-    <10000 10001="1">Name</10000>	
-	<10000 10001="1">Aktion</10000>
-	<10000 10001="1">Enddatum</10000>
-	<10000 10001="1">Gruppe</10000>
-    <10000 10001="1">Anfangsdatum</10000>	
-	<10000 10001="1">Auswahl löschen</10000>
-	<10000 10001="1">Bearbeiten</10000>
+	Rechte bearbeiten
+	Bestehende Rechte
+	 ({1},ID: {2})
+	 ({1},ID: {2})
+	Klicken Sie hier, um eine neue Autorisierung anzulegen. 
+	Hinzufügen
+	ID
+    Name	
+	Aktion
+	Enddatum
+	Gruppe
+    Anfangsdatum	
+	Auswahl löschen
+	Bearbeiten
 	
 
 	
-	<!-- org.dspace.app.xmlui.administrative.authorization.EditItemPolicies -->
-	<10000 10001="1">Rechte des Dokuments bearbeiten</10000>
-	<10000 10001="1">Rechteliste</10000>
-	<10000 10001="1">Rechte für das Dokument {0} (ID={1})</10000>
-	<10000 10001="1">Mit diesem Editor können Sie die Rechte eines Dokumentes und seiner Bestandteile einsehen und ändern. Dokumente sind Behälter für Bündel und Bündel sind Behälter für Dateien. Behälter haben üblicherweise  ADD/REMOVE/READ/WRITE Rechte, wohingegen Dateien nur READ/WRITE Rechte haben.</10000>
-	<10000 10001="1">Beachten Sie das Extrabündel mit Datei pro Dokument, welches die Lizenzbestimmungen enthält.</10000>
-	<10000 10001="1">Rechte des Dokuments</10000>
-	<10000 10001="1">Rechtes des Bündels {0} ({1})</10000>
-	<10000 10001="1">Datei {0} ({1})</10000>
-	<10000 10001="1">Ein neues Recht für ein Dokument hinzufügen</10000>
-	<10000 10001="1">Ein neues Recht für ein Bündle hinzufügen</10000>
-	<10000 10001="1">Ein neues Recht für eine Datei hinzufügen</10000>
+	Rechte des Dokuments bearbeiten
+	Rechteliste
+	Rechte für das Dokument {0} (ID={1})
+	Mit diesem Editor können Sie die Rechte eines Dokumentes und seiner Bestandteile einsehen und ändern. Dokumente sind Behälter für Bündel und Bündel sind Behälter für Dateien. Behälter haben üblicherweise  ADD/REMOVE/READ/WRITE Rechte, wohingegen Dateien nur READ/WRITE Rechte haben.
+	Beachten Sie das Extrabündel mit Datei pro Dokument, welches die Lizenzbestimmungen enthält.
+	Rechte des Dokuments
+	Rechtes des Bündels {0} ({1})
+	Datei {0} ({1})
+	Ein neues Recht für ein Dokument hinzufügen
+	Ein neues Recht für ein Bündle hinzufügen
+	Ein neues Recht für eine Datei hinzufügen
 	
-	<10000 10001="1">Es sind keine Rechte mit diesem Objekt assoziiert.</10000>
+	Es sind keine Rechte mit diesem Objekt assoziiert.
 	
 	
-	<!-- org.dspace.app.xmlui.administrative.authorization.EditPolicyForm -->
-	<10000 10001="1">Rechte bearbeiten</10000>
-	<10000 10001="1">Rechte bearbeiten</10000>
-	<10000 10001="1">Neues Recht für {0} {1}</10000>
-	<10000 10001="1">Bearbeite Recht {0} für {1} {2}</10000>
-	<10000 10001="1">Keine Gruppe ausgewählt</10000>
-	<10000 10001="1">Keine Aktion ausgewählt</10000>
-	<10000 10001="1"></10000>
-	<10000 10001="1">ID</10000>
-	<10000 10001="1">Name</10000>
-	<10000 10001="1">Aktionen für diese Ressource</10000>
+	Rechte bearbeiten
+	Rechte bearbeiten
+	Neues Recht für {0} {1}
+	Bearbeite Recht {0} für {1} {2}
+	Keine Gruppe ausgewählt
+	Keine Aktion ausgewählt
 	
-	<10000 10001="1">Setzen</10000>
-	<10000 10001="1">aktuelle</10000>
-	<10000 10001="1">Suchergebnisse</10000>
-	<10000 10001="1">Gruppe auswählen</10000>
-	<10000 10001="1">Gruppe suchen</10000>
-    <10000 10001="1">Suche</10000>
-    <10000 10001="1">Aktion wählen</10000>
+	ID
+	Name
+	Aktionen für diese Ressource
+	
+	Setzen
+	aktuelle
+	Suchergebnisse
+	Gruppe auswählen
+	Gruppe suchen
+    Suche
+    Aktion wählen
     
-    <10000 10001="1">Name</10000>
-    <10000 10001="1">Beschreibung</10000>
-    <10000 10001="1">Enddatum</10000>
-    <10000 10001="1">Anfangsdatum</10000>
-	<10000 10001="1">Ungültiges Datum</10000>
-	<10000 10001="1">Es existiert bereits ein identisches Zugriffsrecht für diese Gruppe und diese Aktion.</10000>	
-    <10000 10001="1">Das Startdatum liegt nach dem Enddatum.</10000>	      
-    <10000 10001="1">Zulässige Formate: jjjj, jjjj-mm, jjjj-mm-tt</10000>    
+    Name
+    Beschreibung
+    Enddatum
+    Anfangsdatum
+	Ungültiges Datum
+	Es existiert bereits ein identisches Zugriffsrecht für diese Gruppe und diese Aktion.	
+    Das Startdatum liegt nach dem Enddatum.	      
+    Zulässige Formate: jjjj, jjjj-mm, jjjj-mm-tt    
 	
-	<!-- org.dspace.app.xmlui.administrative.authorization.AdvacedAuthorizationsForm -->
-	<10000 10001="1">Erweiterte Rechtevergabe</10000>
-	<10000 10001="1">Erweiterte Autorisierungen</10000>
-	<10000 10001="1">Erweiterte Rechtevergabe</10000>
-	<10000 10001="1">Erlaubt die Verwendung von Trunkierung und das Löschen aller mit einem Objkettyp einer Sammlung assoziierten Rechte. ACHTUNG - wenn Sie READ Rechte eines Dokuments löschen, ist dieses Dokument nicht mehr zugänglich.</10000>
-	<10000 10001="1">Für alle ausgewählten Gruppen ...</10000>
-    <10000 10001="1">... das Recht folgende Aktionen auszuführen...</10000>
-	<10000 10001="1">...für alle aufgeführten Objekttypen...</10000>
-    <10000 10001="1">...über folgende Sammlungen.</10000>
-	<10000 10001="1">Gruppe</10000>
-	<10000 10001="1">Aktion</10000>
-	<10000 10001="1">Inhaltstyp</10000>
-	<10000 10001="1">Sammlung</10000>
-	<10000 10001="1">Rechte hinzufügen</10000>
-	<10000 10001="1">Rechte löschen</10000>
-	<10000 10001="1">Zulässige Formate: JJJJ, JJJJ-MM, JJJJ-MM-TT</10000>
+	Erweiterte Rechtevergabe
+	Erweiterte Autorisierungen
+	Erweiterte Rechtevergabe
+	Erlaubt die Verwendung von Trunkierung und das Löschen aller mit einem Objkettyp einer Sammlung assoziierten Rechte. ACHTUNG - wenn Sie READ Rechte eines Dokuments löschen, ist dieses Dokument nicht mehr zugänglich.
+	Für alle ausgewählten Gruppen ...
+    ... das Recht folgende Aktionen auszuführen...
+	...für alle aufgeführten Objekttypen...
+    ...über folgende Sammlungen.
+	Gruppe
+	Aktion
+	Inhaltstyp
+	Sammlung
+	Rechte hinzufügen
+	Rechte löschen
+	Zulässige Formate: JJJJ, JJJJ-MM, JJJJ-MM-TT
 
-    <10000 10001="1">Name</10000>
-    <10000 10001="1">Beschreibung</10000>
-    <10000 10001="1">Anfangsdatum</10000>
-    <10000 10001="1">Enddatum</10000>
-    <10000 10001="1">Ungültiges Datum</10000>
-    <10000 10001="1">Anfangsdatum ist später als das Enddatum</10000>
-    <10000 10001="1">Bitte wählen Sie mindestens eine Gruppe aus.</10000>
-    <10000 10001="1">Bitte wählen Sie mindestens eine Sammlung aus.</10000>	
+    Name
+    Beschreibung
+    Anfangsdatum
+    Enddatum
+    Ungültiges Datum
+    Anfangsdatum ist später als das Enddatum
+    Bitte wählen Sie mindestens eine Gruppe aus.
+    Bitte wählen Sie mindestens eine Sammlung aus.	
 	
-	<!-- org.dspace.app.xmlui.administrative.authorization.DeletePoliciesConfirm -->
-	<10000 10001="1">Löschung der Autorisierung bestätigen</10000>
-	<10000 10001="1">Löschung bestätigen</10000>
-	<10000 10001="1">Löschung bestätigen</10000>
-	<10000 10001="1">Die folgenden Rechte werden gelöscht: </10000>
-	<10000 10001="1">ID</10000>
-	<10000 10001="1">Aktion</10000>
-	<10000 10001="1">Gruppe</10000>
+	Löschung der Autorisierung bestätigen
+	Löschung bestätigen
+	Löschung bestätigen
+	Die folgenden Rechte werden gelöscht: 
+	ID
+	Aktion
+	Gruppe
 	
-	<!-- general edit item 10000s -->
-	<10000 10001="1">Dokumente</10000>
-	<10000 10001="1">Metadatenschablone für die Sammlung: {0} bearbeiten</10000>
-	<10000 10001="1">Dokument bearbeiten</10000>
-	<10000 10001="1">Dokumentstatus</10000>
-	<10000 10001="1">Zugehörige Dateien</10000>
-	<10000 10001="1">Metadaten</10000>
-	<10000 10001="1">Dokumentanzeige</10000>
-	<10000 10001="1">Pflege</10000>
-    <10000 10001="1">Zu Bearbeiten</10000>
+	Dokumente
+	Metadatenschablone für die Sammlung: {0} bearbeiten
+	Dokument bearbeiten
+	Dokumentstatus
+	Zugehörige Dateien
+	Metadaten
+	Dokumentanzeige
+	Pflege
+    Zu Bearbeiten
 	
-	<!-- org.dspace.app.xmlui.administrative.item.AddBitstreamForm -->
-	<10000 10001="1">Datei hochladen</10000>
-	<10000 10001="1">Datei hochladen</10000>
-	<10000 10001="1">Eine neue Datei hochladen</10000>
-	<10000 10001="1">Bündel</10000>
-	<10000 10001="1">Originaldateien (standard)</10000>
-	<10000 10001="1">Dateien mit Metainformationen</10000>
-	<10000 10001="1">Vorschaubilder</10000>
-	<10000 10001="1">Lizenzen</10000>
-	<10000 10001="1">Creative Commons Lizenz</10000>
-	<10000 10001="1">Datei</10000>
-	<10000 10001="1" klicken, öffnet sich ein neues Fenster, in dem Sie die Datei auf Ihrem Rechner heraussuchen können. Nachdem Sie die entsprechende Datei gewählt haben, wird das Fenster automatisch geschlossen.</10000>
-	<10000 10001="1">Beschreibung</10000>
-	<10000 10001="1">Zusätzlich können Sie eine kurze Beschreibung der Datei, z. B. Anhang, Hauptband, Messergebnisse usw. eingeben.</10000>
-	<10000 10001="1">Hochladen</10000>
-	<10000 10001="1">Sie benötigen ADD (Hinzufügen) und WRITE (Schreib) Rechte zu mindestens einem Originalbündel, um eine Datei hochspielen zu können.</10000>
+	Datei hochladen
+	Datei hochladen
+	Eine neue Datei hochladen
+	Bündel
+	Originaldateien (standard)
+	Dateien mit Metainformationen
+	Vorschaubilder
+	Lizenzen
+	Creative Commons Lizenz
+	Datei
+	 klicken, öffnet sich ein neues Fenster, in dem Sie die Datei auf Ihrem Rechner heraussuchen können. Nachdem Sie die entsprechende Datei gewählt haben, wird das Fenster automatisch geschlossen.
+	Beschreibung
+	Zusätzlich können Sie eine kurze Beschreibung der Datei, z. B. Anhang, Hauptband, Messergebnisse usw. eingeben.
+	Hochladen
+	Sie benötigen ADD (Hinzufügen) und WRITE (Schreib) Rechte zu mindestens einem Originalbündel, um eine Datei hochspielen zu können.
 	
-	<!-- org.dspace.app.xmlui.administrative.item.DeleteBitstreamConfirm -->
-	<10000 10001="1">Löschung bestätigen</10000>
-	<10000 10001="1">Löschung bestätigen</10000>
-	<10000 10001="1">Löschung(en) bestätigen</10000>
-	<10000 10001="1">Sind Sie sicher, dass Sie diese Datei(en) löschen möchten:</10000>
-	<10000 10001="1">Name</10000>
-	<10000 10001="1">Beschreibung</10000>
-	<10000 10001="1">Format</10000>
+	Löschung bestätigen
+	Löschung bestätigen
+	Löschung(en) bestätigen
+	Sind Sie sicher, dass Sie diese Datei(en) löschen möchten:
+	Name
+	Beschreibung
+	Format
 	
-	<!-- org.dspace.app.xmlui.administrative.item.ConfrimItemForm -->
-	<10000 10001="1">Bestätigen</10000>
-	<10000 10001="1">Bestätigen</10000>
-	<10000 10001="1">Dokument bearbeiten: {0}</10000>
-	<10000 10001="1">Sind Sie sicher, dass das Dokument komplett gelöscht werden soll? Beachten Sie, es gibt keine Verweis auf gelöschte Dokumente. Persistente Identifier können somit ins Leere führen.</10000>
-	<10000 10001="1">Sind Sie sicher, dass dieses Dokument zurückgezogen werden soll?</10000>
-	<10000 10001="1">Sind Sie sicher, dass dieses Dokument wieder zugänglich gemacht werden soll?</10000>
-	<10000 10001="1">Feld</10000>
-	<10000 10001="1">Wert</10000>
-	<10000 10001="1">Sprache</10000>
-	<10000 10001="1">Verwerfen</10000>
-	<10000 10001="1">Wieder aktivieren</10000>
-    <10000 10001="1">Nicht sichtbar machen</10000>
-    <10000 10001="1">Sichtbar machen</10000>	
+	Bestätigen
+	Bestätigen
+	Dokument bearbeiten: {0}
+	Sind Sie sicher, dass das Dokument komplett gelöscht werden soll? Beachten Sie, es gibt keine Verweis auf gelöschte Dokumente. Persistente Identifier können somit ins Leere führen.
+	Sind Sie sicher, dass dieses Dokument zurückgezogen werden soll?
+	Sind Sie sicher, dass dieses Dokument wieder zugänglich gemacht werden soll?
+	Feld
+	Wert
+	Sprache
+	Verwerfen
+	Wieder aktivieren
+    Nicht sichtbar machen
+    Sichtbar machen	
 	
-	<!-- org.dspace.app.xmlui.aspect.administrative.item.MoveItemForm -->
-	<10000 10001="1">Verschieben</10000>
-	<10000 10001="1">Verschieben</10000>
-	<10000 10001="1">Dokument: {0} verschieben</10000>
-	<10000 10001="1">Sammlung</10000>
-	<10000 10001="1">Wählen Sie die Sammlung, in die Sie das Dokument verschieben möchten.</10000>
-	<10000 10001="1">Sammlung wählen</10000>
-	<10000 10001="1">Verschieben</10000>
-    <10000 10001="1">Rechte erben</10000>
-    <10000 10001="1">Die Standardrechte der Zielsammlung erben</10000>	
+	Verschieben
+	Verschieben
+	Dokument: {0} verschieben
+	Sammlung
+	Wählen Sie die Sammlung, in die Sie das Dokument verschieben möchten.
+	Sammlung wählen
+	Verschieben
+    Rechte erben
+    Die Standardrechte der Zielsammlung erben	
 
-	<!-- org.dspace.app.xmlui.administrative.item.EditBitstreamForm -->
-	<10000 10001="1">Datei bearbeiten</10000>
-	<10000 10001="1">Datei bearbeiten</10000>
-	<10000 10001="1">Datei bearbeiten</10000>
-	<10000 10001="1">Datei</10000>
-	<10000 10001="1">Primäre Datei</10000>
-	<10000 10001="1">ja</10000>
-	<10000 10001="1">nein</10000>
-	<10000 10001="1">Beschreibung</10000>
-	<10000 10001="1">Zusätzlich können Sie eine kurze Beschreibung der Datei eingeben, z. B.: Hauptband, Anhang, Messdaten.</10000>
-	<10000 10001="1">Wählen Sie das Dateiformat aus der Liste oder, wenn Ihr Format nicht in der Liste enthalten ist, beschreiben Sie es in dem dafür vorgesehenen Feld.</10000>
-	<10000 10001="1">Ausgewähltes Format</10000>
-	<10000 10001="1">Format nicht zur Auswahl</10000>
-	<10000 10001="1"</strong> und beschreiben Sie das Format in dem dafür vorgesehenen Feld.</10000>
-	<10000 10001="1">Sonstiges Format</10000>
-	<10000 10001="1".</10000>
-    <10000 10001="1">Dateiname</10000>
-    <10000 10001="1">Datei umbenennen. Dies führt zu einer Änderung in der angezeigten URL aber alte Links werden solange sich die Sequence ID nicht ändert korrekt aufgelöst.</10000>
-	<10000 10001="1">Vorher:</10000>
-	<10000 10001="1">Nach oben</10000>
-	<10000 10001="1">Nach unten</10000>
+	Datei bearbeiten
+	Datei bearbeiten
+	Datei bearbeiten
+	Datei
+	Primäre Datei
+	ja
+	nein
+	Beschreibung
+	Zusätzlich können Sie eine kurze Beschreibung der Datei eingeben, z. B.: Hauptband, Anhang, Messdaten.
+	Wählen Sie das Dateiformat aus der Liste oder, wenn Ihr Format nicht in der Liste enthalten ist, beschreiben Sie es in dem dafür vorgesehenen Feld.
+	Ausgewähltes Format
+	Format nicht zur Auswahl
+	</strong> und beschreiben Sie das Format in dem dafür vorgesehenen Feld.
+	Sonstiges Format
+	.
+    Dateiname
+    Datei umbenennen. Dies führt zu einer Änderung in der angezeigten URL aber alte Links werden solange sich die Sequence ID nicht ändert korrekt aufgelöst.
+	Vorher:
+	Nach oben
+	Nach unten
 	
-	<!-- org.dspace.app.xmlui.administrative.item.EditItemBitstreamsForm -->
-	<10000 10001="1">Zur Ressourcegehörige Dateien</10000>
-	<10000 10001="1">Zur Ressourcegehörige Dateien</10000>
-	<10000 10001="1">Dateien</10000>
-	<10000 10001="1"></10000>
-	<10000 10001="1">Name</10000>
-	<10000 10001="1">Beschreibung</10000>
-	<10000 10001="1">Format</10000>
-	<10000 10001="1">Anzeige</10000>
-	<10000 10001="1">Sortierung</10000>
-	<10000 10001="1"> </10000>
-	<10000 10001="1"><strong>Bündle: {0}</strong></10000>
-	<10000 10001="1"> (primär) </10000>
-	<10000 10001="1">anzeigen</10000>
-	<10000 10001="1">Eine neue Datei hochladen</10000>
-	<10000 10001="1">Dateien löschen</10000>
-	<10000 10001="1">Dateisortierung ändern</10000>
-	<10000 10001="1">Sie benötigen ADD (Hinzufügen) und WRITE (Schreib) Rechte an Dokument und Bündel, um eine Datei hochspielen zu können.</10000>
-	<10000 10001="1">Sie benötigen REMOVE (Lösch) Rechte an Dokument und Bündel, um Dateien löschen zu können.</10000>
+	Zur Ressourcegehörige Dateien
+	Zur Ressourcegehörige Dateien
+	Dateien
 	
-	<!-- org.dspace.app.xmlui.administrative.item.EditItemMetadataForm -->
-	<10000 10001="1">Metadaten der Ressource</10000>
-	<10000 10001="1">Metadaten der Ressource</10000>
-	<10000 10001="1">Metadaten hinzufügen</10000>
-	<10000 10001="1">Name</10000>
-	<10000 10001="1">Wert</10000>
-	<10000 10001="1">Sprache</10000>
-	<10000 10001="1">Metadatum hinzufügen</10000>
-	<10000 10001="1">Bitte beachten Sie: Diese Änderungen werden in keiner Weise validiert. Sie sind dafür verantwortlich die korrekten Daten im korrekten Format einzugeben.</10000>
-	<10000 10001="1">Metadaten</10000>
-	<10000 10001="1">Entfernen</10000>
-	<10000 10001="1">Name</10000>
-	<10000 10001="1">Wert</10000>
-	<10000 10001="1">Sprache</10000>
+	Name
+	Beschreibung
+	Format
+	Anzeige
+	Sortierung
+	 
+	<strong>Bündle: {0}</strong>
+	 (primär) 
+	anzeigen
+	Eine neue Datei hochladen
+	Dateien löschen
+	Dateisortierung ändern
+	Sie benötigen ADD (Hinzufügen) und WRITE (Schreib) Rechte an Dokument und Bündel, um eine Datei hochspielen zu können.
+	Sie benötigen REMOVE (Lösch) Rechte an Dokument und Bündel, um Dateien löschen zu können.
+	
+	Metadaten der Ressource
+	Metadaten der Ressource
+	Metadaten hinzufügen
+	Name
+	Wert
+	Sprache
+	Metadatum hinzufügen
+	Bitte beachten Sie: Diese Änderungen werden in keiner Weise validiert. Sie sind dafür verantwortlich die korrekten Daten im korrekten Format einzugeben.
+	Metadaten
+	Entfernen
+	Name
+	Wert
+	Sprache
 
-	<!-- org.dspace.app.xmlui.administrative.item.EditItemStatusForm -->
-	<10000 10001="1">Dokumentstatus</10000>
-	<10000 10001="1">Dokumentstatus</10000>
-	<10000 10001="1">Willkommen in der Dokumentverwaltung. Hier können Sie Dokumente verwerfen, wieder aktivieren oder löschen. Zudem können Sie Metadaten und zugehörige Dateien bearbeiten, hinzufügen oder löschen.</10000>
-	<10000 10001="1">Interne Dokument-ID</10000>
-	<10000 10001="1">Handle</10000>
-	<10000 10001="1">Letzte Änderung</10000>
-	<10000 10001="1">In den Sammlungen</10000>
-	<10000 10001="1">Zur Dokumentansicht</10000>
-	<10000 10001="1">Rechte des Dokumentes</10000>
-	<10000 10001="1">Ein Dokument aus dem Repositorium zurückziehen.</10000>
-	<10000 10001="1">Ein Dokument wieder im Repositorium zugänglich machen.</10000>
-	<10000 10001="1">Dokument endgültig löschen</10000>
-	<10000 10001="1">Rechte bearbeiten</10000>
-	<10000 10001="1">Verwerfen</10000>
-	<10000 10001="1">Wieder aktivieren</10000>
-	<10000 10001="1">Verschieben...</10000>
-	<10000 10001="1">Dokument in eine andere Sammlung verschieben</10000>
-	<10000 10001="1">Endgültig löschen</10000>
-	<10000 10001="1">n/a</10000>
-	<10000 10001="1">(nur für Systemadministratoren)</10000>
-	<10000 10001="1">(nur für Sammlungsadministratoren)</10000>
-	<10000 10001="1">(Sie haben nicht die notwendigen Rechte, um diese Aktion auszuführen)</10000>
-    <10000 10001="1">Unsichtbar machen</10000>
-    <10000 10001="1">Sichtbar machen</10000>
-    <10000 10001="1">Unsichtbar machen...</10000>
-    <10000 10001="1">Sichtbar machen...</10000>
+	Dokumentstatus
+	Dokumentstatus
+	Willkommen in der Dokumentverwaltung. Hier können Sie Dokumente verwerfen, wieder aktivieren oder löschen. Zudem können Sie Metadaten und zugehörige Dateien bearbeiten, hinzufügen oder löschen.
+	Interne Dokument-ID
+	Handle
+	Letzte Änderung
+	In den Sammlungen
+	Zur Dokumentansicht
+	Rechte des Dokumentes
+	Ein Dokument aus dem Repositorium zurückziehen.
+	Ein Dokument wieder im Repositorium zugänglich machen.
+	Dokument endgültig löschen
+	Rechte bearbeiten
+	Verwerfen
+	Wieder aktivieren
+	Verschieben...
+	Dokument in eine andere Sammlung verschieben
+	Endgültig löschen
+	n/a
+	(nur für Systemadministratoren)
+	(nur für Sammlungsadministratoren)
+	(Sie haben nicht die notwendigen Rechte, um diese Aktion auszuführen)
+    Unsichtbar machen
+    Sichtbar machen
+    Unsichtbar machen...
+    Sichtbar machen...
     	
-	<!-- org.dspace.app.xmlui.administrative.item.ViewItem -->
-	<10000 10001="1">Dokumentanzeige</10000>
-	<10000 10001="1">Dokumentanzeige</10000>
+	Dokumentanzeige
+	Dokumentanzeige
 
-    <!-- org.dspace.app.xmlui.administrative.item.CurateItemForm.java -->
-    <10000 10001="1">Pflege des Dokuments: {0}</10000>
-    <10000 10001="1">Dokumentpflege</10000>
-    <10000 10001="1">Kurator</10000>
-    <10000 10001="1">Aufgabe</10000>
+    Pflege des Dokuments: {0}
+    Dokumentpflege
+    Kurator
+    Aufgabe
     	
-	<!-- org.dspace.app.xmlui.administrative.item.FindItemForm -->
-	<10000 10001="1">Dokumentsuche</10000>
-	<10000 10001="1">Dokumentsuche</10000>
-	<10000 10001="1">Interne Dokument-ID oder Handle</10000>
-	<10000 10001="1">Kennung konnte nicht zugeordnet werden.</10000>
-	<10000 10001="1">Finde</10000>
+	Dokumentsuche
+	Dokumentsuche
+	Interne Dokument-ID oder Handle
+	Kennung konnte nicht zugeordnet werden.
+	Finde
 	
-	<!-- org.dspace.app.xmlui.administrative.metadataimport -->
-    <10000 10001="1">Metadaten importieren</10000>
-    <10000 10001="1">Metadaten importieren</10000>
-    <10000 10001="1">Metadaten importieren</10000>
-    <10000 10001="1">Änderungen</10000>
-    <10000 10001="1">Es wurden keine Änderungen gefunden</10000>
-    <10000 10001="1">Neues Dokument</10000>
-    <10000 10001="1">Das Hochladen war erfolgreich</10000>
-    <10000 10001="1">Beim Hochladen ist ein Fehler aufgetreten</10000>
-    <10000 10001="1">Unbekanntes Metadatenschema in der Überschrift</10000>
-    <10000 10001="1">Unbekanntes Metadatenelement in der Überschrift</10000>
-    <10000 10001="1">Import erfolgreich</10000>
-    <10000 10001="1">Import fehlgeschlagen</10000>
-    <10000 10001="1">Die Anzahl der durchzuführenden Änderungen übersteigt die maximale erlaubte Anzahl. Beschränken Sie Ihre Änderungen oder ändern Sie bulkedit.gui-item-limit in dspace.cfg</10000>
+    Metadaten importieren
+    Metadaten importieren
+    Metadaten importieren
+    Änderungen
+    Es wurden keine Änderungen gefunden
+    Neues Dokument
+    Das Hochladen war erfolgreich
+    Beim Hochladen ist ein Fehler aufgetreten
+    Unbekanntes Metadatenschema in der Überschrift
+    Unbekanntes Metadatenelement in der Überschrift
+    Import erfolgreich
+    Import fehlgeschlagen
+    Die Anzahl der durchzuführenden Änderungen übersteigt die maximale erlaubte Anzahl. Beschränken Sie Ihre Änderungen oder ändern Sie bulkedit.gui-item-limit in dspace.cfg
 
-    <!-- org.dspace.app.xmlui.administrative.metadataimport.MetadataImportConfirm -->
-    <10000 10001="1">CSV Hochladen</10000>
+    CSV Hochladen
 
-    <!-- org.dspace.app.xmlui.administrative.metadataimport.MetadataImportConfirm -->
-    <10000 10001="1">Bearbeitung erfolgreich</10000>
-    <10000 10001="1">Änderungen, die an dem Dokument durchgeführt wurden:</10000>
-    <10000 10001="1">Hinzugefügt: </10000>
-    <10000 10001="1">Entfernt: </10000>
-    <10000 10001="1">Zu besitzender Sammlung hinzugefügt</10000>
-    <10000 10001="1">Aus besitzender Sammlung entfernt</10000>
-    <10000 10001="1">In Sammlung gespiegelt</10000>
-    <10000 10001="1">Spiegelung aus Sammlung gelöscht</10000>
-    <10000 10001="1">Ressource gelöscht</10000>
-    <10000 10001="1">Ressource zurückgezogen</10000>
-    <10000 10001="1">Ressource wieder frei gegeben</10000>
+    Bearbeitung erfolgreich
+    Änderungen, die an dem Dokument durchgeführt wurden:
+    Hinzugefügt: 
+    Entfernt: 
+    Zu besitzender Sammlung hinzugefügt
+    Aus besitzender Sammlung entfernt
+    In Sammlung gespiegelt
+    Spiegelung aus Sammlung gelöscht
+    Ressource gelöscht
+    Ressource zurückgezogen
+    Ressource wieder frei gegeben
         
-    <!-- org.dspace.app.xmlui.administrative.metadataimport.MetadataImportUpload -->
-    <10000 10001="1">Hinzufügen: </10000>
-    <10000 10001="1">Entfernen: </10000>
-    <10000 10001="1">Zur neuen besitzenden Sammlung hinzufügen</10000>
-    <10000 10001="1">Aus besitzender Sammlung entfernen</10000>
-    <10000 10001="1">In Sammlung spiegeln</10000>
-    <10000 10001="1">Spiegelung in Sammlung löschen</10000>
-    <10000 10001="1">Anstehenden Änderungen für das Dokument</10000>
-    <10000 10001="1">Änderungen durchführen</10000>
-    <10000 10001="1">Die anstehenden Änderungen sind unten zur Kontrolle aufgeführt.</10000>
-	<10000 10001="1">Ressource löschen</10000>
-    <10000 10001="1">Ressource zurückziehen</10000>
-    <10000 10001="1">Ressource wieder veröffentlichen</10000>
+    Hinzufügen: 
+    Entfernen: 
+    Zur neuen besitzenden Sammlung hinzufügen
+    Aus besitzender Sammlung entfernen
+    In Sammlung spiegeln
+    Spiegelung in Sammlung löschen
+    Anstehenden Änderungen für das Dokument
+    Änderungen durchführen
+    Die anstehenden Änderungen sind unten zur Kontrolle aufgeführt.
+	Ressource löschen
+    Ressource zurückziehen
+    Ressource wieder veröffentlichen
 	
-	<!-- general mapper 10000s -->
-	<10000 10001="1">Dokumente Spiegeln</10000>
+	Dokumente Spiegeln
 	
-	<!-- org.dspace.app.xmlui.administrative.mapper.MapperMain -->
-	<10000 10001="1">Dokumente spiegeln</10000>
-	<10000 10001="1">Dokumente spiegeln - Dokumente von anderen Sammlungen spiegeln</10000>
-	<10000 10001="1"</10000>
-	<10000 10001="1">Dieses Werkzeug erlaubt es Administratoren und Sammlungsadministratoren Dokumente von einer Sammlung in eine andere zu spiegeln. Sie können nach Dokumente suchen, um diese zu spiegeln oder sich die Liste der aktuell gespiegelten Dokumente anzeigen lassen.</10000>
-	<10000 10001="1">Statistik</10000>
-	<10000 10001="1"><strong>{0} von {1}</strong> Dokument(en) in dieser Sammlung ist/sind aus anderen gespiegelt</10000>
-	<10000 10001="1">Suche</10000>
-	<10000 10001="1">Dokumente suchen</10000>
-	<10000 10001="1">Gespiegelte Dokumente auflisten</10000>
-	<10000 10001="1">(erfordert ADD (Hinzufügen) Recht für diese Sammlung)</10000>
+	Dokumente spiegeln
+	Dokumente spiegeln - Dokumente von anderen Sammlungen spiegeln
 	
-	<!-- org.dspace.app.xmlui.administrative.mapper.SearchItemForm -->
-	<10000 10001="1">Dokumente suchen</10000>
-	<10000 10001="1">Dokumente suchen</10000>
-	<10000 10001="1"</10000>
-	<10000 10001="1">Ausgewählte Dokumente spiegeln</10000>
-	<10000 10001="1"></10000>
-	<10000 10001="1">Sammlung</10000>
-	<10000 10001="1">Autor</10000>
-	<10000 10001="1">Titel</10000>
+	Dieses Werkzeug erlaubt es Administratoren und Sammlungsadministratoren Dokumente von einer Sammlung in eine andere zu spiegeln. Sie können nach Dokumente suchen, um diese zu spiegeln oder sich die Liste der aktuell gespiegelten Dokumente anzeigen lassen.
+	Statistik
+	<strong>{0} von {1}</strong> Dokument(en) in dieser Sammlung ist/sind aus anderen gespiegelt
+	Suche
+	Dokumente suchen
+	Gespiegelte Dokumente auflisten
+	(erfordert ADD (Hinzufügen) Recht für diese Sammlung)
+	
+	Dokumente suchen
+	Dokumente suchen
+	
+	Ausgewählte Dokumente spiegeln
+	
+	Sammlung
+	Autor
+	Titel
 		
-	<!-- org.dspace.app.xmlui.administrative.mapper.BrowseItemForm -->
-	<10000 10001="1">Auflistung gespiegelter Dokumente</10000>
-	<10000 10001="1">Auflistung gespiegelter Dokumente</10000>
-	<10000 10001="1">Auflistung gespiegelter Dokumente</10000>
-	<10000 10001="1">Spiegelungen löschen</10000>
-	<10000 10001="1"></10000>
-	<10000 10001="1">Sammlung</10000>
-	<10000 10001="1">Autor</10000>
-	<10000 10001="1">Titel</10000>
-	<10000 10001="1">Sie benötigen REMOVE (Entfernen) Rechte an dieser Sammlung, um Spiegelungen zu löschen.</10000>
+	Auflistung gespiegelter Dokumente
+	Auflistung gespiegelter Dokumente
+	Auflistung gespiegelter Dokumente
+	Spiegelungen löschen
 	
-	<!-- General tags for collection management -->
-	<10000 10001="1">Sammlungen</10000>	
-	<10000 10001="1">Metadaten bearbeiten</10000>	
-	<10000 10001="1">Bearbeiterrollen zuordnen</10000>	
-	<10000 10001="1">Pflegen</10000>
-    <10000 10001="1">Zu Bearbeiten</10000>
+	Sammlung
+	Autor
+	Titel
+	Sie benötigen REMOVE (Entfernen) Rechte an dieser Sammlung, um Spiegelungen zu löschen.
 	
-	<!-- org.dspace.app.xmlui.administrative.collection.AssignCollectionRoles.java -->
-	<10000 10001="1">Bearbeiterrollen der Sammlung bearbeiten</10000>
-	<10000 10001="1">Rollen</10000>
-	<10000 10001="1">Sammlung in Bearbeitung: {0}</10000>
-	<10000 10001="1">keine</10000>
-	<10000 10001="1">Anlegen</10000>
-	<10000 10001="1">Einschränken</10000>
-	<10000 10001="1">Sammlungsadministratoren können entscheiden, wer in der Sammlung veröffenltichen darf, sie können Dokumente verwerfen, Metadaten bearbeiten und Dokumente aus anderen Sammlungen spiegeln, wenn sie an den zu spiegelnden Dokumenten die entsprechenden Rechte haben.</10000>
-	<10000 10001="1">Die Bearbeiter dieses Geschäftsgangsschrittes können eingehende Dokumente akzeptieren oder ablehnen. Sie können diese jedoch nicht bearbeiten.</10000>
-	<10000 10001="1">Die Bearbeiter dieses Geschäftsgangsschrittes können eingehende Dokumente ablehnen oder die Metadaten bearbeiten und das Dokument akzeptieren.</10000>
-	<10000 10001="1">Die Bearbeiter dieses Geschäftsgangsschrittes können die Metadaten des Dokumentes bearbeiten und es abschließend ins Archiv überführen.</10000>
-	<10000 10001="1">Die Benutzer und Gruppen  haben das Recht, neue Dokumente in dieser Sammlung zu veröffentlichen.</10000>
-	<10000 10001="1">Benutzer und Gruppen, die neue Dokumente in der Sammlung ansehen dürfen. Bitte beachten Sie, dass Änderungen an diesen Rechten nicht retrospektiv wirken. Bereits existierende Dokumente behalten ihre Rechte.</10000>
-	<10000 10001="1">Diese Sammlung hat die Standardzugriffsrechte. </10000>
-	<10000 10001="1">Die Standardzugriffsrechte für neue Dokumente und Dateien sind zur Zeit: anonymer lesender Zugriff.</10000>
-	<10000 10001="1">Rechte direkt bearbeiten.</10000>
-	<10000 10001="1">Rolle</10000>
-	<10000 10001="1">Zugehörige Gruppe</10000>
-	<10000 10001="1">  </10000>
-	<10000 10001="1">Administratoren</10000>
-	<10000 10001="1">Bearbeitungsschritte im Geschäftsgang</10000>
-	<10000 10001="1">Annehmen/Ablehnen Schritt</10000>
-	<10000 10001="1">Annehmen/Ablehnen/Bearbeiten Schritt</10000>
-	<10000 10001="1">Bearbeiten Schritt</10000>
-	<10000 10001="1">Veröffentlichungsberechtigte</10000>
-	<10000 10001="1">Standard lesender Zugriff</10000>
-	<10000 10001="1"><nobr>(nur für Systemadministratoren)</nobr></10000>
-	<10000 10001="1"><br/>(Gruppe auf Repositoriumsebene, nur für Systemadministratoren)</10000>	
-	<10000 10001="1"><nobr>(Sie haben nicht die Berechtigung dies zu konfigurieren)</nobr></10000>
+	Sammlungen	
+	Metadaten bearbeiten	
+	Bearbeiterrollen zuordnen	
+	Pflegen
+    Zu Bearbeiten
+	
+	Bearbeiterrollen der Sammlung bearbeiten
+	Rollen
+	Sammlung in Bearbeitung: {0}
+	keine
+	Anlegen
+	Einschränken
+	Sammlungsadministratoren können entscheiden, wer in der Sammlung veröffenltichen darf, sie können Dokumente verwerfen, Metadaten bearbeiten und Dokumente aus anderen Sammlungen spiegeln, wenn sie an den zu spiegelnden Dokumenten die entsprechenden Rechte haben.
+	Die Bearbeiter dieses Geschäftsgangsschrittes können eingehende Dokumente akzeptieren oder ablehnen. Sie können diese jedoch nicht bearbeiten.
+	Die Bearbeiter dieses Geschäftsgangsschrittes können eingehende Dokumente ablehnen oder die Metadaten bearbeiten und das Dokument akzeptieren.
+	Die Bearbeiter dieses Geschäftsgangsschrittes können die Metadaten des Dokumentes bearbeiten und es abschließend ins Archiv überführen.
+	Die Benutzer und Gruppen  haben das Recht, neue Dokumente in dieser Sammlung zu veröffentlichen.
+	Benutzer und Gruppen, die neue Dokumente in der Sammlung ansehen dürfen. Bitte beachten Sie, dass Änderungen an diesen Rechten nicht retrospektiv wirken. Bereits existierende Dokumente behalten ihre Rechte.
+	Diese Sammlung hat die Standardzugriffsrechte. 
+	Die Standardzugriffsrechte für neue Dokumente und Dateien sind zur Zeit: anonymer lesender Zugriff.
+	Rechte direkt bearbeiten.
+	Rolle
+	Zugehörige Gruppe
+	  
+	Administratoren
+	Bearbeitungsschritte im Geschäftsgang
+	Annehmen/Ablehnen Schritt
+	Annehmen/Ablehnen/Bearbeiten Schritt
+	Bearbeiten Schritt
+	Veröffentlichungsberechtigte
+	Standard lesender Zugriff
+	<nobr>(nur für Systemadministratoren)</nobr>
+	<br/>(Gruppe auf Repositoriumsebene, nur für Systemadministratoren)	
+	<nobr>(Sie haben nicht die Berechtigung dies zu konfigurieren)</nobr>
 
-    <!-- org.dspace.app.xmlui.administrative.collection.CurateCollectionForm.java -->
-    <10000 10001="1">Pflege der Sammlung: {0}</10000>
-    <10000 10001="1">Pflege einer Sammlung</10000>
-    <10000 10001="1">Kurator</10000>
-    <10000 10001="1">Aufgabe</10000>
+    Pflege der Sammlung: {0}
+    Pflege einer Sammlung
+    Kurator
+    Aufgabe
         
-	<!-- org.dspace.app.xmlui.administrative.collection.DeleteCollectionConfirm.java -->
-	<10000 10001="1">Löschung bestätigen</10000>
-	<10000 10001="1">Bestätigen</10000>
-	<10000 10001="1">Löschung der Sammlung: {0} bestätigen</10000>
-	<10000 10001="1">Sind Sie Sicher, dass die Sammlung: {0} gelöscht werden soll? Dies löscht außerdem:</10000>
-	<10000 10001="1">alle Dokumente und unvollendeten Veröffentlichungen in dieser Sammlung</10000>
-	<10000 10001="1">den kompletten Inhalt und die Metadaten dieser Dokumente</10000>
-	<10000 10001="1">Alle Rechte</10000>
+	Löschung bestätigen
+	Bestätigen
+	Löschung der Sammlung: {0} bestätigen
+	Sind Sie Sicher, dass die Sammlung: {0} gelöscht werden soll? Dies löscht außerdem:
+	alle Dokumente und unvollendeten Veröffentlichungen in dieser Sammlung
+	den kompletten Inhalt und die Metadaten dieser Dokumente
+	Alle Rechte
 	
-	<!-- org.dspace.app.xmlui.administrative.collection.DeleteCollectionRoleConfirm.java -->
-	<10000 10001="1">Rollenlöschung bestätigen</10000>
-	<10000 10001="1">Bestätigen</10000>
-	<10000 10001="1">Bestätigen Sie die Löschung der Rolle: {0}</10000>
-	<10000 10001="1">Sind Sie sicher, dass diese Rolle gelöscht werden soll? Wenn Sie diese Gruppe löschen, erhalten alle Benutzer READ (Lese) Rechte für alle Dokumente, die ab jetzt in der Sammlung veröffentlicht werden. Diese Änderung wirkt nicht retrospektiv. Bereits in der Sammlung vorhandene Dokumente behalten ihre Rechte.</10000>
-	<10000 10001="1">Sind Sie sicher, dass diese Rolle gelöscht werden soll? Alle Änderungen und Anpassungen an dieser Gruppe: {0} gehen verloren und müssen ggf. neu angelegt werden.</10000>
+	Rollenlöschung bestätigen
+	Bestätigen
+	Bestätigen Sie die Löschung der Rolle: {0}
+	Sind Sie sicher, dass diese Rolle gelöscht werden soll? Wenn Sie diese Gruppe löschen, erhalten alle Benutzer READ (Lese) Rechte für alle Dokumente, die ab jetzt in der Sammlung veröffentlicht werden. Diese Änderung wirkt nicht retrospektiv. Bereits in der Sammlung vorhandene Dokumente behalten ihre Rechte.
+	Sind Sie sicher, dass diese Rolle gelöscht werden soll? Alle Änderungen und Anpassungen an dieser Gruppe: {0} gehen verloren und müssen ggf. neu angelegt werden.
 	
-	<!-- org.dspace.app.xmlui.administrative.collection.EditCollectionMetadataForm.java -->
-	<10000 10001="1">Metadaten der Sammlung bearbeiten</10000>
-	<10000 10001="1">Metadaten</10000>
-	<10000 10001="1">Bearbeiten der Sammlung: {0}</10000>
-	<10000 10001="1">Name</10000>
-	<10000 10001="1">Kurzbeschreibung</10000>
-	<10000 10001="1">Einleitender Text (HTML)</10000>
-	<10000 10001="1">Urheberrechtshinweis (plain text)</10000>
-	<10000 10001="1">Neuigkeiten (HTML)</10000>
-	<10000 10001="1">Lizenz</10000>
-	<10000 10001="1">Provenienz</10000>
-	<10000 10001="1">ein neues Logo hochspielen</10000>
-	<10000 10001="1">Aktuelles Logo</10000>
-	<10000 10001="1">Dokumentschablone</10000>
-	<10000 10001="1">Anlegen</10000>
-	<10000 10001="1">Bearbeiten</10000>
-	<10000 10001="1">Logo entfernen</10000>
-	<10000 10001="1">Sammlung löschen</10000>
-	<10000 10001="1">Änderungen speichern</10000>
-	<10000 10001="1"><nobr>(nur für Systemadministratoren)</nobr></10000>
+	Metadaten der Sammlung bearbeiten
+	Metadaten
+	Bearbeiten der Sammlung: {0}
+	Name
+	Kurzbeschreibung
+	Einleitender Text (HTML)
+	Urheberrechtshinweis (plain text)
+	Neuigkeiten (HTML)
+	Lizenz
+	Provenienz
+	ein neues Logo hochspielen
+	Aktuelles Logo
+	Dokumentschablone
+	Anlegen
+	Bearbeiten
+	Logo entfernen
+	Sammlung löschen
+	Änderungen speichern
+	<nobr>(nur für Systemadministratoren)</nobr>
 
-	<!-- org.dspace.app.xmlui.administrative.collection.CreateCollectionForm.java -->
-	<10000 10001="1">Sammlung anlegen</10000>
-	<10000 10001="1">Sammlung anlegen</10000>
-	<10000 10001="1">Geben Sie die Informationen zur Sammlung: {0} ein</10000>
-	<10000 10001="1">Anlegen</10000>
-	<!-- General to the harvesting options under collection -->
-	<10000 10001="1">Harvesting-Einstellungen für Sammlungen</10000>
-	<10000 10001="1">Harvesting</10000>
-	<10000 10001="1">Quelle des Inhalts</10000>
-	<10000 10001="1">Quelle des Inhalts</10000>
-	<10000 10001="1">Dies ist eine Standard-DSpace-Sammlung</10000>
-	<10000 10001="1">Diese Sammlung bezieht ihren Inhalt via Harvesting aus einer externen Quelle.</10000>
-	<10000 10001="1">Speichern</10000>
+	Sammlung anlegen
+	Sammlung anlegen
+	Geben Sie die Informationen zur Sammlung: {0} ein
+	Anlegen
+	Harvesting-Einstellungen für Sammlungen
+	Harvesting
+	Quelle des Inhalts
+	Quelle des Inhalts
+	Dies ist eine Standard-DSpace-Sammlung
+	Diese Sammlung bezieht ihren Inhalt via Harvesting aus einer externen Quelle.
+	Speichern
 	
-	<!-- org.dspace.app.xmlui.administrative.collection.SetupCollectionHarvestingForm.java -->
-	<10000 10001="1">Die per Harvesting bearbeitete Sammlung</10000>
-	<10000 10001="1">Harvesting Optionen</10000>
-	<10000 10001="1">OAI Provider</10000>
-	<10000 10001="1">OAI Set ID</10000>
-	<10000 10001="1">Metadatenformat</10000>
-	<10000 10001="1">Die URL des OAI Providers des Zielrepositoriums.</10000>
-	<10000 10001="1">Sie müssen eine Set ID der Zielsammlung angeben.</10000>
-	<10000 10001="1">Der Persistent Identifier, der vom OAI Provider für die Zielsammlung verwendet wird.</10000>
-	<10000 10001="1">Sie müssen eine Set ID der Zielsammlung angeben.</10000>
-	<10000 10001="1">Inhalt wird über Harvesting bezogen</10000>
-	<10000 10001="1">Nur die Metadaten über Harvesting beziehen.</10000>
-	<10000 10001="1">Beziehe die Metadaten über Harvesting und referenziere die Dateien (hierfür ist ORE Unterstützung Voraussetzung).</10000>
-	<10000 10001="1">Beziehe sowohl die Metadaten alsauch die Dateien über Harvesting (hierfür ist ORE Unterstützung Voraussetzung).</10000>
-	<10000 10001="1">Test-Einstellungen</10000>
+	Die per Harvesting bearbeitete Sammlung
+	Harvesting Optionen
+	OAI Provider
+	OAI Set ID
+	Metadatenformat
+	Die URL des OAI Providers des Zielrepositoriums.
+	Sie müssen eine Set ID der Zielsammlung angeben.
+	Der Persistent Identifier, der vom OAI Provider für die Zielsammlung verwendet wird.
+	Sie müssen eine Set ID der Zielsammlung angeben.
+	Inhalt wird über Harvesting bezogen
+	Nur die Metadaten über Harvesting beziehen.
+	Beziehe die Metadaten über Harvesting und referenziere die Dateien (hierfür ist ORE Unterstützung Voraussetzung).
+	Beziehe sowohl die Metadaten alsauch die Dateien über Harvesting (hierfür ist ORE Unterstützung Voraussetzung).
+	Test-Einstellungen
 	
-	<!-- org.dspace.app.xmlui.administrative.collection.EditCollectionHarvestingForm.java -->
-	<10000 10001="1">Die per Harvesting bearbeitete Sammlung</10000>
-	<10000 10001="1">OAI Provider</10000>
-	<10000 10001="1">OAI Set ID</10000>
-	<10000 10001="1">Metadatenformat</10000>
-	<10000 10001="1">Inhalt wird über Harvesting bezogen</10000>
-	<10000 10001="1">Ergebnisse des letzten Harvesting</10000>
-	<10000 10001="1">Diese Sammlung wurde noch nicht per Harvesting abgearbeitet.</10000>
-	<10000 10001="1">Aktueller Harvesting-Status</10000>
-	<10000 10001="1">Sammlung fürs Harvesting bereit</10000>
-	<10000 10001="1">Diese Sammlung wird gerade per Harvesting bearbeitet</10000>
-	<10000 10001="1">Diese Sammlung befindet sich in der Warteschleife für das Harvesting.</10000>
-	<10000 10001="1">Während des letzen Harvesting ist ein OAI-PMH Fehler aufgetreten.</10000>
-	<10000 10001="1">Ein unerwarteter/unbekannter Fehler ist währen des letzten Harvestings aufgetreten.</10000>
-	<10000 10001="1">HNur die Metadaten über Harvesting beziehen.</10000>
-	<10000 10001="1">Beziehe die Metadaten über Harvesting und referenziere die Dateien.</10000>
-	<10000 10001="1">Beziehe sowohl die Metadaten alsauch die Dateien über Harvesting (komplette Reproduktion der Ressource).</10000>
-	<10000 10001="1">Einstellungen ändern</10000>
-	<10000 10001="1">Jetzt importieren</10000>
-	<10000 10001="1">Den Status zurücketzen und die Sammlung nochmal importieren</10000>
+	Die per Harvesting bearbeitete Sammlung
+	OAI Provider
+	OAI Set ID
+	Metadatenformat
+	Inhalt wird über Harvesting bezogen
+	Ergebnisse des letzten Harvesting
+	Diese Sammlung wurde noch nicht per Harvesting abgearbeitet.
+	Aktueller Harvesting-Status
+	Sammlung fürs Harvesting bereit
+	Diese Sammlung wird gerade per Harvesting bearbeitet
+	Diese Sammlung befindet sich in der Warteschleife für das Harvesting.
+	Während des letzen Harvesting ist ein OAI-PMH Fehler aufgetreten.
+	Ein unerwarteter/unbekannter Fehler ist währen des letzten Harvestings aufgetreten.
+	HNur die Metadaten über Harvesting beziehen.
+	Beziehe die Metadaten über Harvesting und referenziere die Dateien.
+	Beziehe sowohl die Metadaten alsauch die Dateien über Harvesting (komplette Reproduktion der Ressource).
+	Einstellungen ändern
+	Jetzt importieren
+	Den Status zurücketzen und die Sammlung nochmal importieren
 
-	<10000 10001="1">Harvesting</10000>
-	<10000 10001="1">Harvesting Zeitplaneinstellungen</10000>
-	<10000 10001="1">Status</10000>
-	<10000 10001="1">Aktionen</10000>
-	<10000 10001="1">Das Harvesting starten</10000>
-	<10000 10001="1">Den Harvestingstatus zurücksezten</10000>
-	<10000 10001="1">Wiederaufnehmen</10000>
-	<10000 10001="1">Pause</10000>
-	<10000 10001="1">Stop</10000>
-	<10000 10001="1">Collectionen, die für das Harvesting eingerichtet sind</10000>
-	<10000 10001="1">Laufenden Harvesting-Prozesse</10000>
-	<10000 10001="1">Harvesting Warteschleife</10000>
-	<10000 10001="1">OAI Fehlermeldungen</10000>
-	<10000 10001="1">Interne Fehlermeldungen</10000>
-	<10000 10001="1">Generator Einstellungen</10000>
-	<10000 10001="1">OAI-PMH URL</10000>
-	<10000 10001="1">ORE Quelle</10000>
-	<10000 10001="1">Harvester Einstellungen</10000>	
+	Harvesting
+	Harvesting Zeitplaneinstellungen
+	Status
+	Aktionen
+	Das Harvesting starten
+	Den Harvestingstatus zurücksezten
+	Wiederaufnehmen
+	Pause
+	Stop
+	Collectionen, die für das Harvesting eingerichtet sind
+	Laufenden Harvesting-Prozesse
+	Harvesting Warteschleife
+	OAI Fehlermeldungen
+	Interne Fehlermeldungen
+	Generator Einstellungen
+	OAI-PMH URL
+	ORE Quelle
+	Harvester Einstellungen	
 	
-		<!-- General tags for community management -->
-	<10000 10001="1">Bereiche</10000>
-	<10000 10001="1">Metadinformationen bearbeiten</10000>
-	<10000 10001="1">Bearbeiterrollen vergeben</10000>
-	<10000 10001="1">Bestandspflege</10000>
-    <10000 10001="1">Zu Bearbeiten</10000>
+	Bereiche
+	Metadinformationen bearbeiten
+	Bearbeiterrollen vergeben
+	Bestandspflege
+    Zu Bearbeiten
 	
-	<!-- org.dspace.app.xmlui.administrative.community.AssignCommunityRoles.java -->
-	<10000 10001="1">Bearbeiten der Rollen für den Bereich</10000>
-	<10000 10001="1">Rollen</10000>
-	<10000 10001="1">Bearbeiten des Bereiches: {0}</10000>
-	<10000 10001="1">keine</10000>
-	<10000 10001="1">Anlegen...</10000>
-	<10000 10001="1">Bereichsadministratoren können Teilbereiche und Sammlungen anlegen und selbige bearbeiten oder Bearbeiterfunktionen delegieren. Des weiteren können Sie bestimmen, wer in einer Sammlung veröffentlichen und wer nach Veröffentlichung die Metadaten bearbeiten darf. Zudem können sie Ressourcen aus anderen Sammlungen in die eigenen Sammlungen spiegeln, sofern die Rechte der zu spiegelnden Ressourcen dies erlauben.</10000>
-	<10000 10001="1">Dieser Bereich verwendet die Standardzugriffsrechte. </10000>
-	<10000 10001="1">Der lesende Zugriff auf die Metadaten und Inhalte neuer Dokumente ist allen Nutzer gestattet.</10000>
-	<10000 10001="1">Die Zugriffsrechte direkt bearbeiten.</10000>
-	<10000 10001="1">Rolle</10000>
-	<10000 10001="1">Zugehörige Gruppe</10000>
-	<10000 10001="1">  </10000>
-	<10000 10001="1">Administratoren</10000>
-	<10000 10001="1"><nobr>(nur für Systemadministratoren)</nobr></10000>
+	Bearbeiten der Rollen für den Bereich
+	Rollen
+	Bearbeiten des Bereiches: {0}
+	keine
+	Anlegen...
+	Bereichsadministratoren können Teilbereiche und Sammlungen anlegen und selbige bearbeiten oder Bearbeiterfunktionen delegieren. Des weiteren können Sie bestimmen, wer in einer Sammlung veröffentlichen und wer nach Veröffentlichung die Metadaten bearbeiten darf. Zudem können sie Ressourcen aus anderen Sammlungen in die eigenen Sammlungen spiegeln, sofern die Rechte der zu spiegelnden Ressourcen dies erlauben.
+	Dieser Bereich verwendet die Standardzugriffsrechte. 
+	Der lesende Zugriff auf die Metadaten und Inhalte neuer Dokumente ist allen Nutzer gestattet.
+	Die Zugriffsrechte direkt bearbeiten.
+	Rolle
+	Zugehörige Gruppe
+	  
+	Administratoren
+	<nobr>(nur für Systemadministratoren)</nobr>
 
-    <!-- org.dspace.app.xmlui.administrative.community.CurateCommunityForm.java -->
-    <10000 10001="1">Bereichspflege: {0}</10000>
-    <10000 10001="1">Bereichspflege</10000>
-    <10000 10001="1">Kurator</10000>
-    <10000 10001="1">Aufgabe</10000>
+    Bereichspflege: {0}
+    Bereichspflege
+    Kurator
+    Aufgabe
         		
-	<!-- org.dspace.app.xmlui.administrative.community.DeleteCommunityConfirm.java -->
-	<10000 10001="1">Löschung bestätigen</10000>
-	<10000 10001="1">Bestätigen</10000>
-	<10000 10001="1">Löschung des Bereiches: {0} bestätigen</10000>
-	<10000 10001="1">Sind Sie sicher, dass die Sammlung: {0} gelöscht werden soll? Dadurch werden auch folgende Elemente gelöscht:</10000>
-	<10000 10001="1">alle Sammlungen, die ausschließlich in diesem Bereich enthalten sind</10000>
-	<10000 10001="1">alle Dokumente, die ausschließlich in diesem Bereich enthalten sind</10000>
-	<10000 10001="1">der Inhalt dieser Dokumente</10000>
-	<10000 10001="1">alle Rechte zu diesem Bereich</10000>
+	Löschung bestätigen
+	Bestätigen
+	Löschung des Bereiches: {0} bestätigen
+	Sind Sie sicher, dass die Sammlung: {0} gelöscht werden soll? Dadurch werden auch folgende Elemente gelöscht:
+	alle Sammlungen, die ausschließlich in diesem Bereich enthalten sind
+	alle Dokumente, die ausschließlich in diesem Bereich enthalten sind
+	der Inhalt dieser Dokumente
+	alle Rechte zu diesem Bereich
 
-	<!-- org.dspace.app.xmlui.administrative.community.DeleteCommunityRoleConfirm.java -->
-	<10000 10001="1">Bestätigung des Löschens der Bearbeiterrolle</10000>
-	<10000 10001="1">Bestätigen</10000>
-	<10000 10001="1">Löschen der Rolle: {0} bestätigen</10000>
-	<10000 10001="1">Sind Sie sicher, dass diese Rolle gelöscht werden soll? Alle Änderungen und Anpassungen an der Gruppe {0} sind damit unwiderruflich verloren.</10000>
+	Bestätigung des Löschens der Bearbeiterrolle
+	Bestätigen
+	Löschen der Rolle: {0} bestätigen
+	Sind Sie sicher, dass diese Rolle gelöscht werden soll? Alle Änderungen und Anpassungen an der Gruppe {0} sind damit unwiderruflich verloren.
 	
-	<!-- org.dspace.app.xmlui.administrative.community.EditCommunityMetadataForm.java -->
-	<10000 10001="1">Bereichsmetadaten bearbeiten</10000>
-	<10000 10001="1">Metadaten</10000>
-	<10000 10001="1">Bearbeiten der Metadaten des Bereichs: {0}</10000>
-	<10000 10001="1">Rechte bearbeiten</10000>
-	<10000 10001="1">Name</10000>
-	<10000 10001="1">Kurzbeschreibung</10000>
-	<10000 10001="1">Einleitender Text (HTML)</10000>
-	<10000 10001="1">Urheberrechtsbestimmungen (reiner Text)</10000>
-	<10000 10001="1">Was gibt es Neues (HTML)</10000>
-	<10000 10001="1">Ein neues Logo hochladen</10000>
-	<10000 10001="1">Aktuelles Logo</10000>
-	<10000 10001="1">Logo entfernen</10000>
-	<10000 10001="1">Bereich löschen</10000>
+	Bereichsmetadaten bearbeiten
+	Metadaten
+	Bearbeiten der Metadaten des Bereichs: {0}
+	Rechte bearbeiten
+	Name
+	Kurzbeschreibung
+	Einleitender Text (HTML)
+	Urheberrechtsbestimmungen (reiner Text)
+	Was gibt es Neues (HTML)
+	Ein neues Logo hochladen
+	Aktuelles Logo
+	Logo entfernen
+	Bereich löschen
 		
-	<!-- org.dspace.app.xmlui.administrative.community.CreateCommunityForm.java -->
-	<10000 10001="1">Bereich anlegen</10000>
-	<10000 10001="1">Bereich anlegen</10000>
-	<10000 10001="1">Metadaten des neuen Teilbereiches von {0} ein.</10000>
-	<10000 10001="1">Metadaten des Hauptbereiches</10000>
-	<10000 10001="1">Anlegen</10000>
+	Bereich anlegen
+	Bereich anlegen
+	Metadaten des neuen Teilbereiches von {0} ein.
+	Metadaten des Hauptbereiches
+	Anlegen
 	
 
-	<!-- org.dspace.app.xmlui.administrative.ControlPanel.java -->
-	<10000 10001="1">Systeminformationen</10000>
-	<10000 10001="1">Systeminformationen</10000>
-	<10000 10001="1">Systeminformationen</10000>
-	<10000 10001="1">Java Umgebung</10000>
-	<10000 10001="1">DSpace Konfiguration</10000>
-	<10000 10001="1">Systemweite Benachrichtigungen</10000>
-	<10000 10001="1">{0} Stunde(n)</10000>
-	<10000 10001="1">{0} Minute(n)</10000>
-	<10000 10001="1">{0} Sekunde(n)</10000>
-	<10000 10001="1">Java und Betriebssystem</10000>
-	<10000 10001="1">Java Laufzeitumgebung Version</10000>
-	<10000 10001="1">Java Laufzeitumgebung Distribution</10000>
-	<10000 10001="1">Betriebssystem Name</10000>
-	<10000 10001="1">Betriebssystem Architektur</10000>
-	<10000 10001="1">Betriebssystem Version</10000>
-	<10000 10001="1">Laufzeitstatistiken</10000>
-	<10000 10001="1">Verfügbare Prozessoren</10000>
-	<10000 10001="1">Maximaler Speicher</10000>
-	<10000 10001="1">Zugeordneter Speicher</10000>
-	<10000 10001="1">Benutzer Speicher</10000>
-	<10000 10001="1">Freier Speicher</10000>
-    <10000 10001="1">Cocoon Information</10000>
-    <10000 10001="1">Cocoon Version</10000>
-    <10000 10001="1">Cocoon Cache Verzeichnis</10000>
-    <10000 10001="1">Cocoon Arbeitsverzeichnis</10000>
-    <10000 10001="1">Hauptcache Größe: ({0})</10000>
-    <10000 10001="1">(Cache sofort löschen)</10000>
-    <10000 10001="1">Persistente Cache Größe ({0})</10000>
-    <10000 10001="1">Flüchtige Cache Größe ({0})</10000>	
-	<10000 10001="1">DSpace Einstellungen</10000>
-	<10000 10001="1">DSpace Installationsverzeichnis</10000>
-	<10000 10001="1">DSpace Basis-URL</10000>
-	<10000 10001="1">DSpace Version</10000>
-	<10000 10001="1">DSpace Name des Hosts</10000>
-	<10000 10001="1">Name der Seite</10000>
-	<10000 10001="1">Datenbank Name</10000>
-	<10000 10001="1">Datenbank URLL</10000>
-	<10000 10001="1">JDBC Treiber</10000>
-	<10000 10001="1">Maximale Anzahl an Datenbankverbindungen im Verbindungspool.</10000>
-	<10000 10001="1">Maximale Datenbank Wartezeit</10000>
-	<10000 10001="1">Maximale Anzahl müßiger Verbindungen</10000>
-	<10000 10001="1">SMTP Mail Server</10000>
-	<10000 10001="1">Absender</10000>
-	<10000 10001="1">Feedback Adresse</10000>
-	<10000 10001="1">E-Mail des Systemadministrators</10000>
-	<10000 10001="1">Systemweite Benachrichtigungen</10000>
-	<10000 10001="1"><strong>Warning for load balanced systems</strong>: System-wide alerts are only effective for the node on which it is activated. You need to ensure that each node in the set receives the activate alert command.</10000>
-	<10000 10001="1">Warnnotiz</10000>
-	<10000 10001="1">Das System wird zu Wartungszwecken heruntergefahren. Bitte speichern Sie Ihre Arbeit und melden Sie sich ab.</10000>
-	<10000 10001="1">Countdown</10000>
-	<10000 10001="1">Kein Countdown</10000>
-	<10000 10001="1">5 Minuten</10000>
-	<10000 10001="1">15 Minuten</10000>
-	<10000 10001="1">30 Minuten</10000>
-	<10000 10001="1">1 Stunde</10000>
-	<10000 10001="1">Aktuellen Countdown behalten</10000>
-	<10000 10001="1">Sitzungen verwalten</10000>	
-	<10000 10001="1">Authentifizierte Sitzungen weiterhin zulassen</10000>	
-	<10000 10001="1">Authentifizierungen einschränken, aber laufende Sitzungen beibehalten.</10000>	
-	<10000 10001="1">Authentifizierungen einschränken und laufende Sitzungen beenden.</10000>	
-	<10000 10001="1"><strong>Bitte beachten Sie:</strong> Administratoren der Seite werden vom Sizungsmanagement nicht tangiert.</10000>	
-	<10000 10001="1">Aktivieren</10000>
-	<10000 10001="1">Deaktivieren</10000>
-	<10000 10001="1">Laufende Aktivität ({0} maximale Seiten)</10000>
-	<10000 10001="1">STOP Aufzeichnung von anonymous-Aktivität.</10000>
-	<10000 10001="1">START Aufzeichnung von anonymous-Aktivität.</10000>
-	<10000 10001="1">STOP Aufzeichnung von bot-Aktivität.</10000>
-	<10000 10001="1">START Aufzeichnung von bot-Aktivität.</10000>
-	<10000 10001="1">Zeitstempel</10000>
-	<10000 10001="1">Benutzer</10000>
-	<10000 10001="1">IP-Adressen</10000>
-	<10000 10001="1">URL</10000>
-	<10000 10001="1">User-Agent</10000>
-	<10000 10001="1">Anonym {0}</10000>	
-	<10000 10001="1">Abgesehen von Ihren eigen gab es keine Seitenzugriffe in den letzen {0} Tagen.</10000>
+	Systeminformationen
+	Systeminformationen
+	Systeminformationen
+	Java Umgebung
+	DSpace Konfiguration
+	Systemweite Benachrichtigungen
+	{0} Stunde(n)
+	{0} Minute(n)
+	{0} Sekunde(n)
+	Java und Betriebssystem
+	Java Laufzeitumgebung Version
+	Java Laufzeitumgebung Distribution
+	Betriebssystem Name
+	Betriebssystem Architektur
+	Betriebssystem Version
+	Laufzeitstatistiken
+	Verfügbare Prozessoren
+	Maximaler Speicher
+	Zugeordneter Speicher
+	Benutzer Speicher
+	Freier Speicher
+    Cocoon Information
+    Cocoon Version
+    Cocoon Cache Verzeichnis
+    Cocoon Arbeitsverzeichnis
+    Hauptcache Größe: ({0})
+    (Cache sofort löschen)
+    Persistente Cache Größe ({0})
+    Flüchtige Cache Größe ({0})	
+	DSpace Einstellungen
+	DSpace Installationsverzeichnis
+	DSpace Basis-URL
+	DSpace Version
+	DSpace Name des Hosts
+	Name der Seite
+	Datenbank Name
+	Datenbank URLL
+	JDBC Treiber
+	Maximale Anzahl an Datenbankverbindungen im Verbindungspool.
+	Maximale Datenbank Wartezeit
+	Maximale Anzahl müßiger Verbindungen
+	SMTP Mail Server
+	Absender
+	Feedback Adresse
+	E-Mail des Systemadministrators
+	Systemweite Benachrichtigungen
+	<strong>Warning for load balanced systems</strong>: System-wide alerts are only effective for the node on which it is activated. You need to ensure that each node in the set receives the activate alert command.
+	Warnnotiz
+	Das System wird zu Wartungszwecken heruntergefahren. Bitte speichern Sie Ihre Arbeit und melden Sie sich ab.
+	Countdown
+	Kein Countdown
+	5 Minuten
+	15 Minuten
+	30 Minuten
+	1 Stunde
+	Aktuellen Countdown behalten
+	Sitzungen verwalten	
+	Authentifizierte Sitzungen weiterhin zulassen	
+	Authentifizierungen einschränken, aber laufende Sitzungen beibehalten.	
+	Authentifizierungen einschränken und laufende Sitzungen beenden.	
+	<strong>Bitte beachten Sie:</strong> Administratoren der Seite werden vom Sizungsmanagement nicht tangiert.	
+	Aktivieren
+	Deaktivieren
+	Laufende Aktivität ({0} maximale Seiten)
+	STOP Aufzeichnung von anonymous-Aktivität.
+	START Aufzeichnung von anonymous-Aktivität.
+	STOP Aufzeichnung von bot-Aktivität.
+	START Aufzeichnung von bot-Aktivität.
+	Zeitstempel
+	Benutzer
+	IP-Adressen
+	URL
+	User-Agent
+	Anonym {0}	
+	Abgesehen von Ihren eigen gab es keine Seitenzugriffe in den letzen {0} Tagen.
 		
-	<10000 10001="1">Benutzen Sie die Reiter, um zur entsprechenden Information zu gelangen</10000>
+	Benutzen Sie die Reiter, um zur entsprechenden Information zu gelangen
 	
-	<!-- org.dspace.app.xmlui.administrative.SystemwideAlerts -->
-	<10000 10001="1"><strong>In {0} Minuten</strong>: </10000>
+	<strong>In {0} Minuten</strong>: 
 	
-	<!-- org.dspace.app.xmlui.administrative.NotAuthorized -->
-	<10000 10001="1">Keine Berechtigung</10000>
-	<10000 10001="1">Keine Berechtigung</10000>
-	<10000 10001="1">Keine ausreichenden Rechte</10000>
-	<10000 10001="1">Ihr Benutzeraccount hat nicht die erforderlichen Rechte für diese Aktion. Wenn Sie der Meinung sind, dabei handelte es sich um einen Fehler oder sonstige Fragen zu Rechten haben, wenden Sie sich an den Systemadministrator</10000>
-	<10000 10001="1">Systemadministratoren</10000>
-	<10000 10001="1">.</10000>
-	<10000 10001="1">Als anderer Benutzer einloggen.</10000>
+	Keine Berechtigung
+	Keine Berechtigung
+	Keine ausreichenden Rechte
+	Ihr Benutzeraccount hat nicht die erforderlichen Rechte für diese Aktion. Wenn Sie der Meinung sind, dabei handelte es sich um einen Fehler oder sonstige Fragen zu Rechten haben, wenden Sie sich an den Systemadministrator
+	Systemadministratoren
+	.
+	Als anderer Benutzer einloggen.
 
-    <!-- System-wide Curation Tasks form (org.dspace.app.xmlui.aspect.administrative.CurateForm) -->
-    <10000 10001="1">Datenpflege</10000>
-    <10000 10001="1">Datenpflege - Aufgaben</10000>
-    <10000 10001="1">Handle eines DSpace Objektes</10000>
-    <10000 10001="1">Hinweis: Geben Sie [ihr-handle-prefix]/0 ein um ein Aufgabe systemweit durchzuführen (nicht alle Aufgaben können auf allen Objekten ausgeführt werden).</10000>
-    <10000 10001="1">Aufgabe</10000>
-    <!-- Used by Curate<DSO>Form classes also -->
-    <10000 10001="1">Wählen Sie aus den folgenden Gruppen</10000>	
+    Datenpflege
+    Datenpflege - Aufgaben
+    Handle eines DSpace Objektes
+    Hinweis: Geben Sie [ihr-handle-prefix]/0 ein um ein Aufgabe systemweit durchzuführen (nicht alle Aufgaben können auf allen Objekten ausgeführt werden).
+    Aufgabe
+    Wählen Sie aus den folgenden Gruppen	
 	
+    Statistik
+    Suchstatistik
+    Suchstatistik
+    Suchstatistik für: {0}
+    Bei der Erstellung der Statistik ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal.
+    Für den ausgewählten Zeitraum gibt es keine Suchstatistiken.
+    Geschäftsgangstatistik
+    Gesamtzugriffe
+    Gesamtzugriffe pro Monat
+    Zugriffe
+    Zugriffe nach Ländern
+    Zugriffe nach Städten
+    Dateiabrufe
+    Statistik
+    Benutzungsstatistik
+    Suchstatistik
+    Geschäftsgangstatistik
+    Statistik
+    Suchstatistik
+    Geschäftsgangstatistik
+    Für diesen Zeitraum gibt es keine Geschäftsgangstatistik.
+    Bei der Erstellung der Geschäftsgangstatistik ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal.
+    Geschäftsgangstatistik
+    Geschäftsgangstatistik für: {0}
+
+
+    Die häufigsten Suchbegriffe
+    Gesamt
+    Letzer Monat
+    Letzten 6 Monate
+    Letztes Jahr
+    Gesamter Zeitraum
+
+
+    Suchbegriffe
+    Suchen
+    % der Gesamtzahl
+    Seitenzugriffe / Search
+    Schritt
+    Durchgeführt
+    Durchschnitt
+    Annehmen/Ablehnen Schritt Pool
+    Annehmen/Ablehnen Schritt
+    Annehmen/Ablehnen Schritt/Metadaten Bearbeiten Schritt Pool
+    Annehmen/Ablehnen Schritt/Metadaten Bearbeiten Schritt
+    Metadaten Bearbeiten Schritt Pool
+    Metadaten Bearbeiten Schritt
+    Annehmen/Ablehnen Schritt Pool
+    Annehmen/Ablehnen Schritt
+    Annehmen/Ablehnen Schritt/Metadaten Bearbeiten Schritt Pool
+    Annehmen/Ablehnen Schritt/Metadaten Bearbeiten Schritt
+    Metadaten Bearbeiten Schritt Pool
+    Metadaten Bearbeiten Schritt
+    Ergebnis Begutachtungspool
+    Ergebnis Begutachtung
+    Ergebnis Begutachtung Evaluation
+    Ergebnis Begutachtung Evaluation Konfiguration
+    Einzelnutzer Begutachtungspool
+    Einzelnutzer automatische Zuweisung Aktion
+    Einzelnutzer Begutsachtung Aktion
+
+
+	Kontakt
+	Feedback abschicken
 	
-	    <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	DSpace Repositorium (Manakin basiert)
 
-                     Statistics Aspect
+	Profil: 
+	Ausloggen
+	Einloggen
 
-        !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-    <10000 10001="1">Statistik</10000>
-    <10000 10001="1">Suchstatistik</10000>
-    <10000 10001="1">Suchstatistik</10000>
-    <10000 10001="1">Suchstatistik für: {0}</10000>
-    <10000 10001="1">Bei der Erstellung der Statistik ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal.</10000>
-    <10000 10001="1">Für den ausgewählten Zeitraum gibt es keine Suchstatistiken.</10000>
-    <10000 10001="1">Geschäftsgangstatistik</10000>
-    <10000 10001="1">Gesamtzugriffe</10000>
-    <10000 10001="1">Gesamtzugriffe pro Monat</10000>
-    <10000 10001="1">Zugriffe</10000>
-    <10000 10001="1">Zugriffe nach Ländern</10000>
-    <10000 10001="1">Zugriffe nach Städten</10000>
-    <10000 10001="1">Dateiabrufe</10000>
-    <10000 10001="1">Statistik</10000>
-    <10000 10001="1">Benutzungsstatistik</10000>
-    <10000 10001="1">Suchstatistik</10000>
-    <10000 10001="1">Geschäftsgangstatistik</10000>
-    <10000 10001="1">Statistik</10000>
-    <10000 10001="1">Suchstatistik</10000>
-    <10000 10001="1">Geschäftsgangstatistik</10000>
-    <10000 10001="1">Für diesen Zeitraum gibt es keine Geschäftsgangstatistik.</10000>
-    <10000 10001="1">Bei der Erstellung der Geschäftsgangstatistik ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal.</10000>
-    <10000 10001="1">Geschäftsgangstatistik</10000>
-    <10000 10001="1">Geschäftsgangstatistik für: {0}</10000>
-
-
-    <10000 10001="1">Die häufigsten Suchbegriffe</10000>
-    <10000 10001="1">Gesamt</10000>
-    <10000 10001="1">Letzer Monat</10000>
-    <10000 10001="1">Letzten 6 Monate</10000>
-    <10000 10001="1">Letztes Jahr</10000>
-    <10000 10001="1">Gesamter Zeitraum</10000>
-
-
-    <10000 10001="1">Suchbegriffe</10000>
-    <10000 10001="1">Suchen</10000>
-    <10000 10001="1">% der Gesamtzahl</10000>
-    <10000 10001="1">Seitenzugriffe / Search</10000>
-    <10000 10001="1">Schritt</10000>
-    <10000 10001="1">Durchgeführt</10000>
-    <10000 10001="1">Durchschnitt</10000>
-    <10000 10001="1">Annehmen/Ablehnen Schritt Pool</10000>
-    <10000 10001="1">Annehmen/Ablehnen Schritt</10000>
-    <10000 10001="1">Annehmen/Ablehnen Schritt/Metadaten Bearbeiten Schritt Pool</10000>
-    <10000 10001="1">Annehmen/Ablehnen Schritt/Metadaten Bearbeiten Schritt</10000>
-    <10000 10001="1">Metadaten Bearbeiten Schritt Pool</10000>
-    <10000 10001="1">Metadaten Bearbeiten Schritt</10000>
-    <10000 10001="1">Annehmen/Ablehnen Schritt Pool</10000>
-    <10000 10001="1">Annehmen/Ablehnen Schritt</10000>
-    <10000 10001="1">Annehmen/Ablehnen Schritt/Metadaten Bearbeiten Schritt Pool</10000>
-    <10000 10001="1">Annehmen/Ablehnen Schritt/Metadaten Bearbeiten Schritt</10000>
-    <10000 10001="1">Metadaten Bearbeiten Schritt Pool</10000>
-    <10000 10001="1">Metadaten Bearbeiten Schritt</10000>
-    <10000 10001="1">Ergebnis Begutachtungspool</10000>
-    <10000 10001="1">Ergebnis Begutachtung</10000>
-    <10000 10001="1">Ergebnis Begutachtung Evaluation</10000>
-    <10000 10001="1">Ergebnis Begutachtung Evaluation Konfiguration</10000>
-    <10000 10001="1">Einzelnutzer Begutachtungspool</10000>
-    <10000 10001="1">Einzelnutzer automatische Zuweisung Aktion</10000>
-    <10000 10001="1">Einzelnutzer Begutsachtung Aktion</10000>
-
-
+	DSpace Suche
+	Erweiterte Suche
+	In diesem Bereich
+	In dieser Sammlung
 	
+	Vorherige Seite
+	Anzeige der Dokumente {0}-{1} von {2}
+	Nächste Seite
 	
-	
-	
-	<!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-		
-		                  dri2xhtml
-		
-		!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
-
-
-
-
-
-	<!-- structural.xsl -->
-	<10000 10001="1">
-		<a href="http://di.tamu.edu" id="ds-logo-link">                            
-			<span id="ds-footer-logo">&#160;</span>
-		</a>
-		<p>
-			Diese Seite verwendet Manakin, das neue DSpace Front-End, welches von den Texas A&amp;M University 
-			Libraries entwickelt wurde. Das Front-End ist extrem flexibel und kann über Manakin Aspekte und XLS basierte Themen angepasst werden. 
-			Weiterführende Informationen finden Sie unter:
-			<a href="http://di.tamu.edu">http://di.tamu.edu</a> und
-			<a href="http://dspace.org">http://dspace.org</a>                            
-		</p>
-	</10000>
-	<10000 10001="1">Kontakt</10000>
-	<10000 10001="1">Feedback abschicken</10000>
-	
-	<10000 10001="1">DSpace Repositorium (Manakin basiert)</10000>
-
-	<10000 10001="1">Profil: </10000>
-	<10000 10001="1">Ausloggen</10000>
-	<10000 10001="1">Einloggen</10000>
-
-	<10000 10001="1">DSpace Suche</10000>
-	<10000 10001="1">Erweiterte Suche</10000>
-	<10000 10001="1">In diesem Bereich</10000>
-	<10000 10001="1">In dieser Sammlung</10000>
-	
-	<10000 10001="1">Vorherige Seite</10000>
-	<10000 10001="1">Anzeige der Dokumente {0}-{1} von {2}</10000>
-	<10000 10001="1">Nächste Seite</10000>
-	
-	<10000 10001="1">Creative Commons Lizenz</10000>
-	<10000 10001="1">Originallizenz</10000>
+	Creative Commons Lizenz
+	Originallizenz
 		
 	
-	<!-- DS-METS-1.0-MODS.xsl -->
-	<!-- DS-METS-1.0-DIM.xsl -->
-	<!-- DS-METS-1.0-QDC.xsl -->
-	<10000 10001="1">Keine Vorschau verfügbar</10000>
-	<10000 10001="1">Ohne Titel</10000>
-	<10000 10001="1">Unbekannter Autor</10000>
-	<10000 10001="1">
+	Keine Vorschau verfügbar
+	Ohne Titel
+	Unbekannter Autor
+	
 		Dieses DSpace ist nicht METS 1.0 kompatibel und kann daher nicht entsprechend übersetzt werden. 
 		Sie können entweder die allgemeingültige Schablone in dri2xhtml überschreiben oder ihre eigene Schablone 
 		anlegen, um Ihrem Profil gerecht zu werden.
-    </10000>
+    
 	
-	<10000 10001="1">Vorschau</10000>
-	<10000 10001="1">Titel</10000>
-	<10000 10001="1">Autor</10000>
-	<10000 10001="1">Zusammenfassung</10000>
-	<10000 10001="1">Beschreibung</10000>
-	<10000 10001="1">URI</10000>
-	<10000 10001="1">Datum</10000>
-	<10000 10001="1">Verlag</10000>
-	<10000 10001="1">Schlagwort</10000>
+	Vorschau
+	Titel
+	Autor
+	Zusammenfassung
+	Beschreibung
+	URI
+	Datum
+	Verlag
+	Schlagwort
 	
-	<10000 10001="1">Dateien zu dieser Ressource</10000>
-	<10000 10001="1">Dateien</10000>
-    <10000 10001="1">Name</10000>
-	<10000 10001="1">Größe</10000>
-	<10000 10001="1">Format</10000>
-	<10000 10001="1">Anzeige</10000>
-	<10000 10001="1">Beschreibung</10000>
-	<10000 10001="1">Öffnen</10000>
-	<10000 10001="1">Zu diesem Dokument gibt es keine Dateien.</10000>
+	Dateien zu dieser Ressource
+	Dateien
+    Name
+	Größe
+	Format
+	Anzeige
+	Beschreibung
+	Öffnen
+	Zu diesem Dokument gibt es keine Dateien.
 
-	<10000 10001="1">Bytes</10000>
-	<10000 10001="1">Kb</10000>
-	<10000 10001="1">Mb</10000>
-	<10000 10001="1">Gb</10000>
+	Bytes
+	Kb
+	Mb
+	Gb
 	
-	<10000 10001="1">Die folgenden Lizenzbestimmungen sind mit dieser Ressource verbunden:</10000>
-	<10000 10001="1">Solange nicht anders angezeigt, wird die Lizenz wie folgt beschrieben: </10000>	
+	Die folgenden Lizenzbestimmungen sind mit dieser Ressource verbunden:
+	Solange nicht anders angezeigt, wird die Lizenz wie folgt beschrieben: 	
 	
-	<10000 10001="1">
+	
 		Die zusammenfassende Darstellung einer Sammlung ist noch nicht implementiert. Sie können dies tun, 
 		indem Sie das dri2xhtml template "collectionSummaryView" überschreiben.
-	</10000>
-	<10000 10001="1">
+	
+	
 		Die zusammenfassende Darstellung eines Bereiches ist noch nicht implementiert. Sie können dies tun, 
 		indem Sie das dri2xhtml template "communitySummaryView" überschreiben.
-	</10000>
 	
-	<10000 10001="1">Das Logo der Sammlung</10000>
-	<10000 10001="1">Das Logo des Bereiches</10000>
-	<10000 10001="1">Kein Logo</10000>
-	<10000 10001="1">Aktuelles</10000>	
+	
+	Das Logo der Sammlung
+	Das Logo des Bereiches
+	Kein Logo
+	Aktuelles	
 	
 		
-		
-	<!-- Internationalization elements specific to the Qualified Dublin Core metadata handler.
-		DS-METS-1.0-QDC.xsl -->
-	<10000 10001="1">
 	    Qualifiziertes Dublin Core (QDC) kann auf Bereiche und Sammlungen nicht angewendet werden. Wenn Sie 
 	    QDC verwenden, sollten Sie den QDC crosswalk für DSpace Dokumente und entweder DIM oder MODS zur Verarbeitung von Bereichen 
 	    und Sammlungen verwenden.
-	</10000>
-	
-	<10000 10001="1">Dublin Core Elemente</10000>
-	<10000 10001="1">Dublin Core Ausdrücke</10000>
 	
 	
-	<!-- Special pioneer model related text, wherever it might end up -->
-	<10000 10001="1">Vorschau</10000>
-	<10000 10001="1">Datum</10000>
-	<10000 10001="1">Titel</10000>
-	<10000 10001="1">Autor</10000>
+	Dublin Core Elemente
+	Dublin Core Ausdrücke
 	
-	  <!--###### File Format MIME Type Mappings ######-->
+	
+	Vorschau
+	Datum
+	Titel
+	Autor
+	
+  MARC Datensatz
+  Mathematica
+  Microsoft Word
+  Unbekannt
+  PDF
+  Postscript
+  SGML
+  Microsoft Excel
+  Microsoft PowerPoint
+  Microsoft Project
+  OpenOffice Base
+  OpenOffice Math
+  OpenOffice Draw
+  OpenOffice Impress
+  OpenOffice Calc
+  OpenOffice Writer
+  Microsoft PowerPoint 2007
+  Microsoft Excel 2007
+  Microsoft Word 2007
+  OpenOffice Calc (1.x)
+  OpenOffice Draw (1.x)
+  OpenOffice Impress (1.x)
+  OpenOffice Writer (1.x)
+  Microsoft Visio
+  WordPerfect
+  TeX DVI
+  FileMaker Pro
+  Java applet
+  LaTeX
+  Photoshop
+  TeX
 
-  <!-- Application-based formats -->
-  <10000 10001="1">MARC Datensatz</10000>
-  <10000 10001="1">Mathematica</10000>
-  <10000 10001="1">Microsoft Word</10000>
-  <10000 10001="1">Unbekannt</10000>
-  <10000 10001="1">PDF</10000>
-  <10000 10001="1">Postscript</10000>
-  <10000 10001="1">SGML</10000>
-  <10000 10001="1">Microsoft Excel</10000>
-  <10000 10001="1">Microsoft PowerPoint</10000>
-  <10000 10001="1">Microsoft Project</10000>
-  <10000 10001="1">OpenOffice Base</10000>
-  <10000 10001="1">OpenOffice Math</10000>
-  <10000 10001="1">OpenOffice Draw</10000>
-  <10000 10001="1">OpenOffice Impress</10000>
-  <10000 10001="1">OpenOffice Calc</10000>
-  <10000 10001="1">OpenOffice Writer</10000>
-  <10000 10001="1">Microsoft PowerPoint 2007</10000>
-  <10000 10001="1">Microsoft Excel 2007</10000>
-  <10000 10001="1">Microsoft Word 2007</10000>
-  <10000 10001="1">OpenOffice Calc (1.x)</10000>
-  <10000 10001="1">OpenOffice Draw (1.x)</10000>
-  <10000 10001="1">OpenOffice Impress (1.x)</10000>
-  <10000 10001="1">OpenOffice Writer (1.x)</10000>
-  <10000 10001="1">Microsoft Visio</10000>
-  <10000 10001="1">WordPerfect</10000>
-  <10000 10001="1">TeX DVI</10000>
-  <10000 10001="1">FileMaker Pro</10000>
-  <10000 10001="1">Java applet</10000>
-  <10000 10001="1">LaTeX</10000>
-  <10000 10001="1">Photoshop</10000>
-  <10000 10001="1">TeX</10000>
+  Basic Audio
+  FLAC Audio
+  AAC audio
+  AAC audio
+  mp3 audio
+  AIFF audio
+  MPEG Audio
+  WMA Audio
+  WMV Audio
+  Ogg Vorbis
+  RealAudio
+  WAV audio
 
-  <!-- Audio-based formats -->
-  <10000 10001="1">Basic Audio</10000>
-  <10000 10001="1">FLAC Audio</10000>
-  <10000 10001="1">AAC audio</10000>
-  <10000 10001="1">AAC audio</10000>
-  <10000 10001="1">mp3 audio</10000>
-  <10000 10001="1">AIFF audio</10000>
-  <10000 10001="1">MPEG Audio</10000>
-  <10000 10001="1">WMA Audio</10000>
-  <10000 10001="1">WMV Audio</10000>
-  <10000 10001="1">Ogg Vorbis</10000>
-  <10000 10001="1">RealAudio</10000>
-  <10000 10001="1">WAV audio</10000>
+  GIF Graphik
+  JPEG 2000 Graphik
+  JPEG Graphik
+  PNG Graphik
+  TIFF Graphik
+  BMP Graphik
+  Photo CD
 
-  <!-- Image-based formats -->
-  <10000 10001="1">GIF Graphik</10000>
-  <10000 10001="1">JPEG 2000 Graphik</10000>
-  <10000 10001="1">JPEG Graphik</10000>
-  <10000 10001="1">PNG Graphik</10000>
-  <10000 10001="1">TIFF Graphik</10000>
-  <10000 10001="1">BMP Graphik</10000>
-  <10000 10001="1">Photo CD</10000>
+  CSS-Datei
+  CSV-Datei
+  HTML
+  Javascript
+  Text
+  RTF
+  XML
 
-  <!-- Text-based formats -->
-  <10000 10001="1">CSS-Datei</10000>
-  <10000 10001="1">CSV-Datei</10000>
-  <10000 10001="1">HTML</10000>
-  <10000 10001="1">Javascript</10000>
-  <10000 10001="1">Text</10000>
-  <10000 10001="1">RTF</10000>
-  <10000 10001="1">XML</10000>
-
-  <!-- Video-based formats -->
-  <10000 10001="1">AVI Video</10000>
-  <10000 10001="1">Motion JPEG 2000</10000>
-  <10000 10001="1">MPEG Video</10000>
-  <10000 10001="1">MPEG-2 Video</10000>
-  <10000 10001="1">MPEG-4 Video</10000>
-  <10000 10001="1">QuickTime Video</10000>
+  AVI Video
+  Motion JPEG 2000
+  MPEG Video
+  MPEG-2 Video
+  MPEG-4 Video
+  QuickTime Video
   
-    <!-- explanatory 10000s for choice authority confidence values -->
-  <10000 10001="1">Dieser Wert wurde niemals validiert.</10000>
-  <10000 10001="1">Im Normdatenbereich gibt es keinen passenden Wert.</10000>
-  <10000 10001="1">Die Normdatenreferenz empfiehlt, diese Veröffentlichung abzulehnen</10000>
-  <10000 10001="1">Im Normdatenreferenzbereich ist ein interner Fehler aufgetreten.</10000>
-  <10000 10001="1">Im Normdatenbereich gibt es keine passenden Treffer</10000>
-  <10000 10001="1">Es gibt mehrere Treffer in der Normdatenreferenz.</10000>
-  <10000 10001="1">Der Wert ist eindeutig und gültig, wurde aber bis jetzt noch nicht von einem menschlichen Bearbeiter bestätigt und gilt somit als unsicher.</10000>
-  <10000 10001="1">Dieser Normdateneintrag wurde von einem Benutzer als gültig bestätigt.</10000>
-  <!-- help 10000 on "unlock" button in EditItemMetadata display -->
-  <10000 10001="1">Gebe den Normdatenwert für die manuelle Bearbeitung frei oder markiere ihn wieder als gesperrt.</10000>
+  Dieser Wert wurde niemals validiert.
+  Im Normdatenbereich gibt es keinen passenden Wert.
+  Die Normdatenreferenz empfiehlt, diese Veröffentlichung abzulehnen
+  Im Normdatenreferenzbereich ist ein interner Fehler aufgetreten.
+  Im Normdatenbereich gibt es keine passenden Treffer
+  Es gibt mehrere Treffer in der Normdatenreferenz.
+  Der Wert ist eindeutig und gültig, wurde aber bis jetzt noch nicht von einem menschlichen Bearbeiter bestätigt und gilt somit als unsicher.
+  Dieser Normdateneintrag wurde von einem Benutzer als gültig bestätigt.
+  Gebe den Normdatenwert für die manuelle Bearbeitung frei oder markiere ihn wieder als gesperrt.
 
-  <!-- Choice Lookup popup window -->
-  <!-- NOTE: These 10000s necessarily use a *different* format for
-     - parameters, unfortunately, since substitution happens in the
-     - JavaScript (AJAX) that completes the lookup popup window.
-     - So, positional parameters are @1@, @2@, etc.
-    -->
-  <10000 10001="1">DSpace Referenzwerte nachschlagen</10000>
-  <10000 10001="1">Akzeptieren</10000>
-  <10000 10001="1">Hinzufügen</10000>
-  <10000 10001="1">Abbrechen</10000>
-  <10000 10001="1">Weitere Ergebnisse anzeigen</10000>
-  <!-- params are: start, end, total-count, search-value -->
-  <10000 10001="1"</10000>
-  <10000 10001="1">Laden der Auswahldaten fehlgeschlagen: </10000>
-
-  <!-- Choice Lookup - sample config for dc.publisher field -->
-  <10000 10001="1">Name des Herausgebers</10000>
-  <10000 10001="1">Herausgeber nachschlagen</10000>
-  <!-- Params are: search-value -->
-  <10000 10001="1">Nicht-Referenzwert: @1@</10000>
-
-  <!-- mobile theme -->
-  <10000 10001="1">DSpace Mobil</10000>
-  <10000 10001="1">Suche</10000>
-  <10000 10001="1">Stöbern nach:</10000>
-  <10000 10001="1">Datum</10000>
-  <10000 10001="1">Autor</10000>
-  <10000 10001="1">Titel</10000>
-  <10000 10001="1">Schlagwort</10000>
-  <10000 10001="1">verwandt</10000>
-  <10000 10001="1">Dokumente in Google Scholar</10000>
-  <10000 10001="1">Download</10000>
+  DSpace Referenzwerte nachschlagen
+  Akzeptieren
+  Hinzufügen
+  Abbrechen
+  Weitere Ergebnisse anzeigen
   
-  <!-- Choice Lookup - sample config for dc.contributor.author field -->
-  <10000 10001="1"</10000>
-  <10000 10001="1"</10000>
-  <10000 10001="1"</10000>
-  <10000 10001="1">LC Personennamenreferenzdatenbank</10000>
-  <10000 10001="1" (nicht in Referenzdatenbank)</10000>
+  Laden der Auswahldaten fehlgeschlagen: 
 
-  <!-- Versioning -->
-  <10000 10001="1">Eine neue Version dieses Dokumentes anlegen</10000>
-  <10000 10001="1">Versionsgeschichte anzeigen</10000>
+  Name des Herausgebers
+  Herausgeber nachschlagen
+  Nicht-Referenzwert: @1@
 
-  <10000 10001="1">Neue Version anlegen</10000>
-  <10000 10001="1">Version</10000>
-  <10000 10001="1">Neue Version des Dokumentes: {0} anlegen</10000>
-  <10000 10001="1">Version</10000>
-  <10000 10001="1">Version aktualisieren</10000>
-  <10000 10001="1">Grund für die neue Version</10000>
-
-  <10000 10001="1">Version aktualisieren</10000>
-  <10000 10001="1">Version</10000>
-  <10000 10001="1">Version des Dokumentes: {0} aktualisieren</10000>
-  <10000 10001="1">Version</10000>
-  <10000 10001="1">Version aktualisieren</10000>
-  <10000 10001="1">Zusammenfassung</10000>
-
-
-  <10000 10001="1">Löschen bestätigen</10000>
-  <10000 10001="1">Löschen bestätigen</10000>
-  <10000 10001="1">Löschen bestätigen</10000>
-  <10000 10001="1">Sind Sie sicher, dass dieser Version(en) gelöscht werden sollen? </10000>
-  <10000 10001="1">Bitte Beachten: gelöschte Versionen werden nicht länger zugänglich sein.</10000>
-  <10000 10001="1">Version</10000>
-  <10000 10001="1">Dokument</10000>
-  <10000 10001="1">Bearbeiter</10000>
-  <10000 10001="1">Datum</10000>
-  <10000 10001="1">Zusammenfassung</10000>
-
-
-  <10000 10001="1">Version wiederherstellen</10000>
-  <10000 10001="1">Version wiederherstellen</10000>
-  <10000 10001="1">Version wiederherstellen</10000>
-  <10000 10001="1">Sind Sie sicher, dass Sie diese Version wiederherstellen möchten:</10000>
-  <10000 10001="1">Version</10000>
-  <10000 10001="1">Bearbeiter</10000>
-  <10000 10001="1">Datum</10000>
-  <10000 10001="1">Zusammenfassung</10000>
-  <10000 10001="1">Wiederherstellen</10000>
-
-  <10000 10001="1">Versionsgeschichte</10000>
-  <10000 10001="1">Version</10000>
-  <10000 10001="1">Dokument</10000>
-  <10000 10001="1">Bearbeiter</10000>
-  <10000 10001="1">Datum</10000>
-  <10000 10001="1">Zusammenfassung</10000>
-  <10000 10001="1">Aktionen</10000>
-  <10000 10001="1">Wiederherstellen</10000>
-  <10000 10001="1">Aktualisieren</10000>
-  <10000 10001="1">* Ausgewählte Version(en)</10000>
-  <10000 10001="1">Version(en) löschen</10000>
-  <10000 10001="1">Zurück</10000>
-  <10000 10001="1">(nur für Sammlungsadministratoren)</10000>
-  <10000 10001="1">Hinweis</10000>
-  <10000 10001="1">Dies ist nicht die aktuellste Version von diesem Dokument. Die aktuellste Version finden Sie unter: </10000>
-  <10000 10001="1">Hinweis</10000>
-  <10000 10001="1">Eine neuere Fassung von diesem Dokument befindet sich zur Zeit im Geschäftsgang.</10000>
-  <!-- End Versioning -->
+  DSpace Mobil
+  Suche
+  Stöbern nach:
+  Datum
+  Autor
+  Titel
+  Schlagwort
+  verwandt
+  Dokumente in Google Scholar
+  Download
   
-  <!-- Start Discovery -->
+  
+  
+  
+  LC Personennamenreferenzdatenbank
+   (nicht in Referenzdatenbank)
 
-  <!-- org.dspace.app.xmlui.artifactbrowser.AdvancedSearch.java -->
-  <10000 10001="1">Autor</10000>
-  <10000 10001="1">Schlagwort</10000>
-  <10000 10001="1">Typ</10000>
-  <10000 10001="1">Erscheinungsdatum</10000>
-  <10000 10001="1">Erscheinungsdatum</10000>
+  Eine neue Version dieses Dokumentes anlegen
+  Versionsgeschichte anzeigen
 
-  <!-- Site Leve Recently Added Content -->
-  <10000 10001="1">Neuzugänge</10000>
+  Neue Version anlegen
+  Version
+  Neue Version des Dokumentes: {0} anlegen
+  Version
+  Version aktualisieren
+  Grund für die neue Version
 
-  <10000 10001="1">Kind</10000>
-  <10000 10001="1">Verlag</10000>
+  Version aktualisieren
+  Version
+  Version des Dokumentes: {0} aktualisieren
+  Version
+  Version aktualisieren
+  Zusammenfassung
 
-  <10000 10001="1">Überordnung</10000>
 
-  <10000 10001="1">Ergebnisse gruppieren nach</10000>
-  <10000 10001="1">Nichts</10000>
+  Löschen bestätigen
+  Löschen bestätigen
+  Löschen bestätigen
+  Sind Sie sicher, dass dieser Version(en) gelöscht werden sollen? 
+  Bitte Beachten: gelöschte Versionen werden nicht länger zugänglich sein.
+  Version
+  Dokument
+  Bearbeiter
+  Datum
+  Zusammenfassung
 
-  <10000 10001="1">Veröffentlichung</10000>
 
-  <10000 10001="1">Bereich</10000>
-  <10000 10001="1">Sammlung</10000>
+  Version wiederherstellen
+  Version wiederherstellen
+  Version wiederherstellen
+  Sind Sie sicher, dass Sie diese Version wiederherstellen möchten:
+  Version
+  Bearbeiter
+  Datum
+  Zusammenfassung
+  Wiederherstellen
 
-  <10000 10001="1">Serie</10000>
+  Versionsgeschichte
+  Version
+  Dokument
+  Bearbeiter
+  Datum
+  Zusammenfassung
+  Aktionen
+  Wiederherstellen
+  Aktualisieren
+  * Ausgewählte Version(en)
+  Version(en) löschen
+  Zurück
+  (nur für Sammlungsadministratoren)
+  Hinweis
+  Dies ist nicht die aktuellste Version von diesem Dokument. Die aktuellste Version finden Sie unter: 
+  Hinweis
+  Eine neuere Fassung von diesem Dokument befindet sich zur Zeit im Geschäftsgang.
+  Autor
+  Schlagwort
+  Typ
+  Erscheinungsdatum
+  Erscheinungsdatum
 
-  <10000 10001="1">Auflistung nach: Autor</10000>
-  <10000 10001="1">Auflistung nach: Titel</10000>
-  <10000 10001="1">Auflistung nach: Schlagwort</10000>
+  Neuzugänge
+
+  Kind
+  Verlag
+
+  Überordnung
+
+  Ergebnisse gruppieren nach
+  Nichts
+
+  Veröffentlichung
+
+  Bereich
+  Sammlung
+
+  Serie
+
+  Auflistung nach: Autor
+  Auflistung nach: Titel
+  Auflistung nach: Schlagwort
         
-  <10000 10001="1">Auflistung nach: Kurzfassung</10000>
-  <10000 10001="1">Auflistung nach: Serie</10000>
-  <10000 10001="1">Auflistung nach: Sponsor</10000>
-  <10000 10001="1">Auflistung nach: Kennung</10000>
-  <10000 10001="1">Auflistung nach: Sprache (ISO)</10000>
-  <10000 10001="1">Auflistung nach: Stichwort</10000>
-  <10000 10001="1">Auflistung nach: Kategorie</10000>
-  <10000 10001="1">Auflistung nach: Mitarbeiter</10000>
-  <10000 10001="1">Auflistung nach: Urheber</10000>
-  <10000 10001="1">Auflistung nach: Schlagwort</10000>
-  <10000 10001="1">Auflistung nach: Beschreibung</10000>
-  <10000 10001="1">Auflistung nach: Beziehung</10000>
-  <10000 10001="1">Auflistung nach: Mime-Typ</10000>
-  <10000 10001="1">Auflistung nach: Sonstige Beteiligte</10000>
-  <10000 10001="1">Auflistung nach: Betreuer</10000>
-  <10000 10001="1">Auflistung nach: Abteilung</10000>
-  <10000 10001="1">Auflistung nach: Erscheinungsdatum</10000>
+  Auflistung nach: Kurzfassung
+  Auflistung nach: Serie
+  Auflistung nach: Sponsor
+  Auflistung nach: Kennung
+  Auflistung nach: Sprache (ISO)
+  Auflistung nach: Stichwort
+  Auflistung nach: Kategorie
+  Auflistung nach: Mitarbeiter
+  Auflistung nach: Urheber
+  Auflistung nach: Schlagwort
+  Auflistung nach: Beschreibung
+  Auflistung nach: Beziehung
+  Auflistung nach: Mime-Typ
+  Auflistung nach: Sonstige Beteiligte
+  Auflistung nach: Betreuer
+  Auflistung nach: Abteilung
+  Auflistung nach: Erscheinungsdatum
 
-  <10000 10001="1">Autor</10000>
-  <10000 10001="1">Titel</10000>
-  <10000 10001="1">Schlagwort</10000>
-  <10000 10001="1">Erscheinungsdatum</10000>
+  Autor
+  Titel
+  Schlagwort
+  Erscheinungsdatum
 
-  <10000 10001="1">Anzeige der Dokumente {0}-{1}</10000>
+  Anzeige der Dokumente {0}-{1}
 
-  <10000 10001="1">Filtern nach: Autor</10000>
-  <10000 10001="1">Autor</10000>
-  <10000 10001="1">Autor</10000>
-  <10000 10001="1">Filtern nach: Schlagwort</10000>
-  <10000 10001="1">Schlagwort</10000>
-  <10000 10001="1">Schlagwort</10000>
-  <10000 10001="1">Erscheinungsdatum</10000>
+  Filtern nach: Autor
+  Autor
+  Autor
+  Filtern nach: Schlagwort
+  Schlagwort
+  Schlagwort
+  Erscheinungsdatum
 
-  <10000 10001="1">Anfang</10000>
-  <10000 10001="1">oder geben Sie die ersten Zeichen ein:</10000>
+  Anfang
+  oder geben Sie die ersten Zeichen ein:
 
-  <10000 10001="1">Sortiermöglichkeiten:</10000>
-  <10000 10001="1">Relevanz</10000>
-  <10000 10001="1">Titel absteigend</10000>
-  <10000 10001="1">Erscheinungsdatum absteigend</10000>
+  Sortiermöglichkeiten:
+  Relevanz
+  Titel absteigend
+  Erscheinungsdatum absteigend
 
-  <10000 10001="1">Titel aufsteigend</10000>
-  <10000 10001="1">Erscheinungsdatum aufsteigend</10000>
+  Titel aufsteigend
+  Erscheinungsdatum aufsteigend
 
-  <10000 10001="1">Ergebnisse pro Seite:</10000>
+  Ergebnisse pro Seite:
 
-  <10000 10001="1">Filter hinzufügen</10000>
-  <10000 10001="1">Anwenden</10000>
-  <10000 10001="1">Entfernen</10000>
-  <10000 10001="1">Neue Filter:</10000>
-  <10000 10001="1">Aktuelle Filter:</10000>
-  <10000 10001="1">Filter hinzufügen</10000>
+  Filter hinzufügen
+  Anwenden
+  Entfernen
+  Neue Filter:
+  Aktuelle Filter:
+  Filter hinzufügen
 
-  <10000 10001="1">Keine Filterwerte gefunden</10000>
+  Keine Filterwerte gefunden
 
-  <10000 10001="1">Entdecke</10000>
-  <10000 10001="1">... mehr</10000>
+  Entdecke
+  ... mehr
 
-  <10000 10001="1">Suche</10000>
-  <10000 10001="1">Suche</10000>
-  <10000 10001="1">Filter</10000>
-  <10000 10001="1">Verwenden Sie Filter, um die Suchergebnisse zu verfeinern.</10000>
+  Suche
+  Suche
+  Filter
+  Verwenden Sie Filter, um die Suchergebnisse zu verfeinern.
 
-  <10000 10001="1">Enthält</10000>
-  <10000 10001="1">Entspricht</10000>
-  <10000 10001="1">Kennung</10000>
-  <10000 10001="1">enthält nicht</10000>
-  <10000 10001="1">entspricht nicht</10000>
-  <10000 10001="1">Keine Kennung</10000>
+  Enthält
+  Entspricht
+  Kennung
+  enthält nicht
+  entspricht nicht
+  Keine Kennung
     
-  <10000 10001="1">Verwandte Dokumente</10000>
-  <10000 10001="1">Anzeige der Dokumente mit ähnlichem Titel, Autor, Urheber und Thema.</10000>
+  Verwandte Dokumente
+  Anzeige der Dokumente mit ähnlichem Titel, Autor, Urheber und Thema.
 
-  <10000 10001="1">({3} Sekunden)</span></10000>
-  <10000 10001="1">({3} Sekunden)</span></10000>
-  <10000 10001="1">({2} Sekunden)</span></10000>
+  ({3} Sekunden)</span>
+  ({3} Sekunden)</span>
+  ({2} Sekunden)</span>
 
-  <10000 10001="1">Bereiche und Sammlungen, die Ihrer Suche entsprechen.</10000>
-  <10000 10001="1">Dokumente, die Ihrer Suche entsprechen.</10000>
-  <!-- End Discovery -->
+  Bereiche und Sammlungen, die Ihrer Suche entsprechen.
+  Dokumente, die Ihrer Suche entsprechen.
+  Sword Kopie
+  Dokument in ein anderes Repositorium kopieren
+  Sword Kopie
+  Kopie von Dokument: {0}
 
-  <!--   Start Sword Client  -->
-  <10000 10001="1">Sword Kopie</10000>
-  <10000 10001="1">Dokument in ein anderes Repositorium kopieren</10000>
-  <10000 10001="1">Sword Kopie</10000>
-  <10000 10001="1">Kopie von Dokument: {0}</10000>
+  Sword Kopie - Ziel
+  Ziel auswählen
+  URL
+  Alternative URL
+  Benutzername
+  Passwort
+  Im Auftrag von
 
-  <10000 10001="1">Sword Kopie - Ziel</10000>
-  <10000 10001="1">Ziel auswählen</10000>
-  <10000 10001="1">URL</10000>
-  <10000 10001="1">Alternative URL</10000>
-  <10000 10001="1">Benutzername</10000>
-  <10000 10001="1">Passwort</10000>
-  <10000 10001="1">Im Auftrag von</10000>
+  Ungültige URL
+  Ungültiger Benutzername
+  Ungültiges Passwort
+  Beim Anforden des Sword Servicedokuments ist ein Fehler aufgetreten: {0}
 
-  <10000 10001="1">Ungültige URL</10000>
-  <10000 10001="1">Ungültiger Benutzername</10000>
-  <10000 10001="1">Ungültiges Passwort</10000>
-  <10000 10001="1">Beim Anforden des Sword Servicedokuments ist ein Fehler aufgetreten: {0}</10000>
+  Sword Zielsammlungen
+  Sammlung(en) auswählen
+  Sammlung: {0}
+  Titel: {0} 
+  Policy: {0}
+  Mediation: {0}
+  Dateitypen: {0}
+  Paketformate: {0}
+  Hier veröffentlichen
 
-  <10000 10001="1">Sword Zielsammlungen</10000>
-  <10000 10001="1">Sammlung(en) auswählen</10000>
-  <10000 10001="1">Sammlung: {0}</10000>
-  <10000 10001="1">Titel: {0} </10000>
-  <10000 10001="1">Policy: {0}</10000>
-  <10000 10001="1">Mediation: {0}</10000>
-  <10000 10001="1">Dateitypen: {0}</10000>
-  <10000 10001="1">Paketformate: {0}</10000>
-  <10000 10001="1">Hier veröffentlichen</10000>
+  Ziel des untergeordneten Dienstes
+  Servicedokument des untergeordneten Dienstes
 
-  <10000 10001="1">Ziel des untergeordneten Dienstes</10000>
-  <10000 10001="1">Servicedokument des untergeordneten Dienstes</10000>
+  Sammlung:{0}
+  Titel: {0}
+  Policy: {0} 
+  Mediation:{0} 
+  Dateityp
+  Paketformat
+  Das gewählte Paketformat wird nicht unterstützt
 
-  <10000 10001="1">Sammlung:{0}</10000>
-  <10000 10001="1">Titel: {0}</10000>
-  <10000 10001="1">Policy: {0} </10000>
-  <10000 10001="1">Mediation:{0} </10000>
-  <10000 10001="1">Dateityp</10000>
-  <10000 10001="1">Paketformat</10000>
-  <10000 10001="1">Das gewählte Paketformat wird nicht unterstützt</10000>
+  Dokument erfolgreich kopiert
+  Paketformatfehler
+  Ungültiges Handle
+  Bei Erstellung des Paketobjektes ist ein Fehler aufgetreten.
+  Beim Deposit ist ein Fehler aufgetreten: {0}
 
-  <10000 10001="1">Dokument erfolgreich kopiert</10000>
-  <10000 10001="1">Paketformatfehler</10000>
-  <10000 10001="1">Ungültiges Handle</10000>
-  <10000 10001="1">Bei Erstellung des Paketobjektes ist ein Fehler aufgetreten.</10000>
-  <10000 10001="1">Beim Deposit ist ein Fehler aufgetreten: {0}</10000>
+  Sword Antwort
+  Sword Antwor
+  Aktionen, die Sie durchführen können:
+  Aufgabe sich selbst zuordnen.
+  Aufgabe übernehmen
+  Aufgabe im Aufgabenpool belassen.
+  Aufgabe nicht übernehmen
+  Zurück zur Übersicht
+  Annehmen/Ablehnen Schritt
 
-  <10000 10001="1">Sword Antwort</10000>
-  <10000 10001="1">Sword Antwor</10000>
-  <!--   End Sword Client  -->
+  Aufgabe durchführen: Annehmen/Ablehnen des Dokumentes
+  Aktionen, die Sie durchführen können:
+  .  Sie haben dann die Möglichkeit, den Grund anzugeben und mögliche Verbesserungen aufzuzeigen.
+  Dokument ablehnen
+  .
+  Dokument annehmen
 
-  <!-- Start XMLWorkflow -->
-  <10000 10001="1">Aktionen, die Sie durchführen können:</10000>
-  <10000 10001="1">Aufgabe sich selbst zuordnen.</10000>
-  <10000 10001="1">Aufgabe übernehmen</10000>
-  <10000 10001="1">Aufgabe im Aufgabenpool belassen.</10000>
-  <10000 10001="1">Aufgabe nicht übernehmen</10000>
-  <10000 10001="1">Zurück zur Übersicht</10000>
-  <10000 10001="1">Annehmen/Ablehnen Schritt</10000>
+  Aufgabe durchführen: Dokument Annehmen/Ablehnen/Bearbeiten
+  Aktionen, die Sie durchführen können:
+  .  Sie haben dann die Möglichkeit, den Grund anzugeben und mögliche Verbesserungen aufzuzeigen, so dass das Dokument ggf. neu eingereicht werden kann.
+  Dokument ablehnen
+  .
+  Dokument annehmen
+  Wählen Sie dies aus, um das Dokument zu bearbeiten.
+  Metadaten bearbeiten
 
-  <10000 10001="1">Aufgabe durchführen: Annehmen/Ablehnen des Dokumentes</10000>
-  <10000 10001="1">Aktionen, die Sie durchführen können:</10000>
-  <10000 10001="1".  Sie haben dann die Möglichkeit, den Grund anzugeben und mögliche Verbesserungen aufzuzeigen.</10000>
-  <10000 10001="1">Dokument ablehnen</10000>
-  <10000 10001="1".</10000>
-  <10000 10001="1">Dokument annehmen</10000>
+  Unknown state
 
-  <10000 10001="1">Aufgabe durchführen: Dokument Annehmen/Ablehnen/Bearbeiten</10000>
-  <10000 10001="1">Aktionen, die Sie durchführen können:</10000>
-  <10000 10001="1".  Sie haben dann die Möglichkeit, den Grund anzugeben und mögliche Verbesserungen aufzuzeigen, so dass das Dokument ggf. neu eingereicht werden kann.</10000>
-  <10000 10001="1">Dokument ablehnen</10000>
-  <10000 10001="1".</10000>
-  <10000 10001="1">Dokument annehmen</10000>
-  <10000 10001="1">Wählen Sie dies aus, um das Dokument zu bearbeiten.</10000>
-  <10000 10001="1">Metadaten bearbeiten</10000>
+  Aufgabe durchführen: Gutachter zuordnen
+  Verwenden Sie das Suchfeld, um eine Person als Gutachter auszusuchen.
+  Suche nach Gutachter
+  Suche nach Person
+  Als Gutachter auswählen
 
-  <10000 10001="1">Unknown state</10000>
+   klicken.
+  Aufgabe ablehnen
 
-  <10000 10001="1">Aufgabe durchführen: Gutachter zuordnen</10000>
-  <10000 10001="1">Verwenden Sie das Suchfeld, um eine Person als Gutachter auszusuchen.</10000>
-  <10000 10001="1">Suche nach Gutachter</10000>
-  <10000 10001="1">Suche nach Person</10000>
-  <10000 10001="1">Als Gutachter auswählen</10000>
+  Eingereichtes Dokument begutachten
+  Eingereichtes Dokument begutachten
+  Geben Sie das Ergebnis für das eingereichte Dokument ein.
 
-  <10000 10001="1" klicken.</10000>
-  <10000 10001="1">Aufgabe ablehnen</10000>
+  Geschäftsgang Übersicht
+  Geschäftsgang Übersicht
+  Geschäftsgang Übersicht
+   
+  Schritt
+  Dokument
+  Sammlung
+  Eingereicht von
+  Dokument an den Einreichenden zurücksenden
+  Dokumente löschen
+  Keine Treffer
 
-  <10000 10001="1">Eingereichtes Dokument begutachten</10000>
-  <10000 10001="1">Eingereichtes Dokument begutachten</10000>
-  <10000 10001="1">Geben Sie das Ergebnis für das eingereichte Dokument ein.</10000>
+  Anzeige Dokument im Geschäftsgang: {0}
+  Dokument im Geschäftsgang anzeigen
 
-  <10000 10001="1">Geschäftsgang Übersicht</10000>
-  <10000 10001="1">Geschäftsgang Übersicht</10000>
-  <10000 10001="1">Geschäftsgang Übersicht</10000>
-  <10000 10001="1"> </10000>
-  <10000 10001="1">Schritt</10000>
-  <10000 10001="1">Dokument</10000>
-  <10000 10001="1">Sammlung</10000>
-  <10000 10001="1">Eingereicht von</10000>
-  <10000 10001="1">Dokument an den Einreichenden zurücksenden</10000>
-  <10000 10001="1">Dokumente löschen</10000>
-  <10000 10001="1">Keine Treffer</10000>
+  Annehmen/Ablehnen
+  Annehmen/Ablehnen
+  Annehmen/Ablehnen
 
-  <10000 10001="1">Anzeige Dokument im Geschäftsgang: {0}</10000>
-  <10000 10001="1">Dokument im Geschäftsgang anzeigen</10000>
+  Annehmen/Bearbeiten/Ablehnen Schritt
+  Annehmen/Bearbeiten/Ablehnen
+  Annehmen/Bearbeiten/Ablehnen
 
-  <10000 10001="1">Annehmen/Ablehnen</10000>
-  <10000 10001="1">Annehmen/Ablehnen</10000>
-  <10000 10001="1">Annehmen/Ablehnen</10000>
+  Abschließend Annehmen/Bearbeiten
+  Abschließend Annehmen/Bearbeiten
+  Abschließend Annehmen/Bearbeiten
 
-  <10000 10001="1">Annehmen/Bearbeiten/Ablehnen Schritt</10000>
-  <10000 10001="1">Annehmen/Bearbeiten/Ablehnen</10000>
-  <10000 10001="1">Annehmen/Bearbeiten/Ablehnen</10000>
+  Gutachter zuordnen
+  Gutachter zuordnen
 
-  <10000 10001="1">Abschließend Annehmen/Bearbeiten</10000>
-  <10000 10001="1">Abschließend Annehmen/Bearbeiten</10000>
-  <10000 10001="1">Abschließend Annehmen/Bearbeiten</10000>
+  Begutachtung durch eine einzelne Person
+  Eingereichtes Dokument begutachten
 
-  <10000 10001="1">Gutachter zuordnen</10000>
-  <10000 10001="1">Gutachter zuordnen</10000>
-
-  <10000 10001="1">Begutachtung durch eine einzelne Person</10000>
-  <10000 10001="1">Eingereichtes Dokument begutachten</10000>
-
-  <10000 10001="1">Score review</10000>
-  <10000 10001="1">Score review</10000>
-  <10000 10001="1">Score review</10000>
-  <!-- End XMLWorkflow -->  
-  
-  
-  
-</catalogue>
+  Score review
+  Score review
+  Score review
