@@ -1,0 +1,2196 @@
+ ***** 
+DSpace Startseite ***** Trang chủ DSpace
+Suche ***** tìm kiếm
+Los ***** rất nhiều
+Zur Startseite ***** Đến trang chủ
+Speichern ***** tiết kiệm
+Abbrechen ***** hủy bỏ
+Zurück ***** trở lại
+Aktualisieren ***** cập nhật
+Löschen ***** xóa bỏ
+Weiter ***** hơn
+Ohne Titel ***** Không có tiêu đề
+Ausführen ***** thực hiện
+In die Warteschleife ***** Chờ
+Seite nicht gefunden ***** Không tìm thấy trang
+Seite nicht gefunden ***** Không tìm thấy trang
+Die Seite, die Sie angefordert haben, konnte nicht gefunden werden. ***** Trang bạn yêu cầu không thể được tìm thấy.
+Nur Administratoren dieser Seite dürfen sich als anderer Nutzer anmelden. ***** Chỉ quản trị viên của trang này mới có thể đăng nhập với tư cách người dùng khác.
+Nur authentifizierte Administratoren dürfen sich als anderer Nutzer anmelden. ***** Chỉ quản trị viên được xác thực mới có thể đăng nhập như một người dùng khác.
+Sie können nicht die Identität eines anderen Administrators annehmen. ***** Bạn không thể chấp nhận danh tính của quản trị viên khác.
+Das digitale Repositorium erfasst, speichert, erhält, erschließt und verbreitet digitale Forschungsergebnisse. ***** Kho lưu trữ kỹ thuật số nắm bắt, lưu trữ, bảo tồn, phát triển và phổ biến kết quả nghiên cứu kỹ thuật số.
+RSS Feeds ***** Nguồn cấp dữ liệu RSS
+Feed Bild ***** Thức ăn hình ảnh
+Ohne Titel ***** Không có tiêu đề
+An Alle ***** Cho tất cả
+ ***** 
+ ***** 
+Suchergebnisse für den Bereich: {0} ***** Kết quả tìm kiếm cho phần: {0}
+Suchergebnisse für die Sammlung {0} ***** Kết quả tìm kiếm cho bộ sưu tập {0}
+Suchergebnisse ***** kết quả tìm kiếm
+ergab {1} Treffer. ***** đã trả lại {1} lượt truy cập.
+Bereiche und Sammlungen zu Ihrer Suchanfrage ***** Các khu vực và bộ sưu tập cho tìm kiếm của bạn
+Dokumente zu Ihrer Suchanfrage ***** Tài liệu cho truy vấn của bạn
+Die Suche führte zu keinem Treffer. ***** Việc tìm kiếm không dẫn đến một hit.
+Gesamter Bestand ***** Toàn bộ hàng tồn kho
+ ***** 
+Titel ***** tiêu đề
+Erscheinungsdatum ***** ngày phát hành
+Zugangsdatum ***** ngày nhận
+Relevanz ***** liên quan
+Liste Dokumente nach ***** Liệt kê tài liệu
+sortiert nach ***** được sắp xếp theo
+aufsteigend ***** tăng dần
+absteigend ***** giảm dần
+Treffer/Seite ***** Kết quả / trang
+ ***** 
+Erweiterte Suche ***** Tìm kiếm nâng cao
+Erweiterte Suche ***** Tìm kiếm nâng cao
+Erweiterte Suche ***** Tìm kiếm nâng cao
+Suchbereich ***** khu vực tìm kiếm
+Schränken Sie Ihre Suche auf einen Bereich oder eine Sammlung ein. ***** Giới hạn tìm kiếm của bạn vào một khu vực hoặc bộ sưu tập.
+Verknüpfung ***** liên kết
+Suchmodus ***** chế độ tìm kiếm
+Suche nach ***** Tìm kiếm
+Autor ***** tác giả
+Titel ***** tiêu đề
+Schlagwort ***** khẩu hiệu
+Zusammenfassung ***** tóm lại
+Betreuer ***** người chăm sóc
+Serie ***** loạt
+Sponsor ***** nhà tài trợ
+Kennung ***** ID
+Sprache (ISO) ***** Ngôn ngữ (ISO)
+Stichwort ***** từ khóa
+ ***** 
+Beteiligte Person ***** Người có liên quan
+Urheber ***** tác giả
+Abstract ***** trừu tượng
+Beziehung ***** mối quan hệ
+Mime-Typ ***** loại mime
+Sonstige beteiligte Person ***** Người khác có liên quan
+Betreuer ***** người chăm sóc
+Abteilung ***** sở
+ ***** 
+Gesamter Text ***** Toàn văn
+UND ***** VÀ
+ODER ***** HOẶC
+NICHT ***** KHÔNG
+ ***** 
+ ***** 
+Oder geben Sie die ersten Buchstaben ein: ***** Hoặc nhập các chữ cái đầu tiên:
+Auflistung von Dokumenten, die mit diesen Buchstaben anfangen ***** Danh sách các tài liệu bắt đầu bằng những chữ cái này
+Gehe zu einem Punkt im Index: ***** Đi đến một điểm trong chỉ mục:
+(Wähle Monat) ***** (Chọn tháng)
+(Wähle Jahr) ***** (Chọn năm)
+Oder geben Sie ein Jahr ein: ***** Hoặc nhập một năm:
+Auflistung von Dokumenten eines bestimmten Jahres. ***** Danh sách các tài liệu của một năm nhất định.
+Für diese Browse-Ansicht gibt es keine Ergebnisse. ***** Không có kết quả cho chế độ xem này.
+Sortiert nach: ***** Sắp xếp theo:
+Sortierung: ***** Sắp xếp theo:
+Ergebnisse: <!-- /Page --> ***** Kết quả: <! - / Trang ->
+Autoren/Dokument: ***** Tác giả / tài liệu:
+ ***** 
+Alles ***** mọi điều
+ ***** 
+Titel ***** tiêu đề
+Erscheinungsdatum ***** ngày phát hành
+Zugangsdatum ***** ngày nhận
+ ***** 
+aufsteigend ***** tăng dần
+absteigend ***** giảm dần
+ ***** 
+Autorenname ***** tên tác giả
+Schlagwort ***** khẩu hiệu
+ ***** 
+Auflistung  {0} nach Autor {1} ***** Liệt kê {0} của tác giả {1}
+Auflistung  {0} nach Autor ***** Liệt kê {0} của tác giả
+ ***** 
+Auflistung {0} Nach Schlagwort {1} ***** Liệt kê {0} Theo từ khóa {1}
+Auflistung {0} Nach Schlagwort ***** Liệt kê {0} theo từ khóa
+ ***** 
+Auflistung {0} nach Titel {1} ***** Liệt kê {0} theo tiêu đề {1}
+Auflistung {0} nach Titel ***** Liệt kê {0} theo tiêu đề
+ ***** 
+Auflistung {0} nach Erscheinungsdatum {1} ***** Liệt kê {0} theo ngày xuất bản {1}
+Auflistung {0} nach Erscheinungsdatum ***** Liệt kê {0} theo ngày xuất bản
+ ***** 
+Auflistung {0} nach Zugangsdatum {1} ***** Liệt kê {0} theo ngày nhận {1}
+Auflistung {0} nach Zugangsdatum ***** Liệt kê {0} theo ngày nhận
+ ***** 
+ ***** 
+Suchbereich ***** khu vực tìm kiếm
+Gesamter Bestand ***** Toàn bộ hàng tồn kho
+Volltextsuche: ***** tìm kiếm văn bản đầy đủ:
+Auflistung nach ***** Liệt kê sau
+Titeln ***** chức danh
+Autoren ***** tác giả
+Datum ***** ngày
+Erweiterte Suche ***** Tìm kiếm nâng cao
+Neueste Zugänge ***** Truy cập mới nhất
+ ***** 
+Bereichsliste ***** danh sách khu vực
+Bereichsliste ***** danh sách khu vực
+Bereiche in DSpace ***** Các khu vực trong DSpace
+Wählen Sie einen Bereich, um die enthaltenen Sammlungen zu durchstöbern. ***** Chọn một khu vực để duyệt các bộ sưu tập trong đó.
+ ***** 
+Suchbereich ***** khu vực tìm kiếm
+Gesamter Bestand ***** Toàn bộ hàng tồn kho
+Volltextsuche: ***** tìm kiếm văn bản đầy đủ:
+Auflistung nach ***** Liệt kê sau
+Titeln ***** chức danh
+Autoren ***** tác giả
+Datum ***** ngày
+Erweiterte Suche ***** Tìm kiếm nâng cao
+Teilbereiche in diesem Bereich ***** Vùng đất ở khu vực này
+Sammlungen in diesem Bereich ***** Bộ sưu tập trong lĩnh vực này
+Neueste Zugänge ***** Truy cập mới nhất
+ ***** 
+ ***** 
+Kontakt ***** tiếp xúc
+Kontakt ***** tiếp xúc
+Kontakt ***** tiếp xúc
+{0} Administratoren können kontaktiert werden via: ***** {0} Quản trị viên có thể được liên hệ qua:
+Onlineformular ***** mẫu trực tuyến
+Feedback ***** Phản hồi
+E-Mail ***** E-mail
+ ***** 
+Ihre Anregungen/Meinung ***** Gợi ý / ý kiến ​​của bạn
+Ihre Anregungen/Meinung ***** Gợi ý / ý kiến ​​của bạn
+Ihre Anregungen/Meinung ***** Gợi ý / ý kiến ​​của bạn
+Danke für Ihre Anregungen/Meinung zu DSpace. Ihre Kommentare sind jederzeit willkommen! ***** Cảm ơn bạn đã bình luận của bạn về DSpace. Bình luận của bạn luôn được chào đón!
+Ihre E-Mail-Adresse ***** Địa chỉ email của bạn
+Diese Adresse wird benutzt, damit wir ggf. mit Ihnen Rücksprache halten können. ***** Địa chỉ này sẽ được sử dụng để chúng tôi có thể tham khảo ý kiến ​​của bạn nếu cần thiết.
+Kommentar ***** chú thích
+Feedback abschicken ***** Gửi phản hồi
+ ***** 
+Ihre Anregungen/Meinung ***** Gợi ý / ý kiến ​​của bạn
+Ihre Anregungen/Meinung ***** Gợi ý / ý kiến ​​của bạn
+Feedback gesendet ***** Phản hồi đã được gửi
+Danke für Ihre(n) Anregungen/Kommentar. ***** Cảm ơn bạn đã góp ý / ý kiến ​​của bạn.
+ ***** 
+DSpace Suche ***** Tìm kiếm không gian
+Zum Suchen geben Sie den Suchbegriff in das Feld unten ein. ***** Để tìm kiếm, nhập cụm từ tìm kiếm vào ô bên dưới.
+ ***** 
+Dokumentanzeige ***** tài liệu Viewer
+Das Dokument erscheint in: ***** Tài liệu xuất hiện trong:
+Zur Kurzanzeige ***** Để quảng cáo ngắn
+Zur Langanzeige ***** Để hiển thị lâu
+Diese Dokument wurde zurückgezogen und steht nicht mehr zur Verfügung. ***** Tài liệu này đã được rút và không còn có sẵn.
+ ***** 
+<!-- org.dspace.app.xmlui.artifactbrowser.Navigation.java --> ***** <! - org.dspace.app.xmlui.artifactbrowser.Navlation.java ->
+Stöbern ***** sự tìm tòi
+Gesamter Bestand ***** Toàn bộ hàng tồn kho
+Bereiche &amp; Sammlungen ***** Khu vực &amp; Các bộ sưu tập
+Titeln ***** chức danh
+Autoren ***** tác giả
+Schlagworten ***** từ khóa
+Erscheinungsdatum ***** ngày phát hành
+Zugangsdatum ***** ngày nhận
+Diese Sammlung ***** Bộ sưu tập này
+Diesen Bereich ***** Khu vực này
+ ***** 
+Suche ***** tìm kiếm
+Suche ***** tìm kiếm
+Suche ***** tìm kiếm
+Suchbereich ***** khu vực tìm kiếm
+Volltextsuche ***** tìm kiếm toàn văn
+ ***** 
+Dieses Dokument ist nur eingeschränkt zugänglich. ***** Tài liệu này chỉ có thể truy cập một phần.
+Zugangsbeschränkung ***** Diện tích hạn chế
+Diese Ressource ist nur eingeschränkt zugänglich. ***** Tài nguyên này bị hạn chế.
+Dieser Bereich ist nur eingeschränkt zugänglich. ***** Khu vực này bị hạn chế.
+Diese Sammlung ist nur eingeschränkt zugänglich. ***** Bộ sưu tập này bị hạn chế.
+Dieses Dokument ist nur eingeschränkt zugänglich. ***** Tài liệu này chỉ có thể truy cập một phần.
+Diese Datei ist nur eingeschränkt zugänglich. ***** Tập tin này bị hạn chế.
+Sie verfügen nicht über das Recht, auf diese eingeschränkt zugängliche Ressource zuzugreifen. ***** Bạn không có quyền truy cập tài nguyên bị hạn chế này.
+Sie verfügen nicht über das Recht, auf diesen eingeschränkt zugänglichen Bereich  <b>{0}</b> zuzugreifen. ***** Bạn không có quyền truy cập vào khu vực cấm này <b> {0} </ b>.
+Sie verfügen nicht über das Recht, auf diese eingeschränkt zugängliche Sammlung  <b>{0}</b> zuzugreifen. ***** Bạn không có quyền truy cập vào bộ sưu tập bị hạn chế này <b> {0} </ b>.
+Sie verfügen nicht über das Recht, auf dieses eingeschränkt zugängliche Dokument <b>{0}</b> zuzugreifen. ***** Bạn không có quyền truy cập tài liệu bị hạn chế này <b> {0} </ b>.
+Sie verfügen nicht über das Recht, auf diese eingeschränkt zugängliche Datei  <b>{0}</b> zuzugreifen. ***** Bạn không có quyền truy cập tệp bị hạn chế này <b> {0} </ b>.
+Sammlung ***** bộ sưu tập
+Bereich ***** khu vực
+Datei ***** hồ sơ
+Dokument ***** tài liệu
+Ressource ***** tài nguyên
+unbekannt ***** không biết
+Weiter zur Anmeldung ***** Tiếp tục đăng nhập
+Diese Dokument wurde zurückgezogen ***** Tài liệu này đã được rút
+Das ausgewählte Dokument wurde zurückgezogen und steht nicht länger zur Verfügung. ***** Tài liệu đã chọn đã bị rút và không còn khả dụng.
+Das ausgewählte Dokument ist nur für bestimmte Benutzergruppen zugänglich. Bitte melden Sie sich an, wenn Sie zu einer entsprechenden Gruppe gehören. ***** Tài liệu đã chọn chỉ có thể truy cập được đối với các nhóm người dùng cụ thể. Vui lòng đăng nhập nếu bạn thuộc về một nhóm.
+Ihr Benutzerkonto verfügt nicht über die Rechte, auf dieses Dokument zuzugreifen. Bei Fragen wenden Sie sich bitte an den Administrator.. ***** Tài khoản người dùng của bạn không có quyền truy cập tài liệu này. Nếu bạn có bất kỳ câu hỏi, xin vui lòng liên hệ với quản trị viên.
+ ***** 
+ ***** 
+ ***** 
+ ***** 
+ ***** 
+Diese Ressource ist nur eingeschränkt zugänglich. ***** Tài nguyên này bị hạn chế.
+Zugangsbeschränkung ***** Diện tích hạn chế
+Sammlung ***** bộ sưu tập
+Bereich ***** khu vực
+Datei ***** hồ sơ
+Dokument ***** tài liệu
+Ressource ***** tài nguyên
+unbekannt ***** không biết
+ ***** 
+Dieses Dokument ist nur eingeschränkt zugänglich. ***** Tài liệu này chỉ có thể truy cập một phần.
+Das Dokument, auf welches Sie zugreifen wollten, ist nur eingeschränkt zugänglich. Bitte melden Sie sich mit der entsprechenden Zugriffsberechtigung an. ***** Tài liệu bạn muốn truy cập bị hạn chế. Vui lòng đăng nhập với sự cho phép truy cập thích hợp.
+ ***** 
+Monatsstatistiken ***** Thống kê hàng tháng
+Statistische Zusammenfassung ***** Tóm tắt thống kê
+ ***** 
+Keine Statistiken verfügbar ***** Không có số liệu thống kê
+Zur Zeit stehen keine Statistiken zur Verfügung.  Versuchen Sie es später noch einmal. ***** Hiện tại không có số liệu thống kê có sẵn. Vui lòng thử lại sau.
+ ***** 
+ ***** 
+Diese Datei ist nur eingeschränkt zugänglich ***** Tập tin này bị hạn chế
+Die Datei, auf die Sie zugreifen wollten, ist nur eingeschränkt zugänglich. Bitte melden Sie sich mit der entsprechenden Zugriffsberechtigung an. ***** Các tập tin bạn đang cố gắng truy cập bị hạn chế. Vui lòng đăng nhập với sự cho phép truy cập thích hợp.
+ ***** 
+Dieser Export ist für Sie nicht zugänglich. ***** Xuất khẩu này là không thể truy cập cho bạn.
+Der Export, auf den Sie zugreifen wollten, hat eine Zugriffsbeschränkung und Sie verfügen nicht über die entsprechenden Rechte. Bitte melden Sie sich als Benutzer mit entsprechenden Rechten an, um auf diesen Export zuzugreifen. ***** Xuất mà bạn đang cố truy cập có một hạn chế truy cập và bạn không có quyền thích hợp. Vui lòng đăng nhập với tư cách người dùng có quyền thích hợp để truy cập vào bản xuất này.
+ ***** 
+ ***** 
+Registrierung Neuer Benutzer ***** Đăng ký người dùng mới
+Passwort vergessen ***** Quên mật khẩu
+ ***** 
+Registrierung nicht verfügbar ***** Đăng ký không có sẵn
+Registrierung nicht verfügbar ***** Đăng ký không có sẵn
+Administrator</a>, wenn Sie Fragen dazu haben. ***** Quản trị viên </a> nếu bạn có thắc mắc.
+ ***** 
+Benutzerdaten aktualisieren ***** Cập nhật dữ liệu người dùng
+Benutzerdaten anlegen ***** Tạo dữ liệu người dùng
+Benutzerdaten aktualisieren ***** Cập nhật dữ liệu người dùng
+Benutzerdaten aktualisieren ***** Cập nhật dữ liệu người dùng
+Benutzerdaten anlegen ***** Tạo dữ liệu người dùng
+E-Mail-Adresse ***** E-mail địa chỉ
+Vorname ***** tên riêng
+Nachname ***** họ
+Telefon ***** điện thoại
+Sprache ***** ngôn ngữ
+Abonnements ***** đăng ký
+Sie können Sammlungen abonnieren, um laufend per E-Mail über Neuerscheinungen informiert zu werden. Sie können beliebig viele Sammlungen abonnieren. Eine Alternative zur Benachrichtigung per E-Mail sind die RSS feeds. ***** Bạn có thể đăng ký các bộ sưu tập để được cập nhật với các bản phát hành mới thông qua e-mail. Bạn có thể đăng ký vào bất kỳ số lượng các bộ sưu tập. Một thay thế cho thông báo email là các nguồn cấp dữ liệu RSS.
+E-Mail-Abonnement ***** thuê bao E-mail
+(Wählen Sie eine Sammlung) ***** (Chọn một bộ sưu tập)
+Sie können zudem ein neues Passwort setzen, indem Sie es in das Feld unten eingeben und dann noch mal bestätigen, indem Sie es in das zweite Feld eingeben. Passwörter sollten mindestens 6 Zeichen lang sein. ***** Bạn cũng có thể đặt mật khẩu mới bằng cách nhập mật khẩu vào ô bên dưới và sau đó xác nhận lại bằng cách nhập mật khẩu vào hộp thứ hai. Mật khẩu phải dài ít nhất 6 ký tự.
+Bitte geben Sie ein Passwort in das Feld unten ein und bestätigen Sie es durch eine zweite identische Eingabe. Das Passwort sollte mindestens 6 Zeichen lang sein. ***** Vui lòng nhập mật khẩu vào trường bên dưới và xác nhận nó với mục nhập giống hệt thứ hai. Mật khẩu phải dài ít nhất 6 ký tự.
+Passwort ***** mật khẩu
+Erneute Eingabe zur Bestätigung ***** Nhập lại để xác nhận
+Registrierung abgeschlossen ***** Đăng ký hoàn tất
+Benutzerdaten aktualisieren ***** Cập nhật dữ liệu người dùng
+Dies ist ein Pflichtfeld ***** Đây là một trường bắt buộc
+Wählen Sie ein Passwort, welches mindestens 6 Zeichen lang ist. ***** Chọn một mật khẩu dài ít nhất 6 ký tự.
+Bitte geben Sie Ihr Passwort noch einmal ein, um es zu bestätigen. ***** Vui lòng nhập lại mật khẩu của bạn để xác nhận.
+Benutzergruppen, denen Sie angehören ***** Nhóm người dùng mà bạn thuộc về
+Identifikation ***** nhận biết
+Sicherheit ***** an ninh
+ ***** 
+E-Mail-Adresse verifizieren ***** Xác nhận địa chỉ email
+Benutzerdaten anlegen ***** Tạo dữ liệu người dùng
+Fertig ***** sẳn sàng
+E-Mail-Adresse verifizieren ***** Xác nhận địa chỉ email
+Passwort neu setzen ***** Đặt lại mật khẩu
+Fertig ***** sẳn sàng
+ ***** 
+Passwort neu gesetzt ***** Đặt lại mật khẩu
+Passwort neu gesetzt ***** Đặt lại mật khẩu
+Ihr Passwort wurde neu gesetzt. ***** Mật khẩu của bạn đã được đặt lại.
+ ***** 
+Ungültige Kennung ***** Định danh không hợp lệ
+Ungültige Kennung ***** Định danh không hợp lệ
+Ungültige Kennung ***** Định danh không hợp lệ
+Die URL, welche Sie angegeben haben ist ungültig. Gegebenfalls gab es einen Zeilenumbruch durch ihr E-Mail-Programm, wie hier z. B.: ***** URL bạn chỉ định không hợp lệ. Nếu cần thiết, đã có một dòng ngắt qua chương trình e-mail của cô ấy, như ở đây z. B.:
+Wenn dem der Fall ist, so kopieren Sie die gesamte URL und fügen Sie sie direkt in ihren Browser ein anstatt nur auf den Link in der E-Mail zu klicken. Die Adressleiste Ihres Browsers sollte dann etwas in dieser Art enthalten: ***** Nếu vậy, hãy sao chép toàn bộ URL và dán trực tiếp vào trình duyệt của bạn thay vì chỉ nhấp vào liên kết trong email. Thanh địa chỉ của trình duyệt của bạn sẽ chứa một cái gì đó như thế này:
+ ***** 
+Mein Benutzerkonto ***** Tài khoản người dùng của tôi
+Benutzerdaten ***** dữ liệu người dùng
+Ausloggen ***** đăng xuất
+Einloggen ***** đăng nhập
+Registrieren ***** đăng ký
+ ***** 
+Einloggen ***** đăng nhập
+Einloggen ***** đăng nhập
+In DSpace Einloggen ***** Đăng nhập vào DSpace
+E-Mail-Addresse ***** E-mail Địa chỉ
+Die angegebene E-Mail-Adresse und/oder das Passwort sind ungültig. ***** Địa chỉ e-mail và / hoặc mật khẩu được chỉ định không hợp lệ.
+Passwort ***** mật khẩu
+Haben Sie Ihr Passwort vergessen? ***** Bạn đã quên mật khẩu của bạn?
+Einloggen ***** đăng nhập
+Einen neuen Benutzer registrieren ***** Đăng ký người dùng mới
+Legen Sie einen Benutzeracccount an, um Dienste wie den Neuerscheinungsinformationsdienst nutzen zu können. ***** Tạo tài khoản người dùng để sử dụng các dịch vụ như dịch vụ thông tin xuất bản mới.
+Klicken Sie hier, um einen neuen Benutzeraccount anzulegen. ***** Nhấn vào đây để tạo một tài khoản người dùng mới.
+ ***** 
+Einloggen ***** đăng nhập
+Einloggen ***** đăng nhập
+In DSpace einloggen ***** Đăng nhập vào DSpace
+Benutzername ***** tên người dùng
+Der Benutzername und/oder Passwort sind ungültig. ***** Tên người dùng và / hoặc mật khẩu không hợp lệ.
+Passwort ***** mật khẩu
+Einloggen ***** đăng nhập
+ ***** 
+Einlogart wählen ***** Chọn loại đăng nhập
+Einlogart wählen ***** Chọn loại đăng nhập
+Einlogart wählen ***** Chọn loại đăng nhập
+Einloggen via: ***** Đăng nhập qua:
+Shibboleth Authentifizierung ***** Xác thực Shibboleth
+LDAP Authentifizierung ***** Xác thực LDAP
+Passwort ***** mật khẩu
+Web Zertifikat ***** Chứng chỉ web
+ ***** 
+Die Zugangsdaten sind ungültig. ***** Dữ liệu truy cập không hợp lệ.
+Authentifizierung nicht möglich, da ungültige Daten erhalten. ***** Không thể xác thực vì dữ liệu không hợp lệ được nhận.
+Ein Benutzer mit diesen Zugangsdaten wurde nicht gefunden. ***** Không tìm thấy người dùng có dữ liệu truy cập này.
+Authentifizierung fehlgeschlagen ***** Xác thực thất bại
+Authentifizierung fehlgeschlagen ***** Xác thực thất bại
+Authentifizierung fehlgeschlagen ***** Xác thực thất bại
+ ***** 
+Keine Authentifizierungsmethode gefunden ***** Không tìm thấy phương thức xác thực
+Keine Authentifizierungsmethode gefunden. Bitte wenden Sie sich an den Administrator. ***** Không tìm thấy phương thức xác thực. Vui lòng liên hệ với quản trị viên.
+Shibboleth Login fehlgeschlagen ***** Đăng nhập Shibboleth không thành công
+Die Authentifizierung vie Shibboleth steht momentan nicht zur Verfügung. Bitte wenden Sie sich an den Administrator. ***** Xác thực của Shibboleth hiện không có sẵn. Vui lòng liên hệ với quản trị viên.
+ ***** 
+Benutzerdaten aktualisiert ***** Cập nhật dữ liệu người dùng
+Benutzerdaten aktualisieren ***** Cập nhật dữ liệu người dùng
+Benutzerdaten aktualisiert ***** Cập nhật dữ liệu người dùng
+Ihre Benutzerdaten wurden aktualisiert. ***** Dữ liệu người dùng của bạn đã được cập nhật.
+ ***** 
+Registrierung abgeschlossen ***** Đăng ký hoàn tất
+Registrierung abgeschlossen ***** Đăng ký hoàn tất
+Sie sind nun ein registrierter Benutzer.  Jetzt können Sie z. B. den Alerting-Dienst für Neuerscheinungen nutzen. ***** Bạn hiện là người dùng đã đăng ký. Bây giờ bạn có thể z. Ví dụ: sử dụng dịch vụ Phát hành mới cảnh báo.
+ ***** 
+Passwort neu setzen ***** Đặt lại mật khẩu
+Passwort neu setzen ***** Đặt lại mật khẩu
+Bitte geben Sie ein neues Passwort in das Feld unten ein und bestätigen Sie es durch eine zusätzliche Eingabe in die zweite Box. Ihr Passwort muss mindestens 6 Zeichen lang sein. ***** Vui lòng nhập mật khẩu mới vào trường bên dưới và xác nhận nó bằng một đầu vào bổ sung trong hộp thứ hai. Mật khẩu của bạn phải dài ít nhất 6 ký tự.
+E-Mail-Adresse ***** E-mail địa chỉ
+Neues Passwort ***** Mật khẩu mới
+Erneute Eingabe zur Bestätigung ***** Nhập lại để xác nhận
+Passwort neu setzen ***** Đặt lại mật khẩu
+Ihr Passwort muss mindestens 6 Zeichen lang sein. ***** Mật khẩu của bạn phải dài ít nhất 6 ký tự.
+Bitte geben Sie Ihr Passwort noch einmal zur Bestätigung ein. ***** Vui lòng nhập lại mật khẩu của bạn để xác nhận.
+ ***** 
+Passwort vergessen ***** Quên mật khẩu
+Passwort vergessen ***** Quên mật khẩu
+Geben Sie die E-Mail-Adresse ein, mit der Sie sich registriert haben. An diese E-Mail-Adresse wird eine Nachricht mit weiteren Instruktionen geschickt. ***** Nhập địa chỉ email mà bạn đã đăng ký. Một tin nhắn với hướng dẫn thêm sẽ được gửi đến địa chỉ email này.
+E-Mail-Adresse ***** E-mail địa chỉ
+Geben Sie die E-Mail-Adresse ein, mit der Sie sich registriert haben. ***** Nhập địa chỉ email mà bạn đã đăng ký.
+E-Mail-Adresse nicht gefunden ***** Không tìm thấy địa chỉ email
+Daten abschicken ***** Gửi dữ liệu
+ ***** 
+Registrierung Neuer Benutzer ***** Đăng ký người dùng mới
+Die E-Mail-Adresse wird bereits von einem Benutzer verwendet. ***** Địa chỉ email đã được sử dụng bởi người dùng.
+Die E-Mail-Adresse wird bereits von einem Benutzer verwendet. Wenn Sie Ihr Passwort vergessen haben, Klicken Sie bitte auf Passwort vergessen. ***** Địa chỉ email đã được sử dụng bởi người dùng. Nếu bạn quên mật khẩu, xin vui lòng bấm vào Quên mật khẩu.
+Passwort neu setzen für: ***** Đặt lại mật khẩu cho:
+Passwort neu setzen ***** Đặt lại mật khẩu
+Registrierung Neuer Benutzer ***** Đăng ký người dùng mới
+Legen Sie einen Benutzeraccount an, um Dienste wie das Abonnement von Neuerscheinungen nutzen zu können. ***** Tạo tài khoản người dùng để sử dụng các dịch vụ như đăng ký bản phát hành mới.
+E-Mail-Adresse ***** E-mail địa chỉ
+Diese E-Mail-Adresse wird überprüft und als Ihre Benutzername verwandt. ***** Địa chỉ email này được kiểm tra và sử dụng làm tên người dùng của bạn.
+Es war nicht möglich, an diese Adresse eine E-Mail zu schicken. ***** Không thể gửi e-mail đến địa chỉ này.
+Registrieren ***** đăng ký
+ ***** 
+E-Mail zur Verifizierung gesendet. ***** E-mail gửi để xác minh.
+E-Mail zur Verifizierung gesendet. ***** E-mail gửi để xác minh.
+Eine E-Mail wurde an Sie gesendet. Diese enthält eine spezielle URL, unter der Sie Ihre Registrierung abschließen können. ***** Một e-mail đã được gửi cho bạn. Nó chứa một URL đặc biệt nơi bạn có thể hoàn thành đăng ký của mình.
+ ***** 
+ ***** 
+Ressourcen einreichen ***** Gửi tài nguyên
+Ressourcen einreichen ***** Gửi tài nguyên
+Mein DSpace ***** Không gian của tôi
+Gehe zu Mein DSpace ***** Chuyển đến Không gian của tôi
+Dokument veröffentlichen ***** Xuất bản một tài liệu
+Dokument veröffentlichen ***** Xuất bản một tài liệu
+Dokument veröffentlichen ***** Xuất bản một tài liệu
+&lt; Zurück ***** & Lt; trở lại
+Speicher / Abbrechen ***** Bộ nhớ / Hủy
+Weiter &gt; ***** Tiếp theo & gt;
+Veröffentlichung abschließen ***** Hoàn thành xuất bản
+Dokument veröffentlichen ***** Xuất bản một tài liệu
+Dokument veröffentlichen ***** Xuất bản một tài liệu
+Dokument veröffentlichen ***** Xuất bản một tài liệu
+Zur Langanzeige ***** Để hiển thị lâu
+Zur Kurzanzeige ***** Để quảng cáo ngắn
+ ***** 
+Ein Dokument in dieser Sammlung veröffentlichen ***** Xuất bản một tài liệu trong bộ sưu tập này
+ ***** 
+Veröffentlichungen ***** ấn phẩm
+ ***** 
+ ***** 
+Veröffentlichungen &amp; Geschäftsgänge ***** Ấn phẩm &amp; các khóa học kinh doanh
+Veröffentlichungen ***** ấn phẩm
+Veröffentlichungen  &amp; übernommen Aufgaben ***** Ấn phẩm &amp; nhận nhiệm vụ
+<i>ohne Titel</i> ***** <i> Chưa có tiêu đề </ i>
+E-Mail: ***** E-mail:
+Aufgaben aus Geschäftsgängen ***** Nhiệm vụ từ giao dịch kinh doanh
+Dies sind Dokumente, die sich noch im Geschäftsgang befinden. Es gibt zwei Bearbeitungskategorien, eine für Aufgaben, die Sie persönlich übernommen haben, eine andere für Aufgaben, die noch keine Bearbeiter übernommen hat. ***** Đây là những tài liệu vẫn còn trong kinh doanh. Có hai loại chỉnh sửa, một loại cho các nhiệm vụ mà bạn đã thực hiện và một loại khác cho các tác vụ chưa được thực hiện bởi các biên tập viên.
+Ihre eigenen Aufgaben ***** Nhiệm vụ của riêng bạn
+ ***** 
+Aufgabe ***** công việc
+Dokument ***** tài liệu
+Sammlung ***** bộ sưu tập
+Veröffentlicht von ***** Xuất bản bởi
+Zurück in den Aufgabenpool ***** Quay lại nhóm nhiệm vụ
+Ihnen sind keine Dokumente/Aufgaben zugeordnet ***** Bạn không được giao bất kỳ tài liệu / nhiệm vụ
+Aufgaben im Bearbeitungspool ***** Nhiệm vụ trong nhóm xử lý
+Übernehmen Sie die ausgewählten Dokumente zur Bearbeitung ***** Áp dụng các tài liệu đã chọn để chỉnh sửa
+Keine Dokumente im gemeinsamen Aufgabenpool vorhanden ***** Không có tài liệu trong nhóm tác vụ chung
+Veröffentlichen ***** xuất bản
+Sie können ***** Bạn có thể
+eine neue Veröffentlichung starten ***** bắt đầu một ấn phẩm mới
+Der Veröffentlichungsprozess beinhaltet die Beschreibung des Dokuments und das Hochladen der zugehörigen Dateien. Jeder Bereich oder Sammlung kann seine eigenen Veröffentlichungsbestimmungen haben. ***** Quá trình xuất bản bao gồm mô tả tài liệu và tải lên các tệp liên quan. Mỗi phần hoặc bộ sưu tập có thể có quy tắc xuất bản riêng.
+Unvollendete Veröffentlichungen ***** Ấn phẩm chưa hoàn thành
+Dies sind Ihre unvollendeten Veröffentlichungen. Sie können statt dessen auch ***** Đây là những ấn phẩm dang dở của bạn. Bạn cũng có thể làm điều đó thay vào đó
+eine neue Veröffentlichung beginnen ***** bắt đầu một bản phát hành mới
+Titel ***** tiêu đề
+Sammlung ***** bộ sưu tập
+Veröffentlicht von ***** Xuất bản bởi
+Autoren: ***** tác giả:
+Es gibt keine unvollendeten Veröffentlichungen ***** Không có ấn phẩm dang dở
+Supervision: ***** Giám sát:
+Entfernen der ausgewählten Supervisionen ***** Xóa các giám sát đã chọn
+Ihre Veröffentlichungen im Geschäftsgang ***** Ấn phẩm của bạn trong quá trình kinh doanh
+Dies sind von Ihnen abgeschlossene Veröffentlichungen, die sich noch im Geschäftsgang befinden. ***** Đây là những ấn phẩm mà bạn đã hoàn thành vẫn đang được tiến hành.
+Titel ***** tiêu đề
+Sammlung ***** bộ sưu tập
+Status ***** tình trạng
+Eingereicht ***** gửi
+Warten auf Übernahme durch einen Begutachter ***** Chờ đợi để tiếp quản bởi một thẩm định viên
+Die Veröffentlichung wird begutachtet ***** Các ấn phẩm sẽ được xem xét
+Warten auf Übernahme durch einen Bearbeiter ***** Chờ đợi để được chấp nhận bởi một kỹ sư
+Die Veröffentlichung wird bearbeitet ***** Ấn phẩm đang được chỉnh sửa
+Warten auf Übernahme durch den abschließenden Bearbeiter ***** Chờ tiếp quản bởi bộ xử lý cuối cùng
+Die Veröffentlichung wird abschließend bearbeitet ***** Ấn phẩm sẽ được hoàn thiện
+Die Veröffentlichung wurde archiviert ***** Các ấn phẩm đã được lưu trữ
+Status unbekannt ***** Không rõ tình trạng
+ ***** 
+Angenommene Veröffentlichungen ***** Ấn phẩm được chấp nhận
+Dies sind die Ihre in DSpace angenommenen Veröffentlichungen. ***** Đây là những ấn phẩm của bạn được thông qua trong DSpace.
+Zugangsdatum ***** ngày nhận
+Titel ***** tiêu đề
+SAmmlung ***** bộ sưu tập
+Es werden 50 Ihrer Veröffentlichungen angezeigt. ***** Bạn sẽ thấy 50 ấn phẩm của bạn.
+Anzeige aller Veröffentlichungen. ***** Hiển thị tất cả các ấn phẩm.
+ ***** 
+Einleitende Fragen ***** Câu hỏi giới thiệu
+Beschreiben ***** miêu tả
+Zugriffsrechte ***** quyền truy cập
+Hochladen ***** upload
+Überprüfen ***** kiểm tra
+Creative Commons Lizenz ***** Giấy phép Creative Commons
+CC Lizenz ***** Giấy phép CC
+DSpace Lizenz ***** Giấy phép DSpace
+Fertig ***** sẳn sàng
+ ***** 
+Wiederaufnehmen ***** sự phục hưng
+ ***** 
+Sammlung auswählen ***** Chọn bộ sưu tập
+Sammlung ***** bộ sưu tập
+Wählen Sie die Sammlung, in der Sie veröffentlichen möchten. ***** Chọn bộ sưu tập mà bạn muốn xuất bản.
+Sammlung auswählen ***** Chọn bộ sưu tập
+ ***** 
+Veröffentlichung speichern oder abbrechen? ***** Lưu ấn phẩm hay hủy ấn phẩm?
+, um die Veröffentlichung fortzusetzen. ***** để tiếp tục công bố.
+Veröffentlichung fortsetzen ***** Tiếp tục xuất bản
+Speichern, um später daran weiterzuarbeiten ***** Lưu lại để tiếp tục làm việc sau
+Löschen ***** xóa bỏ
+ ***** 
+ ***** 
+Einleitende Fragen ***** Câu hỏi giới thiệu
+Hinweis: ***** Lưu ý:
+und ***** và
+Weitere Titel ***** Các tiêu đề khác
+Das Dokument hat mehrere Titel <i>z. B.: eine Übersetzung</i> ***** Tài liệu có một số tiêu đề <i> z. B .: Bản dịch </ i>
+Wenn das obere Kästchen nicht angehakt ist, werden folgende Titel entfernt: ***** Nếu hộp phía trên không được chọn, các tiêu đề sau sẽ bị xóa:
+Bereits veröffentlicht ***** Đã được xuất bản
+Das Dokument wurde bereits veröffentlicht oder öffentlich zugänglich gemacht. ***** Các tài liệu đã được xuất bản hoặc công khai.
+Wenn das obere Kästchen nicht angehakt ist, werden folgende Felder entfernt: ***** Nếu hộp trên không được chọn, các trường sau sẽ bị xóa:
+Erscheinungsdatum ***** ngày phát hành
+Zitation ***** trích dẫn
+Herausgeber ***** nhà phát hành
+ ***** 
+Dokument beschreiben ***** Mô tả tài liệu
+Fehler: Unbekannter Feldtyp ***** Lỗi: Loại trường không xác định
+Dieses Feld ist obligatorisch ***** Lĩnh vực này là bắt buộc
+Nachname, <i>z. B. Mustermann</i> ***** Họ, <i> z. B. Mustermann </ i>
+Vorname(n) + Titel, <i>Max Dr.</i> ***** Tên (s) + Tiêu đề, <i> Max Dr. </ I>
+Jahr ***** năm
+Monat ***** tháng
+Tag ***** ngày
+Serie ***** loạt
+Zählung ***** đếm
+Schlagwort Kategorien ***** Danh mục từ khóa
+Schlagwort Kategorien ***** Danh mục từ khóa
+Nach Schlagworten filtern ***** Lọc theo từ khóa
+Filtern ***** lọc
+Bitte warten Sie, der Thesaurus wird geladen. ***** Xin vui lòng chờ, các từ điển đang tải.
+Beim Laden des Thesaurus ist ein Fehler aufgetreten. Bitte versuchen Sie es später nochmal. ***** Đã xảy ra lỗi trong khi tải từ điển đồng nghĩa. Vui lòng thử lại sau.
+ ***** 
+ ***** 
+Zugriffsberechtigungen ***** quyền truy cập
+Für eine Gruppe von ausgewählten Benutzern sichtbar. Für anonymen Zugang ist keine Auswahl notwendig. ***** Hiển thị cho một nhóm người dùng được chọn. Đối với truy cập nặc danh không cần lựa chọn.
+Das Dokument wird sichtbar, sobald es ins Archiv aufgenommen wird. ***** Tài liệu sẽ hiển thị ngay khi được thêm vào kho lưu trữ.
+Zugriff bis zu einem bestimmten Datum unter Embargo. ***** Truy cập cho đến một ngày nhất định theo lệnh cấm vận.
+Sichtbar/Unter Embargo ***** Hiển thị / bị cấm vận
+Name ***** tên
+Beschreibung ***** miêu tả
+Begründung ***** đất
+Zugriffsberechtigung bestätigen &amp; eine weitere hinzufügen ***** Xác nhận ủy quyền truy cập &amp; thêm một cái khác
+Gruppen ***** nhóm
+Ungültiges Datumsformat ***** Định dạng ngày không hợp lệ
+Wenn Embargo ausgwählt wurde, dann ist ein Datum erforderlich. ***** Nếu cấm vận đã được chọn thì cần phải có ngày.
+Es gibt bereits eine identische Zugriffsberechtigung für diese Gruppe und diese Aktion. ***** Đã có quyền truy cập giống hệt cho nhóm này và hành động này.
+Liste der Zugriffsberechtigungen ***** Danh sách quyền truy cập
+Dokument im privaten Modus ***** Tài liệu ở chế độ riêng tư
+Wenn ausgewählt, ist das Dokument nicht suchbar. ***** Nếu được chọn, tài liệu không thể tìm kiếm.
+Name ***** tên
+Aktion ***** hoạt động
+Gruppe ***** nhóm
+Datum für den Beginn ***** Ngày bắt đầu
+Datum für das Beenden ***** Ngày kết thúc
+Bearbeiten ***** chỉnh sửa
+Entfernen ***** loại bỏ
+Zulässige Formate: jjjj, jjjj-mm, jjjj-mm-tt ***** Các định dạng được phép: yyyy, yyyy-mm, yyyy-mm-dd
+ ***** 
+Zugriffsrechte bearbeiten ***** Chỉnh sửa quyền truy cập
+ ***** 
+Datei(en) hochladen ***** Tải lên tập tin
+Datei ***** hồ sơ
+klicken, öffnet sich ein neues Fenster, in welchem Sie die Datei auf Ihrem Rechner suchen und auswählen können. ***** Nhấp vào, mở một cửa sổ mới trong đó bạn có thể tìm kiếm và chọn tệp trên máy tính của mình.
+Ein Problem ist während des Hochladens Ihrer Datei aufgetreten. Dies kann verschiedene Gründe haben: der Dateiname war fehlerhaft, aufgrund eines Netzwerkproblems wurde die Datei nicht korrekt übertragen oder Sie haben versucht, eine Dateiformat hochzuladen, welches auf dem Repositorium nicht zugelassen ist. Bitte überprüfen Sie Ihre Eingaben und versuchen es noch einmal. ***** Một vấn đề xảy ra trong khi tải lên tập tin của bạn. Điều này có thể vì một số lý do: tên tệp bị hỏng, do sự cố mạng, tệp không được chuyển chính xác hoặc bạn đã cố tải lên định dạng tệp không được phép trên kho lưu trữ. Vui lòng kiểm tra các mục của bạn và thử lại.
+Die Datei wurde nich hochgeladen, da sie scheinbar einen Virus enthält. Bitte wenden Sie sich an den System-Administrator. ***** Các tập tin đã không được tải lên bởi vì nó dường như có chứa virus. Vui lòng liên hệ với quản trị viên hệ thống.
+Beim Virusscan der Datei ist ein technisches Problem aufgetreten. Bitte wenden Sie sich an den System-Administrator. ***** Virus quét tập tin đã gặp phải một vấn đề kỹ thuật. Vui lòng liên hệ với quản trị viên hệ thống.
+Das Dokument muss mindestens eine Datei enthalten. ***** Tài liệu phải chứa ít nhất một tệp.
+Beschreibung ***** miêu tả
+Datei hochladen und/oder noch eine hinzufügen ***** Tải lên tệp và / hoặc thêm một tệp nữa
+Hochgeladene Dateien ***** Các tập tin đã tải lên
+Primäre Datei ***** Tập tin chính
+ ***** 
+Datei ***** hồ sơ
+Größe ***** kích thước
+Beschreibung ***** miêu tả
+Format ***** định dạng
+ ***** 
+Unbekannt ***** không biết
+unbekanntes Format ***** định dạng không xác định
+(Unterstützt) ***** (Hỗ trợ)
+(Bekannt) ***** (Được biết đến)
+(Nicht unterstützt) ***** (Không được hỗ trợ)
+Bearbeiten ***** chỉnh sửa
+Prüfsumme: ***** checksum:
+Ausgewählte Datei(en) entfernen ***** Xóa (các) tệp đã chọn
+ ***** 
+Datei(en) hochladen ***** Tải lên tập tin
+Datei ***** hồ sơ
+klicken, öffnet sich ein neues Fenster, in dem Sie die Datei aussuchen können. ***** bấm vào, một cửa sổ mới mở ra trong đó bạn có thể chọn tệp.
+Das Dokument muss mindestens eine Datei enthalten. ***** Tài liệu phải chứa ít nhất một tệp.
+Während des Hochladens Ihrer Datei ist ein Fehler aufgetreten. Entweder war der Dateiname nicht korrekt oder es gab ein Netzwerkproblem, so dass die Datei nicht korrekt übertragen wurde, oder Sie haben versucht ein unzulässiges Dateiformat hochzuladen.Bitte versuchen Sie es noch einmal. ***** Đã xảy ra lỗi trong khi tải lên tệp của bạn. Tên tệp không chính xác hoặc có sự cố mạng, vì vậy tệp không được chuyển chính xác hoặc bạn đã cố tải lên định dạng tệp không hợp lệ. Vui lòng thử lại.
+Die Datei wurde nicht hochgeladen, da sie einen Virus zu enthalten scheint. Bitte wenden Sie sich an den Systemadministrator. ***** Các tập tin đã không được tải lên bởi vì nó dường như có chứa một vi-rút. Vui lòng liên hệ với quản trị viên hệ thống.
+Bei dem Versuch die Datei auf Viren zu überprüfen ist ein Fehler aufgetreten. Bitte wenden Sie sich an den Systemadministrator. ***** Đã xảy ra lỗi trong khi cố gắng quét tệp để tìm vi-rút. Vui lòng liên hệ với quản trị viên hệ thống.
+Beschreibung der Datei ***** Mô tả của tập tin
+Bei Bedarf können Sie ein kurze Beschreibung der Datei eingeben. ***** Nếu cần thiết, bạn có thể nhập một mô tả ngắn gọn về tập tin.
+Datei Hochladen &amp; und eine weitere hinzufügen ***** Tải lên tệp &amp; và thêm cái khác
+Hochgeladene Dateien ***** Các tập tin đã tải lên
+Primärdatei ***** tập tin chính
+ ***** 
+Datei ***** hồ sơ
+Größe ***** kích thước
+Beschreibung ***** miêu tả
+Format ***** định dạng
+ ***** 
+Unbekannt ***** không biết
+Unbekanntes Format ***** Định dạng không xác định
+(Unterstützt) ***** (Hỗ trợ)
+(Bekannt) ***** (Được biết đến)
+(Nicht unterstützt) ***** (Không được hỗ trợ)
+Bearbeiten ***** chỉnh sửa
+Prüfsumme: ***** checksum:
+Ausgewählte Datei(en) löschen ***** Xóa (các) tệp đã chọn
+Zugriffsrechte ***** quyền truy cập
+ ***** 
+Datei bearbeiten ***** Chỉnh sửa tập tin
+Datei ***** hồ sơ
+Dateibeschreibung ***** tập tin Mô tả
+<strong>Wenn das Format nicht in der Liste enthalten ist</strong>, geben Sie bitte eine kurze Beschreibung in das Feld unten ein. ***** <strong> Nếu định dạng không có trong danh sách </ strong>, vui lòng nhập một mô tả ngắn vào trường bên dưới.
+Erkanntes Format ***** Định dạng được công nhận
+Gewähltes Format ***** Định dạng được chọn
+Format nicht in Auswahlliste ***** Định dạng không có trong danh sách lựa chọn
+</strong> und geben Sie eine kurze Beschreibung des Formats in das Feld unten ein. ***** </ strong> và nhập mô tả ngắn gọn về định dạng vào ô bên dưới.
+Sonstiges Format ***** Định dạng khác
+ ***** 
+Zugriffsrechte für Datei bearbeiten ***** Chỉnh sửa quyền truy cập vào một tập tin
+ ***** 
+Veröffentlichung überprüfen ***** Kiểm tra công bố
+Ja ***** vâng
+Nein ***** không
+Eingaben korrigieren ***** Các mục chính xác
+Datei entfernen und/oder hinzufügen ***** Xóa tệp và / hoặc thêm tệp
+Eingangsfragen ***** câu hỏi đầu vào
+Beschreibung Seite {0} ***** Trang mô tả {0}
+Hochgeladene Dateien ***** Các tập tin đã tải lên
+Mehrfachtitel ***** nhiều Tiêu đề
+Bereits erschienen ***** Đã được xuất bản
+- ***** -
+unbekannt ***** không biết
+bekannt ***** biết
+unterstützt ***** hỗ trợ
+ ***** 
+Ein Fehler ist aufgetreten ... {0} ***** Đã xảy ra lỗi ... {0}
+Creative Commons Lizenz ***** Giấy phép Creative Commons
+Creative Commons</a> Lizenz zu Ihrem Dokument hinzufügen: <strong>Creative Commons Lizenzen legen fest, wie ihr Werk genutzt werden kann.</strong> Wenn Sie eine Creative Commons Lizenz hinzufügen möchten, klicken sie auf die untere Schaltfläche. Sie werden dann zur Creative Commons Seite weitergeleite, wo Sie aus verschiedenen Lizenzmodellen auswählen können.  Nachdem Sie eine Lizenz ausgewählt haben, kehren Sie zu dieser Seite zurück. ***** Creative Commons </a> Thêm giấy phép vào tài liệu của bạn: <strong> Giấy phép Creative Commons xác định cách sử dụng công việc của bạn. </ Strong> Nếu bạn muốn thêm giấy phép Creative Commons, hãy nhấp vào nút bên dưới. Sau đó, bạn sẽ được chuyển hướng đến trang Creative Commons, nơi bạn có thể chọn từ nhiều mô hình cấp phép khác nhau. Sau khi chọn giấy phép, bạn sẽ trở lại trang này.
+Wählen Sie eine Lizenz ***** Chọn một giấy phép
+Weiter zur Creative Commons Seite, um eine Lizenz auszuwählen. ***** Tiếp tục đến trang Creative Commons để chọn giấy phép.
+Lizenz ***** giấy phép
+keine Creative Commons Lizenz wurde ausgewählt ***** không có giấy phép Creative Commons nào được chọn
+klicken, um Ihre Ändeurngen zu speichern. ***** Nhấn vào đây để lưu các thay đổi của bạn.
+Auswahl oder Änderung der Lizenz ***** Lựa chọn hoặc sửa đổi giấy phép
+ ***** 
+DSpace Lizenz ***** Giấy phép DSpace
+<strong>Dies ist der letzte Schritt:</strong> Damit Ihr Dokument im Institutionellen Repositorium entsprechend verarbeitet und weiterverbreitet werden kann, müssen Sie folgenden Bedingungen zustimmen. ***** <strong> Đây là bước cuối cùng: </ strong> Để tài liệu của bạn được xử lý và phân phối lại trong Kho lưu trữ thể chế, bạn phải đồng ý với các điều khoản sau.
+Akzeptieren Sie die Standardlizenzbestimmung des Repositoriums indem Sie 'Ich akzeptiere die Lizenzbestimmungen' anhaken und klicken Sie dann auf 'Veröffentlichung abschließen'. ***** Chấp nhận các điều khoản cấp phép tiêu chuẩn của kho lưu trữ bằng cách đánh dấu 'Tôi chấp nhận các điều khoản cấp phép' và sau đó nhấp vào 'Hoàn tất xuất bản'.
+Wenn Sie Fragen zu den Lizenzbestimmungen haben, wenden Sie sich an den Administrator. ***** Nếu bạn có thắc mắc về các điều khoản cấp phép, liên hệ với quản trị viên.
+Lizenzbestimmung ***** License Agreement
+Ich akzeptiere die Lizenzbestimmungen ***** Tôi chấp nhận các điều khoản cấp phép
+Sie müssen die Lizenzbestimmung akzeptieren, um Ihre Veröffentlichung abzuschließen. Wenn Sie dies zum jetzigen Zeitpunkt nicht tun können, haben Sie die Möglichkeit Ihre Veröffentlichung zwischenzuspeichern, um sie später zu vollenden oder zu löschen, indem Sie auf 'Speicher/Abbrechen' klicken. ***** Bạn phải chấp nhận thỏa thuận cấp phép để hoàn thành ấn phẩm của bạn. Nếu bạn không thể làm như vậy tại thời điểm này, bạn có tùy chọn lưu trữ ấn phẩm của mình để hoàn thành hoặc xóa sau đó bằng cách nhấp vào 'Lưu / Hủy'.
+ ***** 
+Veröffentlichung gelöscht ***** Ấn phẩm đã bị xóa
+Ihre Veröffentlichung wurde abgebrochen und das unfertige Dokument vom System gelöscht. ***** Ấn phẩm của bạn đã bị hủy và tài liệu chưa hoàn thành đã bị xóa khỏi hệ thống.
+Zur Veröffentlichungsseite ***** Đến trang xuất bản
+ ***** 
+Veröffentlichung abgeschlossen ***** Hoàn thành xuất bản
+Ihre Veröffentlichung durchläuft nun den für diese Sammlung festgelegten Geschäftsgang. Sie werden per E-Mail benachrichtigt, sobald dieser abgeschlossen umd Ihr Dokument in der Sammlung archiviert wurde oder erhalten ggf. eine E-Mail mit Rückfragen des Bearbeiters. Den Bearbeitungsstand Ihrer Veröffentlichung können Sie über Ihre Veröffentlichungsseite einsehen. ***** Ấn phẩm của bạn hiện đang trải qua quá trình kinh doanh được chỉ định cho bộ sưu tập này. Bạn sẽ được thông báo qua e-mail ngay khi hoàn thành và tài liệu của bạn đã được lưu trữ trong bộ sưu tập hoặc, nếu cần, bạn sẽ nhận được e-mail với các truy vấn từ biên tập viên. Tình trạng của ấn phẩm của bạn có thể được xem trên trang xuất bản của bạn.
+Zur Veröffentlichungsseite ***** Đến trang xuất bản
+Ein weiteres Dokument veröffentlichen ***** Xuất bản tài liệu khác
+ ***** 
+<!-- org.dspace.app.xmlui.Submission.workflow.PerformTaskStep --> ***** <! - org.dspace.app.xmlui.Submission.workflow.PerformTaskStep ->
+Aktionen, die Sie in diesem Bearbeitungsschritt durchführen können: ***** Các hành động mà bạn có thể thực hiện trong bước xử lý này:
+Diese Aufgabe, sich selbst zuordnen. ***** Nhiệm vụ này, để phân công chính mình.
+Aufgabe übernehmen ***** Nhận nhiệm vụ
+Aufgabe im Aufgabenpool lassen. ***** Để lại nhiệm vụ trong nhóm nhiệm vụ.
+Im Pool lassen ***** Để lại trong hồ bơi
+Ressource akzeptieren ***** Chấp nhận tài nguyên
+Nach der Bearbeitung der Ressource, wählen Sie diese Option, um sie ins Archiv zu überführen. ***** Sau khi chỉnh sửa tài nguyên, chọn tùy chọn này để chuyển nó vào kho lưu trữ.
+Ins Archiv überführen ***** Chuyển đến kho lưu trữ
+Sie können dann dem Veröffentlichenden die Gründe  und ob Änderung und ein erneutes Einreichen möglich sind mitteilen. ***** Sau đó, bạn có thể cho nhà xuất bản biết lý do và liệu có thể thay đổi và gửi lại hay không.
+Ressource ablehnen ***** Từ chối tài nguyên
+Wählen Sie diese Option, wenn Sie die Metadaten der Ressource bearbeiten möchten. ***** Chọn tùy chọn này nếu bạn muốn chỉnh sửa siêu dữ liệu của tài nguyên.
+Metadaten bearbeiten ***** Chỉnh sửa siêu dữ liệu
+Die Aufgabe zurück in den Pool geben, damit ein anderer Bearbeiter sie übernehmen kann. ***** Trả lại nhiệm vụ cho nhóm để biên tập viên khác đảm nhận.
+Zurück in den Bearbeitungspool ***** Quay lại nhóm chỉnh sửa
+ ***** 
+Bitte geben Sie die Gründe an, warum die Ressource abgelehnt wurde und ob der Veröffentlichende nach entsprechenden Änderungen die Möglichkeit hat, die Ressource erneut zu veröffentlichen. ***** Vui lòng cho biết lý do tại sao tài nguyên bị từ chối và nếu nhà xuất bản có cơ hội xuất bản lại tài nguyên sau khi thực hiện các thay đổi phù hợp.
+Ablehnungsgrund ***** lý do từ chối
+Sie müssen den Ablehnungsgrund angeben ***** Bạn phải xác định lý do từ chối
+Ressource ablehnen ***** Từ chối tài nguyên
+ ***** 
+Die Aufgabe wurde erfolgreich ausgeführt. ***** Nhiệm vụ đã hoàn thành thành công.
+Die Aufgabe wurde unerwartet abgebrochen oder die Ausführung ist fehlgeschlagen. Für weitere Informationen wenden Sie sich an den Administrator und überprüfen Sie die Log-Dateien. ***** Nhiệm vụ bị hủy bỏ bất ngờ hoặc thực thi thất bại. Để biết thêm thông tin, liên hệ với quản trị viên và xem lại các tệp nhật ký.
+Die Aufgabe wurde erfolgreich in die Warteschlange eingereiht. ***** Nhiệm vụ đã được xếp hàng thành công.
+Die Aufgabe konnte nicht in die Warteschlange eingefügt werden. Es ist ein Fehler aufgetreten.Für weitere Informationen wenden Sie sich an den Administrator und überprüfen Sie die Log-Dateien. ***** Nhiệm vụ không thể được xếp hàng. Đã xảy ra lỗi. Để biết thêm thông tin, liên hệ với quản trị viên và xem lại các tệp nhật ký.
+Der Benutzeraccount wurde angelegt. ***** Tài khoản người dùng đã được tạo.
+Der Benutzeraccount wurde aktualisiert. ***** Tài khoản người dùng đã được cập nhật.
+Dem Benutzer wurde eine E-Mail mit entsprechender Kennung gesandt, unter der er sein Passwort neu vergeben kann. ***** Người dùng đã được gửi một e-mail có ID tương ứng, theo đó anh ta có thể gán lại mật khẩu của mình.
+Der/Die Benutzer wurden gelöscht. ***** Người dùng đã bị xóa.
+Folgende(r) Benutzer konnten aufgrund von bestimmten Abhängigkeiten nicht gelöscht werden. Ausführliche Informationen finden Sie auf der Benutzerinformationsseite. ***** Không thể xóa (các) người dùng sau vì một số phụ thuộc nhất định. Để biết thông tin chi tiết, xem trang thông tin người dùng.
+Die Gruppe wurde aktualisiert. ***** Nhóm đã được cập nhật.
+Die ausgewählten Gruppen wurden gelöscht.. ***** Các nhóm được chọn đã bị xóa.
+Ein neuen Metadatenschema wurde angelegt. ***** Một lược đồ siêu dữ liệu mới đã được tạo.
+Das Schema wurde gelöscht. ***** Các lược đồ đã bị xóa.
+Das Metadatenfeld wurde angelegt. ***** Trường siêu dữ liệu đã được tạo.
+Das Metadatenfeld wurde aktualisiert. ***** Trường siêu dữ liệu đã được cập nhật.
+Feld(er) verschoben. ***** Trường (s) di chuyển.
+Feld(er) gelöscht ***** Trường đã bị xóa
+Format angelegt. ***** Định dạng được tạo.
+Format(e) gelöscht ***** Định dạng đã bị xóa
+Metadaten aktualisiert ***** Cập nhật siêu dữ liệu
+Neues Metadatum hinzugefügt. ***** Đã thêm siêu dữ liệu mới.
+Das Dokument wurde zurückgezogen. ***** Tài liệu đã được rút.
+Das Dokument wurde wieder zugänglich gemacht. ***** Các tài liệu đã được truy cập một lần nữa.
+Das Dokument wurde verschoben. ***** Các tài liệu đã được di chuyển.
+Die Zielsammlung wurde nicht gefunden. ***** Bộ sưu tập mục tiêu không được tìm thấy.
+Die neue Datei wurde hochgeladen. ***** Các tập tin mới đã được tải lên.
+Beim Hochladen der Datei ist ein Fehler aufgetreten. ***** Đã xảy ra lỗi trong khi tải lên tệp.
+Die Dateiinformation wurde aktualisiert. ***** Thông tin tập tin đã được cập nhật.
+Ausgewählte Datei(en) gelöscht. ***** (Các) tập tin đã chọn đã bị xóa.
+Dokument(e) gespiegelt. ***** Tài liệu nhân đôi.
+Die Dokumentspiegelung wurde rückgängig gemacht. ***** Các tài liệu phản chiếu đã được hoàn tác.
+ ***** 
+Benutzerverwaltung ***** quản lý người dùng
+ ***** 
+Kontext ***** bối cảnh
+Dokument bearbeiten ***** Chỉnh sửa tài liệu
+Sammlung bearbeiten ***** Chỉnh sửa bộ sưu tập
+Dokumente spiegeln ***** Tài liệu gương
+Bereich Bearbeiten ***** Chỉnh sửa khu vực
+Sammlung anlegen ***** Tạo bộ sưu tập
+Teilbereich anlegen ***** Tạo vùng ngầm
+Bereich anlegen ***** Tạo khu vực
+Dokument Exportieren ***** Xuất tài liệu
+Sammlung Exportieren ***** Xuất bộ sưu tập
+Bereich Exportieren ***** Khu xuất khẩu
+Metadaten Exportieren ***** Xuất siêu dữ liệu
+ ***** 
+Administration ***** quản lý
+Zugriffsrechte ***** quyền truy cập
+Benutzer ***** người sử dụng
+Gruppen ***** nhóm
+Rechte ***** quyền
+Referenzlisten ***** danh sách tham khảo
+Metadaten ***** siêu dữ liệu
+Formate ***** định dạng
+Dokumente ***** giấy tờ
+Verworfene Dokumente ***** Vứt bỏ tài liệu
+Nicht sichtbare Dokumente ***** Tài liệu vô hình
+Systemdaten ***** hệ thống dữ liệu
+Statistiken ***** thống kê
+Metadaten Importieren ***** Nhập siêu dữ liệu
+Datenpflege - Aufgabens ***** Bảo trì dữ liệu - Nhiệm vụ
+ ***** 
+Meine Exporte ***** Xuất khẩu của tôi
+ ***** 
+ ***** 
+Exportierte Archive ***** Tài liệu lưu trữ xuất khẩu
+Die ID des Dokumentes ist ungültig. ***** ID của tài liệu không hợp lệ.
+Die ID der Sammlung ist ungültig. ***** ID của bộ sưu tập không hợp lệ.
+Die ID des Bereichs ist ungültig. ***** ID của khu vực không hợp lệ.
+Das angeforderte Dokument wurde nicht gefunden. ***** Các tài liệu yêu cầu không được tìm thấy.
+Die angeforderte Sammlung wurde nicht gefunden. ***** Bộ sưu tập yêu cầu không được tìm thấy.
+Der angeforderte Bereich wurde nicht gefunden. ***** Khu vực yêu cầu không được tìm thấy.
+verwenden, um zu einer Auflistung aller Ihrer Exporte zu gelangen. ***** Sử dụng để có được một danh sách tất cả hàng xuất khẩu của bạn.
+verwenden, um zu einer Auflistung aller Ihrer Exporte zu gelangen. ***** Sử dụng để có được một danh sách tất cả hàng xuất khẩu của bạn.
+verwenden, um zu einer Auflistung aller Ihrer Exporte zu gelangen. ***** Sử dụng để có được một danh sách tất cả hàng xuất khẩu của bạn.
+Archive, die zum Herunterladen bereitstehen: ***** Lưu trữ có sẵn để tải về:
+ ***** 
+ ***** 
+Benutzeraccounts verwalten ***** Quản lý tài khoản người dùng
+Benutzerverwaltung ***** quản lý người dùng
+Aktionen ***** hành động
+Benutzer anlegen ***** Tạo người dùng
+Klicken Sie hier, um einen neuen Benutzeraccount anzulegen. ***** Nhấn vào đây để tạo một tài khoản người dùng mới.
+Benutzerliste ***** danh sách thành viên
+Klicken Sie hier, um alle Benutzer anzuzeigen. ***** Nhấn vào đây để xem tất cả người dùng.
+Benutzersuche ***** tìm kiếm người dùng
+Benutzer werden nach Wortfragmenten aus Name und E-Mail-Adresse gesucht. ***** Người dùng được tìm kiếm các đoạn từ từ tên và địa chỉ email.
+Unten ist eine Liste aller Benutzer, auf die Ihre Suchanfrage zutraf. Wählen Sie den Benutzer aus, den Sie löschen möchten und klicken Sie auf Löschen, um den Benutzer zu löschen oder auf die E-Mail-Adresse oder den Namen, um den Benutzer zu bearbeiten. ***** Dưới đây là danh sách tất cả người dùng đã đáp ứng truy vấn của bạn. Chọn người dùng bạn muốn xóa và nhấp vào Xóa để xóa người dùng hoặc địa chỉ e-mail hoặc tên để chỉnh sửa người dùng.
+Suchergebnisse ***** kết quả tìm kiếm
+ ***** 
+ID ***** ID
+Name ***** tên
+E-Mail-Adresse ***** E-mail địa chỉ
+Benutzeraccount löschen ***** Xóa tài khoản người dùng
+Ihre Suche führte zu keinem Treffer. ***** Tìm kiếm của bạn đã không dẫn đến một hit.
+ ***** 
+ ***** 
+Benutzer hinzufügen ***** Thêm người dùng
+Benutzer hinzufügen ***** Thêm người dùng
+Benutzeraccount anlegen ***** Tạo tài khoản người dùng
+Diese E-Mail-Adresse ist bereits einem Benutzeraccount zugeordnet. Die E-Mail-Adresse muss eindeutig sein. Sie kann nur für genau einen Benutzeraccount verwendet werden. ***** Địa chỉ email này đã được liên kết với tài khoản người dùng. Địa chỉ email phải là duy nhất. Nó chỉ có thể được sử dụng cho chính xác một tài khoản người dùng.
+Angaben zum neuen Benutzeraccount: ***** Thông tin về tài khoản người dùng mới:
+Die E-Mail-Adresse muss eindeutig sein. ***** Địa chỉ email phải là duy nhất.
+Die E-Mail-Adresse muss angegeben werden. ***** Địa chỉ email phải được chỉ định.
+Der Vorname muss angegeben werden. ***** Tên đầu tiên phải được chỉ định.
+Der Nachname muss angegeben werden. ***** Tên cuối cùng phải được chỉ định.
+Zertifikat erforderlich ***** Yêu cầu chứng chỉ
+Benutzer kann sich einloggen ***** Người dùng có thể đăng nhập
+Benutzeraccount anlegen ***** Tạo tài khoản người dùng
+ ***** 
+Benutzeraccount bearbeiten ***** Chỉnh sửa tài khoản người dùng
+Benutzeraccount bearbeiten ***** Chỉnh sửa tài khoản người dùng
+Benutzeraccount bearbeiten ***** Chỉnh sửa tài khoản người dùng
+Diese E-Mail-Adresse ist bereits einem Benutzeraccount zugeordnet. Die E-Mail-Adresse muss eindeutig sein. Sie kann nur für genau einen Benutzeraccount verwendet werden. ***** Địa chỉ email này đã được liên kết với tài khoản người dùng. Địa chỉ email phải là duy nhất. Nó chỉ có thể được sử dụng cho chính xác một tài khoản người dùng.
+Angaben zu: {0} ***** Thông tin về: {0}
+Die E-Mail-Adresse muss eindeutig sein. Sie kann nur für genau einen Benutzeraccount verwendet werden. ***** Địa chỉ email phải là duy nhất. Nó chỉ có thể được sử dụng cho chính xác một tài khoản người dùng.
+Die E-Mail-Adresse muss angegeben werden. ***** Địa chỉ email phải được chỉ định.
+Der Vorname muss angegeben werden. ***** Tên đầu tiên phải được chỉ định.
+Der Nachname muss angegeben werden. ***** Tên cuối cùng phải được chỉ định.
+Zertifikat erforderlich ***** Yêu cầu chứng chỉ
+Benutzer kann sich einloggen ***** Người dùng có thể đăng nhập
+Passwort neu setzen ***** Đặt lại mật khẩu
+Sie können diesen Benutzer auch dauerhaft löschen oder veranlassen, dass er ein neues Passwort setzen muss. Beim Neusetzen des Passworts wird dem Benutzer eine E-Mail mit den entsprechenden Informationen zugeschickt. ***** Bạn cũng có thể xóa người dùng này vĩnh viễn hoặc khiến anh ta đặt mật khẩu mới. Khi mật khẩu được đặt lại, người dùng sẽ được gửi e-mail với thông tin tương ứng.
+Benutzeraccount löschen ***** Xóa tài khoản người dùng
+Anmelden als anderer Benutzer ***** Đăng nhập với tư cách người dùng khác
+Gruppen, denen der Benutzer zugeordnet ist: ***** Các nhóm mà người dùng được chỉ định:
+(indirekt über die Gruppe: {0}) ***** (gián tiếp thông qua nhóm: {0})
+Keine ***** không
+ ***** 
+Der Benutzeraccount konnte aufgrund folgender Abhängigkeiten nicht gelöscht werden: ***** Không thể xóa tài khoản người dùng do các phụ thuộc sau:
+und ***** và
+unter dem Benutzeraccount wurden ein oder mehrere Dokumente veröffentlicht ***** Một hoặc nhiều tài liệu đã được xuất bản dưới tài khoản người dùng
+der Benutzer hat eine noch im Geschäftsgang befindliche Veröffentlichung ***** người dùng vẫn đang trong quá trình xuất bản
+der Benutzer muss noch Aufgaben im Rahmen des Geschäftsganges erledigen ***** người dùng vẫn phải hoàn thành các nhiệm vụ trong quá trình kinh doanh
+zu dem Benutzer gibt es eine sonstige Abhängigkeit im System ***** Đối với người dùng, có một sự phụ thuộc khác trong hệ thống
+ ***** 
+Benutzeraccount löschen bestätigen ***** Xác nhận xóa tài khoản người dùng
+Löschung bestätigen ***** Xác nhận xóa
+Löschung bestätigen ***** Xác nhận xóa
+Der folgende Benutzeraccount wird gelöscht: ***** Tài khoản người dùng sau bị xóa:
+Löschung durchführen ***** Thực hiện xóa
+ID ***** ID
+Name ***** tên
+E-Mail-Adresse ***** E-mail địa chỉ
+ ***** 
+Benutzergruppen verwalten ***** Quản lý nhóm người dùng
+ ***** 
+Benutzergruppen verwalten ***** Quản lý nhóm người dùng
+Benutzergruppenverwaltung ***** quản lý nhóm người dùng
+Aktionen ***** hành động
+Eine neue Gruppe anlegen ***** Tạo một nhóm mới
+Klicken Sie hier, um eine neue Gruppe anzulegen. ***** Nhấn vào đây để tạo một nhóm mới.
+Auflistung der Gruppen ***** Danh sách các nhóm
+Klicken Sie hier, um sich die Gruppen auflisten zu lassen. ***** Nhấn vào đây để liệt kê các nhóm.
+Gruppensuche ***** tìm kiếm nhóm
+Sie können nach jedem Teil des Gruppennamens suchen. ***** Bạn có thể tìm kiếm cho từng phần của tên nhóm.
+Suchergebnisse ***** kết quả tìm kiếm
+ ***** 
+ID ***** ID
+Name ***** tên
+Mitglieder ***** thành viên
+Sammlung ***** bộ sưu tập
+Anzeige ***** trưng bày
+Gruppen löschen ***** Xóa nhóm
+Ihre Suche ergab keine Treffer ***** Tìm kiếm của bạn không có kết quả
+ ***** 
+Benutzergruppeneditor ***** Nhóm người dùng biên tập viên
+Benutzergruppe bearbeiten ***** Chỉnh sửa nhóm người dùng
+Benutzergruppe bearbeiten: {0} (ID: {1}) ***** Chỉnh sửa nhóm người dùng: {0} (ID: {1})
+Benutzergruppeneditor: neue Gruppe ***** Trình chỉnh sửa nhóm người dùng: nhóm mới
+Suche löschen ***** Xóa tìm kiếm
+Mitglied ***** thành viên
+Zyklus ***** chu kỳ
+anhängig ***** chưa giải quyết
+klicken. ***** Nhấn chuột.
+Hinzufügen ***** thêm vào
+Entfernen ***** loại bỏ
+Diese Gruppe ist mit folgender Sammlung assoziiert: ***** Nhóm này được liên kết với bộ sưu tập sau:
+Diese Gruppe ist mit folgendem Bereich assoziiert: ***** Nhóm này được liên kết với các khu vực sau:
+Gruppennamen ändern: ***** Thay đổi tên nhóm:
+Diese Gruppe gehört zu einer bestimmten Sammlung und der Name kann nicht geändert werden. ***** Nhóm này thuộc về một bộ sưu tập cụ thể và tên không thể thay đổi.
+Suche nach Mitgliedern zum Hinzufügen: ***** Tìm kiếm thành viên để thêm:
+Benutzer ***** người sử dụng
+Gruppen ***** nhóm
+Ihre Suche ergab keinen Treffer ***** Tìm kiếm của bạn không phù hợp với kết quả
+ID ***** ID
+Name ***** tên
+E-Mail ***** E-mail
+ ***** 
+ID ***** ID
+Name ***** tên
+Mitglieder ***** thành viên
+Sammlung ***** bộ sưu tập
+ ***** 
+anzeigen ***** buổi diễn
+Mitglieder ***** thành viên
+ID ***** ID
+Name ***** tên
+E-Mail ***** E-mail
+ ***** 
+Gruppe: {0} ***** Nhóm: {0}
+Diese Gruppe hat keine Mitglieder. ***** Nhóm này không có thành viên.
+[anhängig] ***** [Pending]
+Mitglieder entfernen ***** Xóa thành viên
+Mitglieder entfernen ***** Xóa thành viên
+ ***** 
+Löschung der Gruppe bestätigen ***** Xác nhận xóa nhóm
+Löschung bestätigen ***** Xác nhận xóa
+Löschung bestätigen ***** Xác nhận xóa
+Die folgende Gruppe wird gelöscht: ***** Nhóm sau bị xóa:
+ID ***** ID
+Name ***** tên
+Benutzer ***** người sử dụng
+Gruppen ***** nhóm
+ ***** 
+Referenzliste der Format ***** Danh sách tham khảo của định dạng
+Referenzliste der Metadatenschema und -felder ***** Danh sách tham khảo của lược đồ siêu dữ liệu và các trường
+ ***** 
+Dateiformat ***** định dạng tập tin
+Dateiformate Löschen ***** Xóa định dạng tệp
+Löschung bestätigen ***** Xác nhận xóa
+haben. ***** có.
+ID ***** ID
+MIME Type ***** Loại MIME
+Name ***** tên
+ ***** 
+Felder löschen ***** Xóa các trường
+Felder löschen/ ***** Xóa các trường /
+Löschung bestätigen ***** Xác nhận xóa
+Sind Sie <b>absolut</b> sicher, dass dieses Feld gelöscht werden soll? Stellen Sie vorher sicher, dass dieses Metadatenfeld von keinem Dokument verwendet wird. ***** Bạn có <b> hoàn toàn </ b> chắc chắn rằng trường này sẽ bị xóa không? Đảm bảo rằng trường siêu dữ liệu này không được sử dụng bởi bất kỳ tài liệu nào trước đó.
+Diese Aktion verursacht einen Fehler, wenn ein Item Metadaten dieses Feldtyps enthält. ***** Hành động này gây ra lỗi nếu một mục chứa siêu dữ liệu của loại trường này.
+ACHTUNG: ***** LƯU Ý:
+ID ***** ID
+Name ***** tên
+Gültigkeitsbereich ***** phạm vi
+ ***** 
+Schema löschen ***** Xóa lược đồ
+Schema löschen ***** Xóa lược đồ
+Löschung bestätigen ***** Xác nhận xóa
+Sind Sie <b>absolut</b> sicher, dass dieses Schema gelöscht werden soll? Wenn Dokumente Metadatenfelder dieses Schemas enthalten, kann es nicht gelöscht werden. ***** Bạn có <b> hoàn toàn </ b> chắc chắn rằng chương trình này sẽ bị xóa không? Nếu tài liệu chứa các trường siêu dữ liệu của lược đồ này, nó không thể bị xóa.
+WARNING: ***** Chú ý:
+Der Löschung verursacht einen Fehler, wenn Dokumente Metadatenfelder dieses Schemas enthalten. ***** Việc xóa gây ra lỗi nếu tài liệu chứa các trường siêu dữ liệu của lược đồ này.
+ID ***** ID
+Namensraum ***** namespace
+Name ***** tên
+ ***** 
+Dateiformat ***** định dạng tập tin
+Dateiformat ***** định dạng tập tin
+Neues Dateiformat ***** Định dạng tệp mới
+Dateiformat: {0} ***** Định dạng tệp: {0}
+Bitte beschreiben Sie das oben genannte Dateiformat. Formatnamen müssen eindeutig sein, MIME Typen nicht. Sie können einzelne Registereinträge für verschieden Versionen von Formaten machen. ***** Vui lòng mô tả định dạng tập tin trên. Tên định dạng phải là duy nhất, không phải loại MIME. Bạn có thể tạo các mục tab riêng lẻ cho các phiên bản định dạng khác nhau.
+Name ***** tên
+Ein eindeutiger Name für das Format, z. B.: Microsoft Word XP or Microsoft Word 2000 ***** Một tên duy nhất cho định dạng, ví dụ: Ví dụ: Microsoft Word XP hoặc Microsoft Word 2000
+Das Feld Name ist obligatorisch. ***** Trường Tên là bắt buộc.
+MIME Typ ***** Loại MIME
+Der MIME Typ des Formates muss nicht eindeutig sein. ***** Loại MIME của định dạng không phải là duy nhất.
+Beschreibung ***** miêu tả
+Unterstützungsgrad ***** mức hỗ trợ
+Der Unterstützungsgrad, den Ihre Einrichtung für das Format gewährleistet. ***** Mức độ hỗ trợ cơ sở của bạn cung cấp cho định dạng.
+Unbekannt ***** không biết
+Bekannt ***** biết
+Unterstützt ***** hỗ trợ
+Intern ***** trong nội bộ
+Formate, die als intern gekennzeichnet sind, sind für den Benutzer nicht sichtbar und werden nur zu administrativen Zwecken gebraucht. ***** Các định dạng được đánh dấu là nội bộ không hiển thị cho người dùng và chỉ được sử dụng cho mục đích quản trị.
+Dateierweiterungen ***** phần mở rộng tập tin
+Dateierweiterungen werden verwendet, um Dateiformate zu identifizieren. Sie können verschieden Erweiterungen pro Format eingeben. ***** Phần mở rộng tập tin được sử dụng để xác định định dạng tập tin. Bạn có thể nhập các phần mở rộng khác nhau cho mỗi định dạng.
+ ***** 
+Metadatenschema ***** schema siêu dữ liệu
+Metadatenschema ***** schema siêu dữ liệu
+ ***** 
+. Sie können Felder hinzufügen, löschen oder aktualisieren. Felder können zudem in ein anderes Schema verschoben werden. ***** , Bạn có thể thêm, xóa hoặc cập nhật các trường. Các trường cũng có thể được chuyển sang lược đồ khác.
+Felder des Metadatenschemas ***** Các trường của lược đồ siêu dữ liệu
+ ***** 
+ID ***** ID
+Feld ***** đồng ruộng
+Gültigkeitsbereich ***** phạm vi
+Keine Metadatenfelder vorhanden ***** Không có trường siêu dữ liệu có sẵn
+Felder löschen ***** Xóa các trường
+Felder in ein anderes Schema verschieben ***** Di chuyển các trường sang lược đồ khác
+Neues Feld hinzufügen ***** Thêm lĩnh vực mới
+Feldname ***** tên trường
+Gültigkeitsbereich ***** phạm vi
+Anmerkungen zu diesem Feld ***** Nhận xét về lĩnh vực này
+Ein neues Feld hinzufügen ***** Thêm một lĩnh vực mới
+Aktualisieren von Feld: {0} ***** Làm mới trường: {0}
+Feld aktualisieren ***** Trường cập nhật
+Fehler ***** lỗi
+Dieses Feld gibt es schon, alle Element-Qualifier-Kombinationen müssen eindeutig sein. ***** Trường này đã tồn tại, tất cả các kết hợp vòng loại phần tử phải là duy nhất.
+Sie müssen das Element angeben. ***** Bạn phải chỉ định thành phần.
+Der Elementbezeichner enthält ein ungültiges Zeichen. Er darf keine Punkte, Unterstriche oder Leerzeichen enthalten. ***** Mã định danh thành phần chứa ký tự không hợp lệ. Nó không được chứa bất kỳ điểm, dấu gạch dưới hoặc dấu cách.
+Der Elementbezeichner ist zu lang, die maximale Länge beträgt 32 Zeichen. ***** Mã định danh phần tử quá dài, độ dài tối đa là 32 ký tự.
+Der Qualifierbezeichner ist zu lang, die maximale Länge beträgt 32 Zeichen. ***** Số nhận dạng vòng loại quá dài, độ dài tối đa là 32 ký tự.
+Der Bezeichner des Qualifier enthält ein ungültige Zeichen. Nicht zulässig sind Punkte, Unterstriche und Leerzeichen. ***** Mã định danh của vòng loại chứa một ký tự không hợp lệ. Không được phép là điểm, dấu gạch dưới và dấu cách.
+ ***** 
+Dateiformate Referenzliste ***** Định dạng tệp Danh sách tài liệu tham khảo
+Dateiformate Referenzliste ***** Định dạng tệp Danh sách tài liệu tham khảo
+internal' gekennzeichnet sind, bleiben dem Benutzer verborgen und werden für administrative Zwecke verwendet. ***** nội bộ 'vẫn bị ẩn khỏi người dùng và được sử dụng cho mục đích quản trị.
+Dateiformat hinzufügen ***** Thêm định dạng tệp
+ ***** 
+ID ***** ID
+Name ***** tên
+MIME Typ ***** Loại MIME
+Unterstützungsgrad ***** mức hỗ trợ
+(<i>intern</i>) ***** (<I> nội </ i>)
+Unbekannt ***** không biết
+Bekannt ***** biết
+Unterstützungsgrad ***** mức hỗ trợ
+Formate löschen ***** Xóa định dạng
+ ***** 
+Metadaten Referenzliste ***** Danh sách tham chiếu siêu dữ liệu
+Metadaten Referenzliste ***** Danh sách tham chiếu siêu dữ liệu
+Die Metadatenreferenzliste enthält alle Metadatenfelder dieses Repositoriums. Die Metadatenfelder können auf mehrere Schema aufgeteilt werden. DSpace benötigt als Basis qualifiziertes Dublin Core. Sie können das Dublin Core Schema erweitern oder neue Schemata anlegen. ***** Danh sách tham chiếu siêu dữ liệu chứa tất cả các trường siêu dữ liệu của kho lưu trữ này. Các trường siêu dữ liệu có thể được chia thành nhiều lược đồ. DSpace yêu cầu Dublin Core đủ điều kiện làm cơ sở. Bạn có thể mở rộng lược đồ Dublin Core hoặc tạo các lược đồ mới.
+ ***** 
+ID ***** ID
+Namensraum ***** namespace
+Name ***** tên
+Schema Löschen ***** Xóa lược đồ
+Neues Schema hinzufügen ***** Thêm chương trình mới
+Namensraum ***** namespace
+Namensräume für ein neues Schema sollten bestehende URI's sein. ***** Không gian tên cho một lược đồ mới phải là các URI hiện có.
+Dieses Feld ist obligatorisch. ***** Lĩnh vực này là bắt buộc.
+Name ***** tên
+Kurzbezeichnung des Schemas. Diese wird als Präfix für das Schema verwendet. Der Name darf maximal 32 Zeichen lang sein und KEINE Punkte, Unterstriche oder Leerzeichen enthalten. ***** Tên viết tắt của sơ đồ. Điều này được sử dụng làm tiền tố cho lược đồ. Tên có thể dài tối đa 32 ký tự và không chứa điểm, dấu gạch dưới hoặc dấu cách.
+Dieses Feld ist obligatorisch. Es muss weniger asl 32 Zeichen lang sein und darf KEINE Punkte, Unterstriche oder Leerzeichen enthalten. ***** Lĩnh vực này là bắt buộc. Nó phải có độ dài dưới 32 ký tự và KHÔNG được chứa dấu chấm, dấu gạch dưới hoặc dấu cách.
+Ein neues Schema hinzufügen ***** Thêm một chương trình mới
+ ***** 
+Felder verschieben ***** Di chuyển các lĩnh vực
+Felder verschieben ***** Di chuyển các lĩnh vực
+Metadatenfelder verschieben ***** Di chuyển các trường siêu dữ liệu
+Wählen Sie ein Zielschema aus, in das die Felder verschoben werden sollen. Wenn das Zielschema bereits ein Feld mit gleichem Namen enthält, wird das Feld nicht verschoben. ***** Chọn một lược đồ đích để di chuyển các trường đến. Nếu lược đồ đích đã chứa một trường có cùng tên, thì trường không được di chuyển.
+ID ***** ID
+Name ***** tên
+Gültigkeitsbereich ***** phạm vi
+Verschiebe in das Schema: ***** Di chuyển vào sơ đồ:
+Felder verschieben ***** Di chuyển các lĩnh vực
+ ***** 
+ ***** 
+ ***** 
+Rechte ***** quyền
+Auflistung der Rechte ***** Danh sách quyền
+ ***** 
+Rechte verwalten ***** Quản lý quyền
+Rechte verwalten ***** Quản lý quyền
+Dokumentbezogene Rechte ***** Quyền liên quan đến tài liệu
+Die ID, die Sie eingegeben werden, entspricht keiner bekannten ID. ***** ID bạn nhập không khớp với ID đã biết.
+Ein Dokument auswählen ***** Chọn một tài liệu
+Dokumente können über das Handle oder die ID herausgesucht werden. ***** Tài liệu có thể được lấy bằng cách sử dụng tay cầm hoặc ID.
+Finde ***** tìm thấy
+Erweiterte Rechtevergabe ***** Chuyển nhượng quyền mở rộng
+Klicken Sie hier, um zur erweiterten Rechtevergabe zu gelangen. ***** Bấm vào đây để chuyển nhượng quyền mở rộng.
+Rechte von Bereichen und Sammlungen ***** Quyền của khu vực và bộ sưu tập
+Klicken Sie auf einen Bereich oder eine Sammlung, um die zugehörigen Rechte zu bearbeiten. ***** Nhấp vào một khu vực hoặc bộ sưu tập để chỉnh sửa các quyền liên quan.
+ ***** 
+ ***** 
+ ***** 
+Rechte bearbeiten ***** Chỉnh sửa quyền
+Bestehende Rechte ***** Quyền hiện có
+({1},ID: {2}) ***** ({1}, ID: {2})
+({1},ID: {2}) ***** ({1}, ID: {2})
+Klicken Sie hier, um eine neue Autorisierung anzulegen. ***** Nhấn vào đây để tạo một ủy quyền mới.
+Hinzufügen ***** thêm vào
+ID ***** ID
+Name ***** tên
+Aktion ***** hoạt động
+Enddatum ***** ngày kết thúc
+Gruppe ***** nhóm
+Anfangsdatum ***** ngày bắt đầu
+Auswahl löschen ***** Xóa lựa chọn
+Bearbeiten ***** chỉnh sửa
+ ***** 
+ ***** 
+ ***** 
+Rechte des Dokuments bearbeiten ***** Chỉnh sửa quyền của tài liệu
+Rechteliste ***** danh sách quyền
+Rechte für das Dokument {0} (ID={1}) ***** Quyền đối với tài liệu {0} (ID = {1})
+Mit diesem Editor können Sie die Rechte eines Dokumentes und seiner Bestandteile einsehen und ändern. Dokumente sind Behälter für Bündel und Bündel sind Behälter für Dateien. Behälter haben üblicherweise  ADD/REMOVE/READ/WRITE Rechte, wohingegen Dateien nur READ/WRITE Rechte haben. ***** Với trình chỉnh sửa này, bạn có thể xem và thay đổi quyền của tài liệu và các thành phần của nó. Tài liệu là các thùng chứa cho các gói và các gói là các thùng chứa cho các tệp. Các container thường có quyền THÊM / XÓA / ĐỌC / VIẾT, trong khi các tệp chỉ có quyền ĐỌC / VIẾT.
+Beachten Sie das Extrabündel mit Datei pro Dokument, welches die Lizenzbestimmungen enthält. ***** Lưu ý gói bổ sung với tệp cho mỗi tài liệu, trong đó có các điều khoản cấp phép.
+Rechte des Dokuments ***** Quyền của tài liệu
+Rechtes des Bündels {0} ({1}) ***** Bên phải của gói {0} ({1})
+Datei {0} ({1}) ***** Tệp {0} ({1})
+Ein neues Recht für ein Dokument hinzufügen ***** Thêm một quyền mới cho một tài liệu
+Ein neues Recht für ein Bündle hinzufügen ***** Thêm một quyền mới cho một gói
+Ein neues Recht für eine Datei hinzufügen ***** Thêm một quyền mới vào một tập tin
+ ***** 
+Es sind keine Rechte mit diesem Objekt assoziiert. ***** Không có quyền liên quan đến đối tượng này.
+ ***** 
+ ***** 
+Rechte bearbeiten ***** Chỉnh sửa quyền
+Rechte bearbeiten ***** Chỉnh sửa quyền
+Neues Recht für {0} {1} ***** Quyền mới cho {0} {1}
+Bearbeite Recht {0} für {1} {2} ***** Chỉnh sửa đúng {0} cho {1} {2}
+Keine Gruppe ausgewählt ***** Không có nhóm nào được chọn
+Keine Aktion ausgewählt ***** Không có hành động nào được chọn
+ ***** 
+ID ***** ID
+Name ***** tên
+Aktionen für diese Ressource ***** Các hành động cho tài nguyên này
+ ***** 
+Setzen ***** đặt
+aktuelle ***** hiện tại
+Suchergebnisse ***** kết quả tìm kiếm
+Gruppe auswählen ***** Chọn nhóm
+Gruppe suchen ***** Nhóm tìm kiếm
+Suche ***** tìm kiếm
+Aktion wählen ***** Chọn hành động
+ ***** 
+Name ***** tên
+Beschreibung ***** miêu tả
+Enddatum ***** ngày kết thúc
+Anfangsdatum ***** ngày bắt đầu
+Ungültiges Datum ***** Ngày không hợp lệ
+Es existiert bereits ein identisches Zugriffsrecht für diese Gruppe und diese Aktion. ***** Đã có quyền truy cập giống hệt cho nhóm này và hành động này.
+Das Startdatum liegt nach dem Enddatum. ***** Ngày bắt đầu là sau ngày kết thúc.
+Zulässige Formate: jjjj, jjjj-mm, jjjj-mm-tt ***** Các định dạng được phép: yyyy, yyyy-mm, yyyy-mm-dd
+ ***** 
+Erweiterte Rechtevergabe ***** Chuyển nhượng quyền mở rộng
+Erweiterte Autorisierungen ***** Ủy quyền mở rộng
+Erweiterte Rechtevergabe ***** Chuyển nhượng quyền mở rộng
+Erlaubt die Verwendung von Trunkierung und das Löschen aller mit einem Objkettyp einer Sammlung assoziierten Rechte. ACHTUNG - wenn Sie READ Rechte eines Dokuments löschen, ist dieses Dokument nicht mehr zugänglich. ***** Cho phép sử dụng cắt ngắn và xóa tất cả các quyền liên quan đến một loại đối tượng của một bộ sưu tập. CHÚ Ý - nếu bạn xóa quyền ĐỌC của tài liệu, tài liệu này không còn truy cập được.
+Für alle ausgewählten Gruppen ... ***** Đối với tất cả các nhóm được chọn ...
+... das Recht folgende Aktionen auszuführen... ***** ... quyền thực hiện các hành động sau đây ...
+...für alle aufgeführten Objekttypen... ***** ... cho tất cả các loại đối tượng được liệt kê ...
+...über folgende Sammlungen. ***** ... về các bộ sưu tập sau đây.
+Gruppe ***** nhóm
+Aktion ***** hoạt động
+Inhaltstyp ***** kiểu nội dung
+Sammlung ***** bộ sưu tập
+Rechte hinzufügen ***** Thêm quyền
+Rechte löschen ***** Xóa quyền
+Zulässige Formate: JJJJ, JJJJ-MM, JJJJ-MM-TT ***** Các định dạng được phép: YYYY, YYYY-MM, YYYY-MM-DD
+ ***** 
+Name ***** tên
+Beschreibung ***** miêu tả
+Anfangsdatum ***** ngày bắt đầu
+Enddatum ***** ngày kết thúc
+Ungültiges Datum ***** Ngày không hợp lệ
+Anfangsdatum ist später als das Enddatum ***** Ngày bắt đầu muộn hơn ngày kết thúc
+Bitte wählen Sie mindestens eine Gruppe aus. ***** Vui lòng chọn ít nhất một nhóm.
+Bitte wählen Sie mindestens eine Sammlung aus. ***** Vui lòng chọn ít nhất một bộ sưu tập.
+ ***** 
+Löschung der Autorisierung bestätigen ***** Xác nhận xóa ủy quyền
+Löschung bestätigen ***** Xác nhận xóa
+Löschung bestätigen ***** Xác nhận xóa
+Die folgenden Rechte werden gelöscht: ***** Các quyền sau đây sẽ bị xóa:
+ID ***** ID
+Aktion ***** hoạt động
+Gruppe ***** nhóm
+ ***** 
+Dokumente ***** giấy tờ
+Metadatenschablone für die Sammlung: {0} bearbeiten ***** Mẫu siêu dữ liệu cho bộ sưu tập: {0} chỉnh sửa
+Dokument bearbeiten ***** Chỉnh sửa tài liệu
+Dokumentstatus ***** tình trạng tài liệu
+Zugehörige Dateien ***** Tập tin liên quan
+Metadaten ***** siêu dữ liệu
+Dokumentanzeige ***** tài liệu Viewer
+Pflege ***** chăm sóc
+Zu Bearbeiten ***** Để chỉnh sửa
+ ***** 
+Datei hochladen ***** Tải lên tập tin
+Datei hochladen ***** Tải lên tập tin
+Eine neue Datei hochladen ***** Tải lên một tập tin mới
+Bündel ***** bó lại
+Originaldateien (standard) ***** Các tập tin gốc (tiêu chuẩn)
+Dateien mit Metainformationen ***** Các tệp có thông tin meta
+Vorschaubilder ***** thumbnails
+Lizenzen ***** giấy phép
+Creative Commons Lizenz ***** Giấy phép Creative Commons
+Datei ***** hồ sơ
+klicken, öffnet sich ein neues Fenster, in dem Sie die Datei auf Ihrem Rechner heraussuchen können. Nachdem Sie die entsprechende Datei gewählt haben, wird das Fenster automatisch geschlossen. ***** Bấm, mở một cửa sổ mới trong đó bạn có thể tìm thấy tệp trên máy tính của mình. Sau khi chọn tệp thích hợp, cửa sổ sẽ tự động được đóng lại.
+Beschreibung ***** miêu tả
+Zusätzlich können Sie eine kurze Beschreibung der Datei, z. B. Anhang, Hauptband, Messergebnisse usw. eingeben. ***** Ngoài ra, bạn có thể cung cấp một mô tả ngắn gọn về tệp, ví dụ. Ví dụ: phụ lục, băng tần chính, kết quả đo, v.v.
+Hochladen ***** upload
+Sie benötigen ADD (Hinzufügen) und WRITE (Schreib) Rechte zu mindestens einem Originalbündel, um eine Datei hochspielen zu können. ***** Bạn cần quyền THÊM (thêm) và VIẾT (ghi) cho ít nhất một gói ban đầu để có thể tải lên một tệp.
+ ***** 
+Löschung bestätigen ***** Xác nhận xóa
+Löschung bestätigen ***** Xác nhận xóa
+Löschung(en) bestätigen ***** Xác nhận xóa (s)
+Sind Sie sicher, dass Sie diese Datei(en) löschen möchten: ***** Bạn có chắc chắn muốn xóa (các) tệp này:
+Name ***** tên
+Beschreibung ***** miêu tả
+Format ***** định dạng
+ ***** 
+Bestätigen ***** xác nhận
+Bestätigen ***** xác nhận
+Dokument bearbeiten: {0} ***** Chỉnh sửa tài liệu: {0}
+Sind Sie sicher, dass das Dokument komplett gelöscht werden soll? Beachten Sie, es gibt keine Verweis auf gelöschte Dokumente. Persistente Identifier können somit ins Leere führen. ***** Bạn có chắc chắn rằng tài liệu nên được xóa hoàn toàn? Lưu ý, không có tài liệu tham khảo cho các tài liệu bị xóa. Định danh liên tục do đó có thể dẫn đến không có gì.
+Sind Sie sicher, dass dieses Dokument zurückgezogen werden soll? ***** Bạn có chắc chắn rằng tài liệu này nên được rút?
+Sind Sie sicher, dass dieses Dokument wieder zugänglich gemacht werden soll? ***** Bạn có chắc chắn rằng tài liệu này nên được truy cập lại?
+Feld ***** đồng ruộng
+Wert ***** giá trị
+Sprache ***** ngôn ngữ
+Verwerfen ***** loại bỏ
+Wieder aktivieren ***** Kích hoạt lại
+Nicht sichtbar machen ***** Không nhìn thấy
+Sichtbar machen ***** Làm cho nó hiển thị
+ ***** 
+Verschieben ***** hành động
+Verschieben ***** hành động
+Dokument: {0} verschieben ***** Tài liệu: di chuyển {0}
+Sammlung ***** bộ sưu tập
+Wählen Sie die Sammlung, in die Sie das Dokument verschieben möchten. ***** Chọn bộ sưu tập mà bạn muốn di chuyển tài liệu.
+Sammlung wählen ***** Chọn bộ sưu tập
+Verschieben ***** hành động
+Rechte erben ***** Quyền thừa kế
+Die Standardrechte der Zielsammlung erben ***** Kế thừa các quyền mặc định của bộ sưu tập mục tiêu
+ ***** 
+Datei bearbeiten ***** Chỉnh sửa tập tin
+Datei bearbeiten ***** Chỉnh sửa tập tin
+Datei bearbeiten ***** Chỉnh sửa tập tin
+Datei ***** hồ sơ
+Primäre Datei ***** Tập tin chính
+ja ***** vâng
+nein ***** không
+Beschreibung ***** miêu tả
+Zusätzlich können Sie eine kurze Beschreibung der Datei eingeben, z. B.: Hauptband, Anhang, Messdaten. ***** Ngoài ra, bạn có thể nhập một mô tả ngắn gọn về tập tin. B .: khối lượng chính, tập tin đính kèm, dữ liệu đo lường.
+Wählen Sie das Dateiformat aus der Liste oder, wenn Ihr Format nicht in der Liste enthalten ist, beschreiben Sie es in dem dafür vorgesehenen Feld. ***** Chọn định dạng tệp từ danh sách hoặc, nếu định dạng của bạn không có trong danh sách, hãy mô tả nó trong trường được cung cấp.
+Ausgewähltes Format ***** Định dạng được chọn
+Format nicht zur Auswahl ***** Định dạng không có sẵn
+</strong> und beschreiben Sie das Format in dem dafür vorgesehenen Feld. ***** </ strong> và mô tả định dạng trong hộp được cung cấp.
+Sonstiges Format ***** Định dạng khác
+. ***** ,
+Dateiname ***** filename
+Datei umbenennen. Dies führt zu einer Änderung in der angezeigten URL aber alte Links werden solange sich die Sequence ID nicht ändert korrekt aufgelöst. ***** Đổi tên tập tin. Điều này dẫn đến thay đổi URL được hiển thị nhưng các liên kết cũ được giải quyết chính xác miễn là ID chuỗi không thay đổi.
+Vorher: ***** trước đây:
+Nach oben ***** Lên trên
+Nach unten ***** Xuống
+ ***** 
+Zur Ressourcegehörige Dateien ***** Để các tập tin liên quan đến tài nguyên
+Zur Ressourcegehörige Dateien ***** Để các tập tin liên quan đến tài nguyên
+Dateien ***** file
+ ***** 
+Name ***** tên
+Beschreibung ***** miêu tả
+Format ***** định dạng
+Anzeige ***** trưng bày
+Sortierung ***** sắp xếp
+ ***** 
+<strong>Bündle: {0}</strong> ***** <strong> Gói: {0} </ strong>
+(primär) ***** (Tiểu học)
+anzeigen ***** buổi diễn
+Eine neue Datei hochladen ***** Tải lên một tập tin mới
+Dateien löschen ***** Xóa tập tin
+Dateisortierung ändern ***** Thay đổi sắp xếp tập tin
+Sie benötigen ADD (Hinzufügen) und WRITE (Schreib) Rechte an Dokument und Bündel, um eine Datei hochspielen zu können. ***** Bạn cần quyền ADD và WRITE cho tài liệu và gói để có thể tải lên một tệp.
+Sie benötigen REMOVE (Lösch) Rechte an Dokument und Bündel, um Dateien löschen zu können. ***** Bạn cần quyền XÓA tài liệu và gói để có thể xóa các tập tin.
+ ***** 
+Metadaten der Ressource ***** Siêu dữ liệu của tài nguyên
+Metadaten der Ressource ***** Siêu dữ liệu của tài nguyên
+Metadaten hinzufügen ***** Thêm siêu dữ liệu
+Name ***** tên
+Wert ***** giá trị
+Sprache ***** ngôn ngữ
+Metadatum hinzufügen ***** Thêm siêu dữ liệu
+Bitte beachten Sie: Diese Änderungen werden in keiner Weise validiert. Sie sind dafür verantwortlich die korrekten Daten im korrekten Format einzugeben. ***** Xin lưu ý: Những thay đổi này không được xác nhận theo bất kỳ cách nào. Bạn có trách nhiệm nhập dữ liệu chính xác theo định dạng chính xác.
+Metadaten ***** siêu dữ liệu
+Entfernen ***** loại bỏ
+Name ***** tên
+Wert ***** giá trị
+Sprache ***** ngôn ngữ
+ ***** 
+Dokumentstatus ***** tình trạng tài liệu
+Dokumentstatus ***** tình trạng tài liệu
+Willkommen in der Dokumentverwaltung. Hier können Sie Dokumente verwerfen, wieder aktivieren oder löschen. Zudem können Sie Metadaten und zugehörige Dateien bearbeiten, hinzufügen oder löschen. ***** Chào mừng bạn đến với quản lý tài liệu. Tại đây bạn có thể loại bỏ, kích hoạt lại hoặc xóa tài liệu. Bạn cũng có thể chỉnh sửa, thêm hoặc xóa siêu dữ liệu và các tệp liên quan.
+Interne Dokument-ID ***** ID tài liệu nội bộ
+Handle ***** xử lý
+Letzte Änderung ***** Thay đổi cuối cùng
+In den Sammlungen ***** Trong bộ sưu tập
+Zur Dokumentansicht ***** Để xem tài liệu
+Rechte des Dokumentes ***** Quyền của tài liệu
+Ein Dokument aus dem Repositorium zurückziehen. ***** Rút lại một tài liệu từ kho lưu trữ.
+Ein Dokument wieder im Repositorium zugänglich machen. ***** Làm cho một tài liệu có thể truy cập một lần nữa trong kho lưu trữ.
+Dokument endgültig löschen ***** Xóa vĩnh viễn tài liệu
+Rechte bearbeiten ***** Chỉnh sửa quyền
+Verwerfen ***** loại bỏ
+Wieder aktivieren ***** Kích hoạt lại
+Verschieben... ***** Di chuyển ...
+Dokument in eine andere Sammlung verschieben ***** Di chuyển tài liệu sang bộ sưu tập khác
+Endgültig löschen ***** Xóa vĩnh viễn
+n/a ***** n / a
+(nur für Systemadministratoren) ***** (chỉ dành cho quản trị viên hệ thống)
+(nur für Sammlungsadministratoren) ***** (chỉ dành cho quản trị viên bộ sưu tập)
+(Sie haben nicht die notwendigen Rechte, um diese Aktion auszuführen) ***** (Bạn không có quyền cần thiết để thực hiện hành động này)
+Unsichtbar machen ***** Làm cho vô hình
+Sichtbar machen ***** Làm cho nó hiển thị
+Unsichtbar machen... ***** Làm cho vô hình ...
+Sichtbar machen... ***** Hiển thị ...
+ ***** 
+Dokumentanzeige ***** tài liệu Viewer
+Dokumentanzeige ***** tài liệu Viewer
+ ***** 
+Pflege des Dokuments: {0} ***** Bảo trì tài liệu: {0}
+Dokumentpflege ***** chăm sóc tài liệu
+Kurator ***** người quản lý
+Aufgabe ***** công việc
+ ***** 
+Dokumentsuche ***** tìm kiếm tài liệu
+Dokumentsuche ***** tìm kiếm tài liệu
+Interne Dokument-ID oder Handle ***** ID tài liệu nội bộ hoặc xử lý
+Kennung konnte nicht zugeordnet werden. ***** ID không thể được chỉ định.
+Finde ***** tìm thấy
+ ***** 
+Metadaten importieren ***** Nhập siêu dữ liệu
+Metadaten importieren ***** Nhập siêu dữ liệu
+Metadaten importieren ***** Nhập siêu dữ liệu
+Änderungen ***** sửa đổi
+Es wurden keine Änderungen gefunden ***** Không có thay đổi được tìm thấy
+Neues Dokument ***** Tài liệu mới
+Das Hochladen war erfolgreich ***** Quá trình tải lên thành công.
+Beim Hochladen ist ein Fehler aufgetreten ***** Xảy ra lỗi trong khi tải lên
+Unbekanntes Metadatenschema in der Überschrift ***** Lược đồ siêu dữ liệu không xác định trong tiêu đề
+Unbekanntes Metadatenelement in der Überschrift ***** Phần tử siêu dữ liệu không xác định trong tiêu đề
+Import erfolgreich ***** Nhập thành công
+Import fehlgeschlagen ***** Nhập thất bại
+Die Anzahl der durchzuführenden Änderungen übersteigt die maximale erlaubte Anzahl. Beschränken Sie Ihre Änderungen oder ändern Sie bulkedit.gui-item-limit in dspace.cfg ***** Số lượng thay đổi được thực hiện vượt quá số lượng tối đa được phép. Hạn chế các thay đổi của bạn hoặc thay đổi giới hạn hàng loạt.gui-item-giới hạn đối với dspace.cfg
+ ***** 
+CSV Hochladen ***** Tải lên CSV
+ ***** 
+Bearbeitung erfolgreich ***** Chỉnh sửa thành công
+Änderungen, die an dem Dokument durchgeführt wurden: ***** Thay đổi được thực hiện cho tài liệu:
+Hinzugefügt: ***** nói thêm:
+Entfernt: ***** loại bỏ:
+Zu besitzender Sammlung hinzugefügt ***** Đã thêm vào bộ sưu tập để sở hữu
+Aus besitzender Sammlung entfernt ***** Đã xóa khỏi bộ sưu tập sở hữu
+In Sammlung gespiegelt ***** Nhân đôi trong bộ sưu tập
+Spiegelung aus Sammlung gelöscht ***** Phản chiếu bị xóa khỏi bộ sưu tập
+Ressource gelöscht ***** Tài nguyên đã bị xóa
+Ressource zurückgezogen ***** Rút tài nguyên
+Ressource wieder frei gegeben ***** Tài nguyên được phát hành
+ ***** 
+Hinzufügen: ***** Địa chỉ:
+Entfernen: ***** Di chuyển:
+Zur neuen besitzenden Sammlung hinzufügen ***** Thêm vào bộ sưu tập sở hữu mới
+Aus besitzender Sammlung entfernen ***** Xóa khỏi bộ sưu tập sở hữu
+In Sammlung spiegeln ***** Gương trong bộ sưu tập
+Spiegelung in Sammlung löschen ***** Xóa phản chiếu trong bộ sưu tập
+Anstehenden Änderungen für das Dokument ***** Trong khi chờ thay đổi tài liệu
+Änderungen durchführen ***** Thay đổi
+Die anstehenden Änderungen sind unten zur Kontrolle aufgeführt. ***** Những thay đổi sắp tới được liệt kê dưới đây để kiểm soát.
+Ressource löschen ***** Xóa tài nguyên
+Ressource zurückziehen ***** Rút tài nguyên
+Ressource wieder veröffentlichen ***** Xuất bản lại tài nguyên
+ ***** 
+Dokumente Spiegeln ***** Tài liệu phản ánh
+ ***** 
+Dokumente spiegeln ***** Tài liệu gương
+Dokumente spiegeln - Dokumente von anderen Sammlungen spiegeln ***** Tài liệu nhân bản - tài liệu phản chiếu từ các bộ sưu tập khác
+ ***** 
+Dieses Werkzeug erlaubt es Administratoren und Sammlungsadministratoren Dokumente von einer Sammlung in eine andere zu spiegeln. Sie können nach Dokumente suchen, um diese zu spiegeln oder sich die Liste der aktuell gespiegelten Dokumente anzeigen lassen. ***** Công cụ này cho phép quản trị viên và quản trị viên bộ sưu tập phản chiếu các tài liệu từ bộ sưu tập này sang bộ sưu tập khác. Bạn có thể tìm kiếm các tài liệu để phản chiếu chúng hoặc xem danh sách các tài liệu hiện đang được nhân đôi.
+Statistik ***** thống kê
+<strong>{0} von {1}</strong> Dokument(en) in dieser Sammlung ist/sind aus anderen gespiegelt ***** <strong> {0} trong số {1} </ strong> tài liệu trong bộ sưu tập này là / được nhân đôi từ những người khác
+Suche ***** tìm kiếm
+Dokumente suchen ***** Tìm kiếm tài liệu
+Gespiegelte Dokumente auflisten ***** Liệt kê các tài liệu được nhân đôi
+(erfordert ADD (Hinzufügen) Recht für diese Sammlung) ***** (yêu cầu THÊM (Thêm) ngay cho bộ sưu tập này)
+ ***** 
+Dokumente suchen ***** Tìm kiếm tài liệu
+Dokumente suchen ***** Tìm kiếm tài liệu
+ ***** 
+Ausgewählte Dokumente spiegeln ***** Gương chọn tài liệu
+ ***** 
+Sammlung ***** bộ sưu tập
+Autor ***** tác giả
+Titel ***** tiêu đề
+ ***** 
+Auflistung gespiegelter Dokumente ***** Danh sách tài liệu nhân đôi
+Auflistung gespiegelter Dokumente ***** Danh sách tài liệu nhân đôi
+Auflistung gespiegelter Dokumente ***** Danh sách tài liệu nhân đôi
+Spiegelungen löschen ***** Xóa phản xạ
+ ***** 
+Sammlung ***** bộ sưu tập
+Autor ***** tác giả
+Titel ***** tiêu đề
+Sie benötigen REMOVE (Entfernen) Rechte an dieser Sammlung, um Spiegelungen zu löschen. ***** Bạn cần quyền XÓA (Xóa) cho bộ sưu tập này để xóa gương.
+ ***** 
+Sammlungen ***** Các bộ sưu tập
+Metadaten bearbeiten ***** Chỉnh sửa siêu dữ liệu
+Bearbeiterrollen zuordnen ***** Gán vai trò biên tập
+Pflegen ***** duy trì
+Zu Bearbeiten ***** Để chỉnh sửa
+ ***** 
+Bearbeiterrollen der Sammlung bearbeiten ***** Chỉnh sửa biên tập của bộ sưu tập
+Rollen ***** cuộn
+Sammlung in Bearbeitung: {0} ***** Bộ sưu tập đang diễn ra: {0}
+keine ***** không
+Anlegen ***** đầu tư
+Einschränken ***** hạn chế
+Sammlungsadministratoren können entscheiden, wer in der Sammlung veröffenltichen darf, sie können Dokumente verwerfen, Metadaten bearbeiten und Dokumente aus anderen Sammlungen spiegeln, wenn sie an den zu spiegelnden Dokumenten die entsprechenden Rechte haben. ***** Quản trị viên bộ sưu tập có thể quyết định ai có thể xuất bản trong bộ sưu tập, họ có thể loại bỏ tài liệu, chỉnh sửa siêu dữ liệu và phản chiếu tài liệu từ các bộ sưu tập khác nếu họ có quyền thích hợp với tài liệu họ muốn phản chiếu.
+Die Bearbeiter dieses Geschäftsgangsschrittes können eingehende Dokumente akzeptieren oder ablehnen. Sie können diese jedoch nicht bearbeiten. ***** Các biên tập viên của bước kinh doanh này có thể chấp nhận hoặc từ chối các tài liệu đến. Tuy nhiên, bạn không thể chỉnh sửa chúng.
+Die Bearbeiter dieses Geschäftsgangsschrittes können eingehende Dokumente ablehnen oder die Metadaten bearbeiten und das Dokument akzeptieren. ***** Các biên tập viên của bước kinh doanh này có thể từ chối các tài liệu gửi đến hoặc chỉnh sửa siêu dữ liệu và chấp nhận tài liệu.
+Die Bearbeiter dieses Geschäftsgangsschrittes können die Metadaten des Dokumentes bearbeiten und es abschließend ins Archiv überführen. ***** Các biên tập viên của bước kinh doanh này có thể chỉnh sửa siêu dữ liệu của tài liệu và cuối cùng chuyển nó vào kho lưu trữ.
+Die Benutzer und Gruppen  haben das Recht, neue Dokumente in dieser Sammlung zu veröffentlichen. ***** Người dùng và nhóm có quyền xuất bản các tài liệu mới trong bộ sưu tập này.
+Benutzer und Gruppen, die neue Dokumente in der Sammlung ansehen dürfen. Bitte beachten Sie, dass Änderungen an diesen Rechten nicht retrospektiv wirken. Bereits existierende Dokumente behalten ihre Rechte. ***** Người dùng và nhóm được phép xem tài liệu mới trong bộ sưu tập. Xin lưu ý rằng những thay đổi đối với các quyền này không phải là hồi cứu. Các tài liệu hiện có giữ quyền của họ.
+Diese Sammlung hat die Standardzugriffsrechte. ***** Bộ sưu tập này có quyền truy cập mặc định.
+Die Standardzugriffsrechte für neue Dokumente und Dateien sind zur Zeit: anonymer lesender Zugriff. ***** Các quyền mặc định cho các tài liệu và tệp mới hiện đang: truy cập đọc ẩn danh.
+Rechte direkt bearbeiten. ***** Chỉnh sửa quyền trực tiếp.
+Rolle ***** vai trò
+Zugehörige Gruppe ***** Nhóm liên kết
+ ***** 
+Administratoren ***** quản trị
+Bearbeitungsschritte im Geschäftsgang ***** Các bước xử lý trong quá trình kinh doanh
+Annehmen/Ablehnen Schritt ***** Bước chấp nhận / từ chối
+Annehmen/Ablehnen/Bearbeiten Schritt ***** Chấp nhận / Từ chối / Chỉnh sửa bước
+Bearbeiten Schritt ***** Chỉnh sửa bước
+Veröffentlichungsberechtigte ***** công bố hợp pháp
+Standard lesender Zugriff ***** Truy cập đọc tiêu chuẩn
+<nobr>(nur für Systemadministratoren)</nobr> ***** <nobr> (chỉ quản trị viên hệ thống) </ nobr>
+<br/>(Gruppe auf Repositoriumsebene, nur für Systemadministratoren) ***** <br/> (nhóm kho lưu trữ, chỉ dành cho quản trị viên hệ thống)
+<nobr>(Sie haben nicht die Berechtigung dies zu konfigurieren)</nobr> ***** <nobr> (bạn không có quyền định cấu hình này) </ nobr>
+ ***** 
+Pflege der Sammlung: {0} ***** Bảo trì bộ sưu tập: {0}
+Pflege einer Sammlung ***** Chăm sóc bộ sưu tập
+Kurator ***** người quản lý
+Aufgabe ***** công việc
+ ***** 
+Löschung bestätigen ***** Xác nhận xóa
+Bestätigen ***** xác nhận
+Löschung der Sammlung: {0} bestätigen ***** Xóa bộ sưu tập: xác nhận {0}
+Sind Sie Sicher, dass die Sammlung: {0} gelöscht werden soll? Dies löscht außerdem: ***** Bạn có chắc chắn rằng bộ sưu tập: {0} nên bị xóa không? Điều này cũng xóa:
+alle Dokumente und unvollendeten Veröffentlichungen in dieser Sammlung ***** tất cả các tài liệu và các ấn phẩm chưa hoàn thành trong bộ sưu tập này
+den kompletten Inhalt und die Metadaten dieser Dokumente ***** nội dung và siêu dữ liệu đầy đủ của các tài liệu này
+Alle Rechte ***** Tất cả các quyền
+ ***** 
+Rollenlöschung bestätigen ***** Xác nhận xóa cuộn
+Bestätigen ***** xác nhận
+Bestätigen Sie die Löschung der Rolle: {0} ***** Xác nhận xóa vai trò: {0}
+Sind Sie sicher, dass diese Rolle gelöscht werden soll? Wenn Sie diese Gruppe löschen, erhalten alle Benutzer READ (Lese) Rechte für alle Dokumente, die ab jetzt in der Sammlung veröffentlicht werden. Diese Änderung wirkt nicht retrospektiv. Bereits in der Sammlung vorhandene Dokumente behalten ihre Rechte. ***** Bạn có chắc chắn rằng vai trò này sẽ bị xóa? Nếu bạn xóa nhóm này, tất cả người dùng sẽ có quyền ĐỌC (Đọc) đối với tất cả các tài liệu hiện được xuất bản trong bộ sưu tập. Sự thay đổi này không phải là hồi tưởng. Tài liệu đã có trong bộ sưu tập giữ quyền của họ.
+Sind Sie sicher, dass diese Rolle gelöscht werden soll? Alle Änderungen und Anpassungen an dieser Gruppe: {0} gehen verloren und müssen ggf. neu angelegt werden. ***** Bạn có chắc chắn rằng vai trò này sẽ bị xóa? Tất cả các thay đổi và điều chỉnh đối với nhóm này: {0} bị mất và có thể cần phải được tạo lại.
+ ***** 
+Metadaten der Sammlung bearbeiten ***** Chỉnh sửa siêu dữ liệu của bộ sưu tập
+Metadaten ***** siêu dữ liệu
+Bearbeiten der Sammlung: {0} ***** Chỉnh sửa bộ sưu tập: {0}
+Name ***** tên
+Kurzbeschreibung ***** tóm lại
+Einleitender Text (HTML) ***** Văn bản giới thiệu (HTML)
+Urheberrechtshinweis (plain text) ***** Thông báo bản quyền (văn bản thuần túy)
+Neuigkeiten (HTML) ***** Tin tức (HTML)
+Lizenz ***** giấy phép
+Provenienz ***** nguồn gốc
+ein neues Logo hochspielen ***** tải lên logo mới
+Aktuelles Logo ***** Logo hiện tại
+Dokumentschablone ***** mẫu tài liệu
+Anlegen ***** đầu tư
+Bearbeiten ***** chỉnh sửa
+Logo entfernen ***** Xóa logo
+Sammlung löschen ***** Xóa bộ sưu tập
+Änderungen speichern ***** Lưu thay đổi
+<nobr>(nur für Systemadministratoren)</nobr> ***** <nobr> (chỉ quản trị viên hệ thống) </ nobr>
+ ***** 
+Sammlung anlegen ***** Tạo bộ sưu tập
+Sammlung anlegen ***** Tạo bộ sưu tập
+Geben Sie die Informationen zur Sammlung: {0} ein ***** Nhập thông tin bộ sưu tập: {0}
+Anlegen ***** đầu tư
+Harvesting-Einstellungen für Sammlungen ***** Cài đặt thu hoạch cho các bộ sưu tập
+Harvesting ***** thu hoạch
+Quelle des Inhalts ***** Nguồn nội dung
+Quelle des Inhalts ***** Nguồn nội dung
+Dies ist eine Standard-DSpace-Sammlung ***** Đây là bộ sưu tập DSpace tiêu chuẩn
+Diese Sammlung bezieht ihren Inhalt via Harvesting aus einer externen Quelle. ***** Bộ sưu tập này có được nội dung của nó thông qua thu hoạch từ một nguồn bên ngoài.
+Speichern ***** tiết kiệm
+ ***** 
+Die per Harvesting bearbeitete Sammlung ***** Thu hoạch chỉnh sửa bộ sưu tập
+Harvesting Optionen ***** Tùy chọn thu hoạch
+OAI Provider ***** Nhà cung cấp OAI
+OAI Set ID ***** ID bộ OAI
+Metadatenformat ***** định dạng siêu dữ liệu
+Die URL des OAI Providers des Zielrepositoriums. ***** URL của nhà cung cấp OAI của kho đích.
+Sie müssen eine Set ID der Zielsammlung angeben. ***** Bạn phải chỉ định ID bộ của bộ sưu tập đích.
+Der Persistent Identifier, der vom OAI Provider für die Zielsammlung verwendet wird. ***** Mã định danh liên tục được nhà cung cấp OAI sử dụng cho bộ sưu tập đích.
+Sie müssen eine Set ID der Zielsammlung angeben. ***** Bạn phải chỉ định ID bộ của bộ sưu tập đích.
+Inhalt wird über Harvesting bezogen ***** Nội dung có nguồn gốc thông qua Thu hoạch
+Nur die Metadaten über Harvesting beziehen. ***** Chỉ tham khảo siêu dữ liệu về thu hoạch.
+Beziehe die Metadaten über Harvesting und referenziere die Dateien (hierfür ist ORE Unterstützung Voraussetzung). ***** Có được siêu dữ liệu về thu hoạch và tham chiếu các tệp (điều này yêu cầu hỗ trợ ORE).
+Beziehe sowohl die Metadaten alsauch die Dateien über Harvesting (hierfür ist ORE Unterstützung Voraussetzung). ***** Có được cả siêu dữ liệu và tệp từ thu hoạch (điều này cần có hỗ trợ ORE).
+Test-Einstellungen ***** Cài đặt thử nghiệm
+ ***** 
+Die per Harvesting bearbeitete Sammlung ***** Thu hoạch chỉnh sửa bộ sưu tập
+OAI Provider ***** Nhà cung cấp OAI
+OAI Set ID ***** ID bộ OAI
+Metadatenformat ***** định dạng siêu dữ liệu
+Inhalt wird über Harvesting bezogen ***** Nội dung có nguồn gốc thông qua Thu hoạch
+Ergebnisse des letzten Harvesting ***** Kết quả của vụ thu hoạch cuối cùng
+Diese Sammlung wurde noch nicht per Harvesting abgearbeitet. ***** Bộ sưu tập này chưa được thực hiện bằng cách thu hoạch.
+Aktueller Harvesting-Status ***** Tình trạng thu hoạch hiện tại
+Sammlung fürs Harvesting bereit ***** Bộ sưu tập đã sẵn sàng để thu hoạch
+Diese Sammlung wird gerade per Harvesting bearbeitet ***** Bộ sưu tập này đang được chỉnh sửa bằng cách thu hoạch
+Diese Sammlung befindet sich in der Warteschleife für das Harvesting. ***** Bộ sưu tập này đang bị trì hoãn để thu hoạch.
+Während des letzen Harvesting ist ein OAI-PMH Fehler aufgetreten. ***** Một lỗi OAI-PMH đã xảy ra trong vụ thu hoạch cuối cùng.
+Ein unerwarteter/unbekannter Fehler ist währen des letzten Harvestings aufgetreten. ***** Một lỗi bất ngờ / không xác định đã xảy ra trong vụ thu hoạch cuối cùng.
+HNur die Metadaten über Harvesting beziehen. ***** HYou chỉ nhận được siêu dữ liệu về thu hoạch.
+Beziehe die Metadaten über Harvesting und referenziere die Dateien. ***** Có được siêu dữ liệu về thu hoạch và tham chiếu các tệp.
+Beziehe sowohl die Metadaten alsauch die Dateien über Harvesting (komplette Reproduktion der Ressource). ***** Có được cả siêu dữ liệu và tệp thông qua thu hoạch (tái tạo tài nguyên hoàn chỉnh).
+Einstellungen ändern ***** Thay đổi cài đặt
+Jetzt importieren ***** Nhập ngay
+Den Status zurücketzen und die Sammlung nochmal importieren ***** Đặt lại trạng thái và nhập lại bộ sưu tập
+ ***** 
+Harvesting ***** thu hoạch
+Harvesting Zeitplaneinstellungen ***** Cài đặt lịch thu hoạch
+Status ***** tình trạng
+Aktionen ***** hành động
+Das Harvesting starten ***** Bắt đầu thu hoạch
+Den Harvestingstatus zurücksezten ***** Đặt lại trạng thái thu hoạch
+Wiederaufnehmen ***** sự phục hưng
+Pause ***** tạm ngừng
+Stop ***** dừng lại
+Collectionen, die für das Harvesting eingerichtet sind ***** Bộ sưu tập được thiết kế để thu hoạch
+Laufenden Harvesting-Prozesse ***** Quá trình thu hoạch đang diễn ra
+Harvesting Warteschleife ***** Thu hoạch giữ mẫu
+OAI Fehlermeldungen ***** Thông báo lỗi OAI
+Interne Fehlermeldungen ***** Thông báo lỗi nội bộ
+Generator Einstellungen ***** Cài đặt trình tạo
+OAI-PMH URL ***** URL OAI-PMH
+ORE Quelle ***** Nguồn ORE
+Harvester Einstellungen ***** Cài đặt máy thu hoạch
+ ***** 
+Bereiche ***** khu vực
+Metadinformationen bearbeiten ***** Chỉnh sửa siêu dữ liệu
+Bearbeiterrollen vergeben ***** Vai trò tác giả được phân công
+Bestandspflege ***** quản lý danh mục
+Zu Bearbeiten ***** Để chỉnh sửa
+ ***** 
+Bearbeiten der Rollen für den Bereich ***** Chỉnh sửa vai trò cho khu vực
+Rollen ***** cuộn
+Bearbeiten des Bereiches: {0} ***** Chỉnh sửa khu vực: {0}
+keine ***** không
+Anlegen... ***** Tạo ...
+Bereichsadministratoren können Teilbereiche und Sammlungen anlegen und selbige bearbeiten oder Bearbeiterfunktionen delegieren. Des weiteren können Sie bestimmen, wer in einer Sammlung veröffentlichen und wer nach Veröffentlichung die Metadaten bearbeiten darf. Zudem können sie Ressourcen aus anderen Sammlungen in die eigenen Sammlungen spiegeln, sofern die Rechte der zu spiegelnden Ressourcen dies erlauben. ***** Quản trị viên khu vực có thể tạo và chỉnh sửa các phần và bộ sưu tập hoặc ủy thác các chức năng của người đánh giá. Bạn cũng có thể xác định ai có thể xuất bản trong bộ sưu tập và ai có thể chỉnh sửa siêu dữ liệu sau khi xuất bản. Ngoài ra, họ có thể phản chiếu các tài nguyên từ các bộ sưu tập khác vào các bộ sưu tập của riêng mình, miễn là quyền của các tài nguyên được nhân đôi cho phép điều này.
+Dieser Bereich verwendet die Standardzugriffsrechte. ***** Khu vực này sử dụng quyền truy cập mặc định.
+Der lesende Zugriff auf die Metadaten und Inhalte neuer Dokumente ist allen Nutzer gestattet. ***** Đọc quyền truy cập vào siêu dữ liệu và nội dung của các tài liệu mới được phép cho tất cả người dùng.
+Die Zugriffsrechte direkt bearbeiten. ***** Chỉnh sửa quyền truy cập trực tiếp.
+Rolle ***** vai trò
+Zugehörige Gruppe ***** Nhóm liên kết
+ ***** 
+Administratoren ***** quản trị
+<nobr>(nur für Systemadministratoren)</nobr> ***** <nobr> (chỉ quản trị viên hệ thống) </ nobr>
+ ***** 
+Bereichspflege: {0} ***** Bảo trì khu vực: {0}
+Bereichspflege ***** các điều dưỡng
+Kurator ***** người quản lý
+Aufgabe ***** công việc
+ ***** 
+Löschung bestätigen ***** Xác nhận xóa
+Bestätigen ***** xác nhận
+Löschung des Bereiches: {0} bestätigen ***** Xóa vùng: Xác nhận {0}
+Sind Sie sicher, dass die Sammlung: {0} gelöscht werden soll? Dadurch werden auch folgende Elemente gelöscht: ***** Bạn có chắc chắn rằng bộ sưu tập: {0} nên bị xóa không? Điều này cũng sẽ xóa các mục sau đây:
+alle Sammlungen, die ausschließlich in diesem Bereich enthalten sind ***** tất cả các bộ sưu tập được bao gồm độc quyền trong phần này
+alle Dokumente, die ausschließlich in diesem Bereich enthalten sind ***** tất cả các tài liệu được chứa độc quyền trong lĩnh vực này
+der Inhalt dieser Dokumente ***** nội dung của các tài liệu này
+alle Rechte zu diesem Bereich ***** tất cả các quyền đối với khu vực này
+ ***** 
+Bestätigung des Löschens der Bearbeiterrolle ***** Xác nhận xóa vai trò biên tập viên
+Bestätigen ***** xác nhận
+Löschen der Rolle: {0} bestätigen ***** Xóa vai trò: Xác nhận {0}
+Sind Sie sicher, dass diese Rolle gelöscht werden soll? Alle Änderungen und Anpassungen an der Gruppe {0} sind damit unwiderruflich verloren. ***** Bạn có chắc chắn rằng vai trò này sẽ bị xóa? Mọi thay đổi và tùy chỉnh đối với nhóm {0} sẽ bị mất vĩnh viễn.
+ ***** 
+Bereichsmetadaten bearbeiten ***** Chỉnh sửa siêu dữ liệu khu vực
+Metadaten ***** siêu dữ liệu
+Bearbeiten der Metadaten des Bereichs: {0} ***** Chỉnh sửa siêu dữ liệu của khu vực: {0}
+Rechte bearbeiten ***** Chỉnh sửa quyền
+Name ***** tên
+Kurzbeschreibung ***** tóm lại
+Einleitender Text (HTML) ***** Văn bản giới thiệu (HTML)
+Urheberrechtsbestimmungen (reiner Text) ***** Quy định bản quyền (văn bản thuần túy)
+Was gibt es Neues (HTML) ***** Có gì mới (HTML)
+Ein neues Logo hochladen ***** Tải lên logo mới
+Aktuelles Logo ***** Logo hiện tại
+Logo entfernen ***** Xóa logo
+Bereich löschen ***** Xóa vùng
+ ***** 
+Bereich anlegen ***** Tạo khu vực
+Bereich anlegen ***** Tạo khu vực
+Metadaten des neuen Teilbereiches von {0} ein. ***** Siêu dữ liệu của vùng phụ mới của {0}.
+Metadaten des Hauptbereiches ***** Siêu dữ liệu của khu vực chính
+Anlegen ***** đầu tư
+ ***** 
+ ***** 
+Systeminformationen ***** hệ thống thông tin
+Systeminformationen ***** hệ thống thông tin
+Systeminformationen ***** hệ thống thông tin
+Java Umgebung ***** Môi trường Java
+DSpace Konfiguration ***** Cấu hình DSpace
+Systemweite Benachrichtigungen ***** Thông báo trên toàn hệ thống
+{0} Stunde(n) ***** {0} giờ
+{0} Minute(n) ***** {0} phút
+{0} Sekunde(n) ***** {0} giây
+Java und Betriebssystem ***** Java và hệ điều hành
+Java Laufzeitumgebung Version ***** Phiên bản môi trường chạy thi hành Java
+Java Laufzeitumgebung Distribution ***** Phân phối môi trường thời gian chạy Java
+Betriebssystem Name ***** Tên hệ điều hành
+Betriebssystem Architektur ***** Kiến trúc hệ điều hành
+Betriebssystem Version ***** Phiên bản hệ điều hành
+Laufzeitstatistiken ***** Runtime kê
+Verfügbare Prozessoren ***** Bộ xử lý có sẵn
+Maximaler Speicher ***** Bộ nhớ tối đa
+Zugeordneter Speicher ***** Bộ nhớ liên kết
+Benutzer Speicher ***** Bộ nhớ người dùng
+Freier Speicher ***** Bộ nhớ trống
+Cocoon Information ***** Thông tin kén
+Cocoon Version ***** Phiên bản kén
+Cocoon Cache Verzeichnis ***** Thư mục Cocoon Cache
+Cocoon Arbeitsverzeichnis ***** Cocoon thư mục làm việc
+Hauptcache Größe: ({0}) ***** Kích thước bộ đệm chính: ({0})
+(Cache sofort löschen) ***** (Xóa bộ nhớ cache ngay lập tức)
+Persistente Cache Größe ({0}) ***** Kích thước bộ đệm liên tục ({0})
+Flüchtige Cache Größe ({0}) ***** Kích thước bộ đệm dễ bay hơi ({0})
+DSpace Einstellungen ***** Cài đặt không gian
+DSpace Installationsverzeichnis ***** Thư mục cài đặt DSpace
+DSpace Basis-URL ***** URL cơ sở DSpace
+DSpace Version ***** Phiên bản DSpace
+DSpace Name des Hosts ***** Tên không gian của máy chủ lưu trữ
+Name der Seite ***** Tên của trang
+Datenbank Name ***** Tên cơ sở dữ liệu
+Datenbank URLL ***** Cơ sở dữ liệu URLL
+JDBC Treiber ***** Trình điều khiển JDBC
+Maximale Anzahl an Datenbankverbindungen im Verbindungspool. ***** Số lượng kết nối cơ sở dữ liệu tối đa trong nhóm kết nối.
+Maximale Datenbank Wartezeit ***** Thời gian chờ cơ sở dữ liệu tối đa
+Maximale Anzahl müßiger Verbindungen ***** Số lượng kết nối nhàn rỗi tối đa
+SMTP Mail Server ***** Máy chủ mail SMTP
+Absender ***** người gởi
+Feedback Adresse ***** Địa chỉ phản hồi
+E-Mail des Systemadministrators ***** E-mail của quản trị viên hệ thống
+Systemweite Benachrichtigungen ***** Thông báo trên toàn hệ thống
+<strong>Warning for load balanced systems</strong>: System-wide alerts are only effective for the node on which it is activated. You need to ensure that each node in the set receives the activate alert command. ***** <strong> Cảnh báo cho các hệ thống cân bằng tải </ strong>: Cảnh báo trên toàn hệ thống chỉ có hiệu lực đối với nút mà nó được kích hoạt. Bạn cần đảm bảo rằng mọi nút trong tập hợp đều nhận được lệnh kích hoạt cảnh báo.
+Warnnotiz ***** lưu ý cảnh báo
+Das System wird zu Wartungszwecken heruntergefahren. Bitte speichern Sie Ihre Arbeit und melden Sie sich ab. ***** Hệ thống tắt để bảo trì. Hãy lưu công việc của bạn và đăng xuất.
+Countdown ***** đếm ngược
+Kein Countdown ***** Không đếm ngược
+5 Minuten ***** 5 phút
+15 Minuten ***** 15 phút
+30 Minuten ***** 30 phút
+1 Stunde ***** 1 giờ
+Aktuellen Countdown behalten ***** Giữ đếm ngược hiện tại
+Sitzungen verwalten ***** Quản lý phiên
+Authentifizierte Sitzungen weiterhin zulassen ***** Tiếp tục cho phép các phiên xác thực
+Authentifizierungen einschränken, aber laufende Sitzungen beibehalten. ***** Hạn chế xác thực nhưng giữ các phiên liên tục.
+Authentifizierungen einschränken und laufende Sitzungen beenden. ***** Hạn chế xác thực và chấm dứt các phiên liên tục.
+<strong>Bitte beachten Sie:</strong> Administratoren der Seite werden vom Sizungsmanagement nicht tangiert. ***** <strong> Xin lưu ý: </ strong> Quản trị viên của trang web không bị ảnh hưởng bởi việc quản lý kích thước.
+Aktivieren ***** hoạt động
+Deaktivieren ***** tắt
+Laufende Aktivität ({0} maximale Seiten) ***** Hoạt động đang diễn ra ({0} trang tối đa)
+STOP Aufzeichnung von anonymous-Aktivität. ***** DỪNG ghi hoạt động ẩn danh.
+START Aufzeichnung von anonymous-Aktivität. ***** BẮT ĐẦU ghi lại hoạt động ẩn danh.
+STOP Aufzeichnung von bot-Aktivität. ***** STOP ghi lại hoạt động bot.
+START Aufzeichnung von bot-Aktivität. ***** BẮT ĐẦU ghi lại hoạt động bot.
+Zeitstempel ***** timestamp
+Benutzer ***** người sử dụng
+IP-Adressen ***** địa chỉ IP
+URL ***** URL
+User-Agent ***** User Agent
+Anonym {0} ***** Ẩn danh {0}
+Abgesehen von Ihren eigen gab es keine Seitenzugriffe in den letzen {0} Tagen. ***** Ngoài trang của bạn, không có lượt xem trang nào trong {0} ngày qua.
+ ***** 
+Benutzen Sie die Reiter, um zur entsprechenden Information zu gelangen ***** Sử dụng các tab để có được thông tin tương ứng
+ ***** 
+<strong>In {0} Minuten</strong>: ***** <strong> Trong {0} phút </ strong>:
+ ***** 
+Keine Berechtigung ***** Không được phép
+Keine Berechtigung ***** Không được phép
+Keine ausreichenden Rechte ***** Không có quyền đầy đủ
+Ihr Benutzeraccount hat nicht die erforderlichen Rechte für diese Aktion. Wenn Sie der Meinung sind, dabei handelte es sich um einen Fehler oder sonstige Fragen zu Rechten haben, wenden Sie sich an den Systemadministrator ***** Tài khoản người dùng của bạn không có các quyền cần thiết cho hành động này. Nếu bạn tin rằng đây là lỗi hoặc sự cố khác, hãy liên hệ với quản trị viên hệ thống
+Systemadministratoren ***** Quản trị hệ thống
+. ***** ,
+Als anderer Benutzer einloggen. ***** Đăng nhập như một người dùng khác.
+ ***** 
+Datenpflege ***** bảo trì dữ liệu
+Datenpflege - Aufgaben ***** Bảo trì dữ liệu - Nhiệm vụ
+Handle eines DSpace Objektes ***** Xử lý một đối tượng DSpace
+Hinweis: Geben Sie [ihr-handle-prefix]/0 ein um ein Aufgabe systemweit durchzuführen (nicht alle Aufgaben können auf allen Objekten ausgeführt werden). ***** Lưu ý: Nhập [your-handle-prefix] / 0 để thực hiện toàn bộ tác vụ (không phải tất cả các tác vụ đều có thể được thực hiện trên tất cả các đối tượng).
+Aufgabe ***** công việc
+Wählen Sie aus den folgenden Gruppen ***** Chọn từ các nhóm sau
+ ***** 
+Statistik ***** thống kê
+Suchstatistik ***** thống kê theo yêu cầu
+Suchstatistik ***** thống kê theo yêu cầu
+Suchstatistik für: {0} ***** Thống kê tìm kiếm cho: {0}
+Bei der Erstellung der Statistik ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal. ***** Đã xảy ra lỗi trong khi tạo số liệu thống kê. Vui lòng thử lại sau.
+Für den ausgewählten Zeitraum gibt es keine Suchstatistiken. ***** Không có số liệu thống kê tìm kiếm cho giai đoạn được chọn.
+Geschäftsgangstatistik ***** Kinh doanh tại kê
+Gesamtzugriffe ***** tổng lượt truy cập
+Gesamtzugriffe pro Monat ***** Tổng lưu lượng truy cập mỗi tháng
+Zugriffe ***** Lần
+Zugriffe nach Ländern ***** Truy cập vào các quốc gia
+Zugriffe nach Städten ***** Giao thông đến các thành phố
+Dateiabrufe ***** khả năng tìm lại tập tin
+Statistik ***** thống kê
+Benutzungsstatistik ***** thống kê sử dụng
+Suchstatistik ***** thống kê theo yêu cầu
+Geschäftsgangstatistik ***** Kinh doanh tại kê
+Statistik ***** thống kê
+Suchstatistik ***** thống kê theo yêu cầu
+Geschäftsgangstatistik ***** Kinh doanh tại kê
+Für diesen Zeitraum gibt es keine Geschäftsgangstatistik. ***** Không có số liệu thống kê kinh doanh trong giai đoạn này.
+Bei der Erstellung der Geschäftsgangstatistik ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal. ***** Có lỗi khi tạo Thống kê trường hợp kinh doanh. Vui lòng thử lại sau.
+Geschäftsgangstatistik ***** Kinh doanh tại kê
+Geschäftsgangstatistik für: {0} ***** Thống kê kinh doanh cho: {0}
+ ***** 
+ ***** 
+Die häufigsten Suchbegriffe ***** Các thuật ngữ tìm kiếm phổ biến nhất
+Gesamt ***** tổng thể
+Letzer Monat ***** Tháng trước
+Letzten 6 Monate ***** 6 tháng qua
+Letztes Jahr ***** Năm ngoái
+Gesamter Zeitraum ***** Toàn bộ thời gian
+ ***** 
+ ***** 
+Suchbegriffe ***** tìm kiếm
+Suchen ***** tìm kiếm
+% der Gesamtzahl ***** % trên tổng số
+Seitenzugriffe / Search ***** Số lượt xem / Tìm kiếm
+Schritt ***** bước đi
+Durchgeführt ***** hoàn thành
+Durchschnitt ***** trung bình
+Annehmen/Ablehnen Schritt Pool ***** Chấp nhận / Từ chối Bước Pool
+Annehmen/Ablehnen Schritt ***** Bước chấp nhận / từ chối
+Annehmen/Ablehnen Schritt/Metadaten Bearbeiten Schritt Pool ***** Chấp nhận / Từ chối Bước / Siêu dữ liệu Chỉnh sửa Bước nhóm
+Annehmen/Ablehnen Schritt/Metadaten Bearbeiten Schritt ***** Bước chấp nhận / từ chối / siêu dữ liệu
+Metadaten Bearbeiten Schritt Pool ***** Siêu dữ liệu Chỉnh sửa Bước Pool
+Metadaten Bearbeiten Schritt ***** Bước chỉnh sửa siêu dữ liệu
+Annehmen/Ablehnen Schritt Pool ***** Chấp nhận / Từ chối Bước Pool
+Annehmen/Ablehnen Schritt ***** Bước chấp nhận / từ chối
+Annehmen/Ablehnen Schritt/Metadaten Bearbeiten Schritt Pool ***** Chấp nhận / Từ chối Bước / Siêu dữ liệu Chỉnh sửa Bước nhóm
+Annehmen/Ablehnen Schritt/Metadaten Bearbeiten Schritt ***** Bước chấp nhận / từ chối / siêu dữ liệu
+Metadaten Bearbeiten Schritt Pool ***** Siêu dữ liệu Chỉnh sửa Bước Pool
+Metadaten Bearbeiten Schritt ***** Bước chỉnh sửa siêu dữ liệu
+Ergebnis Begutachtungspool ***** Nhóm đánh giá kết quả
+Ergebnis Begutachtung ***** Đánh giá kết quả
+Ergebnis Begutachtung Evaluation ***** Đánh giá kết quả Đánh giá
+Ergebnis Begutachtung Evaluation Konfiguration ***** Cấu hình đánh giá kết quả
+Einzelnutzer Begutachtungspool ***** Nhóm đánh giá người dùng
+Einzelnutzer automatische Zuweisung Aktion ***** Hành động gán tự động một người dùng
+Einzelnutzer Begutsachtung Aktion ***** Hành động khảo sát người dùng đơn
+ ***** 
+ ***** 
+Kontakt ***** tiếp xúc
+Feedback abschicken ***** Gửi phản hồi
+ ***** 
+DSpace Repositorium (Manakin basiert) ***** Kho lưu trữ DSpace (dựa trên Manakin)
+ ***** 
+Profil: ***** hồ sơ:
+Ausloggen ***** đăng xuất
+Einloggen ***** đăng nhập
+ ***** 
+DSpace Suche ***** Tìm kiếm không gian
+Erweiterte Suche ***** Tìm kiếm nâng cao
+In diesem Bereich ***** Trong khu vực này
+In dieser Sammlung ***** Trong bộ sưu tập này
+ ***** 
+Vorherige Seite ***** Trang trước
+Anzeige der Dokumente {0}-{1} von {2} ***** Hiển thị tài liệu {0} - {1} trong {2}
+Nächste Seite ***** Trang tiếp theo
+ ***** 
+Creative Commons Lizenz ***** Giấy phép Creative Commons
+Originallizenz ***** Giấy phép gốc
+ ***** 
+ ***** 
+Keine Vorschau verfügbar ***** Không có bản xem trước
+Ohne Titel ***** Không có tiêu đề
+Unbekannter Autor ***** Tác giả không rõ
+ ***** 
+Dieses DSpace ist nicht METS 1.0 kompatibel und kann daher nicht entsprechend übersetzt werden. ***** DSpace này không tuân thủ METS 1.0 và do đó không thể dịch theo.
+Sie können entweder die allgemeingültige Schablone in dri2xhtml überschreiben oder ihre eigene Schablone ***** Bạn có thể ghi đè lên mẫu chung trong Dri2xhtml hoặc mẫu của riêng bạn
+anlegen, um Ihrem Profil gerecht zu werden. ***** tạo cho phù hợp với hồ sơ của bạn.
+ ***** 
+ ***** 
+Vorschau ***** xem trước
+Titel ***** tiêu đề
+Autor ***** tác giả
+Zusammenfassung ***** tóm lại
+Beschreibung ***** miêu tả
+URI ***** URI
+Datum ***** ngày
+Verlag ***** nhà xuất bản
+Schlagwort ***** khẩu hiệu
+ ***** 
+Dateien zu dieser Ressource ***** Tập tin về tài nguyên này
+Dateien ***** file
+Name ***** tên
+Größe ***** kích thước
+Format ***** định dạng
+Anzeige ***** trưng bày
+Beschreibung ***** miêu tả
+Öffnen ***** mở
+Zu diesem Dokument gibt es keine Dateien. ***** Không có tập tin cho tài liệu này.
+ ***** 
+Bytes ***** byte
+Kb ***** kb
+Mb ***** mb
+Gb ***** gb
+ ***** 
+Die folgenden Lizenzbestimmungen sind mit dieser Ressource verbunden: ***** Các điều khoản cấp phép sau được liên kết với tài nguyên này:
+Solange nicht anders angezeigt, wird die Lizenz wie folgt beschrieben: ***** Trừ khi có quy định khác, giấy phép được mô tả như sau:
+ ***** 
+ ***** 
+Die zusammenfassende Darstellung einer Sammlung ist noch nicht implementiert. Sie können dies tun, ***** Tóm tắt của một bộ sưu tập chưa được thực hiện. Bạn có thể làm điều này
+indem Sie das dri2xhtml template "collectionSummaryView" überschreiben. ***** bằng cách ghi đè lên mẫu Dri2xhtml "CollectionSummaryView".
+ ***** 
+ ***** 
+Die zusammenfassende Darstellung eines Bereiches ist noch nicht implementiert. Sie können dies tun, ***** Tóm tắt về một khu vực chưa được thực hiện. Bạn có thể làm điều này
+indem Sie das dri2xhtml template "communitySummaryView" überschreiben. ***** bằng cách ghi đè lên mẫu Dri2xhtml "CommunitySummaryView".
+ ***** 
+ ***** 
+Das Logo der Sammlung ***** Logo của bộ sưu tập
+Das Logo des Bereiches ***** Logo của khu vực
+Kein Logo ***** Không có logo
+Aktuelles ***** tin tức
+ ***** 
+ ***** 
+Qualifiziertes Dublin Core (QDC) kann auf Bereiche und Sammlungen nicht angewendet werden. Wenn Sie ***** Không thể áp dụng Dublin Core đủ điều kiện (QDC) cho phạm vi và bộ sưu tập. Nếu bạn
+QDC verwenden, sollten Sie den QDC crosswalk für DSpace Dokumente und entweder DIM oder MODS zur Verarbeitung von Bereichen ***** Để sử dụng QDC, hãy xem xét đường dành cho QDC cho các tài liệu DSpace và DIM hoặc MODS để xử lý phạm vi
+und Sammlungen verwenden. ***** và sử dụng các bộ sưu tập.
+ ***** 
+ ***** 
+Dublin Core Elemente ***** Yếu tố cốt lõi Dublin
+Dublin Core Ausdrücke ***** Biểu thức lõi Dublin
+ ***** 
+ ***** 
+Vorschau ***** xem trước
+Datum ***** ngày
+Titel ***** tiêu đề
+Autor ***** tác giả
+ ***** 
+MARC Datensatz ***** Kỷ lục MARC
+Mathematica ***** Mathematica
+Microsoft Word ***** Microsoft Word
+Unbekannt ***** không biết
+PDF ***** PDF
+Postscript ***** PostScript
+SGML ***** SGML
+Microsoft Excel ***** Microsoft Excel
+Microsoft PowerPoint ***** Microsoft PowerPoint
+Microsoft Project ***** Dự án Microsoft
+OpenOffice Base ***** Cơ sở OpenOffice
+OpenOffice Math ***** Toán học OpenOffice
+OpenOffice Draw ***** Vẽ của OpenOffice
+OpenOffice Impress ***** Ấn tượng OpenOffice
+OpenOffice Calc ***** OpenOffice Calc
+OpenOffice Writer ***** Nhà văn OpenOffice
+Microsoft PowerPoint 2007 ***** Microsoft PowerPoint 2007
+Microsoft Excel 2007 ***** Microsoft Excel 2007
+Microsoft Word 2007 ***** Microsoft Word 2007
+OpenOffice Calc (1.x) ***** OpenOffice Calc (1.x)
+OpenOffice Draw (1.x) ***** Vẽ vẽ OpenOffice (1.x)
+OpenOffice Impress (1.x) ***** Ấn tượng OpenOffice (1.x)
+OpenOffice Writer (1.x) ***** Trình ghi OpenOffice (1.x)
+Microsoft Visio ***** Visio Microsoft
+WordPerfect ***** WordPerfect
+TeX DVI ***** TeX DVI
+FileMaker Pro ***** FileMaker Pro
+Java applet ***** Táo Java
+LaTeX ***** LaTeX
+Photoshop ***** Photoshop
+TeX ***** TeX
+ ***** 
+Basic Audio ***** Âm thanh cơ bản
+FLAC Audio ***** Âm thanh FLAC
+AAC audio ***** Âm thanh AAC
+AAC audio ***** Âm thanh AAC
+mp3 audio ***** âm thanh mp3
+AIFF audio ***** Âm thanh AIFF
+MPEG Audio ***** Âm thanh MPEG
+WMA Audio ***** Âm thanh WMA
+WMV Audio ***** Âm thanh WMV
+Ogg Vorbis ***** Ogg Vorbis
+RealAudio ***** RealAudio
+WAV audio ***** Âm thanh WAV
+ ***** 
+GIF Graphik ***** Đồ họa GIF
+JPEG 2000 Graphik ***** Đồ họa JPEG 2000
+JPEG Graphik ***** Đồ họa JPEG
+PNG Graphik ***** Đồ họa PNG
+TIFF Graphik ***** Đồ họa TIFF
+BMP Graphik ***** Đồ họa BMP
+Photo CD ***** Ảnh CD
+ ***** 
+CSS-Datei ***** file CSS
+CSV-Datei ***** tập tin CSV
+HTML ***** HTML
+Javascript ***** Javascript
+Text ***** bản văn
+RTF ***** RTF
+XML ***** XML
+ ***** 
+AVI Video ***** Video AVI
+Motion JPEG 2000 ***** Chuyển động JPEG 2000
+MPEG Video ***** Video MPEG
+MPEG-2 Video ***** Video MPEG-2
+MPEG-4 Video ***** Video MPEG-4
+QuickTime Video ***** Video hình ảnh
+ ***** 
+Dieser Wert wurde niemals validiert. ***** Giá trị này chưa bao giờ được xác nhận.
+Im Normdatenbereich gibt es keinen passenden Wert. ***** Không có giá trị phù hợp trong vùng dữ liệu tiêu chuẩn.
+Die Normdatenreferenz empfiehlt, diese Veröffentlichung abzulehnen ***** Cơ quan tham khảo đề nghị từ chối ấn phẩm này
+Im Normdatenreferenzbereich ist ein interner Fehler aufgetreten. ***** Một lỗi nội bộ đã xảy ra trong khu vực tham chiếu dữ liệu thẩm quyền.
+Im Normdatenbereich gibt es keine passenden Treffer ***** Không có kết quả khớp trong vùng dữ liệu định mức
+Es gibt mehrere Treffer in der Normdatenreferenz. ***** Có một số lượt truy cập trong tài liệu tham khảo dữ liệu thẩm quyền.
+Der Wert ist eindeutig und gültig, wurde aber bis jetzt noch nicht von einem menschlichen Bearbeiter bestätigt und gilt somit als unsicher. ***** Giá trị này là duy nhất và hợp lệ, nhưng chưa được xác nhận bởi người đánh giá con người và do đó được coi là không chắc chắn.
+Dieser Normdateneintrag wurde von einem Benutzer als gültig bestätigt. ***** Mục nhập dữ liệu tiêu chuẩn này đã được xác nhận là hợp lệ bởi người dùng.
+Gebe den Normdatenwert für die manuelle Bearbeitung frei oder markiere ihn wieder als gesperrt. ***** Đưa ra giá trị dữ liệu tiêu chuẩn để chỉnh sửa thủ công hoặc đánh dấu lại là bị khóa.
+ ***** 
+DSpace Referenzwerte nachschlagen ***** Tra cứu giá trị tham chiếu DSpace
+Akzeptieren ***** chấp nhận
+Hinzufügen ***** thêm vào
+Abbrechen ***** hủy bỏ
+Weitere Ergebnisse anzeigen ***** Hiển thị nhiều kết quả hơn
+ ***** 
+Laden der Auswahldaten fehlgeschlagen: ***** Đang tải dữ liệu lựa chọn không thành công:
+ ***** 
+Name des Herausgebers ***** Tên nhà xuất bản
+Herausgeber nachschlagen ***** Tra cứu nhà xuất bản
+Nicht-Referenzwert: @1@ ***** Giá trị không tham chiếu: @ 1 @
+ ***** 
+DSpace Mobil ***** DSpace di động
+Suche ***** tìm kiếm
+Stöbern nach: ***** Duyệt theo:
+Datum ***** ngày
+Autor ***** tác giả
+Titel ***** tiêu đề
+Schlagwort ***** khẩu hiệu
+verwandt ***** có liên quan
+Dokumente in Google Scholar ***** Tài liệu trong Google Scholar
+Download ***** tải về
+ ***** 
+ ***** 
+ ***** 
+ ***** 
+LC Personennamenreferenzdatenbank ***** Cơ sở dữ liệu tham chiếu tên cá nhân LC
+(nicht in Referenzdatenbank) ***** (không có trong cơ sở dữ liệu tham khảo)
+ ***** 
+Eine neue Version dieses Dokumentes anlegen ***** Tạo một phiên bản mới của tài liệu này
+Versionsgeschichte anzeigen ***** Hiển thị lịch sử phiên bản
+ ***** 
+Neue Version anlegen ***** Tạo phiên bản mới
+Version ***** phiên bản
+Neue Version des Dokumentes: {0} anlegen ***** Phiên bản mới của tài liệu: Tạo {0}
+Version ***** phiên bản
+Version aktualisieren ***** Cập nhật phiên bản
+Grund für die neue Version ***** Lý do cho phiên bản mới
+ ***** 
+Version aktualisieren ***** Cập nhật phiên bản
+Version ***** phiên bản
+Version des Dokumentes: {0} aktualisieren ***** Phiên bản của tài liệu: Cập nhật {0}
+Version ***** phiên bản
+Version aktualisieren ***** Cập nhật phiên bản
+Zusammenfassung ***** tóm lại
+ ***** 
+ ***** 
+Löschen bestätigen ***** Xác nhận xóa
+Löschen bestätigen ***** Xác nhận xóa
+Löschen bestätigen ***** Xác nhận xóa
+Sind Sie sicher, dass dieser Version(en) gelöscht werden sollen? ***** Bạn có chắc chắn muốn xóa (các) phiên bản này?
+Bitte Beachten: gelöschte Versionen werden nicht länger zugänglich sein. ***** Xin lưu ý: các phiên bản đã xóa sẽ không còn truy cập được.
+Version ***** phiên bản
+Dokument ***** tài liệu
+Bearbeiter ***** người sắp đặt
+Datum ***** ngày
+Zusammenfassung ***** tóm lại
+ ***** 
+ ***** 
+Version wiederherstellen ***** Khôi phục phiên bản
+Version wiederherstellen ***** Khôi phục phiên bản
+Version wiederherstellen ***** Khôi phục phiên bản
+Sind Sie sicher, dass Sie diese Version wiederherstellen möchten: ***** Bạn có chắc chắn muốn khôi phục phiên bản này:
+Version ***** phiên bản
+Bearbeiter ***** người sắp đặt
+Datum ***** ngày
+Zusammenfassung ***** tóm lại
+Wiederherstellen ***** khôi phục
+ ***** 
+Versionsgeschichte ***** lịch sử
+Version ***** phiên bản
+Dokument ***** tài liệu
+Bearbeiter ***** người sắp đặt
+Datum ***** ngày
+Zusammenfassung ***** tóm lại
+Aktionen ***** hành động
+Wiederherstellen ***** khôi phục
+Aktualisieren ***** cập nhật
+* Ausgewählte Version(en) ***** * Phiên bản được chọn
+Version(en) löschen ***** Xóa phiên bản
+Zurück ***** trở lại
+(nur für Sammlungsadministratoren) ***** (chỉ dành cho quản trị viên bộ sưu tập)
+Hinweis ***** dấu
+Dies ist nicht die aktuellste Version von diesem Dokument. Die aktuellste Version finden Sie unter: ***** Đây không phải là phiên bản mới nhất của tài liệu này. Phiên bản mới nhất có thể được tìm thấy tại:
+Hinweis ***** dấu
+Eine neuere Fassung von diesem Dokument befindet sich zur Zeit im Geschäftsgang. ***** Một phiên bản mới hơn của tài liệu này hiện đang được kinh doanh.
+Autor ***** tác giả
+Schlagwort ***** khẩu hiệu
+Typ ***** kiểu
+Erscheinungsdatum ***** ngày phát hành
+Erscheinungsdatum ***** ngày phát hành
+ ***** 
+Neuzugänge ***** Items mới
+ ***** 
+Kind ***** đứa trẻ
+Verlag ***** nhà xuất bản
+ ***** 
+Überordnung ***** về thủ tục
+ ***** 
+Ergebnisse gruppieren nach ***** Nhóm kết quả bởi
+Nichts ***** không
+ ***** 
+Veröffentlichung ***** phóng thích
+ ***** 
+Bereich ***** khu vực
+Sammlung ***** bộ sưu tập
+ ***** 
+Serie ***** loạt
+ ***** 
+Auflistung nach: Autor ***** Được liệt kê bởi: tác giả
+Auflistung nach: Titel ***** Được liệt kê bởi: Tiêu đề
+Auflistung nach: Schlagwort ***** Được liệt kê bởi: Từ khóa
+ ***** 
+Auflistung nach: Kurzfassung ***** Được liệt kê bởi: Tóm tắt
+Auflistung nach: Serie ***** Được liệt kê bởi: loạt
+Auflistung nach: Sponsor ***** Được liệt kê bởi: Nhà tài trợ
+Auflistung nach: Kennung ***** Được liệt kê bởi: định danh
+Auflistung nach: Sprache (ISO) ***** Được liệt kê bởi: Ngôn ngữ (ISO)
+Auflistung nach: Stichwort ***** Liệt kê theo: từ khóa
+Auflistung nach: Kategorie ***** Được liệt kê bởi: thể loại
+Auflistung nach: Mitarbeiter ***** Được liệt kê bởi: Nhân viên
+Auflistung nach: Urheber ***** Được liệt kê bởi: Tác giả
+Auflistung nach: Schlagwort ***** Được liệt kê bởi: Từ khóa
+Auflistung nach: Beschreibung ***** Danh sách theo: Mô tả
+Auflistung nach: Beziehung ***** Danh sách theo: Mối quan hệ
+Auflistung nach: Mime-Typ ***** Được liệt kê bởi: Loại Mime
+Auflistung nach: Sonstige Beteiligte ***** Được liệt kê bởi: Những người tham gia khác
+Auflistung nach: Betreuer ***** Liệt kê bởi: Người giám sát
+Auflistung nach: Abteilung ***** Danh sách theo: Sở
+Auflistung nach: Erscheinungsdatum ***** Danh sách theo: Ngày xuất bản
+ ***** 
+Autor ***** tác giả
+Titel ***** tiêu đề
+Schlagwort ***** khẩu hiệu
+Erscheinungsdatum ***** ngày phát hành
+ ***** 
+Anzeige der Dokumente {0}-{1} ***** Hiển thị tài liệu {0} - {1}
+ ***** 
+Filtern nach: Autor ***** Lọc theo: Tác giả
+Autor ***** tác giả
+Autor ***** tác giả
+Filtern nach: Schlagwort ***** Lọc theo: Từ khóa
+Schlagwort ***** khẩu hiệu
+Schlagwort ***** khẩu hiệu
+Erscheinungsdatum ***** ngày phát hành
+ ***** 
+Anfang ***** bắt đầu
+oder geben Sie die ersten Zeichen ein: ***** hoặc nhập các ký tự đầu tiên:
+ ***** 
+Sortiermöglichkeiten: ***** tùy chọn sắp xếp:
+Relevanz ***** liên quan
+Titel absteigend ***** Tiêu đề giảm dần
+Erscheinungsdatum absteigend ***** Ngày phát hành giảm dần
+ ***** 
+Titel aufsteigend ***** Tiêu đề tăng dần
+Erscheinungsdatum aufsteigend ***** Ngày xuất bản tăng dần
+ ***** 
+Ergebnisse pro Seite: ***** Kết quả trên mỗi trang:
+ ***** 
+Filter hinzufügen ***** Thêm bộ lọc
+Anwenden ***** ứng dụng
+Entfernen ***** loại bỏ
+Neue Filter: ***** Bộ lọc mới:
+Aktuelle Filter: ***** Bộ lọc hiện tại:
+Filter hinzufügen ***** Thêm bộ lọc
+ ***** 
+Keine Filterwerte gefunden ***** Không tìm thấy giá trị bộ lọc
+ ***** 
+Entdecke ***** khám phá
+... mehr ***** ... thêm
+ ***** 
+Suche ***** tìm kiếm
+Suche ***** tìm kiếm
+Filter ***** lọc
+Verwenden Sie Filter, um die Suchergebnisse zu verfeinern. ***** Sử dụng các bộ lọc để tinh chỉnh kết quả tìm kiếm.
+ ***** 
+Enthält ***** chứa
+Entspricht ***** tuân
+Kennung ***** ID
+enthält nicht ***** không chứa
+entspricht nicht ***** không phù hợp
+Keine Kennung ***** Không có định danh
+ ***** 
+Verwandte Dokumente ***** Tài liệu liên quan
+Anzeige der Dokumente mit ähnlichem Titel, Autor, Urheber und Thema. ***** Hiển thị các tài liệu với tiêu đề, tác giả, tác giả và chủ đề tương tự.
+ ***** 
+({3} Sekunden)</span> ***** ({3} giây) </ span>
+({3} Sekunden)</span> ***** ({3} giây) </ span>
+({2} Sekunden)</span> ***** ({2} giây) </ span>
+ ***** 
+Bereiche und Sammlungen, die Ihrer Suche entsprechen. ***** Các khu vực và bộ sưu tập phù hợp với tìm kiếm của bạn.
+Dokumente, die Ihrer Suche entsprechen. ***** Tài liệu phù hợp với tìm kiếm của bạn.
+Sword Kopie ***** Bản sao thanh kiếm
+Dokument in ein anderes Repositorium kopieren ***** Sao chép tài liệu sang kho lưu trữ khác
+Sword Kopie ***** Bản sao thanh kiếm
+Kopie von Dokument: {0} ***** Bản sao tài liệu: {0}
+ ***** 
+Sword Kopie - Ziel ***** Bản sao thanh kiếm - đích đến
+Ziel auswählen ***** Chọn điểm đến
+URL ***** URL
+Alternative URL ***** URL thay thế
+Benutzername ***** tên người dùng
+Passwort ***** mật khẩu
+Im Auftrag von ***** Thay mặt
+ ***** 
+Ungültige URL ***** URL không hợp lệ
+Ungültiger Benutzername ***** Tên người dùng không hợp lệ
+Ungültiges Passwort ***** Mật khẩu không hợp lệ
+Beim Anforden des Sword Servicedokuments ist ein Fehler aufgetreten: {0} ***** Yêu cầu cho tài liệu dịch vụ Kiếm không thành công: {0}
+ ***** 
+Sword Zielsammlungen ***** Bộ sưu tập mục tiêu kiếm
+Sammlung(en) auswählen ***** Chọn bộ sưu tập
+Sammlung: {0} ***** Bộ sưu tập: {0}
+Titel: {0} ***** Tiêu đề: {0}
+Policy: {0} ***** Chính sách: {0}
+Mediation: {0} ***** Hòa giải: {0}
+Dateitypen: {0} ***** Các loại tệp: {0}
+Paketformate: {0} ***** Định dạng gói: {0}
+Hier veröffentlichen ***** Xuất bản ở đây
+ ***** 
+Ziel des untergeordneten Dienstes ***** Mục tiêu của dịch vụ cấp dưới
+Servicedokument des untergeordneten Dienstes ***** Tài liệu dịch vụ của dịch vụ cấp dưới
+ ***** 
+Sammlung:{0} ***** Bộ sưu tập: {0}
+Titel: {0} ***** Tiêu đề: {0}
+Policy: {0} ***** Chính sách: {0}
+Mediation:{0} ***** Hòa giải: {0}
+Dateityp ***** loại tập tin
+Paketformat ***** định dạng gói
+Das gewählte Paketformat wird nicht unterstützt ***** Định dạng gói đã chọn không được hỗ trợ
+ ***** 
+Dokument erfolgreich kopiert ***** Tài liệu được sao chép thành công
+Paketformatfehler ***** lỗi định dạng gói
+Ungültiges Handle ***** Xử lý không hợp lệ
+Bei Erstellung des Paketobjektes ist ein Fehler aufgetreten. ***** Đã xảy ra lỗi trong khi tạo đối tượng gói.
+Beim Deposit ist ein Fehler aufgetreten: {0} ***** Khoản tiền gửi không thành công: {0}
+ ***** 
+Sword Antwort ***** Kiếm trả lời
+Sword Antwor ***** Kiếm trả lời
+Aktionen, die Sie durchführen können: ***** Các hành động mà bạn có thể thực hiện:
+Aufgabe sich selbst zuordnen. ***** Nhiệm vụ tự giao.
+Aufgabe übernehmen ***** Nhận nhiệm vụ
+Aufgabe im Aufgabenpool belassen. ***** Để lại nhiệm vụ trong nhóm nhiệm vụ.
+Aufgabe nicht übernehmen ***** Không nhận nhiệm vụ
+Zurück zur Übersicht ***** Quay lại tổng quan
+Annehmen/Ablehnen Schritt ***** Bước chấp nhận / từ chối
+ ***** 
+Aufgabe durchführen: Annehmen/Ablehnen des Dokumentes ***** Thực hiện nhiệm vụ: Chấp nhận / từ chối tài liệu
+Aktionen, die Sie durchführen können: ***** Các hành động mà bạn có thể thực hiện:
+.  Sie haben dann die Möglichkeit, den Grund anzugeben und mögliche Verbesserungen aufzuzeigen. ***** , Sau đó, bạn có cơ hội để chỉ ra lý do và chỉ ra những cải tiến có thể.
+Dokument ablehnen ***** Từ chối tài liệu
+. ***** ,
+Dokument annehmen ***** Chấp nhận tài liệu
+ ***** 
+Aufgabe durchführen: Dokument Annehmen/Ablehnen/Bearbeiten ***** Thực hiện nhiệm vụ: Chấp nhận / Từ chối / Chỉnh sửa tài liệu
+Aktionen, die Sie durchführen können: ***** Các hành động mà bạn có thể thực hiện:
+.  Sie haben dann die Möglichkeit, den Grund anzugeben und mögliche Verbesserungen aufzuzeigen, so dass das Dokument ggf. neu eingereicht werden kann. ***** , Sau đó, bạn có cơ hội để xác định lý do và chỉ ra các cải tiến có thể để tài liệu có thể được gửi lại nếu cần thiết.
+Dokument ablehnen ***** Từ chối tài liệu
+. ***** ,
+Dokument annehmen ***** Chấp nhận tài liệu
+Wählen Sie dies aus, um das Dokument zu bearbeiten. ***** Chọn mục này để chỉnh sửa tài liệu.
+Metadaten bearbeiten ***** Chỉnh sửa siêu dữ liệu
+ ***** 
+Unknown state ***** Trạng thái không xác định
+ ***** 
+Aufgabe durchführen: Gutachter zuordnen ***** Thực hiện nhiệm vụ: Phân công thẩm định viên
+Verwenden Sie das Suchfeld, um eine Person als Gutachter auszusuchen. ***** Sử dụng hộp tìm kiếm để chọn một người làm người đánh giá.
+Suche nach Gutachter ***** Tìm kiếm người đánh giá
+Suche nach Person ***** Tìm kiếm người
+Als Gutachter auswählen ***** Chọn làm người đánh giá
+ ***** 
+klicken. ***** Nhấn chuột.
+Aufgabe ablehnen ***** Từ chối nhiệm vụ
+ ***** 
+Eingereichtes Dokument begutachten ***** Xem lại tài liệu đã nộp
+Eingereichtes Dokument begutachten ***** Xem lại tài liệu đã nộp
+Geben Sie das Ergebnis für das eingereichte Dokument ein. ***** Nhập kết quả cho tài liệu đã gửi.
+ ***** 
+Geschäftsgang Übersicht ***** Tổng quan về kinh doanh
+Geschäftsgang Übersicht ***** Tổng quan về kinh doanh
+Geschäftsgang Übersicht ***** Tổng quan về kinh doanh
+ ***** 
+Schritt ***** bước đi
+Dokument ***** tài liệu
+Sammlung ***** bộ sưu tập
+Eingereicht von ***** Gửi bởi
+Dokument an den Einreichenden zurücksenden ***** Trả lại tài liệu cho người nộp
+Dokumente löschen ***** Xóa tài liệu
+Keine Treffer ***** Không có kết quả
+ ***** 
+Anzeige Dokument im Geschäftsgang: {0} ***** Tài liệu hiển thị trong doanh nghiệp: {0}
+Dokument im Geschäftsgang anzeigen ***** Hiển thị tài liệu trong giao dịch kinh doanh
+ ***** 
+Annehmen/Ablehnen ***** Chấp nhận / Từ chối
+Annehmen/Ablehnen ***** Chấp nhận / Từ chối
+Annehmen/Ablehnen ***** Chấp nhận / Từ chối
+ ***** 
+Annehmen/Bearbeiten/Ablehnen Schritt ***** Bước chấp nhận / chỉnh sửa / từ chối
+Annehmen/Bearbeiten/Ablehnen ***** Chấp nhận / Edit / Từ chối
+Annehmen/Bearbeiten/Ablehnen ***** Chấp nhận / Edit / Từ chối
+ ***** 
+Abschließend Annehmen/Bearbeiten ***** Cuối cùng chấp nhận / chỉnh sửa
+Abschließend Annehmen/Bearbeiten ***** Cuối cùng chấp nhận / chỉnh sửa
+Abschließend Annehmen/Bearbeiten ***** Cuối cùng chấp nhận / chỉnh sửa
+ ***** 
+Gutachter zuordnen ***** Phân công thẩm định viên
+Gutachter zuordnen ***** Phân công thẩm định viên
+ ***** 
+Begutachtung durch eine einzelne Person ***** Đánh giá bởi một người
+Eingereichtes Dokument begutachten ***** Xem lại tài liệu đã nộp
+ ***** 
+Score review ***** Đánh giá điểm
+Score review ***** Đánh giá điểm
+Score review ***** Đánh giá điểm
+ ***** 
